@@ -1,0 +1,10 @@
+- Transform the text to the Speech Syntheses Markup Language. 
+- [{host}] should use the voice with name en-US-{host}Neural
+- [{guest}] should use the voice with name en-US-{guest}Neural
+- The output should be XML.
+- Make sure that every line is wrapped between <voice> and </voice> element.                
+- Finally, make sure there is the following element at the start: <speak xmlns""http://www.w3.org/2001/10/synthesis"" xmlns:mstts=""http://www.w3.org/2001/mstts"" xmlns:emo=""http://www.w3.org/2009/10/emotionml"" version=""1.0"" xml:lang=""en-US"">
+- End the XML document with the following element: </speak>
+- Delete [{host}]: and [{guest}]: from the transcript.
+---
+{content}

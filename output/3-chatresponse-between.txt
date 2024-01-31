@@ -1,0 +1,23 @@
+[Brian]: Welcome back again, listeners! In the next couple of minutes, we're going to talk about data warehouses in Fabric. Andrew, let's dive in immediately by asking you the following question: What is a data warehouse in Fabric?
+
+[Andrew]: Ah, data warehouses in Fabric, an interesting topic indeed! Well, Brian, a data warehouse in Fabric is a relational layer built on top of the physical data in the Lakehouse. It allows you to expose the data to analysis and reporting tools. You can create your data warehouse directly in Fabric from the create hub or within a workspace. Once created, you can add tables and other objects to it.
+
+[Brian]: That sounds pretty straightforward, Andrew. So, how do we actually ingest data into a data warehouse in Fabric?
+
+[Andrew]: Great question, Brian! There are a few ways to ingest data into a Fabric data warehouse. You can use pipelines, dataflows, cross-database querying, or the COPY INTO command. These methods allow you to bring in data from various sources and make it available for analysis by different business groups.
+
+[Brian]: Interesting! So, let's say we want to create a table in the data warehouse. How can we do that?
+
+[Andrew]: Ah, creating tables in the data warehouse is quite simple, Brian. You can use SQL Server Management Studio or any other SQL client to connect to the data warehouse and run a CREATE TABLE statement. Alternatively, you can also create tables directly in the Fabric UI. It's all about flexibility and convenience!
+
+[Brian]: That's great to know, Andrew. Now, let's talk about some considerations when working with tables in a data warehouse. What should we keep in mind?
+
+[Andrew]: Ah, yes, table considerations are important, Brian. One common approach is to use staging tables. These temporary tables can be used for data cleansing, transformations, and validation. They're also handy for loading data from multiple sources into a single destination table. Additionally, it's crucial to have a well-defined data loading process that includes steps like ingesting new data, loading staging tables, loading dimension tables, loading fact tables, and performing post-load optimization.
+
+[Brian]: Ah, I see. So, if we already have tables in the Lakehouse, can we query them in the data warehouse without copying the data?
+
+[Andrew]: Absolutely, Brian! With a Fabric data warehouse, you don't need to copy data from the Lakehouse. You can directly query the data in the Lakehouse from the data warehouse using cross-database querying. It's a convenient way to access and analyze the data without duplicating it.
+
+[Brian]: That's fantastic, Andrew! It seems like Fabric's data warehouse experience provides a seamless transition from the Lakehouse to a more traditional SQL-based data warehouse. Thank you for sharing your expertise on this topic. After the break, we will continue with the next topic!
+
+[Andrew]: My pleasure, Brian! Looking forward to the next topic. Stay tuned, listeners!

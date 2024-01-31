@@ -1,0 +1,49 @@
+[Brian]: Welcome back again, listeners! In the next couple of minutes, we're going to talk about data warehouse fundamentals. Andrew, let's dive in immediately by asking you the following question: What are the key components of building a modern data warehouse?
+
+[Andrew]: Great question, Brian! When it comes to building a modern data warehouse, there are four key components: data ingestion, data storage, data processing, and data analysis and delivery. 
+
+Data ingestion involves moving data from source systems into the data warehouse. This can be done through various methods such as batch processing or real-time streaming. 
+
+Once the data is ingested, it needs to be stored in a format that is optimized for analytics. This is where data storage comes into play. The data warehouse provides a scalable and highly available storage solution for the data.
+
+After the data is stored, it needs to be processed and transformed into a format that is ready for consumption by analytical tools. This step is known as data processing. It involves cleaning the data, performing any necessary calculations or aggregations, and preparing it for analysis.
+
+Finally, we have data analysis and delivery. This is where the insights are gained from the data and delivered to the business. Analysts can use tools like SQL or Spark to query and analyze the data, and then visualize the results using tools like Power BI.
+
+[Brian]: Thanks for breaking down the components, Andrew! It's fascinating to see how all these pieces come together to create a modern data warehouse. Now, let's talk about Fabric's data warehouse experience. Can you tell us more about it?
+
+[Andrew]: Absolutely, Brian! Fabric's data warehouse is a relational data warehouse that supports full transactional T-SQL capabilities. It's a fully managed, scalable, and highly available data warehouse that can be used to store and query data in the Lakehouse.
+
+With the data warehouse, you have complete control over creating tables, loading data, transforming it, and querying it using either the Fabric portal or T-SQL commands. You can use SQL to query and analyze the data, or use Spark to process the data and even create machine learning models.
+
+One of the great things about Fabric's data warehouse is that it facilitates collaboration between data engineers and data analysts. Data engineers can build a relational layer on top of the data in the Lakehouse, and analysts can use T-SQL and Power BI to explore and analyze the data.
+
+[Brian]: That's fantastic, Andrew! It's wonderful to hear that Fabric's data warehouse provides a collaborative environment for both data engineers and analysts. Now, let's talk about designing a data warehouse. Can you explain the concept of dimensional modeling and how it relates to tables in a data warehouse?
+
+[Andrew]: Absolutely, Brian! Dimensional modeling is a common approach used in data warehousing to organize tables for efficient and effective analysis of large amounts of data. It involves structuring tables into fact tables and dimension tables.
+
+Fact tables contain the numerical data that you want to analyze. They typically have a large number of rows and serve as the primary source of data for analysis. For example, a fact table could contain the total amount paid for sales orders that occurred on a specific date or at a particular store.
+
+On the other hand, dimension tables contain descriptive information about the data in the fact tables. They typically have a smaller number of rows and provide context for the data in the fact tables. For example, a dimension table could contain information about the customers who placed sales orders.
+
+In addition to attribute columns, dimension tables also contain unique key columns. These key columns serve different purposes. A surrogate key is a unique identifier for each row in the dimension table and helps maintain consistency and accuracy in the data. An alternate key, on the other hand, is often a natural or business key that identifies a specific instance of an entity in the source system.
+
+[Brian]: Thanks for explaining that, Andrew! It's interesting to see how fact tables and dimension tables work together in a data warehouse. Now, are there any special types of dimension tables that provide additional context and enable more comprehensive data analysis?
+
+[Andrew]: Absolutely, Brian! Two special types of dimension tables that are commonly used in data warehousing are time dimensions and slowly changing dimensions.
+
+Time dimensions provide information about the time period in which an event occurred. They enable data analysts to aggregate data over temporal intervals. For example, a time dimension could include columns for the year, quarter, month, and day in which a sales order was placed. This allows analysts to analyze data at different time levels and gain insights into trends and patterns.
+
+Slowly changing dimensions are dimension tables that track changes to dimension attributes over time. They're significant in a data warehouse because they enable users to analyze and understand changes to data over time. For example, a slowly changing dimension could track changes to a customer's address or a product's price. This ensures that the data stays up-to-date and accurate, which is crucial for making informed business decisions.
+
+[Brian]: That's fascinating, Andrew! Time dimensions and slowly changing dimensions definitely add a lot of value to data analysis in a data warehouse. Lastly, can you explain the different schema designs that can be used in a data warehouse?
+
+[Andrew]: Certainly, Brian! In most transactional databases used in business applications, the data is normalized to reduce duplication. However, in a data warehouse, the dimension data is generally denormalized to reduce the number of joins required to query the data.
+
+The most common schema design used in a data warehouse is the star schema. In a star schema, a fact table is directly related to dimension tables. This design resembles the shape of a star, hence the name. The attributes of something can be used to group together numbers in the fact table at different levels. For example, you could find the total sales revenue for a whole region or just for one customer. The information for each level can be stored in the same dimension table.
+
+Another schema design that can be used is the snowflake schema. In a snowflake schema, the dimension tables are further normalized, resulting in a more complex structure. This can be useful when there are lots of levels or when some information is shared by different entities. For example, the DimProduct table can be split into separate dimension tables for product categories and suppliers, with each row containing key values for the corresponding rows in the other tables.
+
+[Brian]: Thank you, Andrew, for sharing your expertise on data warehouse fundamentals. It's been a pleasure learning from you today. After the break, we will continue with the next topic!
+
+[Transcript End]

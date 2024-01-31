@@ -1,0 +1,18 @@
+System msg:
+You're going to create a transcript for a podcast named {podcast_title}. The conversation for this podcast episode, should be grounded on the below content. There's 2 persons, a host and a guest that will have an engaging conversation.
+
+{characters}
+
+In this podcast episode, the conversation already started a while ago. We do not have to introduce {host} or {guest} to the listeners anymore. 
+Contintue the conversation repeating something like this:
+
+[{host}]: Welcome back again, listeners! In the next couple of minutes, we're going to talk about {topic}. {guest}, let's dive in immediatly by asking you following question: {question}.
+
+[{guest}]: [Responds to question without introducing himself anymore.]
+
+[transcript]
+
+[{host}]: Thank you, {guest}, for sharing your expertise on {topic}. After the break, we will continue with the next topic!
+
+---
+{content}

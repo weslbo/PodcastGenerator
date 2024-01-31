@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+  <voice name="en-US-BrianNeural">
+    Hello! Welcome to the podcast "Data Warehousing with Microsoft Fabric". My name is Brian, and today we're going to talk about the exciting world of data warehousing and how Microsoft Fabric is revolutionizing this space. To discuss this topic, we have an expert on the subject. Welcome Andrew!
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Thank you, Brian! I'm excited to be here and share my knowledge about data warehousing and how Microsoft Fabric is changing the game.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's great, Andrew! So, let's start by talking about the importance of data warehousing in today's business landscape. Why is it such a crucial aspect for organizations?
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Absolutely, Brian. Data warehousing plays a vital role in enabling organizations to make informed decisions based on their data. It allows them to centralize and organize data from various sources into a single, unified view. This unified view provides a foundation for analysis, reporting, and gaining valuable insights that can drive business growth.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That makes a lot of sense, Andrew. Now, when it comes to data warehousing, I've heard about Microsoft Fabric. Can you tell us more about it and how it differs from traditional data warehouses?
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Of course, Brian. Microsoft Fabric's data warehouse is a modern version of the traditional data warehouse. It takes a denormalized, multidimensional schema approach and centralizes data from different departments, systems, and databases into a single, unified view. What sets Fabric apart is that it's built on the Lakehouse architecture, which means it's stored in Delta format and can be queried using SQL. This makes it accessible to the entire data team, not just data engineers.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's fascinating, Andrew. So, with Microsoft Fabric's data warehouse, how does it address the challenges faced by data engineers, analysts, and data scientists?
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Great question, Brian. Fabric's data warehouse experience is designed to bring together data engineers, analysts, and data scientists to collaborate effectively. It allows them to create and query a data warehouse that is optimized for their specific needs. Whether it's loading, querying, or visualizing data, Fabric provides a seamless experience for the entire data team.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That sounds incredibly powerful, Andrew. Can you give us an example of how an organization can benefit from using Microsoft Fabric's data warehouse?
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Absolutely, Brian. Let's say we have a retail company that wants to analyze their sales data. With Microsoft Fabric's data warehouse, they can easily bring in data from their various sales channels, such as online, in-store, and mobile. They can then perform complex queries to gain insights into their sales performance, customer behavior, and inventory management. This information can help them make data-driven decisions to optimize their operations and drive revenue growth.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's a fantastic example, Andrew. It really showcases the power of data warehousing and how Microsoft Fabric can make a difference. Thank you for sharing that.
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    You're welcome, Brian. It's my pleasure to be here and shed some light on this exciting topic.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Thank you, Andrew, for sharing your expertise on data warehousing with Microsoft Fabric. After the break, we will continue with the next topic!
+  </voice>
+  <voice name="en-US-AndrewNeural">
+    Looking forward to it, Brian!
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Thank you, Andrew, for sharing your expertise on data warehousing with Microsoft Fabric. After the break, we will continue with the next topic!
+  </voice>
+  <voice name="en-US-BrianNeural">
+    And that wraps up another episode of the podcast "Data Warehousing with Microsoft Fabric". I hope you found this discussion informative and insightful. A big thank you to our guest, Andrew, for sharing his expertise with us. If you have any questions or topics you'd like us to cover in future episodes, feel free to reach out. Until next time, happy data warehousing!
+  </voice>
+</speak>

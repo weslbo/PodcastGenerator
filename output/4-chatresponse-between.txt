@@ -1,0 +1,19 @@
+[Brian]: Welcome back again, listeners! In the next couple of minutes, we're going to talk about querying and transforming data in a data warehouse. Andrew, let's dive in immediately by asking you the following question: How can we query data from a data warehouse?
+
+[Andrew]: Great question, Brian! There are actually two ways to query data from a data warehouse. The first option is to use the Visual query editor, which provides a no-code, drag-and-drop experience. It's perfect for those who are not comfortable with writing SQL queries. You can create tables, views, and stored procedures using this editor. The second option is to use the SQL query editor, which is more suitable for those who are familiar with T-SQL. It provides a similar experience to tools like SQL Server Management Studio or Azure Data Studio.
+
+[Brian]: That's interesting, Andrew! So, with the Visual query editor, we can create queries using a drag-and-drop interface, and with the SQL query editor, we can write T-SQL queries. Can you give us an example of how we can use each of these editors?
+
+[Andrew]: Absolutely, Brian! Let's start with the SQL query editor. You can create a new query by clicking on the "New SQL query" button in the menu. Once you're in the editor, you can write your T-SQL queries just like you would in SQL Server Management Studio or Azure Data Studio. For example, you can create a new view for analysts to use for reporting in Power BI.
+
+[Brian]: That sounds straightforward, Andrew! So, for our listeners who are comfortable with T-SQL, the SQL query editor provides a familiar experience. Now, what about the Visual query editor? How does that work?
+
+[Andrew]: The Visual query editor is a bit different, Brian. It provides a drag-and-drop experience similar to the Power Query online diagram view. To create a new query, you can click on the "New visual query" button. Once you're in the editor, you can drag a table from your data warehouse onto the canvas to get started. From there, you can use the Transform menu at the top of the screen to add columns, filters, and other transformations to your query. You can even perform similar transformations by using the plus button on the visual itself.
+
+[Brian]: That's really cool, Andrew! So, with the Visual query editor, we can visually build our queries by dragging tables and applying transformations. It seems like a great option for those who prefer a more visual approach. Now, is there anything else our listeners should know about querying data in a data warehouse?
+
+[Andrew]: One important thing to mention, Brian, is that there's also a SQL endpoint available, where you can connect from any tool. This gives you even more flexibility in how you query and work with your data in the data warehouse and Lakehouse.
+
+[Brian]: That's a great point, Andrew! Having a SQL endpoint allows users to connect to the data warehouse from their preferred tools, making it even more convenient. Thank you, Andrew, for sharing your expertise on querying and transforming data in a data warehouse. After the break, we will continue with the next topic!
+
+[Transcript End]

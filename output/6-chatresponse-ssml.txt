@@ -1,0 +1,58 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome back again, listeners! In the next couple of minutes, we're going to talk about securing and monitoring your data warehouse. Andrew, let's dive in immediately by asking you the following question: What are some of the key security features provided by Fabric to help secure a data warehouse?
+</voice>
+
+<voice name="en-US-AndrewNeural">
+Great question, Brian! Fabric provides several security features to protect your data warehouse. One of the key features is role-based access control (RBAC), which allows you to control access to the warehouse and its data. This means you can assign specific roles to users, granting them the appropriate level of access. Additionally, Fabric uses SSL encryption to secure the communication between the warehouse and client applications, ensuring that data is transmitted securely. Azure Storage Service Encryption is also used to protect the data both in transit and at rest. And to monitor the warehouse activity and audit access to the data, you can leverage Azure Monitor and Azure Log Analytics. These are just a few of the security features provided by Fabric.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's really impressive, Andrew! It's great to see that Fabric offers such comprehensive security measures. Now, let's talk about workspace permissions. How do they contribute to securing a data warehouse?
+</voice>
+
+<voice name="en-US-AndrewNeural">
+Workspace permissions play a crucial role in securing your data warehouse, Brian. In Fabric, data is organized into workspaces, and these workspaces are used to control access and manage the lifecycle of data and services. By assigning appropriate workspace roles, you can establish the first line of defense in securing your data warehouse. These roles determine the level of access that users have within the workspace. It's important to ensure that only authorized individuals have the necessary permissions to access and manipulate the data.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That makes a lot of sense, Andrew. It's important to have granular control over who can access the data within a workspace. Now, let's talk about item permissions. How do they differ from workspace roles, and how can they be used to grant access to individual warehouses?
+</voice>
+
+<voice name="en-US-AndrewNeural">
+Item permissions provide a way to grant access to individual warehouses, Brian. While workspace roles apply to all items within a workspace, item permissions allow you to share a single data warehouse for downstream consumption. With item permissions, you can grant specific permissions to users who need to access your data warehouse. For example, you can grant read permissions, which allow users to connect using the SQL connection string and read data from any table or view within the warehouse. You can also grant read-all permissions, which enable users to read the raw parquet files in OneLake that can be consumed by Spark. By granting these permissions, you can control and manage access to your data warehouse at a more granular level.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's really helpful, Andrew! It's great to have the flexibility to grant access to individual warehouses based on specific needs. Now, let's shift our focus to monitoring. Why is monitoring important for a data warehouse, and what tools does Fabric provide for monitoring?
+</voice>
+
+<voice name="en-US-AndrewNeural">
+Monitoring is crucial for a data warehouse, Brian. It helps ensure optimal performance, efficient resource utilization, and security. By monitoring the activities in your data warehouse, you can identify any issues or anomalies and take appropriate action to keep the warehouse running smoothly and securely. Fabric provides dynamic management views (DMVs) that allow you to monitor connection, session, and request status, giving you live SQL query lifecycle insights. These DMVs provide details such as the number of active queries and help you identify queries that are running for an extended period and may require termination. Currently, Fabric offers three DMVs: sys.dm_exec_connections, sys.dm_exec_sessions, and sys.dm_exec_requests.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's fascinating, Andrew! Having access to these dynamic management views must provide valuable insights into the performance of the data warehouse. Speaking of monitoring queries, how can 'sys.dm_exec_requests' be used to identify long-running queries, and what actions can be taken to optimize or terminate them?
+</voice>
+
+<voice name="en-US-AndrewNeural">
+'sys.dm_exec_requests' is a powerful tool for identifying long-running queries, Brian. By querying this DMV, you can find out which queries have been running the longest, in descending order of total elapsed time. This helps you pinpoint queries that may be impacting the overall performance of the database. Once you've identified these queries, you can investigate further to understand which user ran the session with the long-running query. This can be done by querying 'sys.dm_exec_sessions' and matching the session ID with the long-running query. Finally, if necessary, you can use the 'KILL' command to terminate the session with the long-running query. It's important to note that only workspace admins can execute the 'KILL' command, and other roles like member, contributor, and viewer can see their own results within the warehouse but cannot see other users' results.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's a great tip, Andrew! Being able to identify and address long-running queries can significantly improve the performance of a data warehouse. Thank you for sharing that. Well, it looks like we've covered some important aspects of securing and monitoring a data warehouse. Andrew, I want to thank you for joining me today and sharing your expertise on this topic.
+</voice>
+
+<voice name="en-US-AndrewNeural">
+Thank you, Brian! It was a pleasure being here and discussing these important aspects of data warehouse management. I hope our listeners found this conversation helpful and informative.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Absolutely, Andrew! And to our listeners, thank you for tuning in. We hope you found this episode valuable and that it helps you in securing and monitoring your data warehouse. Remember, there's always more to learn, so keep exploring and expanding your knowledge. Until next time!
+</voice>
+
+<voice name="en-US-AndrewNeural">
+[Closing music]
+</voice>
+
+</speak>
