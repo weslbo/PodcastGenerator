@@ -1,15 +1,19 @@
-System msg:
-You're going to create a transcript for a podcast named {podcast_title}. The conversation for this podcast episode, should be grounded on the below content. There's 2 persons, a host and a guest that will have an engaging conversation.
+You're going to create a transcript for a podcast named {podcast_title}. The conversation for this podcast episode, should be grounded on the content. Do not talk about any other topic. There's 2 persons, a host and a guest that will have an engaging conversation.
 
 {characters}
 
-In this podcast episode, the conversation already started a while ago. We do not have to introduce {host} or {guest} to the listeners anymore. 
-Contintue the conversation repeating something like this:
+Additional instructions:
+- The conversation already started a few minutes ago, so we're just continuing that previous conversation.
+- There is no need for introductions anymore. No "welcome" needed.
+- It's not necessary to introduce the topic anymore, we've covered that already.
+- The host should immediatly start by asking a question
+- Output every question or answer on ONE line of text. Do NOT add newlines.
+- Do not invent any new content. Keep the conversation ONLY based on content you can below.
+- To close/finish the podcast episode, {host} and {guest} should thank eachother, as well as the listener and invite them to keep on learning.
 
-[{host}]: Welcome back again, listeners! In the next couple of minutes, we're going to talk about {topic}. {guest}, let's dive in immediatly by asking you following question: {question}.
+Here's an example of a question and answer. Do not use this in the transcript output:
+[{host}]: How much is 1 plus 1?
+[{guest}]: The answer is 2.
 
-[{guest}]: [Responds to question without introducing himself anymore.]
-
-To close/finish the podcast episode, {host} and {guest} should thank eachother, as well as the listener and invite them to keep on learning.
----
+------------
 {content}

@@ -1,312 +1,98 @@
 [
   {
-    "learning_path": "Ingest data with Microsoft Fabric",
-    "url": "https://learn.microsoft.com/en-us/training/paths/ingest-data-with-microsoft-fabric/",
+    "learning_path": "Develop natural language processing solutions with Azure AI Services",
+    "url": "https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/",
     "learning_modules": [
       {
-        "learning_module": "Ingest Data with Dataflows Gen2 in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/",
+        "learning_module": "Analyze text with Azure AI Language",
+        "url": "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/2-dataflows-gen-2",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/3-explore-dataflows-gen-2",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/4-dataflow-pipeline"
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/2-provision-resource",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/3-detect-language",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/4-extract-key-phrases",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/5-analyze-sentiment",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/6-extract-entities",
+          "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/7-extract-linked-entities"
         ]
       },
       {
-        "learning_module": "Ingest data with Spark and Microsoft Fabric notebooks",
-        "url": "https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/",
+        "learning_module": "Build a question answering solution",
+        "url": "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/2-connect-authenticate",
-          "https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/3-write-optimize",
-          "https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/4-considerations"
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/2-understand-question-answer-capability",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/3-compare-to-language-understanding",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/4-create-knowledge-base",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/5-implement-multi-turn-conversation",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/6-test-publish-knowledge-base",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/7-consume-client-interfaces",
+          "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/8-implement-active-learning"
         ]
       },
       {
-        "learning_module": "Use Data Factory pipelines in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/",
+        "learning_module": "Build a conversational language understanding model",
+        "url": "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/2-understand-fabric-pipeline",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/3-copy-data",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/4-pipeline-templates",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/5-run-monitor-pipelines"
-        ]
-      }
-    ]
-  },
-  {
-    "learning_path": "Implement a Lakehouse with Microsoft Fabric",
-    "url": "https://learn.microsoft.com/en-us/training/paths/implement-lakehouse-microsoft-fabric/",
-    "learning_modules": [
-      {
-        "learning_module": "Introduction to end-to-end analytics using Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/2-explore-analytics-fabric",
-          "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/3-data-team",
-          "https://learn.microsoft.com/en-us/training/modules/introduction-end-analytics-use-microsoft-fabric/4-use-fabric"
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/2a-understand-prebuilt-capabilities",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/2-understand-resources-for-building",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/3-define-intents-utterances-entities",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/4-use-patterns-differentiate-similar-utterances",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/5-use-pre-built-entity-components",
+          "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/6-train-test-publish-review"
         ]
       },
       {
-        "learning_module": "Get started with lakehouses in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/",
+        "learning_module": "Create a custom text classification solution",
+        "url": "https://learn.microsoft.com/en-us/training/modules/custom-text-classification/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/2-fabric-lakehouse",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/3-work-lakehouse",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-lakehouses/4-explore-data-lakehouse"
+          "https://learn.microsoft.com/en-us/training/modules/custom-text-classification/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/custom-text-classification/2-understand-types-of-classification-projects",
+          "https://learn.microsoft.com/en-us/training/modules/custom-text-classification/3-understand-how-to-build-projects"
         ]
       },
       {
-        "learning_module": "Use Apache Spark in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/",
+        "learning_module": "Create a custom named entity extraction solution",
+        "url": "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-extraction/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/2-spark",
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/3-spark-code",
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/4-dataframe",
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/5-spark-sql",
-          "https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/6-visualize-data"
+          "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-extraction/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-extraction/2-understand-custom-named",
+          "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-extraction/3-tag-your-data",
+          "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-extraction/4-train-evaluate-your-model"
         ]
       },
       {
-        "learning_module": "Work with Delta Lake tables in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/",
+        "learning_module": "Translate text with Azure AI Translator service",
+        "url": "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/2-understand-delta-lake",
-          "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/3-create-delta-tables",
-          "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/4-work-delta-data",
-          "https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/5-use-delta-lake-streaming-data"
+          "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/2-provision-translator-resource",
+          "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/3-understand-language-detection-translation-transliteration",
+          "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/4-specify-translation-options",
+          "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/5-define-custom-translations"
         ]
       },
       {
-        "learning_module": "Ingest Data with Dataflows Gen2 in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/",
+        "learning_module": "Create speech-enabled apps with Azure AI services",
+        "url": "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/2-dataflows-gen-2",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/3-explore-dataflows-gen-2",
-          "https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/4-dataflow-pipeline"
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/2-create-speech-service",
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/3-speech-to-text",
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/4-text-to-speech",
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/5-audio-format-voices",
+          "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/6-speech-synthesis-markup"
         ]
       },
       {
-        "learning_module": "Use Data Factory pipelines in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/",
+        "learning_module": "Translate speech with the Azure AI Speech service",
+        "url": "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/",
         "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/2-understand-fabric-pipeline",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/3-copy-data",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/4-pipeline-templates",
-          "https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/5-run-monitor-pipelines"
-        ]
-      },
-      {
-        "learning_module": "Organize a Fabric lakehouse using medallion architecture design",
-        "url": "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/2-describe-medallion-architecture",
-          "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/3-implement-medallion-archecture-fabric",
-          "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/4-query-report-data",
-          "https://learn.microsoft.com/en-us/training/modules/describe-medallion-architecture/5-secure-govern"
-        ]
-      }
-    ]
-  },
-  {
-    "learning_path": "Implement a data warehouse with Microsoft Fabric",
-    "url": "https://learn.microsoft.com/en-us/training/paths/work-with-data-warehouses-using-microsoft-fabric/",
-    "learning_modules": [
-      {
-        "learning_module": "Get started with data warehouses in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/2-understand-data-warehouse",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/3-understand-data-warehouse-fabric",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/4-query-transform-data",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/5-model-data",
-          "https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/6-security-monitor"
-        ]
-      },
-      {
-        "learning_module": "Load data into a Microsoft Fabric data warehouse",
-        "url": "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/2-explore-data-load-strategies",
-          "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/3-load-data-using-data-pipeline",
-          "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/4-load-data-using-tsql",
-          "https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/5-load-data-using-dataflow"
-        ]
-      },
-      {
-        "learning_module": "Query a data warehouse in Microsoft Fabric",
-        "url": "https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/2-use-sql-query-editor",
-          "https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/3-explore-visual-query-editor",
-          "https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/4-use-client-tools"
-        ]
-      },
-      {
-        "learning_module": "Monitor a Microsoft Fabric data warehouse",
-        "url": "https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/01-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/02-capacity-metrics",
-          "https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/03-dynamic-management-views",
-          "https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/04-query-insights"
-        ]
-      }
-    ]
-  },
-  {
-    "learning_path": "Work with semantic models in Microsoft Fabric",
-    "url": "https://learn.microsoft.com/en-us/training/paths/work-semantic-models-microsoft-fabric/",
-    "learning_modules": [
-      {
-        "learning_module": "Understand scalability in Power BI",
-        "url": "https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/2-describe-significance-of-scalable-models",
-          "https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/3-implement-data-modeling-best-practices",
-          "https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/4-configure-large-datasets"
-        ]
-      },
-      {
-        "learning_module": "Create Power BI model relationships",
-        "url": "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/2-understand-model-relationships",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/3-set-up-relationships",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/4-use-dax-relationship-functions",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/5-understand-relationship-evaluation"
-        ]
-      },
-      {
-        "learning_module": "Use tools to optimize Power BI performance",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/2-use-performance-analyzer",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/3-troubleshoot-dax-performance-use-dax-studio",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/4-optimize-data-model-use-best-practice-analyzer"
-        ]
-      },
-      {
-        "learning_module": "Enforce Power BI model security",
-        "url": "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/4-apply-good-modeling-practices"
-        ]
-      }
-    ]
-  },
-  {
-    "learning_path": "Design and build tabular models",
-    "url": "https://learn.microsoft.com/en-us/training/paths/design-build-tabular-models/",
-    "learning_modules": [
-      {
-        "learning_module": "Create Power BI model relationships",
-        "url": "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/2-understand-model-relationships",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/3-set-up-relationships",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/4-use-dax-relationship-functions",
-          "https://learn.microsoft.com/en-us/training/modules/create-power-bi-model-relationships/5-understand-relationship-evaluation"
-        ]
-      },
-      {
-        "learning_module": "Use DAX time intelligence functions in Power BI Desktop models",
-        "url": "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/2-functions",
-          "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/3-calculations",
-          "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/3b-lab",
-          "https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/4-check"
-        ]
-      },
-      {
-        "learning_module": "Create calculation groups",
-        "url": "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/2-understand",
-          "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/3-explore-usage-features",
-          "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/4-model",
-          "https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/5-lab"
-        ]
-      },
-      {
-        "learning_module": "Enforce Power BI model security",
-        "url": "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects",
-          "https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/4-apply-good-modeling-practices"
-        ]
-      },
-      {
-        "learning_module": "Use tools to optimize Power BI performance",
-        "url": "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/2-use-performance-analyzer",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/3-troubleshoot-dax-performance-use-dax-studio",
-          "https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/4-optimize-data-model-use-best-practice-analyzer"
-        ]
-      }
-    ]
-  },
-  {
-    "learning_path": "Manage the analytics development lifecycle",
-    "url": "https://learn.microsoft.com/en-us/training/paths/manage-analytics-development-lifecycle/",
-    "learning_modules": [
-      {
-        "learning_module": "Design a Power BI application lifecycle management strategy",
-        "url": "https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/2-define",
-          "https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/3-recommend-source-control-strategy",
-          "https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/4-design-deployment-strategy"
-        ]
-      },
-      {
-        "learning_module": "Create and manage a Power BI deployment pipeline",
-        "url": "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/introduction",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/understand-deployment-process",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/create-deployment-pipeline",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/assign-workspace",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/deploy-content",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/work-with-deployment-pipelines",
-          "https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/check"
-        ]
-      },
-      {
-        "learning_module": "Create and manage Power BI assets",
-        "url": "https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/",
-        "learning_units": [
-          "https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/1-introduction",
-          "https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/2-create-reusable",
-          "https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/3-explore-use-lineage-view",
-          "https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/4-dataset-use-xmla-endpoint"
+          "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/1-introduction",
+          "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/2-speech-service",
+          "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/3-translate-speech-text",
+          "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/4-synthesize-translation"
         ]
       }
     ]
