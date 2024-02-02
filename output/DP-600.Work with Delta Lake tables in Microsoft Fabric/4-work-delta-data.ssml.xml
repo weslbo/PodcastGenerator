@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been hearing a lot about working with delta tables in Spark. Can you explain how we can use Spark SQL to work with data in delta tables?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Spark SQL is the most common way to work with data in delta tables in Spark. You can embed SQL statements in other languages like PySpark or Scala using the `spark.sql` library. For example, you can insert a row into the `products` table using the following code.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting, Emma. Is there any other way to work with delta files instead of catalog tables?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. If you prefer working with delta files directly, you can use the Delta Lake API. You can create a `DeltaTable` instance from a folder location containing delta format files and then use the API to modify the data in the table.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient, Emma. Now, I've heard about time travel in delta tables. Can you explain how it works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Time travel allows you to view the history of changes made to a delta table and retrieve older versions of the data. The modifications made to delta tables are logged in the transaction log. You can use SQL commands to see the history of a table and the transactions applied to it.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful, Emma. How can we retrieve data from a specific version of the data in a delta table?
+</voice>
+<voice name="en-US-EmmaNeural">
+To retrieve data from a specific version, you can read the delta file location into a dataframe and specify the version as an option. Alternatively, you can also specify a timestamp using the option.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it, Emma. Thanks for explaining how we can work with delta tables in Spark using Spark SQL and the Delta Lake API, as well as how time travel can be used for table versioning.
+</voice>
+</speak>

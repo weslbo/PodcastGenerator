@@ -1,0 +1,12 @@
+@startmindmap
+* Implement facial recognition
+** Train a facial recognition model
+*** Create a Person Group
+*** Add a Person to the Person Group
+*** Add detected faces to each person
+*** Train the model
+** Use the trained model
+*** Identify individuals in images
+*** Verify the identity of a detected face
+*** Analyze new images to find similar faces
+@endmindmap

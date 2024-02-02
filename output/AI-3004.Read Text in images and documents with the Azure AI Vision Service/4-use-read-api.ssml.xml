@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, to use the Read OCR feature, we need to call the ImageAnalysis function, right? Can you explain how we can do that?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, that's correct, Brian. To use the Read OCR feature, we can call the ImageAnalysis function either through the REST API or by using the equivalent SDK method. We need to pass the image URL or binary data as input to the function. We can also specify a gender neutral caption or the language of the text, although the default language is English.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. Can you give me an example of how we can make an OCR request using the ImageAnalysis function in C#?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure, Brian. In C#, we can make an OCR request by specifying the analysis features as "Read". Here's an example. First, you would instantiate a ComputerVisionClient object. You specify the api key and the endpoint. Then, you can call the ReadAsync method and pass the image URL along with the list of visual features, which includes "Read".
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for the example, Andrew. And what about Python? How can we make an OCR request using the ImageAnalysis function in Python?
+</voice>
+<voice name="en-US-AndrewNeural">
+In Python, we can also make an OCR request by specifying the analysis features as "Read". Here's an example. First, you would import the necessary modules and instantiate a ComputerVisionClient object. Then, you can call the read method and pass the image URL along with the raw parameter set to True.
+</voice>
+<voice name="en-US-BrianNeural">
+Great, Andrew! It seems like we have the necessary code to make OCR requests using the ImageAnalysis function in both C# and Python. Can you explain how the results of the Read OCR function are returned?
+</voice>
+<voice name="en-US-AndrewNeural">
+Certainly, Brian. The results of the Read OCR function are returned synchronously, either as JSON or as a language-specific object with a similar structure. The results are provided as a complete result and are broken down by page, words, and lines. The text values are included at both the line and word levels, which makes it easier to read entire lines of text if you don't need to extract text at the individual word level.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful, Andrew. Having the results broken down by page, words, and lines makes it easier to work with the extracted text. Thank you for explaining that.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. I'm glad I could help.
+</voice>
+<voice name="en-US-BrianNeural">
+Well, Andrew, I think we've covered the basics of using the Read OCR feature with the ImageAnalysis function. Is there anything else you'd like to add before we wrap up?
+</voice>
+<voice name="en-US-AndrewNeural">
+Just one thing, Brian. It's important to note that the Read OCR feature is a powerful tool for extracting text from images, and it can be used in various scenarios such as document processing, form recognition, and more. It's definitely worth exploring further.
+</voice>
+<voice name="en-US-BrianNeural">
+Absolutely, Andrew. The Read OCR feature opens up a lot of possibilities for automating text extraction tasks. Thank you for sharing your expertise with us today.
+</voice>
+<voice name="en-US-AndrewNeural">
+My pleasure, Brian. It was great discussing this topic with you.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. We hope you found this episode informative and that it inspires you to explore the Read OCR feature in Azure AI services. Keep on learning, and until next time!
+</voice>
+<voice name="en-US-AndrewNeural">
+Thank you, everyone. Take care and happy learning!
+</voice>
+</speak>

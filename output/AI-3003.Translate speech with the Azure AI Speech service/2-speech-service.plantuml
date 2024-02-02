@@ -1,0 +1,14 @@
+@startmindmap
+* Provision an Azure resource for speech translation
+** Azure AI Speech service
+*** Machine learning
+*** Artificial intelligence
+*** Speech translation services
+** Azure AI Speech resource
+*** Create in Azure subscription
+** Information needed to use the resource
+*** Location
+*** Keys
+** Keys and Endpoint page
+*** View values in Azure portal
+@endmindmap

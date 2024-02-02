@@ -1,0 +1,22 @@
+@startmindmap
+* Understand capabilities of the face service
+** Face detection
+*** ID
+*** Bounding box coordinates
+** Face attribute analysis
+*** Head pose
+*** Glasses
+*** Blur
+*** Exposure
+*** Noise
+*** Occlusion
+*** Accessories
+*** QualityForRecognition
+** Facial landmark location
+** Face comparison
+** Facial recognition
+** Facial liveness
+** Provision as single-service resource
+** Use in Azure AI Services resource
+** Apply for Limited Access policy
+@endmindmap

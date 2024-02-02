@@ -1,0 +1,21 @@
+[Brian]: So Andrew, we've talked about the Azure AI Vision service and the Face service for face detection and analysis. Can you tell me more about the capabilities of the Face service compared to the Azure AI Vision service?
+
+[Andrew]: Absolutely, Brian. The Face service offers more comprehensive facial analysis capabilities than the Azure AI Vision service. It includes face detection with a bounding box, as well as facial feature analysis such as head pose, presence of spectacles, blur, facial landmarks, and occlusion.
+
+[Brian]: That's interesting. So the Face service provides more detailed information about the face. What else can it do?
+
+[Andrew]: The Face service also offers face comparison and verification. This means you can compare two faces to determine if they belong to the same person or verify if a face matches a specific person.
+
+[Brian]: That's really useful. Can the Face service also perform facial recognition?
+
+[Andrew]: Yes, it can. However, it's important to note that the usage of facial recognition, identification, comparison, and verification requires getting approved through a Limited Access policy. This policy ensures responsible usage of facial recognition technology.
+
+[Brian]: I see. So facial recognition is a powerful capability, but it's only available to those who have been approved through the Limited Access policy.
+
+[Andrew]: That's correct, Brian. Facial recognition will be touched on in the rest of this module, but it will be unavailable without applying for Limited Access.
+
+[Brian]: Thank you for clarifying that, Andrew. It's good to know the options available for face detection and analysis using Azure AI services.
+
+[Andrew]: You're welcome, Brian. It's always a pleasure to share knowledge about Azure AI services.
+
+[Brian]: That's an excellent insight, Andrew.

@@ -1,0 +1,13 @@
+@startmindmap
+* Model Relationships
+** Basis of tabular model
+*** Model Tables
+*** Relationships
+**** Propagation of filters
+**** Natural and intuitive querying
+** Learning Objectives
+*** Understand model relationship work
+*** Set up relationships
+*** Use DAX relationship functions
+*** Understand relationship evaluation
+@endmindmap

@@ -1,0 +1,37 @@
+[Brian]: So Emma, now that we understand the life cycle of building a custom text classification project, I'm curious about how we should split our datasets for training. Can you explain the options we have?
+
+[Emma]: Absolutely, Brian. When it comes to splitting datasets for training, there are two options: automatic split and manual split. With automatic split, Azure randomly splits all the data into the specified percentages for training and testing. This option is best for larger datasets that have consistent data or cover the classes extensively. On the other hand, manual split allows you to manually specify which files should be in the testing and training datasets. This is useful for smaller datasets to ensure the correct distribution of classes and variation in data for training the model.
+
+[Brian]: That makes sense, Emma. So, if we choose the automatic split, do we just put all the files into the training dataset?
+
+[Emma]: Yes, exactly. When labeling your data, you would put all the files into the training dataset if you want to use the automatic split. This is actually the default option. If you prefer the manual split, you can specify which files should be in the testing and training datasets during the labeling process.
+
+[Brian]: Got it. Now, let's talk about deployment options. Can we create multiple models and deployments within a project?
+
+[Emma]: Absolutely, Brian. Azure AI Language allows you to create multiple models and deployments within a project. This gives you the flexibility to test different models side by side, compare the impact of dataset splits on performance, and deploy multiple versions of your model. However, it's important to note that each project has a limit of ten deployment names.
+
+[Brian]: That's good to know, Emma. So, during deployment, can we choose the name for the deployed model?
+
+[Emma]: Yes, you can choose the name for the deployed model. When deploying your model, you can specify a unique name for it. This name can then be selected when submitting a classification task.
+
+[Brian]: Great! Now, let's talk about using the REST API. Can you explain the pattern of using the API for Azure AI Language projects?
+
+[Emma]: Of course, Brian. The API for Azure AI Language operates asynchronously for most calls. The general pattern is to submit a request to the service first and then check back with the service via a subsequent call to get the status or result. To authenticate your request, you need to include a header with the key to your Azure AI Language resource.
+
+[Brian]: That makes sense, Emma. So, when we submit the initial request, what URL do we use?
+
+[Emma]: The URL for the initial request varies depending on the step you're on, but it is always prefixed with the endpoint provided by your Azure AI Language resource. For example, when training a model, you would create a POST request to the URL specific to your project and include the necessary body parameters.
+
+[Brian]: And how do we get the training status after submitting the initial request?
+
+[Emma]: To get the training status, you use the URL from the header of the request response to submit a GET request. This GET request should include the same header for authentication. The response body will provide the status of the training process, and you can periodically check this status URL until the training is successful.
+
+[Brian]: I see. And once the model is trained and deployed, how do we consume it for text classification?
+
+[Emma]: To consume a deployed model for text classification, you would submit a POST request to the analyze endpoint with the necessary parameters. This POST request should include your resource key in the header for authentication. The response will provide a URL that you can use to retrieve the classification results by submitting a GET request.
+
+[Brian]: That's really helpful, Emma. Thank you for explaining the process of building text classification projects and using the Azure AI Language services. It's been a great conversation.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you or the listeners have any more questions, feel free to reach out. Keep on learning and exploring the possibilities of natural language processing with Azure AI Services.
+
+[Brian]: Absolutely, Emma. Thank you again for sharing your expertise. And to our listeners, thank you for tuning in. We hope you found this episode informative and valuable. Keep exploring and harnessing the power of AI in your projects. Until next time!

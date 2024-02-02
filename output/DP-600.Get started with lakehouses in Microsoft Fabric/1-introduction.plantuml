@@ -1,0 +1,10 @@
+@startmindmap
+* Microsoft Fabric
+** Lakehouse
+*** OneLake
+**** Scalable storage layer
+**** Apache Spark
+**** SQL compute engines
+** Data Lake
+** Data Warehouse
+@endmindmap

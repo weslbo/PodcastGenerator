@@ -1,0 +1,39 @@
+@startmindmap
+* Explore end-to-end analytics with Microsoft Fabric
+** Scalable analytics
+*** Complex
+*** Fragmented
+*** Expensive
+** Microsoft Fabric
+*** Single product
+*** Easy to understand
+*** Persona-optimized experiences
+*** Integrated user interface
+** Fabric as a unified SaaS offering
+*** Data stored in OneLake
+*** Scalability
+*** Cost-effectiveness
+*** Accessibility
+*** Continuous updates and maintenance
+** OneLake
+*** Lake-centric architecture
+*** Collaboration between data professionals and business
+*** OneCopy
+*** OneDrive for data
+*** Storage locations combined into a single logical lake
+*** Native store for all compute workloads
+*** Supports various data formats
+*** Shortcuts for quick sourcing
+** Fabric's experiences
+*** Synapse Data Engineering
+*** Synapse Data Warehouse
+*** Synapse Data Science
+*** Synapse Real-Time Analytics
+*** Data Factory
+*** Power BI
+** Security and governance
+*** Centrally governed OneLake
+*** Discoverable and accessible data
+*** Fabric admin center
+*** Integration with Microsoft Purview Information Protection
+@endmindmap

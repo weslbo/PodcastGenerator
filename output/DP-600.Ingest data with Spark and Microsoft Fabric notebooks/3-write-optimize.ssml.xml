@@ -1,0 +1,26 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we've connected to the data, how do we go about saving it into the lakehouse? Can we save it as a file?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. In a lakehouse, you have the option to save the data as a file. You can choose from structured, semi-structured, and unstructured files. The preferred format is Parquet because of its optimized columnar storage structure and efficient compression capabilities. However, you can also use other formats like delimited text, JSON, Avro, ORC, and more.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know, Emma. What about loading the data as a Delta table? Is that possible?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. In fact, loading the data as a Delta table is one of the key features of Fabric lakehouses. You can easily ingest and load your external data into a Delta table using notebooks.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient. Now, I've heard about optimizing Delta table writes. Can you tell us more about that?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. When working with large data, it's important to optimize read and write operations. Fabric notebooks provide functions for optimizing data ingestion. One such function is V-Order, which enables faster and more efficient reads by various compute engines like Power BI, SQL, and Spark. V-Order applies special sorting, distribution, encoding, and compression on Parquet files at write-time. Another optimization function is "Optimize write," which improves performance and reliability by reducing the number of files written and increasing their size. This is useful in scenarios where Delta tables have suboptimal or nonstandard file sizes, or where the extra write latency is tolerable.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great, Emma. It's good to know that we have these optimization options available. Thanks for sharing this information.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It's always a pleasure to share insights about implementing analytics solutions using Microsoft Fabric. If you have any more questions, feel free to ask.
+</voice>
+</speak>

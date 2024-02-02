@@ -1,0 +1,29 @@
+[Brian]: So Emma, once we have trained our language understanding model, what is the next step? 
+
+[Emma]: The next step is to test the model to ensure it is working correctly. We can do this interactively or by using a testing dataset with known labels. 
+
+[Brian]: Can you explain how the interactive testing works? 
+
+[Emma]: Sure! With interactive testing, we can input sample utterances and see how the model predicts the intents and entities. This allows us to quickly evaluate the performance of the model and make any necessary adjustments. 
+
+[Brian]: That sounds convenient. What about testing with a dataset? 
+
+[Emma]: Testing with a dataset involves using a set of sample utterances that have already been labeled with the correct intents and entities. We can then compare the model's predictions with the known labels to assess its accuracy. 
+
+[Brian]: I see. Once we are satisfied with the model's performance, what do we do next? 
+
+[Emma]: After testing, we can deploy the trained model to a public endpoint. This allows client applications to access and use the model for natural language processing tasks. 
+
+[Brian]: That's great! So, what can we do with the deployed model? 
+
+[Emma]: With the deployed model, client applications can send user input in the form of text and receive predictions for intents and entities. This enables the applications to understand and respond to user queries more effectively. 
+
+[Brian]: That's really powerful. Finally, what is the last step in the process? 
+
+[Emma]: The last step is to review the predictions made by the model and iterate on the utterances to further train and improve the model. This iterative process helps us refine the language model based on user input and enhance its performance over time. 
+
+[Brian]: Thank you, Emma, for explaining the process of training, testing, deploying, and reviewing a conversational language understanding model. It's been really insightful. 
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask. 
+
+[Brian]: Thank you, Emma. And thank you to our listeners for tuning in. We hope you found this episode helpful in understanding how to develop natural language processing solutions with Azure AI Services. Keep on learning and exploring the world of AI!

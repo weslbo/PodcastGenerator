@@ -1,0 +1,31 @@
+[Brian]: So Emma, we've been talking about analyzing data in Spark notebooks. I'm curious, what are some ways we can visualize the results of our data queries?
+
+[Emma]: Great question, Brian! One of the most intuitive ways to analyze the results of data queries is to visualize them as charts. In Microsoft Fabric notebooks, there are built-in charting capabilities that allow you to change the results view from a table to a chart. This can help you quickly summarize the data visually. 
+
+[Brian]: That sounds really useful! Can you give me an example of how we can use the built-in charting functionality in notebooks?
+
+[Emma]: Absolutely! Let's say you have a dataframe or you run a SQL query in a Spark notebook. By default, the results are displayed as a table. However, you can change the results view to a chart and customize how the chart visualizes the data. For example, you can create a chart that shows product counts by category. 
+
+[Brian]: Oh, I see! So we can customize the chart to fit our needs. But what if we want even more control over how the data is formatted?
+
+[Emma]: That's a great point, Brian. If you want more control over the formatting of the data, you can consider using a graphics package in your code. There are many graphics packages available, especially in Python. One popular package is Matplotlib, which is built on the base Matplotlib library. 
+
+[Brian]: Ah, I've heard of Matplotlib before. How would we use it to create a chart from aggregated data in a Spark notebook?
+
+[Emma]: Good question! To use Matplotlib, you would first aggregate the data using PySpark code. Then, you would convert the Spark dataframe to a Pandas dataframe using the `toPandas` method. Once you have the data in a Pandas dataframe, you can use Matplotlib to create a chart. You can customize the chart properties and then show the resulting plot.
+
+[Brian]: That's really helpful, Emma! So with Matplotlib, we can create various types of charts. Are there any other graphics libraries we can use?
+
+[Emma]: Absolutely! While Matplotlib is a popular choice, there are other libraries like Seaborn that you can use to create highly customized charts. It really depends on your specific needs and preferences.
+
+[Brian]: Got it! Thanks for explaining, Emma. Visualizing data in charts seems like a powerful way to analyze and understand our data. 
+
+[Emma]: You're welcome, Brian! Visualizing data in charts can definitely provide valuable insights. It's a great tool to have in your analytics toolkit.
+
+[Brian]: Well, thank you so much for sharing your expertise, Emma. I've learned a lot about implementing analytics solutions using Microsoft Fabric.
+
+[Emma]: It was my pleasure, Brian. I'm glad I could help. Remember, there's always more to learn, so keep exploring and experimenting with analytics solutions.
+
+[Brian]: Absolutely! And thank you to our listeners for tuning in. We hope you found this episode informative and valuable. Keep on learning and implementing analytics solutions using Microsoft Fabric. Until next time!
+
+[Emma]: Thank you, Brian. And thank you to all our listeners. Stay curious and keep on analyzing!

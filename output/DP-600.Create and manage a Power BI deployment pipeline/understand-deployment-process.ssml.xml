@@ -1,0 +1,53 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about the deployment process in Power BI and I came across the Deployment Pipeline tool. Can you tell me more about it and how it helps with managing the development lifecycle of content?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The Deployment Pipeline tool in Power BI enables users to manage the development lifecycle of content within their tenant. It allows for a continuous integration/continuous deployment (CI/CD) approach, ensuring that content is updated, well-tested, and regularly refreshed as needed.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. Can you explain how the pipeline works and what stages are involved in the content development lifecycle?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course. The pipeline consists of three stages: development, test, and production. In the development stage, creators design, review, and revise content in a dedicated workspace. They can collaborate with other creators and use minimal datasets. Once the content is ready to be tested and reviewed, it can be deployed to the test stage.
+</voice>
+<voice name="en-US-BrianNeural">
+So the test stage is where the content is tested and verified before it's ready for production, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. In the test stage, content is shared with testers and reviewers. Creators can load and run tests with larger volumes of data to ensure accuracy. They can also test how the content will look for end users. Once the content is deemed ready for distribution, it can be deployed to the production stage.
+</voice>
+<voice name="en-US-BrianNeural">
+And in the production stage, the content is finalized and made available to users, correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+That's correct, Brian. In the production stage, the workspace content has been tested and is ready to be consumed by users either through an app or by accessing the production workspace. Creators can share the final version of their content with business users across the organization.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So each stage can have different content, right? Like the data source size and the reports can change as it progresses through the stages?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct. In each stage, the content can be different. For example, the data source size can be increased as it gets closer to production. However, it's also possible to make the dataset smaller between the development and test stages to accommodate testing. The reports can also change in each stage.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. And can multiple creators and developers work on different stages simultaneously?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. The pipeline allows for collaboration among creators and developers. They can work on different stages separately, making it easier to manage and streamline the development process.
+</voice>
+<voice name="en-US-BrianNeural">
+And how are the workspaces for each stage created within the pipeline?
+</voice>
+<voice name="en-US-EmmaNeural">
+The pipeline can be built using three workspaces that were created when the Deploy button was clicked for the first time. Alternatively, you can assign a different workspace to each stage. Each workspace is independent and can be managed separately in terms of permissions and content. When deploying from a source stage to a target stage, the selected source's content overrides the equivalent content in the target workspace.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. I appreciate you explaining the deployment pipeline and how it helps with managing the development lifecycle of content in Power BI.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. The deployment pipeline is a powerful tool for ensuring efficient and reliable content deployment in Power BI.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma.
+</voice>
+</speak>

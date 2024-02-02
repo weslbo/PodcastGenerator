@@ -1,0 +1,37 @@
+@startmindmap
+* Use data pipelines to load a warehouse
+** Microsoft Fabric's Warehouse
+*** Integrated data ingestion tools
+*** Coding or noncoding experiences
+** Data pipeline
+*** Cloud-based service for data integration
+*** Creation of workflows for data movement and transformation
+*** Ingest and load data from disparate data stores
+** Azure Data Factory
+*** Seamless integration and utilization
+*** Features within Microsoft Fabric ecosystem
+** Delta Parquet format in OneLake
+* Create a data pipeline
+** From the workspace
+*** Select + New, then select Data pipeline
+** From the warehouse asset
+*** Select Get Data, then New data pipeline
+** Three options available
+*** Add pipeline activity
+*** Copy data
+*** Choose a task to start
+* Configure the copy data assistant
+** Step-by-step interface
+** Choose data source
+** Connect to a data source
+** Choose data destination
+** Connect to data destination
+** Settings
+* Schedule a data pipeline
+** Select Schedule from the data pipeline editor
+** Configure the schedule in the Home menu
+* Data pipelines for code-free or low-code experience
+** Graphical user interface
+** Ideal for scheduled data workflows
+** Connects to different data sources
+@endmindmap

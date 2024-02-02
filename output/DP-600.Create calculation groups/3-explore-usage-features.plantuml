@@ -1,0 +1,17 @@
+@startmindmap
+* Explore calculation groups features and usage
+** Calculation group properties
+*** Precedence
+**** Precedence is a property
+**** Define the order of evaluation
+**** Higher number indicates greater precedence
+**** Use Tabular Editor to set precedence
+*** Calculation item properties
+**** Ordering
+***** Ordinal value determines sort order
+***** Specify the Ordinal property
+***** Default behavior is alphabetical order
+**** Dynamic format strings
+***** Define conditional format strings
+***** Useful for currency conversion
+@endmindmap

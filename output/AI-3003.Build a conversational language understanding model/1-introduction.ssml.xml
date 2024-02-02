@@ -1,0 +1,14 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3003 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be diving into the world of natural language processing and how we can develop solutions using Azure AI Services. But before we get started, let me introduce our guest for today. Please welcome Emma from Contoso!
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the podcast. I'm Emma, and I'm an expert in natural language processing at Contoso.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for joining us, Emma. I'm really looking forward to learning more about natural language processing and how we can leverage Azure AI Services for it. It's such an interesting and important topic in today's digital world. So, let's jump right in!
+</voice>
+<voice name="en-US-BrianNeural">
+Natural language processing is a common AI problem where software needs to understand and work with text or speech in the way humans communicate. Within this field, natural language understanding plays a crucial role in determining the semantic meaning of the language. Today, we'll explore how Azure AI Language can help us build powerful natural language understanding solutions. So, Emma, could you tell us more about Azure AI Language and how it can be used for natural language understanding?
+</voice>
+</speak>

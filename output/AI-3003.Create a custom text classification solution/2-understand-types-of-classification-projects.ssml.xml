@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about custom text classification and I came across the concept of single label and multiple label projects. Can you explain the difference between the two?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. In single label projects, you can assign only one class to each file. For example, a video game summary could be classified as "Adventure" or "Strategy". On the other hand, in multiple label projects, you can assign multiple classes to each file. So a video game summary could be classified as "Adventure" and "Strategy" at the same time.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. That makes sense. So, what are the key differences between single label and multiple label projects?
+</voice>
+<voice name="en-US-EmmaNeural">
+Well, one key difference is in the labeling process. In single label projects, each file is assigned only one class. But in multiple label projects, you can assign as many classes as you want per file. This added complexity means that your data has to be clear and provide a good distribution of possible inputs for your model to learn from.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So, does the quality of the labeled data impact the performance of the model?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The quality, clarity, and variation of your data set directly affect how accurate your model will be. Especially in multiple label projects, labeling the data correctly is crucial for the model's performance.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, how do we evaluate and improve the model's performance?
+</voice>
+<voice name="en-US-EmmaNeural">
+Good question. Measuring the predictive performance of your model goes beyond just counting correct predictions. We also need to consider false positives and false negatives. Azure AI Language provides metrics like recall, precision, and F1 score to evaluate the model's performance. These metrics help us understand how well the model identifies the actual labels and how many of the predicted labels are correct.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. And what about the API payload for classification tasks?
+</voice>
+<voice name="en-US-EmmaNeural">
+The API requires a JSON body to specify the classification task. For single label classification models, the project type is specified as "single". And for multiple label classification models, the project type is specified as "multiple". This helps the API understand the type of classification you want to perform.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Thanks for explaining, Emma. It's clear to me now.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

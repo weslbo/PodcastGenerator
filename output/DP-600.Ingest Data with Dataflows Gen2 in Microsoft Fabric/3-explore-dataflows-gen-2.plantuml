@@ -1,0 +1,25 @@
+@startmindmap
+* Explore Dataflows Gen2 in Microsoft Fabric
+** Data Factory workload
+*** Power Query ribbon
+**** Filter and Sort rows
+**** Pivot and Unpivot
+**** Merge and Append queries
+**** Split and Conditional split
+**** Replace values and Remove duplicates
+**** Add, Rename, Reorder, or Delete columns
+**** Rank and Percentage calculator
+**** Top N and Bottom N
+*** Queries pane
+**** Rename, duplicate, reference, enable staging
+*** Diagram view
+*** Data Preview pane
+**** Subset of data
+**** Drag and drop columns
+**** Filter and make changes
+*** Query Settings pane
+**** Applied Steps
+***** Multiple applied steps
+** Power BI workspace
+** Lakehouse
+@endmindmap

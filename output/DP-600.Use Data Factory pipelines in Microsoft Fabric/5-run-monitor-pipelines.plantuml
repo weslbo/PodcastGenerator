@@ -1,0 +1,12 @@
+@startmindmap
+* Run and monitor pipelines
+** Validate
+** Run interactively
+** Specify a schedule
+** View run history
+*** View from pipeline canvas
+*** View from workspace page
+**** Select Run start value
+***** View individual run details
+****** View execution time as Gantt chart
+@endmindmap

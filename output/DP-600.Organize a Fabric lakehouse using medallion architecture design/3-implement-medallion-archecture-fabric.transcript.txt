@@ -1,0 +1,29 @@
+[Brian]: So now that we have a good understanding of the medallion architecture, let's talk about how we can implement it in Fabric. Emma, can you walk us through the steps?
+
+[Emma]: Absolutely, Brian. To implement the medallion architecture in Fabric, we need to start by setting up the foundation. This involves creating our Fabric lakehouse. We can use the same lakehouse for multiple medallion architectures or use different lakehouses in different workspaces, depending on our use case.
+
+[Brian]: That makes sense. So once we have our lakehouse set up, what's the next step?
+
+[Emma]: The next step is to design our architecture. We need to create a layout and define the layers of our medallion architecture. The most common implementation is to have a Bronze layer for raw data, a Silver layer for curated data, and a Gold layer for the presentation layer. The Gold layer should be modeled in a star schema and optimized for reporting.
+
+[Brian]: I see. So each layer has a specific purpose. Can you explain what happens in each layer and what tools we can use?
+
+[Emma]: Sure. In the Bronze layer, we ingest raw data. This can be done using pipelines, dataflows, or notebooks. In the Silver layer, we cleanse and validate the data. Dataflows or notebooks are commonly used for this layer. And in the Gold layer, we perform additional transformations and modeling. We can use SQL analytics endpoint or a semantic model for this layer.
+
+[Brian]: Got it. So once we have our architecture designed, what's the next step?
+
+[Emma]: The next step is to ingest data into the Bronze layer. We need to determine how we'll bring the data into the lakehouse. This can be done using pipelines, dataflows, or notebooks.
+
+[Brian]: And after we have the data in the Bronze layer, what's the next step?
+
+[Emma]: The next step is to transform the data and load it into the Silver layer. This is where we focus on data quality and consistency. We can use dataflows or notebooks for the transformations at the Silver layer.
+
+[Brian]: Okay, so now we have our data in the Silver layer. What's the final step?
+
+[Emma]: The final step is to generate the Gold layer. This is where we model our data for reporting using a dimensional model. We establish relationships, define measures, and incorporate any other elements essential for effective reporting. We can have multiple Gold layers for different audiences or domains. And in Fabric, we can transform the data using dataflows or notebooks, load it into a Gold Delta table in the lakehouse, and then connect to the Delta table using a SQL analytics endpoint to model the data for reporting.
+
+[Brian]: That's great. And how do we enable downstream consumption of the data?
+
+[Emma]: We can enable downstream consumption by using workspace or item permissions, or by connecting to the SQL analytics endpoint. This allows other users or applications to access and use the data from the Gold layer.
+
+[Brian]: Excellent, Emma. Thank you for walking us through the steps of implementing the medallion architecture in Fabric. It's clear that having a well-designed architecture and using the right tools can greatly enhance our analytics solutions.

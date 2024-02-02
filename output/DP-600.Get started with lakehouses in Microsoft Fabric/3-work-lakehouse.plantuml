@@ -1,0 +1,14 @@
+@startmindmap
+* Work with Microsoft Fabric Lakehouses
+** Create and explore a lakehouse
+*** Lakehouse
+*** Semantic model (default)
+*** SQL analytics endpoint
+** Ingest data into a lakehouse
+*** Upload
+*** Dataflows (Gen2)
+*** Notebooks
+*** Data Factory pipelines
+** Access data using shortcuts
+*** Shortcuts
+@endmindmap

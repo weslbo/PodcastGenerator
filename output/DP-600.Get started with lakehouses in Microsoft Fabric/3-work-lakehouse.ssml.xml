@@ -1,0 +1,23 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we know how to create and explore a lakehouse, let's talk about how we can ingest data into it. What are some ways we can load data into a Fabric lakehouse?
+</voice>
+<voice name="en-US-EmmaNeural">
+There are several ways to load data into a Fabric lakehouse. You can upload local files or folders directly to the lakehouse and then process the data. Another option is to use Dataflows (Gen2) to import and transform data from various sources and load it directly into a table in the lakehouse. Notebooks can also be used to ingest and transform data, which can then be loaded into tables or files in the lakehouse. Lastly, you can use Data Factory pipelines to copy data and orchestrate data processing activities, loading the results into tables or files in the lakehouse.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to know, Emma. It seems like there are multiple options depending on the specific needs and preferences. Now, I've heard about shortcuts in Fabric. Can you explain what they are and how they can be used to access data?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Shortcuts are a way to access and use data in Fabric while keeping it stored in external storage. They are particularly useful when you need to source data from a different storage account or even a different cloud provider. With shortcuts, you can create links to different storage accounts and other Fabric items like data warehouses, KQL databases, and other Lakehouses. These shortcuts can be created in both Lakehouses and KQL databases, and they appear as folders in the lake. This allows various analytics services like Spark, SQL, Real-Time Analytics, and Analysis Services to utilize shortcuts when querying data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting, Emma. So, with shortcuts, we can integrate data from different sources into our lakehouse without actually moving the data. It sounds like a convenient way to access and utilize data stored in external locations. Are there any considerations or permissions we need to keep in mind when using shortcuts?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. When accessing data through a shortcut to another OneLake location, the identity of the calling user is used to authorize access to the data in the target path of the shortcut. This means that the user must have the necessary permissions in the target location to read the data. Source data permissions and credentials are all managed by OneLake, making it easier to manage access to external data sources.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense, Emma. It's good to know that the permissions and credentials are managed by OneLake, simplifying the access control process. Thank you for explaining shortcuts and how they can be used to integrate data into our lakehouse.
+</voice>
+</speak>

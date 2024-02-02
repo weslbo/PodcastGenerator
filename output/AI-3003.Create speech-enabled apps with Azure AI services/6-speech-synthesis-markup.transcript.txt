@@ -1,0 +1,73 @@
+[Brian]: So Emma, I've been reading about the Speech Synthesis Markup Language (SSML) in Azure AI Services. It seems like a powerful tool for controlling the characteristics of synthesized speech. Can you give me an example of how SSML can be used in a real-world scenario?
+
+[Emma]: Absolutely, Brian! Let's say you have a virtual assistant that interacts with users. You can use SSML to give the assistant a more natural and expressive voice. For example, you can specify a "cheerful" speaking style for certain responses to make the assistant sound more friendly and approachable.
+
+[Brian]: That's interesting! So with SSML, you can control the speaking style of the synthesized speech. Can you give me an example of how to specify a speaking style using SSML?
+
+[Emma]: Sure, Brian! Here's an example of SSML that specifies a cheerful speaking style:
+
+```xml
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    <mstts:express-as style="cheerful">
+      Hello, how can I assist you today?
+    </mstts:express-as>
+  </voice>
+</speak>
+```
+
+This SSML will make the synthesized speech sound cheerful when saying "Hello, how can I assist you today?"
+
+[Brian]: That's really cool! SSML seems to offer a lot of flexibility. Can you give me an example of how to insert pauses or silence using SSML?
+
+[Emma]: Absolutely, Brian! Here's an example of SSML that inserts a pause of 2 seconds:
+
+```xml
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    Hello, I'm your virtual assistant. <break time="2s"/> How can I help you today?
+  </voice>
+</speak>
+```
+
+This SSML will introduce a 2-second pause after saying "Hello, I'm your virtual assistant."
+
+[Brian]: That's really useful! SSML seems to provide a lot of control over the synthesized speech. Can you give me an example of how to adjust the prosody of the voice using SSML?
+
+[Emma]: Definitely, Brian! Here's an example of SSML that adjusts the pitch and speaking rate:
+
+```xml
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    <prosody pitch="+10%" rate="slow">
+      Hello, how can I assist you today?
+    </prosody>
+  </voice>
+</speak>
+```
+
+This SSML will make the synthesized speech sound slightly higher in pitch and slower in speaking rate when saying "Hello, how can I assist you today?"
+
+[Brian]: Wow, SSML seems really powerful! Can you give me an example of how to use the "say-as" rule in SSML?
+
+[Emma]: Absolutely, Brian! Here's an example of SSML that uses the "say-as" rule to specify that a given string should be expressed as a date:
+
+```xml
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+  <voice name="en-US-AriaNeural">
+    Today's date is <say-as interpret-as="date">2022-10-15</say-as>.
+  </voice>
+</speak>
+```
+
+This SSML will pronounce the date "2022-10-15" as "October 15, 2022."
+
+[Brian]: That's really helpful! SSML seems to provide a lot of flexibility for customizing the synthesized speech. Is there anything else you'd like to add about SSML?
+
+[Emma]: Just one more thing, Brian. SSML also allows you to insert recorded speech or audio, which can be useful for including standard recorded messages or simulating background noise. It's a powerful tool for creating more dynamic and realistic synthesized speech.
+
+[Brian]: That's great to know, Emma! Thank you for sharing all these examples and insights about SSML. It's definitely a valuable tool for developers working with Azure AI Services. 
+
+[Emma]: You're welcome, Brian! I'm glad I could help. If you or the listeners have any more questions, feel free to reach out. Let's keep exploring and learning together!
+
+[Brian]: Absolutely, Emma! Thank you again for joining me today and sharing your expertise. And thank you to all our listeners for tuning in. Remember, there's always more to learn, so keep exploring and experimenting with Azure AI Services. Until next time!

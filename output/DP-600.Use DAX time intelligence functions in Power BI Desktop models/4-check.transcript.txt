@@ -1,0 +1,21 @@
+[Brian]: So Emma, we've been talking about implementing analytics solutions using Microsoft Fabric. I'm curious, can you explain to me what time intelligence is in the context of semantic model calculations?
+
+[Emma]: Time intelligence refers to the ability to perform complex calculations involving time in a semantic model. It allows you to analyze data based on different time periods, such as days, weeks, months, or years. For example, you can calculate year-to-date sales or compare sales between different quarters.
+
+[Brian]: Ah, I see. So it's all about analyzing data based on time. That makes sense. Now, when developing a semantic model in Power BI Desktop, what do we need to do to ensure that DAX time intelligence calculations work correctly?
+
+[Emma]: One important step is to mark the date table as a Date table. This can be done by selecting the date table in the model view and then clicking on the "Mark as Date table" button in the Modeling tab. This ensures that the table is recognized as the main date table in the model and that time intelligence functions work correctly with it.
+
+[Brian]: Got it. So marking the date table as a Date table is crucial. Now, let's say we have a table that stores account balance snapshots for each date, excluding weekends. We want to create a measure that only filters by a single date and, if there's no record on the last date of a time period, it should use the latest account balance. Which DAX time intelligence function should we use for this scenario?
+
+[Emma]: In this case, we should use the LASTNONBLANK function. This function returns the last non-blank value in a column, based on the current filter context. So, if there's no record on the last date of a time period, it will use the latest account balance available.
+
+[Brian]: That's helpful. The LASTNONBLANK function seems like the right choice for this scenario. Thanks for explaining that, Emma. 
+
+[Emma]: You're welcome, Brian. I'm glad I could help.
+
+[Brian]: Well, that wraps up our discussion on implementing analytics solutions using Microsoft Fabric. Thank you, Emma, for sharing your expertise with us today.
+
+[Emma]: Thank you, Brian. It was a pleasure being here and discussing this topic with you.
+
+[Brian]: And thank you to our listeners for tuning in. We hope you found this episode informative and valuable. Keep on learning and implementing those analytics solutions. Until next time!

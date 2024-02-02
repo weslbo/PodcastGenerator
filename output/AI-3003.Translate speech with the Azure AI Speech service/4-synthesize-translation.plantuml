@@ -1,0 +1,14 @@
+@startmindmap
+* Synthesize translations
+** TranslationRecognizer
+*** Translate spoken input to text
+** Event-based synthesis
+*** Specify desired voice
+*** Create event handler
+*** Retrieve byte stream of translated audio
+** Manual synthesis
+*** TranslationRecognizer
+**** Translate spoken input to text
+*** Iterate through Translations dictionary
+**** Use SpeechSynthesizer to synthesize audio stream
+@endmindmap

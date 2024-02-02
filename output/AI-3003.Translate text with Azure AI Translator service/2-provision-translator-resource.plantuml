@@ -1,0 +1,16 @@
+@startmindmap
+* Provision an Azure AI Translator resource
+** Azure AI Translator
+*** Language detection
+*** One-to-many translation
+*** Script transliteration
+** Azure resource for Azure AI Translator
+*** Provision a resource
+**** Single-service Azure AI Translator resource
+**** Multi-service Azure AI Services resource
+*** Use location and subscription keys
+**** Call Azure AI Translator APIs
+***** JSON requests
+***** REST interface
+***** Programming language-specific SDKs
+@endmindmap

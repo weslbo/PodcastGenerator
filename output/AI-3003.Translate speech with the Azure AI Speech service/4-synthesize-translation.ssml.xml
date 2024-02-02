@@ -1,0 +1,47 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've talked about how the TranslationRecognizer can translate spoken input into text transcriptions. But can it also synthesize the translation as speech?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! The TranslationRecognizer can also synthesize the translation as speech. There are two ways to accomplish this: event-based synthesis and manual synthesis.
+</voice>
+<voice name="en-US-BrianNeural">
+Interesting! Let's start with event-based synthesis. How does that work?
+</voice>
+<voice name="en-US-EmmaNeural">
+With event-based synthesis, you specify the desired voice for the translated speech in the TranslationConfig. Then, you create an event handler for the TranslationRecognizer object's Synthesizing event. In the event handler, you can use the GetAudio method of the Result parameter to retrieve the byte stream of the translated audio.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. Can you give me an example of how this would be implemented?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure! Let's say you want to translate from English to French. You would set the desired voice for French in the TranslationConfig. Then, in the event handler for the Synthesizing event, you can use the GetAudio method to get the translated audio in French. You can then play or save this audio as needed.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Now, what about manual synthesis? How does that differ from event-based synthesis?
+</voice>
+<voice name="en-US-EmmaNeural">
+Manual synthesis is an alternative approach that doesn't require you to implement an event handler. With manual synthesis, you use a TranslationRecognizer to translate spoken input into text transcriptions in one or more target languages. Then, you iterate through the Translations dictionary in the result and use a SpeechSynthesizer to synthesize an audio stream for each language.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So with manual synthesis, you're essentially combining the translation and synthesis operations separately.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly! You can translate the spoken input into text transcriptions and then synthesize audio for each target language using a SpeechSynthesizer.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. It's great to know that the TranslationRecognizer can not only translate speech to text, but also synthesize the translation as speech.
+</voice>
+<voice name="en-US-EmmaNeural">
+I'm glad I could help, Brian. The TranslationRecognizer is a powerful tool for speech-to-speech translation solutions.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma, for sharing your expertise on this topic. It's been a pleasure talking to you.
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm always happy to share my knowledge. And thank you to our listeners for tuning in. Keep exploring and learning about Azure AI Services!
+</voice>
+<voice name="en-US-BrianNeural">
+That's right! Keep on learning, everyone. Thank you for listening and see you next time on AI3003.
+</voice>
+</speak>

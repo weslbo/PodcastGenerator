@@ -1,0 +1,9 @@
+@startmindmap
+* Understand pipelines
+** Core pipeline concepts
+*** Activities
+**** Data transformation activities
+**** Control flow activities
+*** Parameters
+*** Pipeline runs
+@endmindmap

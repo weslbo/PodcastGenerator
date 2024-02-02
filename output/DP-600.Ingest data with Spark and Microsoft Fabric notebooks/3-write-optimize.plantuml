@@ -1,0 +1,12 @@
+@startmindmap
+* Write data into a lakehouse
+** Write to a file
+*** Lakehouses support structured, semi-structured, and unstructured files
+*** Load as a parquet file or Delta table
+**** Parquet is the preferred format
+** Write to a Delta table
+*** Easily ingest and load external data
+** Optimize Delta table writes
+*** V-Order enables faster and more efficient reads
+*** Optimize write improves performance and reliability
+@endmindmap

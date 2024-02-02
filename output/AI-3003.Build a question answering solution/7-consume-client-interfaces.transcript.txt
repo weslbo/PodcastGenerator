@@ -1,0 +1,19 @@
+[Brian]: So Emma, to consume the published knowledge base, we can use the REST interface, right?
+
+[Emma]: Yes, that's correct, Brian. The REST interface allows us to send a question to the knowledge base and receive a response with the closest question match, the associated answer, confidence score, and other metadata.
+
+[Brian]: That's great! Could you give me an example of how we can use the REST interface to send a question?
+
+[Emma]: Of course, Brian. To send a question, we need to provide a minimal request body that includes the question itself. We can also specify additional parameters like the maximum number of answers to be returned, the score threshold for answers, and strict filters to limit the answers based on metadata.
+
+[Brian]: I see. So we can customize the response based on our requirements. Can you explain how the response is structured?
+
+[Emma]: Certainly, Brian. The response includes the closest question match that was found in the knowledge base. It also provides the associated answer, the confidence score, and other metadata about the question and answer pair.
+
+[Brian]: That's helpful. It seems like using the REST interface gives us a lot of flexibility in working with the knowledge base. Is there anything else we need to know about it?
+
+[Emma]: One important thing to note is that the REST interface allows us to integrate the knowledge base into our own applications or systems. This means we can leverage the knowledge base to provide accurate and relevant answers to user queries.
+
+[Brian]: That's fantastic! Being able to integrate the knowledge base into our applications will definitely enhance the user experience. Thank you for explaining how we can use the REST interface, Emma.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

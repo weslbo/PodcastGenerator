@@ -1,0 +1,12 @@
+@startmindmap
+* Improve question answering performance
+** Use active learning
+*** Create your question and answer pairs
+*** Review suggestions
+**** Accept all suggestions
+**** Reject all suggestions
+*** Add alternate question
+** Define synonyms
+*** Use REST API
+**** Submit synonyms in JSON format
+@endmindmap

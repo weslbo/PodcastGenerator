@@ -1,0 +1,1 @@
+[Brian]: So Andrew, when analyzing an image using Azure AI services, what are the different visual features that we can include in the analysis?

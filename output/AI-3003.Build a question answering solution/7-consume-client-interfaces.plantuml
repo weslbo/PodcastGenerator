@@ -1,0 +1,14 @@
+@startmindmap
+* Use a knowledge base
+** Consume the REST interface
+*** Send question to knowledge base
+*** Set maximum number of answers
+*** Set score threshold for answers
+*** Limit to specific metadata
+** Get response from knowledge base
+*** Closest question match
+*** Associated answer
+*** Confidence score
+*** Metadata about question and answer
+** Continue to next step
+@endmindmap

@@ -1,0 +1,20 @@
+@startmindmap
+* SQL query editor
+** Transact-SQL (T-SQL)
+*** Manipulate data in warehouse
+** Features
+*** IntelliSense
+*** Debugging
+** Launch a SQL query editor
+*** Select warehouse asset
+*** Connects automatically
+*** Multiple ways to create
+**** Home menu
+**** Queries node
+**** Query tab
+** Run queries and view results
+** Export results
+*** Download Excel file
+*** Save as view
+*** Save as table
+@endmindmap

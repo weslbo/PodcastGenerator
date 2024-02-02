@@ -1,0 +1,16 @@
+@startmindmap
+* Azure AI Vision service
+** OCR
+*** Extract text from images
+*** Photos of street signs and products
+*** Handwritten or unstructured documents
+** Machine learning models
+*** Train models for different use cases
+*** Access to advanced algorithms
+*** Process images and return data
+** SDKs and REST API
+*** Use Azure AI Vision service
+*** Read text from images
+** Application development
+*** Read printed and handwritten text
+@endmindmap

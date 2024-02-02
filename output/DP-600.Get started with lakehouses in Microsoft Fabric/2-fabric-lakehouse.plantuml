@@ -1,0 +1,36 @@
+@startmindmap
+* Lakehouse
+** SQL-based analytical capabilities
+*** Spark
+*** SQL engines
+** Schema-on-read format
+** ACID transactions
+*** Delta Lake formatted tables
+** Single location for data access
+** Scalable analytics solution
+*** Data consistency
+** Evaluate specific requirements
+* Microsoft Fabric lakehouses
+** Premium tier workspace
+** Load data from various sources
+*** Local files
+*** Databases
+*** APIs
+** Data ingestion automation
+*** Data Factory Pipelines
+*** Dataflows (Gen2)
+** Fabric shortcuts to external data sources
+** Lakehouse Explorer
+** Notebooks
+** Dataflows (Gen2)
+** Data transformation
+*** Power Query
+*** Data Factory Pipelines
+** Querying data using SQL
+** Machine learning models
+** Real-time analytics
+** Power BI reports
+** Data governance policies
+*** Data classification
+*** Access control
+@endmindmap

@@ -1,0 +1,22 @@
+@startmindmap
+* Design a deployment strategy
+** Consider the options
+*** Single asset - .pbix file
+*** ALM - separate environments
+**** Development
+**** Test
+**** Production
+** Power BI service deployment pipelines
+*** Separate workspaces for dev, test, and prod
+*** Compare feature for discrepancies
+** Combining source control and deployment pipelines
+*** Use deployment pipelines only
+*** Use OneDrive/SharePoint for source control
+*** Use Git for .bim files
+** Power BI service workspace planning
+*** Single workspace for dataset
+*** Separate workspace for reports
+** Continuous Integration/Continuous Delivery
+*** Automation from dev to prod
+*** Use Azure DevOps and XMLA endpoint
+@endmindmap

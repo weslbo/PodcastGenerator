@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I'm really intrigued by this concept of Microsoft Fabric and how it simplifies the process of implementing analytics solutions. Can you give me an example of how Fabric's OneLake architecture facilitates collaboration between data team members?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. With OneLake, data team members can collaborate on data projects without the need to move or copy data between different systems and teams. OneCopy, a key component of OneLake, allows users to read data from a single copy without duplication. It's like having OneDrive for data, where storage locations across different regions and clouds are combined into a single logical lake. This saves time and eliminates the hassle of data movement.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really convenient. So, does OneLake support different data formats?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. OneLake is built on top of Azure Data Lake Storage (ADLS), and it supports various data formats such as Delta, Parquet, CSV, JSON, and more. All the compute engines in Fabric automatically store their data in OneLake, and the analytical engines write data in delta-parquet format. This seamless interaction with different formats ensures compatibility and flexibility in data processing.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to hear. Now, let's talk about Fabric's experiences. Can you give me a brief overview of the different analytics experiences that Fabric offers?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Fabric offers a range of analytics experiences that work together seamlessly. These include Synapse Data Engineering for data transformation at scale using Spark, Synapse Data Warehouse for industry-leading SQL performance and scale, Synapse Data Science for model training and execution tracking, Synapse Real-Time Analytics for querying and analyzing large volumes of data in real-time, Data Factory for data integration and transformation, and Power BI for business intelligence.
+</voice>
+<voice name="en-US-BrianNeural">
+Wow, that's quite a comprehensive set of experiences. Now, let's touch on security and governance. How does Fabric ensure data security and governance?
+</voice>
+<voice name="en-US-EmmaNeural">
+Fabric's OneLake is centrally governed and provides a secure and discoverable environment for data. It allows data to be secured and governed in one place while remaining accessible to authorized users across the organization. The admin center is where Fabric administration is centralized, allowing users to manage groups and permissions, configure data sources and gateways, and monitor usage and performance. Additionally, Fabric is natively integrated with Microsoft Purview Information Protection, which helps classify and protect sensitive data throughout the data lifecycle.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really impressive, Emma. It seems like Fabric offers a complete solution for implementing analytics solutions. Thank you for sharing all this valuable information with us.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It was my pleasure to discuss Microsoft Fabric and its capabilities with you. If you have any more questions, feel free to ask.
+</voice>
+</speak>

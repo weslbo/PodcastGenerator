@@ -1,0 +1,56 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've talked about creating and testing a knowledge base. Now, how can we improve the performance of our question answering system?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian! One way to improve the performance is by using active learning. Active learning allows us to consider alternate questions for each question and answer pair, which can be really helpful when users ask similar questions in different ways.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds interesting, Emma. How do we use active learning?
+</voice>
+<voice name="en-US-EmmaNeural">
+To use active learning, we first need to create question and answer pairs in Language Studio for our project. We can also import a file with question and answer pairs if we have them in bulk.
+</voice>
+<voice name="en-US-BrianNeural">
+That's convenient. And then what?
+</voice>
+<voice name="en-US-EmmaNeural">
+Once we have our question and answer pairs, active learning will start offering alternate questions for each question. We can access these suggestions from the "Review suggestions" pane.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So we review the suggestions and then accept or reject them?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. We can review the alternate phrases suggested for each question and then select the checkmark to accept or the delete symbol to reject. We can also bulk accept or reject suggestions using the "Accept all suggestions" or "Reject all suggestions" option.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a handy feature. Can we also manually add alternate questions?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! In the "Edit knowledge base" pane, we can select "Add alternate question" for a question and answer pair to manually add alternate questions.
+</voice>
+<voice name="en-US-BrianNeural">
+That gives us even more control. Now, what about synonyms? How can they help improve the question answering system?
+</voice>
+<voice name="en-US-EmmaNeural">
+Synonyms are really useful when users might use different words to mean the same thing. For example, if a travel agency customer refers to a "reservation" or a "booking", we can define these as synonyms. This way, the question answering service can find the appropriate answer regardless of the term used.
+</voice>
+<voice name="en-US-BrianNeural">
+I see the value in that. How do we define synonyms?
+</voice>
+<voice name="en-US-EmmaNeural">
+We can use the REST API to submit synonyms in a JSON format. This allows us to specify the different words that have the same meaning.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great, Emma. Thanks for explaining how we can improve the performance of our question answering system with active learning and synonyms.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It's always a pleasure to share knowledge. And to our listeners, keep exploring and learning about Azure AI Services!
+</voice>
+<voice name="en-US-BrianNeural">
+Absolutely! Thank you, Emma, for being our guest today. And thank you to our listeners for tuning in. Keep on learning and see you next time on AI3003!
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. It was my pleasure. And thank you to all our listeners. Remember, the world of AI is full of possibilities. Keep exploring and have a great day!
+</voice>
+</speak>

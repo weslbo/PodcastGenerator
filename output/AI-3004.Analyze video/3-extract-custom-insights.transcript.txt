@@ -1,0 +1,23 @@
+[Brian]: So Andrew, I've been hearing a lot about Azure AI services and how they can be used to build AI vision solutions. Can you tell me more about how we can extract custom insights using Azure Video Indexer?
+
+[Andrew]: Absolutely, Brian. Azure Video Indexer provides predefined models that can recognize well-known celebrities, perform OCR, and transcribe spoken phrases into text. But you can also extend its capabilities by creating custom models.
+
+[Brian]: That's interesting. Can you give me an example of how we can use custom models to recognize people in videos?
+
+[Andrew]: Sure, Brian. Let's say you have a large collection of videos and you want to be able to recognize specific people in those videos. You can add images of the faces of those people and train a custom model using Azure Video Indexer. Once trained, the model will be able to recognize those people in all of your videos.
+
+[Brian]: That's really powerful. So, just to clarify, this feature is only available after getting Limited Access approval, right?
+
+[Andrew]: Yes, that's correct, Brian. The ability to recognize people in videos using custom models is only available after getting Limited Access approval and adhering to the Responsible AI standard.
+
+[Brian]: Got it. Now, what about training custom models to detect and transcribe specific language or terminology?
+
+[Andrew]: Great question, Brian. If your organization uses specific terminology that may not be in common usage, you can train a custom model using Azure Video Indexer to detect and transcribe that language. This allows you to accurately capture and analyze content that is specific to your business.
+
+[Brian]: That's really useful, especially for industries with specialized jargon. Now, can we also train custom models to recognize specific brand names?
+
+[Andrew]: Absolutely, Brian. You can train a custom model using Azure Video Indexer to recognize specific names as brands. This can be useful for identifying products, projects, or companies that are relevant to your business. It allows you to gain insights into the presence and impact of these brands in your videos.
+
+[Brian]: That's fantastic. Being able to extract custom insights from videos using Azure Video Indexer seems like a game-changer. Thanks for explaining it, Andrew.
+
+[Andrew]: You're welcome, Brian. It's my pleasure to share this information with you. If you have any more questions, feel free to ask.

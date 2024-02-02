@@ -1,0 +1,16 @@
+@startmindmap
+* Microsoft Fabric Data Warehouse
+** Data, analytics, and AI
+** Storing, organizing, managing data
+** Powered by Synapse Analytics
+*** Advanced query processing capabilities
+*** Full transactional T-SQL capabilities
+** Querying a data warehouse
+*** Extraction and manipulation of data
+*** Extract valuable insights
+** Star schema design
+*** Fact tables
+**** Measurable, quantitative data
+*** Dimension tables
+**** Descriptive attributes
+@endmindmap

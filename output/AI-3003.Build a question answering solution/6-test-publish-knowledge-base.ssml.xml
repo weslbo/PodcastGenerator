@@ -1,0 +1,14 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, once we have defined a knowledge base and trained its natural language model, how can we test it before publishing it for use in an application or bot?
+</voice>
+<voice name="en-US-EmmaNeural">
+You can test your knowledge base interactively in Language Studio, submitting questions and reviewing the answers that are returned. You can inspect the results to view their confidence scores as well as other potential answers.
+</voice>
+<voice name="en-US-BrianNeural">
+Oh, I see. And what do you do after you've tested the knowledge base?
+</voice>
+<voice name="en-US-EmmaNeural">
+When you are happy with the performance of your knowledge base, you can deploy it to a REST endpoint that client applications can use to submit questions and receive answers. You can deploy it directly from Language Studio.
+</voice>
+</speak>

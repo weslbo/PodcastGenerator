@@ -1,0 +1,13 @@
+@startmindmap
+* Create delta tables
+** Creating a delta table from a dataframe
+*** Save dataframe as delta table
+** Managed vs external tables
+*** Create managed table
+*** Create external table
+** Creating table metadata
+*** Use DeltaTableBuilder API
+*** Use Spark SQL
+** Saving data in delta format
+*** Save dataframe as delta
+@endmindmap

@@ -1,0 +1,15 @@
+@startmindmap
+* Entity Linking
+** Limit same name ambiguity
+*** Venus (planet)
+*** Venus (mythology)
+** Use knowledge base
+*** Wikipedia
+** Determine article links
+** Submit documents for analysis
+** Response includes identified entities
+*** Entities
+*** Associated articles
+**** Venus (planet) - <https://en.wikipedia.org/wiki/Venus>
+**** Venus (mythology) - <https://en.wikipedia.org/wiki/Venus_(mythology)>
+@endmindmap

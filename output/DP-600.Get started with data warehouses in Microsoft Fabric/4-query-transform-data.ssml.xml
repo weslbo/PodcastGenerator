@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we have our data warehouse set up in Fabric, how can we query and transform the data for analytics purposes?
+</voice>
+<voice name="en-US-EmmaNeural">
+There are two ways to query data from your data warehouse in Fabric. The first option is to use the SQL query editor, which provides a familiar T-SQL query experience with features like intellisense, code completion, and syntax highlighting. You can create tables, views, and stored procedures using this editor.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds great! Can you give me an example of how we can use the SQL query editor?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure! Let's say we want to create a new view for analysts to use in Power BI reporting. We can use the SQL query editor to write a T-SQL query that creates the view. Here's an example:
+</voice>
+<voice name="en-US-BrianNeural">
+![Screenshot of the SQL Query Editor displaying a T-SQL query creating a view.](../../wwl/get-started-data-warehouse/media/create-view.png)
+</voice>
+<voice name="en-US-EmmaNeural">
+That looks straightforward. What about the second option for querying data?
+</voice>
+<voice name="en-US-BrianNeural">
+The second option is the Visual query editor. It provides a drag-and-drop experience similar to the Power Query online diagram view. You can create a new query by clicking on the "New visual query" button. From there, you can drag tables from your data warehouse onto the canvas and use the Transform menu to add columns, filters, and other transformations to your query.
+</voice>
+<voice name="en-US-EmmaNeural">
+That's interesting. Can you show me an example of how the Visual query editor looks like?
+</voice>
+<voice name="en-US-BrianNeural">
+Absolutely! Here's a screenshot of the Visual Query Editor:
+</voice>
+<voice name="en-US-EmmaNeural">
+![Screenshot of the Visual Query Editor.](../../wwl/get-started-data-warehouse/media/visual-query.png)
+</voice>
+<voice name="en-US-BrianNeural">
+Wow, that looks user-friendly. So, with the Visual query editor, we can easily perform transformations on our data without writing complex queries, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly! The Visual query editor simplifies the process of adding columns, filters, and other transformations to your query. It's a great option for users who prefer a more visual and intuitive approach to querying and transforming data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic! And can we connect to the SQL analytics endpoint from any tool?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, you can connect to the SQL analytics endpoint from any tool that supports SQL connections. This allows you to query and analyze your data using your preferred tools and workflows.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really convenient. Thank you for explaining the different ways we can query and transform data in Fabric, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

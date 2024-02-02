@@ -1,0 +1,17 @@
+@startmindmap
+* DAX Relationship Functions
+** RELATED
+*** Retrieves value from "one" side
+** RELATEDTABLE
+*** Retrieves table from "many" side
+** USERELATIONSHIP
+*** Forces use of specific inactive relationship
+** CROSSFILTER
+*** Modifies relationship cross filter direction
+** COMBINEVALUES
+*** Joins text strings into one
+** TREATAS
+*** Applies table expression as filters
+** Parent and child functions
+*** Generate calculated columns for parent-child hierarchy
+@endmindmap

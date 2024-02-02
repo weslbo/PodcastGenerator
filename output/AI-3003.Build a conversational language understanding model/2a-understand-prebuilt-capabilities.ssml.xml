@@ -1,0 +1,47 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about the pre-configured features of the Azure AI Language service. It seems like there are quite a few useful capabilities. Can you tell me more about the summarization feature?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. The summarization feature in the Azure AI Language service allows you to summarize both documents and conversations. It takes the input text and generates key sentences that capture the main meaning of the text.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really helpful, Emma. Can you give me an example of how summarization can be used in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Let's say you have a long article or a lengthy conversation that you want to quickly understand. You can use the summarization feature to extract the most important sentences that convey the main points. This can be useful for quickly reviewing documents or getting a summary of a lengthy conversation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great, Emma. Another feature that caught my attention is named entity recognition. Can you explain how it works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Named entity recognition is a feature that can extract and identify entities such as people, places, or companies from a given text. It helps your application recognize different types of entities, which can improve natural language responses. For example, if you have a sentence like "I live in Seattle", the named entity recognition feature can identify "Seattle" as a location.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really interesting, Emma. I can see how that can be useful in various applications. Now, what about personally identifiable information (PII) detection? How does that work?
+</voice>
+<voice name="en-US-EmmaNeural">
+PII detection is a feature that allows you to identify and categorize sensitive information in a text, such as email addresses, home addresses, IP addresses, names, and protected health information. It helps you ensure that sensitive information is handled appropriately. For example, if an email address like "email@contoso.com" is included in the text, the PII detection feature can identify and redact the entire email address.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great feature for maintaining data privacy, Emma. Another capability that caught my attention is key phrase extraction. Can you explain how it works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. Key phrase extraction is a feature that quickly identifies the main concepts or key phrases in a given text. It helps you extract the most important information from the text. For example, if you have a sentence like "Text Analytics is one of the features in Azure AI Services", the key phrase extraction feature can extract "Azure AI Services" and "Text Analytics" as the key phrases.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful, Emma. I can see how it can save a lot of time in analyzing large amounts of text. Now, let's talk about sentiment analysis. How does that work?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sentiment analysis is a feature that identifies the sentiment or the positivity/negativity of a given string or document. It helps you understand the overall sentiment expressed in the text. For example, if you have a sentence like "Great hotel. Close to plenty of food and attractions we could walk to", the sentiment analysis feature can identify it as positive with a relatively high confidence score.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fascinating, Emma. Finally, I'm curious about the language detection feature. How does it determine the language of a document?
+</voice>
+<voice name="en-US-EmmaNeural">
+Language detection takes one or more documents as input and identifies the language of each document. It helps you understand the language used in the text. For example, if you have a document with the word "Bonjour", the language detection feature can identify it as French.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really impressive, Emma. The Azure AI Language service seems to offer a wide range of powerful features for understanding human language. I'm excited to explore them further.
+</voice>
+</speak>

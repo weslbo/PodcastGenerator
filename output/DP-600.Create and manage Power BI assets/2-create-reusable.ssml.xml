@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've talked about creating reusable core assets in Power BI. Can you explain how we can create specialized datasets?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. When creating specialized datasets, you can open a new Power BI Desktop instance and connect to the core dataset. This allows you to filter and visualize the data without making any changes to the model. However, if you need to make changes, such as adding a regional data source, you'll need to enable the preview feature called Direct-query datasets.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So with Direct-query datasets enabled, we can extend the model and add more connections. That's helpful. Can you show me an example of how this looks in Power BI Desktop?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Once you enable Direct-query, you'll see a notice in Power BI Desktop that a DirectQuery connection is required to make changes to the model. From there, you can add additional tables and relationships to the core dataset.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So we can have the core dataset and then expand it with more tables from other data sources. I can see how this would be useful for creating specialized datasets.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. It allows you to create targeted datasets for specific regions or purposes without duplicating the entire core dataset.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. Now, let's talk about promoting and certifying datasets. How can we let people know about the core dataset and ensure its quality?
+</voice>
+<voice name="en-US-EmmaNeural">
+To promote and certify datasets, you need to navigate to the workspace and open the settings for the content. Then, expand the "Endorsement and discovery" section and select either "Promoted" or "Certified". Promoting content highlights its value, while certification is a more rigorous process that requires administrator approval.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So promoting content is a way to highlight its value, and certification is a more formal process. Can you explain how certification works in more detail?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. Certification requires a Power BI administrator to enable certification and specify the criteria for certifying content. They also identify reviewers who can certify the content. If you have the necessary permissions, you can follow the steps to certification. Otherwise, you may be granted direct certification permissions.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So there's a process in place to ensure that certified content meets certain standards. It's good to know that there's a way to maintain quality in Power BI.
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Certification helps users find high-quality content they can trust. It's an important aspect of data stewardship in Power BI.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma. That was a great explanation of creating specialized datasets and promoting and certifying content in Power BI. I appreciate your insights.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

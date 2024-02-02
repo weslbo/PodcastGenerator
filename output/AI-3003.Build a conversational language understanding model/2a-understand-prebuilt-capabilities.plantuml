@@ -1,0 +1,15 @@
+@startmindmap
+* Azure AI Language service
+** Pre-configured features
+*** Summarization
+*** Named entity recognition
+*** Personally identifiable information (PII) detection
+*** Key phrase extraction
+*** Sentiment analysis
+*** Language detection
+** Learned features
+*** Conversational language understanding (CLU)
+*** Custom named entity recognition
+*** Custom text classification
+*** Question answering
+@endmindmap

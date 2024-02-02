@@ -1,0 +1,18 @@
+@startmindmap
+* Calculation Groups
+** Understand calculation groups
+*** Reduce number of measures
+*** Group common measure expressions
+*** Automate repetitive patterns
+** How to create calculation groups
+*** Use Tabular Editor 2.x
+*** Manipulate and manage measures
+*** Not supported in Power BI Desktop
+** Benefits of using calculation groups
+*** Reduce number of measures
+*** Enable creative report features
+*** Switch measures using slicer
+** Limitations of using calculation groups
+*** Implicit measures not supported
+*** Need to create explicit measures
+@endmindmap

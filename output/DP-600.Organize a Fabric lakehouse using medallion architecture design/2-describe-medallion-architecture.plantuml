@@ -1,0 +1,19 @@
+@startmindmap
+* Medallion Architecture
+** Data Lakehouses
+*** Delta Lake format
+*** ACID transactions
+** Medallion Architecture
+*** Bronze layer
+*** Silver layer
+*** Gold layer
+** Customize architecture
+*** Additional layers
+*** Tailored to requirements
+** Move data across layers
+*** Data transformation
+**** Dataflows
+**** Notebooks
+*** Data orchestration
+**** Pipelines
+@endmindmap

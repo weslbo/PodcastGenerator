@@ -1,0 +1,13 @@
+@startmindmap
+* Configure audio format and voices
+** Audio format
+*** SpeechConfig
+**** SetSpeechSynthesisOutputFormat
+*** SpeechSynthesisOutputFormat
+**** Supported formats
+** Voices
+*** SpeechConfig
+**** SpeechSynthesisVoiceName
+*** Standard voices
+*** Neural voices
+@endmindmap

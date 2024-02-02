@@ -1,0 +1,20 @@
+@startmindmap
+* Translate speech to text
+** SpeechTranslationConfig
+*** Location
+*** Key
+** Speech recognition language
+** Target languages
+** AudioConfig
+*** Input source
+** TranslationRecognizer
+*** RecognizeOnceAsync method
+** SpeechRecognitionResult
+*** Duration
+*** OffsetInTicks
+*** Properties
+*** Reason
+*** ResultId
+*** Text
+*** Translations
+@endmindmap

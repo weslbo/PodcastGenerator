@@ -1,0 +1,13 @@
+@startmindmap
+* Train and evaluate your model
+** View model details
+*** Scoring
+**** Precision
+**** Recall
+**** F1 score
+** How to interpret metrics
+*** Precision and recall
+*** Low precision, high recall
+*** High precision, low recall
+** Confusion matrix
+@endmindmap

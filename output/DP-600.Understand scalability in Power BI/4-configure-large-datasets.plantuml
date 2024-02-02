@@ -1,0 +1,37 @@
+@startmindmap
+* Configure large datasets
+** Power BI datasets
+*** Highly compressed, in-memory cache
+*** Optimized query performance
+** Power BI Premium
+*** Enterprise deployment
+*** Large dataset storage format
+**** Limited by capacity size
+**** Maximum size set by administrator
+*** Datasets limited to 10 GB
+**** After compression
+** Azure Analysis Services
+*** Comparable data model size limitations
+** Consolidation of tabular models
+*** SQL Server Analysis Services
+*** Azure Analysis Services
+*** Power BI Premium
+** Large dataset storage format
+*** Fast user interactivity
+*** Data growth beyond 10-GB limit
+*** Improved xmla write operation performance
+** .pbix download limitations
+*** Datasets enabled for large models
+*** Can't be downloaded as .pbix file
+*** Read more about limitations
+* Enable large dataset storage format
+** Enable for single dataset
+*** Toggle slider to on
+*** Select Apply
+** Enable for all datasets in workspace
+*** Set default storage format
+**** Select Premium in workspace settings
+**** Select Large dataset storage format as Default storage format
+** Enable using PowerShell
+** Configure large datasets
+@endmindmap

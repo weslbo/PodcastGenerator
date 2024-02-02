@@ -1,0 +1,22 @@
+@startmindmap
+* Label your data
+** Consistency
+** Precision
+** Completeness
+* How to label your data
+** Language Studio
+*** File
+*** Entity
+*** JSON file
+**** Labeled documents
+**** Path to file
+**** Language
+**** Present entities
+**** Start position
+**** Length
+**** Entity name
+**** Labeled entities
+**** Start position
+**** Length
+**** Dataset
+@endmindmap

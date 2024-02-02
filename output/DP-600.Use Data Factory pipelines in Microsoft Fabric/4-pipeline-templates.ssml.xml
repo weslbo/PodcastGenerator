@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been exploring Microsoft Fabric and I came across the concept of pipeline templates. Can you tell me more about how we can use them to implement analytics solutions?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Pipeline templates in Microsoft Fabric are pre-defined pipeline configurations that we can use as a starting point for creating our own custom data ingestion and transformation processes. They provide a convenient way to quickly set up pipelines for common scenarios.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really helpful. How do we create a pipeline based on a template?
+</voice>
+<voice name="en-US-EmmaNeural">
+To create a pipeline based on a template, you can start by selecting the "Choose a task to start" tile in a new pipeline. This will give you a list of pipeline templates to choose from.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So we have a selection of templates to choose from. Can you give me an example of a pipeline template?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. One example is the "Copy data from on-premises SQL Server to Azure Blob Storage" template. This template is useful when you want to copy data from an on-premises SQL Server database to Azure Blob Storage.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So we can use this template as a starting point and then customize it to fit our specific needs?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. Once you select a template, you can edit the pipeline in the pipeline canvas to customize it according to your requirements. You can add or remove activities, configure data sources and destinations, and define transformations as needed.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. It seems like using pipeline templates can save us a lot of time and effort in setting up our analytics solutions.
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Pipeline templates provide a convenient starting point and help streamline the process of creating pipelines for common scenarios. They allow us to quickly get started and then customize the pipeline to meet our specific needs.
+</voice>
+<voice name="en-US-BrianNeural">
+I can definitely see the value in that. Thanks for explaining pipeline templates, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. If you have any more questions, feel free to ask.
+</voice>
+</speak>

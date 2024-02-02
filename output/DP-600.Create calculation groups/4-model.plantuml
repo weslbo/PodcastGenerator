@@ -1,0 +1,12 @@
+@startmindmap
+* Create calculation groups in a model
+** Install Tabular Editor
+*** Download Tabular Editor 2.x
+*** Access from external tools tab
+** Create calculation group and items
+** Apply a calculation group
+*** Save changes in Tabular Editor
+*** Refresh calculation group query
+** Use calculation group in a visual
+*** Add calculation group to visual
+@endmindmap

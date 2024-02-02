@@ -1,0 +1,17 @@
+@startmindmap
+* Work with deployment pipelines
+** Deploy content to next stage
+*** Select deploy button
+*** Review last deployment time
+** Compare stages
+*** Comparison icon indicator
+**** Two states: different metadata or identical content
+*** Link to Compare view
+**** Shows changes or differences between items
+** Deployment rules enable customization
+*** Configure rules for different stages
+*** Inherit values from deployment rules
+** Collaborate with others - permissions
+*** Pipeline access and workspace member permissions required
+*** Ownership of deployed items may change
+@endmindmap

@@ -1,0 +1,19 @@
+[Brian]: Emma, when it comes to implementing analytics solutions using Microsoft Fabric, what are some best practices for data modeling in Power BI?
+
+[Emma]: Brian, there are several best practices to keep in mind when it comes to data modeling in Power BI. One important principle is to do as much data preparation work as possible before the data reaches Power BI. This means transforming the data in the data warehouse or at the source to ensure consistency and reduce the need for extra processing in Power BI.
+
+[Brian]: That makes sense, Emma. So, what are some best practices specifically for import mode in Power BI?
+
+[Emma]: In import mode, it's important to only bring in the data you need. This means removing unnecessary rows and columns and only processing what is absolutely necessary based on the business requirements. It's also recommended to avoid wide tables and use a star schema in Power BI. Pre-aggregating data before loading it to the model can also improve performance. Additionally, reducing the usage of calculated columns and avoiding high cardinality columns are good practices.
+
+[Brian]: Got it, Emma. And what about best practices for DirectQuery mode?
+
+[Emma]: In DirectQuery mode, it's important to set relationships to enforce integrity using the "Assume referential integrity" property. Limiting the use of bi-directional filters on relationships and keeping the complexity of DAX calculations in check is also recommended. Avoiding the use of calculated columns and relationships on calculated columns or unique identifier columns is important for performance. Finally, using dual storage mode for dimensions related to fact tables in DirectQuery can be beneficial.
+
+[Brian]: Thank you, Emma. These best practices will definitely help our listeners in implementing data modeling in Power BI. Is there any other tool or resource you would recommend for improving model design and performance?
+
+[Emma]: Absolutely, Brian. The Best Practice Analyzer within Tabular Editor is a great tool that can help you identify modeling missteps and suggest changes to improve model design and performance. It's a valuable resource for anyone working with tabular models in Power BI.
+
+[Brian]: That's great to know, Emma. I'm sure our listeners will find that tool very helpful. Thank you for sharing these best practices and insights on data modeling in Power BI.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

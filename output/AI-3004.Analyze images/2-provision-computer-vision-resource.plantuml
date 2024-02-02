@@ -1,0 +1,12 @@
+@startmindmap
+* Azure AI Vision
+** Description and tag generation
+** Object detection
+** People detection
+** Image metadata, color, and type analysis
+** Category identification
+** Background removal
+** Moderation rating
+** Optical character recognition
+** Smart thumbnail generation
+@endmindmap

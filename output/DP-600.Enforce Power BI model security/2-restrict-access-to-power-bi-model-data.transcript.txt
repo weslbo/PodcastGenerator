@@ -1,0 +1,31 @@
+[Brian]: So Emma, I've been reading about implementing analytics solutions using Microsoft Fabric, and I came across the concept of row-level security (RLS). Can you explain how RLS works in Power BI?
+
+[Emma]: Sure, Brian. In Power BI, RLS allows you to restrict access to data at the row level based on certain rules. As a data modeler, you can create roles with unique names and define rules using Data Analysis Expressions (DAX) filter expressions. These rules enforce filters on model tables, ensuring that users only have access to the data they are allowed to see.
+
+[Brian]: That sounds interesting. Can you give me an example of how RLS restricts access to data?
+
+[Emma]: Of course. Let's say we have two users, User A and User B. User A has access to data for the United States, while User B has access to data for Canada. By setting up RLS rules, we can ensure that User A can only see the data for the United States and User B can only see the data for Canada. This way, each user only sees the data that is relevant to them.
+
+[Brian]: That makes sense. So, how do we set up these roles and rules in Power BI?
+
+[Emma]: You can create, validate, and manage roles directly in Power BI Desktop. You can also use SQL Server Data Tools (SSDT) for Azure Analysis Services or SQL Server Analysis Services models. Additionally, you can use SQL Server Management Studio (SSMS) or third-party tools like Tabular Editor. It's important to test and validate the roles to ensure they apply the correct filters.
+
+[Brian]: Got it. Is there a recommended design principle for the data model when implementing RLS?
+
+[Emma]: Yes, we recommend applying star schema design principles. This involves creating a model with dimension and fact tables. By setting up Power BI to enforce rules that filter dimension tables, the model relationships can efficiently propagate those filters to fact tables. This ensures that the filters are applied consistently throughout the model.
+
+[Brian]: That's helpful. Can you explain the difference between static and dynamic rules in RLS?
+
+[Emma]: Certainly. Static rules use DAX expressions that refer to constants. For example, you can create a static rule that restricts access to a specific region or a specific table. On the other hand, dynamic rules use DAX functions that return environmental values, such as the authenticated user or custom data passed in the connection string. Dynamic rules are useful when you have a model table that stores username values and you want to enforce data-driven RLS.
+
+[Brian]: I see. And how do we set up role mappings in Power BI?
+
+[Emma]: Role mappings involve assigning Microsoft Azure security objects, such as user accounts or security groups, to roles. It's a good practice to map roles to security groups whenever possible, as it simplifies the management of group membership. In Power BI Desktop, you can set up role mappings in the Power BI service. For Azure Analysis Services or SQL Server Analysis Services models, role mapping is typically done in SSMS.
+
+[Brian]: Great. One last question, Emma. Can we use single sign-on (SSO) for DirectQuery sources in Power BI?
+
+[Emma]: Yes, if your data model has DirectQuery tables and the data source supports SSO, you can enable SSO to enforce data permissions. This means that the database enforces RLS and Power BI datasets and reports honor the data source security. It's important to note that calculated tables and calculated columns that reference a DirectQuery table from a data source with SSO authentication are not supported in the Power BI service.
+
+[Brian]: That's good to know. Thanks for explaining all of this, Emma. It's been really helpful in understanding how to implement RLS in Power BI.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

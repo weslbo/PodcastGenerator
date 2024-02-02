@@ -1,0 +1,11 @@
+@startmindmap
+* Power BI
+** Data Warehouse
+*** Single source
+*** Large data model
+** Chained datasets
+*** Core dataset
+*** Specialized datasets
+** Lineage view
+** XMLA endpoint
+@endmindmap

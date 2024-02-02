@@ -1,0 +1,5 @@
+[Brian]: Welcome to the AI3003 podcast, where we explore the world of artificial intelligence and its applications. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we dive in, let me introduce our guest for today. Joining us is Emma, an expert in natural language processing solutions with Azure AI Services. Welcome, Emma!
+
+[Emma]: Thank you, Brian. I'm thrilled to be here and share my knowledge about developing natural language processing solutions with Azure AI Services.
+
+[Brian]: Great to have you here, Emma. Today, we're going to talk about how Azure AI Services can help us develop natural language processing solutions. This is a fascinating topic that has the potential to revolutionize the way we interact with technology. So, let's get started!

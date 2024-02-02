@@ -1,0 +1,24 @@
+@startmindmap
+* Azure AI Speech to Text API
+** Speech to text API
+*** Interactive speech recognition
+*** Batch transcription
+** Speech to text Short Audio API
+*** Optimized for short audio streams
+* Azure AI Speech SDK
+** SpeechConfig object
+*** Encapsulates connection information
+** AudioConfig object
+*** Defines input source for audio
+** SpeechRecognizer object
+*** Proxy client for Speech to text API
+** RecognizeOnceAsync method
+*** Asynchronously transcribes spoken utterance
+** SpeechRecognitionResult object
+*** Duration
+*** OffsetInTicks
+*** Properties
+*** Reason
+*** ResultId
+*** Text
+@endmindmap

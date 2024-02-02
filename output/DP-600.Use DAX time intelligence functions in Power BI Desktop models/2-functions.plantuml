@@ -1,0 +1,21 @@
+@startmindmap
+* DAX time intelligence functions
+** Date table requirement
+*** date column
+*** unique values
+*** no BLANKs
+*** no missing dates
+*** span full years
+*** indicated as date table
+** Summarizations over time
+*** YTD
+*** QTD
+*** MTD
+*** date range
+*** intervals
+** Comparisons over time
+*** shift dates
+*** parallel period
+*** one year back
+*** helper functions
+@endmindmap

@@ -1,0 +1,15 @@
+@startmindmap
+* Use the Read API
+** ImageAnalysis function
+*** Image URL or binary data
+*** Gender neutral caption
+*** Language of the text
+** Analysis features
+** C#
+** Python
+** REST API
+** Read OCR function
+*** JSON or language specific object
+*** Page, words, lines
+*** Text values at line and word levels
+@endmindmap

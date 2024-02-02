@@ -1,0 +1,14 @@
+@startmindmap
+* Use Speech Synthesis Markup Language
+** Azure AI Speech SDK
+*** SpeakTextAsync()
+*** SpeakSsmlAsync()
+** Speech Synthesis Markup Language (SSML)
+*** Speaking style
+*** Pauses or silence
+*** Phonemes
+*** Prosody
+*** "Say-as" rules
+*** Recorded speech or audio
+** Azure AI Speech SDK documentation
+@endmindmap

@@ -1,0 +1,15 @@
+@startmindmap
+* Create reusable Power BI assets
+** Create reusable core assets
+*** Share and reuse datasets
+*** Connect to shared dataset
+*** Prevent orphaned datasets
+** Create specialized datasets
+*** Reduce report size
+*** Provide targeted reports
+*** Enable DirectQuery connection
+** Promote and certify datasets
+*** Endorsement and discovery options
+*** Promote valuable content
+*** Certification process
+@endmindmap

@@ -1,0 +1,29 @@
+@startmindmap
+* Work with data in a Spark dataframe
+** Natively, Spark uses RDD
+*** Dataframe is commonly used
+*** Spark SQL library provides dataframe
+*** Dataframes are optimized for distributed processing
+** Loading data into a dataframe
+*** Example: products.csv in Files/data folder
+*** Inferring a schema
+**** PySpark code to load data
+**** First 10 rows displayed
+*** Specifying an explicit schema
+**** Example: product-data.csv
+**** Schema specified for dataframe
+** Filtering and grouping dataframes
+*** Methods to manipulate data
+*** Example: select method
+*** Example: chaining methods
+*** Example: groupBy method
+** Saving a dataframe
+*** Transforming and saving data
+*** Example: saving as parquet file
+** Partitioning the output file
+*** Optimization technique for performance
+*** Example: partitionBy method
+** Load partitioned data
+*** Reading partitioned data into dataframe
+*** Example: loading Road Bikes category
+@endmindmap

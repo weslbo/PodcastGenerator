@@ -1,0 +1,35 @@
+@startmindmap
+* Detect language
+** Azure AI Language detection API
+*** Evaluates text input
+*** Returns language identifiers
+** Content stores
+*** Collect arbitrary text
+*** Unknown language
+** Chat bot
+*** Determine user's language
+*** Configure bot responses
+** Results analysis
+*** Determine language in document
+*** Confidence score
+** Document size limit
+*** 5,120 characters
+*** Per document
+** Collection limit
+*** 1,000 items (IDs)
+** JSON payload
+*** Documents
+*** ID
+*** Text
+*** Country hint
+** JSON response
+*** Result for each document
+*** Predicted language
+*** Confidence level
+** Multilingual content
+*** Largest representation language
+*** Lower positive rating
+** Ambiguity in language content
+*** Unknown language
+*** Score value
+@endmindmap

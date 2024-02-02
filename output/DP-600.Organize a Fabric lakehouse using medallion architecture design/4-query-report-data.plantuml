@@ -1,0 +1,10 @@
+@startmindmap
+* Query and report on data in your Fabric lakehouse
+** Query data in your lakehouse
+*** SQL analytics endpoints
+*** Direct Lake mode in Power BI semantic models
+** Tailor your medallion layers for different needs
+*** Customize layers for specific use cases
+*** Multiple Gold layers for diverse audiences
+*** Generate cleansed and formatted data
+@endmindmap

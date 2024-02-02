@@ -1,0 +1,53 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, we've talked about using Video Analyzer widgets and APIs in Azure Video Indexer. Can you explain a bit more about how these can be incorporated into custom applications?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. With Video Analyzer widgets, you can embed the same widgets used in the Azure Video Indexer portal into your own custom HTML interfaces. This allows you to play, analyze, and edit videos within your application. It's a great way to share specific video insights with others without giving them full access to your Video Indexer account.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. Can you give me an example of how someone might use these widgets in their application?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure! Let's say you have a custom video management system for a sports organization. You can embed the Video Analyzer widgets into your application to allow users to analyze game footage, track player performance, and even add custom tags or annotations to the videos. This way, coaches, players, and analysts can collaborate and gain insights without needing to access the Video Indexer portal directly.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great example, Andrew. Now, what about the Azure Video Indexer API? How does that come into play?
+</voice>
+<voice name="en-US-AndrewNeural">
+The Azure Video Indexer API provides a REST API that allows you to interact with your Video Indexer account programmatically. You can obtain an access token using the API, which you can then use to consume the REST API and automate various video indexing tasks. This includes creating projects, retrieving insights, and even creating or deleting custom models.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful. Can you give me an example of how someone might use the Video Indexer API in their application?
+</voice>
+<voice name="en-US-AndrewNeural">
+Of course! Let's say you have a media company that needs to process a large number of videos for content moderation. You can use the Video Indexer API to automate the process of submitting videos for moderation, retrieving the moderation results, and taking appropriate actions based on those results. This way, you can ensure that your content meets the required standards before publishing.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great use case, Andrew. Now, I've heard about deploying with ARM templates. Can you explain how that works?
+</voice>
+<voice name="en-US-AndrewNeural">
+Certainly, Brian. Azure Resource Manager (ARM) templates are available to create the Azure AI Video Indexer resource in your subscription. These templates allow you to define the desired configuration and parameters for the Video Indexer resource. By deploying the ARM template, you can easily provision the necessary resources and set up the Video Indexer service in your Azure subscription.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient. So, with the ARM template, you can quickly set up the Video Indexer resource without manually configuring everything?
+</voice>
+<voice name="en-US-AndrewNeural">
+Exactly, Brian. The ARM template simplifies the deployment process by automating the resource creation based on the specified parameters. It saves time and ensures consistency in setting up the Video Indexer service.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic, Andrew. Thanks for explaining all of this. Is there anything else you'd like to add before we wrap up?
+</voice>
+<voice name="en-US-AndrewNeural">
+Just one more thing, Brian. If anyone wants to explore the full list of available APIs and learn more about integrating with Video Indexer, they can visit the Video Indexer Developer Portal. It's a great resource for developers looking to leverage the power of Azure Video Indexer.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a valuable resource, Andrew. Thank you for sharing that. And thank you for joining me today and providing such insightful information about building an Azure AI Vision solution with Azure AI services. I'm sure our listeners have learned a lot.
+</voice>
+<voice name="en-US-AndrewNeural">
+It was my pleasure, Brian. I'm glad I could contribute to the conversation. Thank you for having me on the podcast.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. Remember, there's always more to learn, so keep exploring and building amazing AI solutions. Until next time!
+</voice>
+</speak>

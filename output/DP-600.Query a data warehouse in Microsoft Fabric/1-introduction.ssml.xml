@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to DP600, the podcast where we dive deep into the world of data and analytics. I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be talking about implementing analytics solutions using Microsoft Fabric. But before we get started, let me introduce our guest for today. Please welcome Emma, who is an expert in this domain. Emma, could you please introduce yourself to our listeners?
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thank you for having me on the show. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma, for joining us today. Now, let's dive into the topic of implementing analytics solutions using Microsoft Fabric. As we know, Microsoft Fabric Data Warehouse is a powerful platform for data, analytics, and AI. It provides a comprehensive solution for storing, organizing, and managing large volumes of structured and semi-structured data. With Synapse Analytics, it offers advanced query processing capabilities and supports full transactional T-SQL capabilities. This makes it an ideal choice for businesses looking to leverage their data for insights. Emma, could you tell us more about the star schema design used in data warehousing?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. In a typical data warehouse, the data is organized using a schema, such as a star schema or a snowflake schema. The star schema is a widely adopted modeling approach that classifies tables as either dimension or fact. Fact tables store measurable, quantitative data about a business, while dimension tables contain descriptive attributes related to the fact data. Think of dimension tables as the "who, what, where, when, why" of your data warehouse. They provide the context and descriptive backdrop to the raw numbers found in the fact tables. For example, in an online store, the fact table might contain sales data, while the dimension table would provide information about the buyers, the products, and other relevant attributes.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great explanation, Emma. The star schema design seems like a crucial component in organizing and extracting valuable insights from a data warehouse. I can see how it provides the necessary context to understand the raw data. Thank you for sharing that. In our next episode, we'll explore different ways to connect and query a data warehouse using Microsoft Fabric. Stay tuned for more insights on implementing analytics solutions using Microsoft Fabric.
+</voice>
+</speak>

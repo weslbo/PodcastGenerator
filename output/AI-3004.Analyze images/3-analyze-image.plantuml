@@ -1,0 +1,18 @@
+@startmindmap
+* Analyze an image
+** Analyze Image REST method
+*** Specify visual features
+*** Include details of celebrities or landmarks
+*** Returns JSON document
+** SDK for preferred programming language
+*** Specify visual features
+*** Include details of celebrities or landmarks
+*** Returns JSON document
+** C#
+** Python
+** Scoped functions
+*** Retrieve image description
+*** Retrieve tags
+*** Retrieve objects
+** JSON response
+@endmindmap

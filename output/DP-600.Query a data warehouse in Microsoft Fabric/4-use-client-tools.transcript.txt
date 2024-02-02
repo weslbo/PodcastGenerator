@@ -1,0 +1,25 @@
+[Brian]: So Emma, I've been hearing a lot about using SQL Server Management Studio to query a data warehouse in Microsoft Fabric. Can you tell me more about it?
+
+[Emma]: Absolutely, Brian! SQL Server Management Studio (SSMS) is a great tool to connect to a data warehouse in Fabric, especially if you're already familiar with it. It provides a familiar interface for those who regularly work with SQL Server.
+
+[Brian]: That's great to know! How do I connect to a data warehouse in Fabric using SSMS?
+
+[Emma]: It's quite simple, Brian. First, you need to navigate to your Microsoft Fabric workspace. Then, on your warehouse asset, select more options and choose "Copy SQL connection string". After that, launch SQL Server Management Studio and paste the SQL connection string into the "Server" name box. Finally, provide the appropriate credentials for authentication.
+
+[Brian]: Got it! So once I'm connected, what can I expect to see in SSMS?
+
+[Emma]: Once you establish a connection, SSMS will show you the connected warehouse, along with its corresponding tables and views. This allows you to easily query the data and perform your analysis.
+
+[Brian]: That sounds really convenient. Now, what are the authentication options available when connecting to a data warehouse in Fabric?
+
+[Emma]: In Microsoft Fabric, you can authenticate using two types of users: Microsoft Entra ID (formerly Azure Active Directory) user principals, or user identities, and Microsoft Entra ID service principals. It's important to note that SQL authentication is not supported.
+
+[Brian]: Good to know. Are there any other tools that can be used to connect to a data warehouse in Fabric?
+
+[Emma]: Absolutely, Brian. Any third-party tool can use the SQL connection string via ODBC or OLE DB drivers to connect to a Microsoft Fabric Warehouse or SQL analytics endpoint, using Microsoft Entra ID authentication.
+
+[Brian]: That's great! Thanks for sharing all this information, Emma. It's been really helpful.
+
+[Emma]: You're welcome, Brian! I'm glad I could help. If you have any more questions, feel free to ask.
+
+[Brian]: Will do, Emma. Thanks again! And thank you to all our listeners for tuning in. Keep on learning and implementing analytics solutions using Microsoft Fabric.

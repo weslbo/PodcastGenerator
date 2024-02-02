@@ -1,0 +1,26 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about question answering and language understanding in Azure AI Services. Can you explain the difference between the two?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Question answering and language understanding are both language models, but they have different use cases. Question answering is used when a user submits a question and expects a specific answer. On the other hand, language understanding is used when a user submits an utterance and expects an appropriate response or action.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So question answering is more focused on providing a static answer to a known question, while language understanding is about interpreting the user's intent and identifying entities?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. When using question answering, the service matches the question to an answer in the knowledge base using natural language understanding. But with language understanding, the service interprets the utterance, matches it to an intent, and identifies entities.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So in question answering, the client application typically presents the answer to the user, while in language understanding, the client application is responsible for performing the appropriate action based on the detected intent?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, you got it. Question answering is more about providing a direct answer, while language understanding helps the client application determine the next steps based on the user's intent.
+</voice>
+<voice name="en-US-BrianNeural">
+I see how these two services can work together to build comprehensive natural language solutions. Thanks for explaining, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It's always great to discuss these topics with you.
+</voice>
+</speak>

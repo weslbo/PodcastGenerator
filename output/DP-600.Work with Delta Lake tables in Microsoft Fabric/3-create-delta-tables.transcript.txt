@@ -1,0 +1,67 @@
+[Brian]: Emma, I've been learning about creating delta tables in Microsoft Fabric. It seems like a powerful feature. Can you explain how to create a delta table from a dataframe in Spark?
+
+[Emma]: Absolutely, Brian. Creating a delta table from a dataframe in Spark is quite straightforward. You can save a dataframe in the delta format, which automatically creates a delta table. Here's an example of how to do it in PySpark:
+
+```
+df.write.format("delta").saveAsTable("my_delta_table")
+```
+
+This code saves the dataframe as a delta table with the specified table name. The data is stored in Parquet files in the "Tables" storage area of the lakehouse, along with a "_delta_log" folder containing transaction logs.
+
+[Brian]: That's great, Emma. I also heard about managed and external tables. Can you explain the difference between them?
+
+[Emma]: Of course, Brian. In the previous example, the delta table we created was a managed table. This means that both the table definition in the metastore and the underlying data files are managed by the Spark runtime for the Fabric lakehouse. If you delete the table, the underlying files will also be deleted from the "Tables" storage location.
+
+On the other hand, you can create external tables where the table definition in the metastore is mapped to an alternative file storage location. Here's an example:
+
+```
+spark.sql("CREATE TABLE my_external_table USING delta LOCATION '/mnt/files/my_external_table'")
+```
+
+In this case, the table definition is created in the metastore, but the data files and log files are stored in the "Files" storage location. Deleting an external table from the metastore does not delete the associated data files.
+
+[Brian]: Thanks for explaining that, Emma. It's good to know the difference between managed and external tables. Is there another way to create table metadata without using an existing dataframe?
+
+[Emma]: Absolutely, Brian. If you want to create a table definition in the metastore without using an existing dataframe, there are a couple of options. One way is to use the DeltaTableBuilder API, which allows you to write Spark code to create a table based on your specifications.
+
+Here's an example:
+
+```
+import io.delta.tables._
+
+val deltaTable = DeltaTable.createIfNotExists(spark)
+  .tableName("my_table")
+  .addColumn("id", "INT")
+  .addColumn("name", "STRING")
+  .execute()
+```
+
+Another option is to use Spark SQL statements to create the delta table. Here's an example:
+
+```
+spark.sql("CREATE TABLE my_table (id INT, name STRING) USING delta")
+```
+
+You can also specify the location for an external table:
+
+```
+spark.sql("CREATE TABLE my_external_table USING delta LOCATION '/mnt/files/my_external_table'")
+```
+
+[Brian]: That's helpful, Emma. It's good to have multiple options for creating table metadata. One last question, can you explain how to save data in delta format without creating a table definition in the metastore?
+
+[Emma]: Certainly, Brian. If you want to save data in delta format without creating a table definition, you can use the delta lake API. Here's an example:
+
+```
+df.write.format("delta").mode("overwrite").save("/mnt/files/my_data")
+```
+
+This code saves the dataframe as delta files in the specified folder location. The folder will contain Parquet files with the data and a "_delta_log" folder with transaction logs. Any modifications made to the data through the delta lake API or in an external table created on the folder will be recorded in the transaction logs.
+
+You can also add rows to an existing folder using the "append" mode:
+
+```
+df.write.format("delta").mode("append").save("/mnt/files/my_data")
+```
+
+[Brian]: Thank you, Emma. That's a great explanation of how to save data in delta format without creating a table definition. I appreciate your insights on creating delta tables in Microsoft Fabric.

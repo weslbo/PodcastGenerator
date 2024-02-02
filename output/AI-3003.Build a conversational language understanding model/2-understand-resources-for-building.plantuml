@@ -1,0 +1,13 @@
+@startmindmap
+* Understand resources for building a conversational language understanding model
+** Build your model
+*** Use Language Studio
+*** Use the REST API
+**** Authentication
+**** Request deployment
+**** Get deployment status
+** Query your model
+*** Query using SDKs
+*** Query using the REST API
+**** Sample response
+@endmindmap

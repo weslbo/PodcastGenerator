@@ -1,0 +1,13 @@
+@startmindmap
+* Work with delta tables in Spark
+** Using Spark SQL
+*** Embed SQL statements in other languages
+*** Use spark.sql library
+*** Insert row into products table
+** Use the Delta API
+*** Create DeltaTable instance
+*** Modify data in the table
+** Use time travel to work with table versioning
+*** View history of changes
+*** Retrieve older versions of data
+@endmindmap

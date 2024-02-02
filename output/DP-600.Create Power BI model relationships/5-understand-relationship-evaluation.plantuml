@@ -1,0 +1,12 @@
+@startmindmap
+* Understand relationship evaluation
+** Regular relationships
+*** Regular relationships marked as R
+*** Regular relationships in import models
+*** Table expansion in regular relationships
+** Limited relationships
+*** Limited relationships marked as L
+*** Table joins in limited relationships
+** Precedence rules
+** Performance preference
+@endmindmap

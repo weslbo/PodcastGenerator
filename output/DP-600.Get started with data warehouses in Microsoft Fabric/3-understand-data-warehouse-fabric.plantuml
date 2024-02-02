@@ -1,0 +1,48 @@
+@startmindmap
+* Understand data warehouses in Fabric
+** Fabric's Lakehouse
+*** Files
+*** Folders
+*** Tables
+*** Shortcuts
+*** ACID transactions
+** Data warehouse experience
+*** Tables and views
+*** T-SQL queries
+*** DML operations
+*** Reporting layers
+* Describe a data warehouse in Fabric
+** Relational layer on Lakehouse
+** Analysis and reporting tools
+** Create warehouse in Fabric
+*** Create hub
+*** Workspace
+** Add objects to warehouse
+* Ingest data into data warehouse
+** Pipelines
+** Dataflows
+** Cross-database querying
+** COPY INTO command
+** Data available for analysis
+* Create tables
+** SQL Server Management Studio
+** CREATE TABLE statement
+** Fabric UI
+** Copy data from external location
+* Table considerations
+** Staging tables
+** Data cleansing
+** Data transformations
+** Data validation
+** Load data from multiple sources
+** Periodic batch process
+** Ingest new data to data lake
+** Load data into staging tables
+** Load dimension tables
+** Load fact tables
+** Post-load optimization
+* Query lakehouse from warehouse
+** Cross-database querying
+** No need to copy data
+** Limitations in working with tables
+@endmindmap

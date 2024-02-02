@@ -1,0 +1,47 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Emma, when it comes to implementing analytics solutions using Microsoft Fabric, what are some good modeling practices that we should keep in mind?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian! There are several good modeling practices that can help ensure the efficiency and accuracy of your data permissions. First, it's important to strive for fewer datasets or data models, but with well-designed roles. This helps to keep things organized and manageable.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense, Emma. So, would it be better to create fewer roles then?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. Creating fewer roles is ideal, and one way to achieve this is by using dynamic rules. With dynamic rules, you can create a data-driven solution that doesn't require adding new roles every time there's a change. This makes maintenance much easier in the long run.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, when it comes to filtering the data, should we focus on dimension tables or fact tables?
+</voice>
+<voice name="en-US-EmmaNeural">
+Good question. It's generally recommended to create rules that filter dimension tables instead of fact tables. This can significantly improve query performance and deliver faster results. So, whenever possible, prioritize filtering dimension tables.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great tip, Emma. Now, what about validating the model design and relationships? How important is that?
+</voice>
+<voice name="en-US-EmmaNeural">
+Validating the model design and relationships is crucial, Brian. It's essential to ensure that everything is correctly set up to avoid any issues down the line. Take the time to review and validate the relationships and relationship properties within your model.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And when it comes to validating roles, is there a specific function we should be using?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. It's recommended to use the "function" instead of "function" when validating roles in Power BI Desktop and the Power BI service. This helps to maintain consistency and avoid any potential discrepancies.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a helpful tip, Emma. Lastly, how can we ensure that the Power BI Desktop data source connection uses the correct credentials?
+</voice>
+<voice name="en-US-EmmaNeural">
+To ensure the correct credentials are applied, make sure that the Power BI Desktop data source connection uses the same credentials that will be used when setting up the solution in the Power BI service. This ensures a seamless and secure connection.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma, for sharing these valuable modeling practices. They will definitely help our listeners in implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. Remember, applying these practices will not only improve efficiency but also ensure the accuracy and security of your data.
+</voice>
+<voice name="en-US-BrianNeural">
+Absolutely, Emma. And to our listeners, thank you for tuning in. We hope you found this episode informative and useful. Keep on learning and implementing those analytics solutions!
+</voice>
+</speak>

@@ -1,0 +1,16 @@
+@startmindmap
+* Data Pipelines
+** Sequence of activities
+*** Extract, Transform, Load (ETL)
+*** Orchestrate overall process
+** Sources
+** Destination
+** Transformation
+** Azure Data Factory
+*** Connected activities
+*** Data processing tasks
+*** Control flow logic
+** Microsoft Fabric
+*** Interactive execution
+*** Scheduled execution
+@endmindmap

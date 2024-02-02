@@ -1,0 +1,23 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3004 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be diving into the world of Azure AI Vision services and how they can help us build an AI solution to extract text from images. But before we get started, let me introduce our guest for today. Please welcome Andrew, who is an expert in this field. Andrew, could you please introduce yourself?
+</voice>
+<voice name="en-US-AndrewNeural">
+Thanks, Brian! I'm Andrew, and I work for Contoso. I specialize in Azure AI Vision services and have been working on various projects involving text extraction from images. I'm excited to be here today and share my knowledge with you and our listeners.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Andrew, for joining us. Now, let's jump right into the topic of today's podcast. As I mentioned earlier, we often come across scenarios where we need to extract text from images and store it in a computer database. Can you explain how Azure AI Vision services can help us achieve this?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. Azure AI Vision services provide us with the capability to perform Optical Character Recognition (OCR) on images. OCR allows us to extract text from various types of images, including photos of street signs, product labels, and even handwritten or unstructured documents. With Azure AI Vision services, we can train machine learning models to accurately recognize and extract text from these images.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds fascinating, Andrew. So, with Azure AI Vision services, we can automate the process of extracting text from images. Can you give us an example of how this could be applied in a real-world scenario?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure, Brian. Let's say you work for a retail company that receives thousands of product images from different vendors. These images contain important information such as product names, descriptions, and prices. Manually entering this data into a database would be time-consuming and prone to errors. However, by using Azure AI Vision services, you can build an automated solution that extracts the text from these product images and stores it in a structured format. This not only saves time but also ensures a high degree of accuracy in the data entry process.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great example, Andrew. It's clear how Azure AI Vision services can be a game-changer in scenarios like this. I'm really looking forward to learning more about how we can use the Azure AI Vision service with SDKs and the REST API to develop applications that can read printed and handwritten text. But, we'll dive into that in the next episode. Stay tuned, folks!
+</voice>
+</speak>

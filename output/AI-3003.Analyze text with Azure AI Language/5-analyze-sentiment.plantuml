@@ -1,0 +1,15 @@
+@startmindmap
+* Analyze sentiment
+** Sentiment analysis
+*** Evaluate positive or negative
+*** Useful in various workloads
+** Azure AI Language
+*** Overall document sentiment
+*** Individual sentence sentiment
+** Sentence sentiment
+*** Confidence scores for classification
+*** Positive, negative, neutral values
+** Overall document sentiment
+*** Based on sentences
+*** Neutral, positive, negative, mixed
+@endmindmap

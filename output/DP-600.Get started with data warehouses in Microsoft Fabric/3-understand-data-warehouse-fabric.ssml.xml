@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we understand the basic principles of a data warehouse in Fabric, can you explain how we can create one?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. In the data warehouse experience in Fabric, you can create a relational layer on top of the physical data in the Lakehouse. You can do this directly from the create hub or within a workspace. Once your warehouse is created, you can start adding tables and objects to it.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. Can you give me an example of how we can create tables in the data warehouse?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course. To create a table in the data warehouse, you can use SQL Server Management Studio or any other SQL client to connect to the data warehouse and run a CREATE TABLE statement. Alternatively, you can also create tables directly in the Fabric UI.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. Now, let's talk about ingesting data into the data warehouse. What are the different methods available?
+</voice>
+<voice name="en-US-EmmaNeural">
+There are a few ways to ingest data into a Fabric data warehouse. You can use Pipelines, Dataflows, cross-database querying, or the COPY INTO command. These methods allow you to bring in data from various sources and make it available for analysis by different business groups.
+</voice>
+<voice name="en-US-BrianNeural">
+Great. Can you explain the concept of staging tables and their importance in the data loading process?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly. Staging tables are temporary tables used in the data loading process. They are used for data cleansing, transformations, and validation. Staging tables also help in loading data from multiple sources into a single destination table. It's a common practice to use staging tables to ensure data quality before loading it into the data warehouse.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, what is the typical order of tasks in a data warehouse load process?
+</voice>
+<voice name="en-US-EmmaNeural">
+Generally, the data warehouse load process follows a specific order. First, you ingest the new data into a data lake, applying any necessary cleansing or transformations. Then, you load the data from files into staging tables in the data warehouse. After that, you load the dimension tables from the staging tables, updating existing rows or inserting new rows as needed. Next, you load the fact tables from the staging tables, looking up the appropriate surrogate keys for related dimensions. Finally, you perform post-load optimization by updating indexes and table distribution statistics.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a comprehensive process. One last question, Emma. Can we query the data in the lakehouse directly from the data warehouse?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. With Fabric's data warehouse, you can query data in the lakehouse directly using cross-database querying. This allows you to access and analyze data in the lakehouse without the need to copy it into the data warehouse.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for explaining the process of creating a data warehouse in Fabric and the importance of staging tables in the data loading process. It's been really informative.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

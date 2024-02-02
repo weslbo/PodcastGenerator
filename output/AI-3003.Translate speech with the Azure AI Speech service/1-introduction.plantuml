@@ -1,0 +1,17 @@
+@startmindmap
+* Translation of speech
+** Speech recognition
+*** Recognize spoken input
+*** Transcribe spoken input
+** Translation of transcription
+*** Translate to specified language
+*** Translate to other languages
+** Azure resources for speech translation
+** Text translation from speech
+** Synthesize spoken translations
+** Azure AI Speech
+*** API
+*** Supported SDKs
+** Hands-on exercise
+*** Microsoft Azure subscription
+@endmindmap

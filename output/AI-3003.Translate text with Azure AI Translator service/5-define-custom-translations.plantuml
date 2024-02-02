@@ -1,0 +1,19 @@
+@startmindmap
+* Define custom translations
+** Create a workspace
+*** Link to Azure AI Translator resource
+** Create a project
+** Upload training data files
+*** Train a model
+** Test your model
+*** Publish your model
+** Make translation calls to the API
+* How to call the API
+** Send POST request
+*** Include required parameters
+*** Include required headers
+** Send request using curl
+* Response returned
+** Response code
+** Response body
+@endmindmap

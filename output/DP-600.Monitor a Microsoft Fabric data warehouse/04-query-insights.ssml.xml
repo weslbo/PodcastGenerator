@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+  <voice name="en-US-BrianNeural">
+    So Emma, I've been reading about query insights in Microsoft Fabric data warehouses. It seems like a really useful feature for monitoring and analyzing query performance. Can you tell me more about it?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian. Query insights in Microsoft Fabric data warehouses provide historical, aggregated information about the queries that have been run. This helps you identify frequently used or long-running queries and analyze and tune query performance.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That sounds great, Emma. Can you give me an example of how we can retrieve query insights from these data warehouses?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Of course, Brian. Let's say you want to identify queries that were run in the previous hour. You can use the queryinsights.exec_requests_history view to get the details. Keep in mind that depending on the concurrent workloads, it may take up to 15 minutes for the queries to be reflected in the query insights views.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Got it, Emma. And what about long-running queries? How can we retrieve information about them?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    To get details of long-running queries, you can use the queryinsights.long_running_queries view. For example, you can identify SQL commands that have been used more than once and return them in descending order of their median time to complete.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's helpful, Emma. So, if I understand correctly, the views provide aggregated metrics and consider queries with predicates as the same query if the parameterized statements are an exact match, right?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Exactly, Brian. The views parameterize queries with predicates to provide aggregated metrics. So, if two queries have the same parameterized statements, they will be considered the same command.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    I see. And what about finding commonly used queries? Is there a way to retrieve that information as well?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian. You can use the queryinsights.frequently_run_queries view to find commonly used queries. This view returns details of successful and failed runs for frequently run commands.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's really useful, Emma. I can see how query insights can help optimize query performance and identify any issues. Thank you for explaining it to me.
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    You're welcome, Brian. I'm glad I could help. Query insights are indeed a powerful tool for monitoring and analyzing query performance in Microsoft Fabric data warehouses.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Before we wrap up, Emma, is there any additional resource or documentation you would recommend for our listeners who want to learn more about query insights?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian. For more information about using query insights, I recommend referring to the "Query insights in Fabric data warehousing" documentation in the Microsoft Fabric documentation.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Great! Thank you, Emma. I'm sure our listeners will find that helpful. And thank you for joining us today and sharing your expertise on implementing analytics solutions using Microsoft Fabric.
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    It was my pleasure, Brian. Thank you for having me. And thank you to all our listeners for tuning in. Keep on learning and exploring the world of analytics solutions.
+  </voice>
+</speak>

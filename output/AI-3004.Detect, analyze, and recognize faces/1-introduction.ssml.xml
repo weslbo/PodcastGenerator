@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3004 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. But before we dive in, let me introduce myself. I work for a company called Contoso and I'm really excited to learn more about the topic we'll be discussing today. So, without further ado, let me introduce our guest for today. Please welcome Andrew!
+</voice>
+<voice name="en-US-AndrewNeural">
+Thank you, Brian! I'm Andrew and I also work for Contoso. I'm an expert in the field of AI and I'm really looking forward to sharing my knowledge with our listeners today.
+</voice>
+<voice name="en-US-BrianNeural">
+Great to have you here, Andrew! Today, we're going to talk about building an Azure AI Vision solution with Azure AI services. This is a fascinating topic and I'm sure our listeners are eager to learn more about it. So, let's get started!
+</voice>
+</speak>

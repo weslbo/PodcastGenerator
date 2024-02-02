@@ -1,0 +1,23 @@
+[Brian]: So Emma, I've been hearing a lot about Microsoft Fabric and how it's making it easier for data professionals to work together. Can you tell me more about how Fabric removes data silos and enhances collaboration?
+
+[Emma]: Absolutely, Brian. Microsoft Fabric's unified management and governance allow data professionals to work together seamlessly on data projects. It eliminates the need for accessing multiple systems and breaks down data silos, enabling better collaboration between data engineers, data analysts, and data scientists.
+
+[Brian]: That sounds great, Emma. I know traditionally there has been a separation between the roles of data engineers and data analysts. How does Fabric help bridge that gap and improve collaboration between these two roles?
+
+[Emma]: With Fabric, data professionals can work together in the same SaaS product, which helps them understand each other's needs and the needs of the business more effectively. Data analysts now have greater context and the ability to transform data upstream using data factory. This means that the data engineer can curate a semantic model that aligns with the analyst's requirements, making it easier for the analyst to display data in an effective and insightful way for the business.
+
+[Brian]: That's really interesting, Emma. I can see how that would streamline the process and eliminate the need for extra conversations between data engineers and analysts. But what about data analysts who had to perform extensive downstream data transformations before creating Power BI reports? How does Fabric help them?
+
+[Emma]: Fabric introduces DirectLake mode, which allows data analysts to see the lineage of the data and connect with it more directly. This means that analysts can now perform data transformations upstream, reducing the need for extensive downstream transformations. It provides a more efficient and streamlined workflow for data analysts when creating Power BI reports.
+
+[Brian]: That's fantastic, Emma. It sounds like Fabric is really empowering data analysts to work more efficiently. But what about data scientists? How does Fabric support their work?
+
+[Emma]: Fabric provides an easier way for data scientists to integrate native data science techniques into their workflow. They can leverage the power of Fabric's data science capabilities and then use Power BI's interactive reporting to provide data-informed insights in a new and impactful way. Fabric enables data scientists to seamlessly combine their analytical models with Power BI's visualization capabilities, enhancing their ability to deliver valuable insights to the business.
+
+[Brian]: That's really impressive, Emma. It seems like Fabric is a comprehensive platform that caters to the needs of data engineers, analysts, and scientists. One last question, how does Fabric's SaaS offering make it more agile and responsive to changing business needs?
+
+[Emma]: Fabric being a SaaS platform allows data professionals to quickly provision and run any type of workload or job without needing pre-approval or planning. This means that resources can be scaled up or down as needed, providing agility and responsiveness to changing business requirements. It enables data teams to be more adaptive and efficient in meeting the evolving needs of the organization.
+
+[Brian]: That's an excellent insight, Emma. It's clear that Microsoft Fabric is revolutionizing the way data professionals collaborate and work on data projects. Thank you for sharing your expertise with us today.
+
+[Emma]: You're welcome, Brian. It was my pleasure to be here and discuss the benefits of Microsoft Fabric. If you have any more questions, feel free to reach out.

@@ -1,0 +1,27 @@
+[Brian]: So Emma, I've been reading about custom text classification and I came across the concept of single label and multiple label projects. Can you explain the difference between the two?
+
+[Emma]: Sure, Brian. In single label projects, you can assign only one class to each file. For example, a video game summary could be classified as "Adventure" or "Strategy". On the other hand, in multiple label projects, you can assign multiple classes to each file. So a video game summary could be classified as "Adventure" and "Strategy" at the same time.
+
+[Brian]: I see. That makes sense. So, what are the key differences between single label and multiple label projects?
+
+[Emma]: Well, one key difference is in the labeling process. In single label projects, each file is assigned only one class. But in multiple label projects, you can assign as many classes as you want per file. This added complexity means that your data has to be clear and provide a good distribution of possible inputs for your model to learn from.
+
+[Brian]: That's interesting. So, does the quality of the labeled data impact the performance of the model?
+
+[Emma]: Absolutely, Brian. The quality, clarity, and variation of your data set directly affect how accurate your model will be. Especially in multiple label projects, labeling the data correctly is crucial for the model's performance.
+
+[Brian]: I see. So, how do we evaluate and improve the model's performance?
+
+[Emma]: Good question. Measuring the predictive performance of your model goes beyond just counting correct predictions. We also need to consider false positives and false negatives. Azure AI Language provides metrics like recall, precision, and F1 score to evaluate the model's performance. These metrics help us understand how well the model identifies the actual labels and how many of the predicted labels are correct.
+
+[Brian]: That's helpful. And what about the API payload for classification tasks?
+
+[Emma]: The API requires a JSON body to specify the classification task. For single label classification models, the project type is specified as "single". And for multiple label classification models, the project type is specified as "multiple". This helps the API understand the type of classification you want to perform.
+
+[Brian]: Got it. Thanks for explaining, Emma. It's clear to me now.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+
+[Brian]: That's all for now, Emma. Thanks again for your insights.
+
+[Emma]: No problem, Brian. Happy to help. Have a great day!

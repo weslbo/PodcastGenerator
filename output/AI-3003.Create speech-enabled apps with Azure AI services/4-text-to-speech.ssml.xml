@@ -1,0 +1,65 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've talked about speech recognition and how to convert speech to text. Now let's dive into the other side of the coin - speech synthesis. Can you tell us more about the Text to Speech API offered by Azure AI Speech service?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The Text to Speech API is the primary way to perform speech synthesis with Azure AI Speech service. It allows you to convert text into spoken audio.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds interesting. Are there any other APIs available for speech synthesis?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there is also the Batch Synthesis API. This API is designed for batch operations that convert large volumes of text to audio. It's useful, for example, when generating an audio book from a source text.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So for most interactive speech-enabled applications, developers would use the Azure AI Speech SDK, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. The Azure AI Speech SDK is commonly used for implementing speech synthesis in interactive applications. It provides a language-specific programming interface to interact with the Text to Speech API.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Can you walk us through the process of implementing speech synthesis using the Azure AI Speech SDK?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. The process is similar to speech recognition. First, you create a SpeechConfig object that contains the necessary information to connect to your Azure AI Speech resource, such as the location and key. Then, you can optionally use an AudioConfig to define the output device for the synthesized speech.
+</voice>
+<voice name="en-US-BrianNeural">
+So the AudioConfig allows you to specify where the synthesized speech should be played, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct. By default, the synthesized speech is played through the default system speaker. But you can also specify an audio file as the output, or even process the audio stream object directly.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And then, you use the SpeechConfig and AudioConfig to create a SpeechSynthesizer object, which acts as a proxy client for the Text to Speech API, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. The SpeechSynthesizer object provides methods to call the underlying API functions. For example, you can use the Speak Text Async method to convert text to spoken audio.
+</voice>
+<voice name="en-US-BrianNeural">
+And what happens after calling the Speak Text Async method?
+</voice>
+<voice name="en-US-EmmaNeural">
+After calling the Speak Text Async method, you process the response from the Azure AI Speech service. The result is a SpeechSynthesisResult object, which contains properties such as AudioData, Properties, Reason, and ResultId.
+</voice>
+<voice name="en-US-BrianNeural">
+So if the speech synthesis is successful, the Reason property would be set to SynthesizingAudioCompleted and the AudioData property would contain the audio stream?
+</voice>
+<voice name="en-US-EmmaNeural">
+That's correct, Brian. When the speech is successfully synthesized, the Reason property is set to SynthesizingAudioCompleted and the AudioData property contains the audio stream, which can be played through the specified output device or processed further.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma. That was a great explanation of how to use the Text to Speech API and the Azure AI Speech SDK for speech synthesis.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+<voice name="en-US-BrianNeural">
+That's all for now, Emma. Thanks again for sharing your expertise on this topic.
+</voice>
+<voice name="en-US-EmmaNeural">
+No problem, Brian. It was my pleasure. Have a great day!
+</voice>
+<voice name="en-US-BrianNeural">
+You too, Emma. Take care!
+</voice>
+</speak>

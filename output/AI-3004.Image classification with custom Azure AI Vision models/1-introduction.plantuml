@@ -1,0 +1,8 @@
+@startmindmap
+* Custom models in Azure AI Vision
+** Image classification
+*** Analyze image to classify
+** Azure AI Vision service
+** Object detection
+*** Identify location of objects
+@endmindmap

@@ -1,0 +1,11 @@
+@startmindmap
+* Azure AI Language
+** Question Answering
+*** Language Understanding
+*** Knowledge Base Creation
+**** Create, Test, Publish, Consume
+**** Multi-turn Conversation
+**** Active Learning
+*** Question Answering Bot
+**** Natural Language Interaction
+@endmindmap

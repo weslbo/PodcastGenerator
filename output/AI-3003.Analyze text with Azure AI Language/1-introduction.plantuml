@@ -1,0 +1,7 @@
+@startmindmap
+* Azure AI Language
+** Text Analysis Techniques
+*** Detect language from text
+*** Analyze text sentiment
+*** Extract key phrases, entities, and linked entities
+@endmindmap

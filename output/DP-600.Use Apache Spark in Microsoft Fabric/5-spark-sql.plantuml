@@ -1,0 +1,22 @@
+@startmindmap
+* Work with data using Spark SQL
+** Dataframe API
+*** Query and manipulate data
+** Creating database objects
+*** Spark catalog
+**** Temporary view
+**** Tables
+***** Managed tables
+***** Delta format
+***** External tables
+*** Storage location
+**** Tables storage location
+**** Files storage area
+** Using Spark SQL API
+*** Query data in catalog
+**** SQL query
+*** Return data as dataframe
+** Using SQL code
+*** Embed SQL expressions in Spark code
+*** Use magic to run SQL code
+@endmindmap

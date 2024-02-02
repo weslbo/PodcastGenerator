@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3003 podcast, where we explore the world of artificial intelligence and its applications. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we dive in, I want to take a moment to thank our sponsor, Contoso. Without their support, this podcast wouldn't be possible.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Now, let me introduce our guest for today. We have Emma, who is an expert in the field of natural language processing. Emma works for Contoso and has extensive knowledge and experience in developing AI solutions. Welcome, Emma!
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm excited to be here and share my insights on natural language processing with Azure AI Services.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Today, we're going to focus on developing natural language processing solutions with Azure AI Services. This is a fascinating topic that has the potential to revolutionize the way we interact with technology. So, let's dive right in and explore the possibilities.
+</voice>
+</speak>

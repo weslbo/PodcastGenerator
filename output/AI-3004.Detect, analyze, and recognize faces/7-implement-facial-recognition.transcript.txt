@@ -1,0 +1,33 @@
+[Brian]: So Andrew, now that we know how to detect and analyze faces, I'm curious about how we can actually identify individuals using facial recognition. Can you walk me through the process?
+
+[Andrew]: Absolutely, Brian. To identify individuals using facial recognition, we need to train a facial recognition model using the Face service. The process involves a few steps. First, we create a Person Group, which defines the set of individuals we want to identify. For example, we can create a Person Group for employees in a company.
+
+[Brian]: That makes sense. So once we have the Person Group, what's the next step?
+
+[Andrew]: The next step is to add a Person to the Person Group for each individual we want to identify. For example, we can add a Person record for each employee in the company. Each Person record will have a unique ID.
+
+[Brian]: Got it. And what do we do after adding the Person records?
+
+[Andrew]: After adding the Person records, we need to add detected faces from multiple images to each Person. It's preferable to have faces in various poses to improve accuracy. These faces are referred to as "persisted" faces because their IDs no longer expire after 24 hours.
+
+[Brian]: That's interesting. So the model can recognize the same person even if they're in different poses?
+
+[Andrew]: Yes, that's correct. The model learns to recognize the unique facial features of each individual, regardless of their pose. This allows for more accurate identification.
+
+[Brian]: Great. And what's the final step in the process?
+
+[Andrew]: The final step is to train the model. Once the model is trained, it is stored in your Face or Azure AI Services resource. Client applications can then use the trained model to identify individuals in images, verify the identity of a detected face, and analyze new images to find faces that are similar to a known, persisted face.
+
+[Brian]: That's really powerful. It opens up a lot of possibilities for applications that require positive identification. Thank you for explaining the process, Andrew.
+
+[Andrew]: You're welcome, Brian. It's always a pleasure to share knowledge with you.
+
+[Brian]: Before we wrap up, is there anything else you'd like to add?
+
+[Andrew]: Just a reminder that training a facial recognition model requires getting approved through a Limited Access policy. So it's important to follow the necessary steps to ensure compliance.
+
+[Brian]: Thank you for the reminder, Andrew. And thank you for joining me today and sharing your expertise on building an Azure AI Vision solution with Azure AI services.
+
+[Andrew]: It was my pleasure, Brian. Thank you for having me.
+
+[Brian]: And thank you to our listeners for tuning in. We hope you found this episode informative and helpful. Remember, there's always more to learn, so keep exploring and building amazing AI solutions. Until next time!

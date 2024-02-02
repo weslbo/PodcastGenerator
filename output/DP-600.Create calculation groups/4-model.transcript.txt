@@ -1,0 +1,19 @@
+[Brian]: So Emma, now that we have Tabular Editor installed, how do we go about creating calculation groups and items within those groups?
+
+[Emma]: Great question, Brian. In Tabular Editor, you can easily create calculation groups by navigating to the Calculation Groups tab and clicking on the "New Calculation Group" button. Once you've created the group, you can add calculation items within it by right-clicking on the group and selecting "New Calculation Item".
+
+[Brian]: That sounds straightforward. Once we've created the calculation group and items, how do we apply them in our Power BI data model?
+
+[Emma]: After you've made the necessary changes in Tabular Editor and saved the calculation group, you need to refresh the calculation group query in Power BI desktop. This will apply the changes you made to the connected data model.
+
+[Brian]: Got it. And are there any limitations or considerations we should keep in mind when using calculation groups?
+
+[Emma]: Yes, Brian. It's important to note that calculation groups do not work with implicit measures. Any measures that you want to be evaluated by the calculation group must be explicitly defined.
+
+[Brian]: That's good to know. Finally, how can we visualize the calculation group in a visual?
+
+[Emma]: To visualize the calculation group, you can add it to a visual by dropping the calculation group into the columns field of a matrix visual. This will apply the calculation group to the measure you've placed in the values field.
+
+[Brian]: Excellent, Emma. Thank you for explaining the process of creating and applying calculation groups using Tabular Editor. I'm excited to try it out in our Power BI data model.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. I'm sure you'll find calculation groups to be a powerful tool for organizing and managing your measures.

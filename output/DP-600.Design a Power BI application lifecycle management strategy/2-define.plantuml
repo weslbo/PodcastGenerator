@@ -1,0 +1,26 @@
+@startmindmap
+* Application Lifecycle Management
+** What is ALM?
+*** Plan and track
+*** Develop
+*** Build and test
+*** Deploy
+*** Operate
+*** Monitor and learn
+** ALM Key Aspects
+*** Governance
+**** Requirements and resource management
+**** System administration
+*** Development
+**** Identifying current problems
+**** Planning and design
+**** Building and testing
+*** Maintenance
+**** Deployment of the application
+**** Maintenance of dependent technologies
+** Continuous integration and continuous delivery
+*** Continuous integration
+**** Build, test, and integrate changes
+*** Continuous delivery
+**** Stage and deliver code changes
+@endmindmap

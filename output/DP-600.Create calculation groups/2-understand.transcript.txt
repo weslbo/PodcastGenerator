@@ -1,0 +1,31 @@
+[Brian]: So Emma, I've been reading about calculation groups and it seems like a really useful feature. Can you explain to me how to create calculation groups in Power BI?
+
+[Emma]: Absolutely, Brian. The recommended tool for creating calculation groups in Power BI is the free, open-source Tabular Editor 2.x. It allows you to manipulate and manage measures, calculated columns, display folders, perspectives, and translations in Analysis Services Tabular and Power BI XMLA Models. Power BI Desktop doesn't have the user interface to create calculation groups.
+
+[Brian]: That's good to know. Are there any other tools that support calculation groups?
+
+[Emma]: Yes, calculation groups are also supported in Visual Studio with Analysis Services Projects VSIX update 2.9.2 and later. So you have options depending on your preferred development environment.
+
+[Brian]: Great. Now, what are the benefits of using calculation groups?
+
+[Emma]: The main benefit of using calculation groups is a reduction in the overall number of measures you need to create and maintain. Instead of creating multiple measures for similar calculations, you can group them together using calculation groups. This makes your model more organized and easier to manage.
+
+[Brian]: That makes sense. Are there any other advantages to using calculation groups?
+
+[Emma]: Absolutely, Brian. Calculation groups also enable the creation of creative report features. For example, you can use a slicer to switch between different measures within the same calculation group. You can also dynamically format your measures or even turn display labels on and off based on user preferences.
+
+[Brian]: That's really cool. Are there any limitations to using calculation groups?
+
+[Emma]: Yes, there is one main limitation to be aware of. When you use calculation groups, implicit measures are no longer supported in your report. If you're used to using implicit measures to quickly cross-check calculations, you'll need to create explicit measures instead.
+
+[Brian]: I see. Can you explain the difference between implicit and explicit measures?
+
+[Emma]: Implicit measures are automatically generated calculations achieved by configuring a Power BI visual to summarize column values. On the other hand, explicit measures are calculations that you add to a tabular model using a DAX formula. So with calculation groups, you'll need to create explicit measures for all your calculations.
+
+[Brian]: Got it. Thanks for explaining that, Emma. It's really helpful to understand the benefits and limitations of using calculation groups.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. Calculation groups can be a powerful tool for simplifying and organizing your measures in Power BI. If you have any more questions, feel free to ask.
+
+[Brian]: That's an excellent insight, Emma. I'll definitely keep that in mind. Thanks again for sharing your expertise on this topic.
+
+[Emma]: You're welcome, Brian. It was my pleasure to be here.

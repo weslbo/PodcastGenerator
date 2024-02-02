@@ -1,0 +1,41 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we have created core and specialized Power BI datasets, how can we track which dataset is being used for a report once it's published to Power BI service?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian! Power BI service has a feature called lineage view that allows us to explore the dependencies between reports, dashboards, and datasets.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds useful! How do we access the lineage view in Power BI service?
+</voice>
+<voice name="en-US-EmmaNeural">
+To access the lineage view, you need to navigate to a workspace in Power BI service. In the top-right corner of the menu bar, you'll see two icons: the list view (represented by three horizontal lines stacked) and the lineage view (represented by two circles connected by a line). Click on the lineage view icon to enter the lineage view.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it! So what does the lineage view show us?
+</voice>
+<voice name="en-US-EmmaNeural">
+The lineage view shows how reports and dashboards are dependent on specific datasets. It represents these dependencies with lines connecting the datasets to the reports and dashboards.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful! Can you give me an example of how the lineage view looks like?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure! Let's say we're exploring a workspace called "Microsoft Learn Data" in the lineage view. In this workspace, we have multiple data sources, datasets, reports, and dashboards. For example, we have two SQL Server data source items representing the same Azure SQL database. We also have two datasets connected to these data sources: "region1-report" and "core-dataset". The "region1-report" only has a single report associated with it, indicating that it was developed entirely in Power BI Desktop. On the other hand, the "core-dataset" has two related reports: "specialized-report" and "region2-report", both flowing to the "Region 1 Dashboard" on the far right.
+</voice>
+<voice name="en-US-BrianNeural">
+I see! So the lineage view helps us visualize the relationships between datasets, reports, and dashboards within a workspace. Are there any other details that the lineage view provides?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are more details. For example, we can see two additional datasets without their data sources: "Human Resources Sample" and "Activate". These datasets are connected to separate reports. We also notice that the "Activate" dataset lives in a different workspace called "My workspace". Both of these reports are connected to another dashboard called "Human Resources Sample". And finally, the "Human Resources Sample" report connects to our "Region 1 Dashboard".
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma! So with the lineage view, we can easily identify the dependencies across a workspace for our assets. It's a great tool for administration, especially when we have many items in a single workspace.
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! The lineage view simplifies the management of Power BI assets and helps us understand the relationships between our datasets, reports, and dashboards.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for explaining how we can use the lineage view in Power BI service to track the dependencies of our assets.
+</voice>
+</speak>

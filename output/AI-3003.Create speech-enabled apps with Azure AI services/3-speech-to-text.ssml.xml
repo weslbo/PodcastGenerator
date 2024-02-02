@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, can you explain to me how we can use the Azure AI Speech to Text API?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. The Azure AI Speech service provides two REST APIs for speech recognition: the Speech to Text API and the Speech to Text Short Audio API.
+</voice>
+<voice name="en-US-BrianNeural">
+What's the difference between the two APIs?
+</voice>
+<voice name="en-US-EmmaNeural">
+The Speech to Text API is used for general speech recognition and can handle longer audio streams. On the other hand, the Speech to Text Short Audio API is optimized for shorter audio streams, up to 60 seconds in length.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Can we use the Speech to Text API for batch transcription?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, we can. The Speech to Text API can be used for batch transcription, which means we can transcribe multiple audio files to text as a batch operation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. How do we use the Speech to Text API in practice?
+</voice>
+<voice name="en-US-EmmaNeural">
+To use the Speech to Text API, we need to follow a consistent pattern. First, we create a SpeechConfig object that contains the necessary information to connect to our Azure AI Speech resource, such as the location and key. Then, we can optionally use an AudioConfig to specify the input source for the audio, which can be the default system microphone or an audio file. Next, we create a SpeechRecognizer object using the SpeechConfig and AudioConfig. This object acts as a proxy client for the Speech to Text API. Finally, we can use the methods of the SpeechRecognizer object to call the API functions, such as Recognize Once Async to transcribe a single spoken utterance.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a clear explanation, Emma. What do we do with the response from the Speech to Text API?
+</voice>
+<voice name="en-US-EmmaNeural">
+Once we receive a response from the Speech to Text API, we can process it. For example, when using the Recognize Once Async method, we get a SpeechRecognitionResult object that includes properties like duration, offset in ticks, reason, result ID, and the transcribed text. If the operation was successful, the reason property will have the value RecognizedSpeech, and the text property will contain the transcription. If no speech was recognized, the reason property will be NoMatch, and if an error occurred, the reason property will be Canceled.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. Thank you for explaining how we can use the Azure AI Speech to Text API.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

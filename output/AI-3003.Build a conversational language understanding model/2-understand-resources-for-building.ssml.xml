@@ -1,0 +1,68 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So, Emma, to develop a natural language processing solution using Azure AI Services, I need to create a Language resource in Azure, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+That's correct, Brian. The Language resource will be used for both authoring your model and processing prediction requests from client applications.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And once I have the Language resource, how do I build my model?
+</voice>
+<voice name="en-US-EmmaNeural">
+To build your model, you'll need to create an Azure AI Language resource in the Azure portal. You can search for "Azure AI services" and select "Language Service" to get started. Then, you can create your resource and provide the necessary details, such as the region and a unique name.
+</voice>
+<voice name="en-US-BrianNeural">
+Okay, once I have the resource, what's the next step?
+</voice>
+<voice name="en-US-EmmaNeural">
+After creating the resource, you'll need to obtain the key and endpoint. You can find them on the left side under "Keys and Endpoint" of the resource overview page. These will be used for authentication when making requests to the Language resource.
+</voice>
+<voice name="en-US-BrianNeural">
+Great. Can I use Language Studio to build, train, and deploy my model?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Language Studio provides a more visual method for building, training, and deploying your model. You can choose to create a "Conversational language understanding" project and then follow the same process as before.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient. What if I prefer to use the REST API?
+</voice>
+<voice name="en-US-EmmaNeural">
+If you prefer to use the REST API, you can create your project, import data, train, deploy, and use your model through a series of asynchronous requests. Each step requires submitting a request to the appropriate URI and checking the status of the job.
+</voice>
+<voice name="en-US-BrianNeural">
+How do I authenticate my API requests?
+</voice>
+<voice name="en-US-EmmaNeural">
+For each call to your Azure AI Language resource, you need to authenticate the request by providing the resource key in the request header.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. And how do I query my model for a prediction?
+</voice>
+<voice name="en-US-EmmaNeural">
+There are multiple ways to query your model. You can use SDKs in C# or Python, or you can use the REST API. With SDKs, you create a client and call the appropriate endpoint. With the REST API, you send a POST request to the URL with the necessary body and authentication.
+</voice>
+<voice name="en-US-BrianNeural">
+Can you give me an example of a query using the REST API?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Let's say you want to detect the language. You would send a POST request to the language detection endpoint, including the necessary parameters in the JSON body. The response will contain the detected language.
+</voice>
+<voice name="en-US-BrianNeural">
+And what about the response format?
+</voice>
+<voice name="en-US-EmmaNeural">
+The response format depends on the method you use. SDKs return objects specific to the feature, while the REST API returns JSON. For example, a response from the conversational language understanding model would include the predicted intent and entities.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Is there any additional documentation I can refer to?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. For more detailed information, examples, and guides, you can refer to the Azure AI Language documentation pages. They provide comprehensive documentation on all the features and functionalities.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma. This has been really helpful in understanding how to develop natural language processing solutions with Azure AI Services.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

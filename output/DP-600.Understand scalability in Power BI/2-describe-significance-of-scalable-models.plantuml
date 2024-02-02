@@ -1,0 +1,26 @@
+@startmindmap
+* Significance of scalable models
+** Model design for manageability and performance
+** Tools in Power BI for model design
+* Enterprise or large-scale data
+** Definition of enterprise-scale or large-scale data
+** Power BI as the next generation of Analysis Services
+*** VertiPaq engine
+* Scalability and its importance
+** Building data models that can handle data growth
+** Considerations for enterprise solutions
+*** Flexibility
+*** Data growth
+*** Reduced complexity
+* Designing for scalability
+** Building with data modeling best practices
+** Power BI Premium for enterprise deployments
+*** Premium capacity
+*** Large dataset storage feature
+** Choosing the right capacity
+*** Working with Power BI administrator
+*** Monitoring Power BI Premium capacities
+** Sufficient memory for processing
+*** RAM requirements for data model refresh
+*** Example of memory requirements
+@endmindmap

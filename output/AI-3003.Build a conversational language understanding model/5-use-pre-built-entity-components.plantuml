@@ -1,0 +1,19 @@
+@startmindmap
+* Use pre-built entity components
+** Create your own language models
+*** Define intents and utterances
+** Use prebuilt components
+*** Detect common entities
+**** Numbers
+**** Emails
+**** URLs
+**** Choices
+*** See list of supported prebuilt entity components
+** Automatically detect specified entity type
+** Not have to train model
+** Add prebuilt component
+*** Create entity
+*** Select "Add new prebuilt"
+** Up to five prebuilt components
+** Reduce development time
+@endmindmap

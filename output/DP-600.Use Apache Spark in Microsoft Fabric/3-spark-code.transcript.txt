@@ -1,0 +1,13 @@
+[Brian]: So Emma, I've been hearing a lot about using notebooks and Spark job definitions in Microsoft Fabric. Can you explain the difference between the two and when we would use each one?
+
+[Emma]: Absolutely, Brian. Notebooks are great when you want to interactively explore and analyze data using Spark. You can combine text, images, and code in a notebook to create an interactive item that you can share and collaborate on. It's perfect for data exploration and experimentation.
+
+[Emma]: On the other hand, Spark job definitions are used when you want to automate data ingestion and transformation processes. You can define a Spark job to run a script on-demand or based on a schedule. This is useful when you have a repeatable data processing task that needs to be executed automatically.
+
+[Brian]: That makes sense, Emma. So if I want to analyze some data and play around with different code snippets, I should use a notebook. But if I have a specific data processing task that needs to be automated, I should define a Spark job. Did I get that right?
+
+[Emma]: Exactly, Brian. Notebooks are great for interactive data exploration and analysis, while Spark job definitions are more suitable for automating data processing tasks. It's all about choosing the right tool for the job.
+
+[Brian]: Got it. That's really helpful, Emma. I can see how both notebooks and Spark job definitions have their own use cases. Thanks for clarifying that for me.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

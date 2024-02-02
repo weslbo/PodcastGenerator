@@ -1,0 +1,10 @@
+@startmindmap
+* Azure AI Vision
+** Branch of artificial intelligence
+*** Software interprets visual input
+**** Images or video feeds
+** Extract information from images
+*** Provision Azure AI Vision resource
+*** Analyze an image
+*** Generate smart cropped thumbnail
+@endmindmap

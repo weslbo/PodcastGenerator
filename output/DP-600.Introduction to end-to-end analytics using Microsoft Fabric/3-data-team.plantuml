@@ -1,0 +1,21 @@
+@startmindmap
+* Data teams and Microsoft Fabric
+** Unified management and governance
+*** Enhancing collaboration between data professionals
+** Data engineer and data analyst role separation
+*** Engineer curates semantic model
+*** Analyst displays data effectively
+** Fabric provides complete experience
+*** Simplifies semantic model curation
+*** Expands knowledge with data science techniques
+** DirectLake mode for data analysts
+*** See lineage and connect with data directly
+** Integration of native data science techniques for data scientists
+*** Use Power BI for interactive reporting
+** Quick and easy provisioning of workloads
+*** Scale resources up or down
+*** Agile and responsive to changing needs
+** Low-to-no-code concept and functionality
+*** Empowers users on Power Platform
+*** Offers visual representation of code
+@endmindmap

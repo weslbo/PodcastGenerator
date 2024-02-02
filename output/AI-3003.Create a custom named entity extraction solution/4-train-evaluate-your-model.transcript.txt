@@ -1,0 +1,27 @@
+[Brian]: So, Emma, once we have trained our model, how do we evaluate its performance?
+
+[Emma]: Great question, Brian! Evaluating the performance of our model is crucial to ensure its accuracy. In Language Studio, we can view the model details and find the scoring tab on the left-hand pane. It provides us with metrics to assess the model's performance.
+
+[Brian]: Oh, that's interesting! What kind of metrics do we get?
+
+[Emma]: We get three metrics: precision, recall, and F1 score. Precision measures the ratio of successful entity recognitions to all attempted recognitions. Recall measures the ratio of successful entity recognitions to the actual number of entities in the document. And the F1 score is a combination of precision and recall, providing a single scoring metric.
+
+[Brian]: I see. So, how do we interpret these metrics?
+
+[Emma]: Ideally, we want our model to score well in both precision and recall. If both metrics have a low score, it means the model is struggling to recognize entities and assign them the correct label. If precision is low but recall is high, it means the model recognizes the entity well but doesn't label it correctly. And if precision is high but recall is low, it means the model doesn't always recognize the entity, but when it does, it assigns the correct label.
+
+[Brian]: That makes sense. Is there any other way to assess the model's performance?
+
+[Emma]: Absolutely! In the "View model details" page, there's a tab called "Confusion matrix." It provides a visual table of all the entities and how each performed. This allows us to identify where we need to add more data to improve the model's performance.
+
+[Brian]: That's really helpful! Having a visual representation of the model's performance will make it easier to identify areas for improvement.
+
+[Emma]: Exactly, Brian! The confusion matrix is a powerful tool for fine-tuning our model and enhancing its accuracy.
+
+[Brian]: Thank you, Emma, for explaining the process of training and evaluating our model. This has been really insightful!
+
+[Emma]: You're welcome, Brian! I'm glad I could help. Remember, training and evaluating your model is an iterative process, so keep refining it to achieve the best results.
+
+[Brian]: Absolutely! And thank you to our listeners for tuning in. We hope you found this episode helpful in understanding how to develop natural language processing solutions with Azure AI Services. Keep on learning and exploring the world of AI!
+
+[Emma]: Thank you, Brian, and thank you to all our listeners. Stay curious and keep leveraging the power of AI to drive innovation. Until next time!

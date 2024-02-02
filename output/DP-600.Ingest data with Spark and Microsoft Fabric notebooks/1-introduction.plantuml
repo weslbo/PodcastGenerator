@@ -1,0 +1,19 @@
+@startmindmap
+* Microsoft Fabric
+** Ingesting data into Fabric lakehouse
+*** Extract, transform, load (ETL) process
+**** Moving and transforming data
+*** Ingestion first
+*** Cleanse and transform before loading
+** Fabric notebooks
+*** Extract, load, and transform external data
+*** Adapting to workflow
+*** Prior Spark or notebook experience
+** Best choice for:
+*** Handling large external data
+*** Needing complex transformations
+** Spark and Fabric notebooks
+*** Ingesting external data into lakehouse
+*** Fundamental transformations
+*** Optimization techniques
+@endmindmap

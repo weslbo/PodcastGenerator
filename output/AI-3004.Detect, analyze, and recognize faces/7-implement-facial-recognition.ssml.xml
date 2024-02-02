@@ -1,0 +1,53 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, now that we know how to detect and analyze faces, I'm curious about how we can actually identify individuals using facial recognition. Can you walk me through the process?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. To identify individuals using facial recognition, we need to train a facial recognition model using the Face service. The process involves a few steps. First, we create a Person Group, which defines the set of individuals we want to identify. For example, we can create a Person Group for employees in a company.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So once we have the Person Group, what's the next step?
+</voice>
+<voice name="en-US-AndrewNeural">
+The next step is to add a Person to the Person Group for each individual we want to identify. For example, we can add a Person record for each employee in the company. Each Person record will have a unique ID.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And what do we do after adding the Person records?
+</voice>
+<voice name="en-US-AndrewNeural">
+After adding the Person records, we need to add detected faces from multiple images to each Person. It's preferable to have faces in various poses to improve accuracy. These faces are referred to as "persisted" faces because their IDs no longer expire after 24 hours.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So the model can recognize the same person even if they're in different poses?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, that's correct. The model learns to recognize the unique facial features of each individual, regardless of their pose. This allows for more accurate identification.
+</voice>
+<voice name="en-US-BrianNeural">
+Great. And what's the final step in the process?
+</voice>
+<voice name="en-US-AndrewNeural">
+The final step is to train the model. Once the model is trained, it is stored in your Face or Azure AI Services resource. Client applications can then use the trained model to identify individuals in images, verify the identity of a detected face, and analyze new images to find faces that are similar to a known, persisted face.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful. It opens up a lot of possibilities for applications that require positive identification. Thank you for explaining the process, Andrew.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. It's always a pleasure to share knowledge with you.
+</voice>
+<voice name="en-US-BrianNeural">
+Before we wrap up, is there anything else you'd like to add?
+</voice>
+<voice name="en-US-AndrewNeural">
+Just a reminder that training a facial recognition model requires getting approved through a Limited Access policy. So it's important to follow the necessary steps to ensure compliance.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you for the reminder, Andrew. And thank you for joining me today and sharing your expertise on building an Azure AI Vision solution with Azure AI services.
+</voice>
+<voice name="en-US-AndrewNeural">
+It was my pleasure, Brian. Thank you for having me.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. We hope you found this episode informative and helpful. Remember, there's always more to learn, so keep exploring and building amazing AI solutions. Until next time!
+</voice>
+</speak>

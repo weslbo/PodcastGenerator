@@ -1,0 +1,13 @@
+@startmindmap
+* Consider uses for ingested data
+** Transform for different users
+*** Data scientists
+**** Explore wide tables
+**** Access raw ingested data
+**** Use Fabric's Data Wrangler
+*** Power BI data analysts
+**** Require more transformation and modeling
+**** Develop reports and insights
+**** Start with well-prepared data
+** Use Apache Spark in Microsoft Fabric
+@endmindmap

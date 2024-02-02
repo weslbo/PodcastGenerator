@@ -1,0 +1,30 @@
+@startmindmap
+* Manage a Power BI dataset using XMLA endpoint
+** XMLA endpoint settings
+*** Default endpoint connectivity is read-only
+**** Model data
+**** Metadata
+**** Events
+**** Schema
+*** Read-write connectivity can be enabled
+**** Management
+**** Governance
+**** Advanced semantic modeling
+**** Debugging
+**** Monitoring
+*** Common uses of XMLA endpoint
+**** Refreshing data model components
+**** Exporting data from data model
+**** Automating Best Practice Analyzer
+** Enable read-write connectivity
+*** Set XMLA endpoint connectivity for Premium capacity
+**** Navigate to Settings > Admin portal
+**** Select Capacity settings > Power BI Premium > capacity name
+**** Expand Workloads
+**** Select Read Write in XMLA Endpoint setting
+*** Enable read-write for Premium Per User workspaces
+**** Select Settings > Admin portal
+**** Select Premium Per User
+**** Expand Dataset workload settings
+**** Select Read Write in XMLA Endpoint setting
+@endmindmap

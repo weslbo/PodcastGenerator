@@ -1,0 +1,63 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" version="1.0" xml:lang="en-US">
+  <voice name="en-US-BrianNeural">
+    So Emma, I've been reading about the Speech Synthesis Markup Language (SSML) in Azure AI Services. It seems like a powerful tool for controlling the characteristics of synthesized speech. Can you give me an example of how SSML can be used in a real-world scenario?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian! Let's say you have a virtual assistant that interacts with users. You can use SSML to give the assistant a more natural and expressive voice. For example, you can specify a "cheerful" speaking style for certain responses to make the assistant sound more friendly and approachable.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's interesting! So with SSML, you can control the speaking style of the synthesized speech. Can you give me an example of how to specify a speaking style using SSML?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Sure, Brian! Here's an example of SSML that specifies a cheerful speaking style:
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <mstts:express-as style="cheerful">
+      Hello, how can I assist you today?
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's really cool! SSML seems to offer a lot of flexibility. Can you give me an example of how to insert pauses or silence using SSML?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian! Here's an example of SSML that inserts a pause of 2 seconds:
+  </voice>
+  <voice name="en-US-AriaNeural">
+    Hello, I'm your virtual assistant. <break time="2s"/> How can I help you today?
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's really useful! SSML seems to provide a lot of control over the synthesized speech. Can you give me an example of how to adjust the prosody of the voice using SSML?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Definitely, Brian! Here's an example of SSML that adjusts the pitch and speaking rate:
+  </voice>
+  <voice name="en-US-AriaNeural">
+    <prosody pitch="+10%" rate="slow">
+      Hello, how can I assist you today?
+    </prosody>
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Wow, SSML seems really powerful! Can you give me an example of how to use the "say-as" rule in SSML?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Absolutely, Brian! Here's an example of SSML that uses the "say-as" rule to specify that a given string should be expressed as a date:
+  </voice>
+  <voice name="en-US-AriaNeural">
+    Today's date is <say-as interpret-as="date">2024-02-15</say-as>.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's really helpful! SSML seems to provide a lot of flexibility for customizing the synthesized speech. Is there anything else you'd like to add about SSML?
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    Just one more thing, Brian. SSML also allows you to insert recorded speech or audio, which can be useful for including standard recorded messages or simulating background noise. It's a powerful tool for creating more dynamic and realistic synthesized speech.
+  </voice>
+  <voice name="en-US-BrianNeural">
+    That's great to know, Emma! Thank you for sharing all these examples and insights about SSML. It's definitely a valuable tool for developers working with Azure AI Services.
+  </voice>
+  <voice name="en-US-EmmaNeural">
+    You're welcome, Brian! I'm glad I could help. If you or the listeners have any more questions, feel free to reach out. Let's keep exploring and learning together!
+  </voice>
+  <voice name="en-US-BrianNeural">
+    Absolutely, Emma! Thank you again for joining me today and sharing your expertise. And thank you to all our listeners for tuning in. Remember, there's always more to learn, so keep exploring and experimenting with Azure AI Services. Until next time!
+  </voice>
+</speak>

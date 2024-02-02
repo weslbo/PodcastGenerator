@@ -1,0 +1,23 @@
+@startmindmap
+* Monitor capacity metrics
+** Microsoft Fabric
+*** Capacity
+**** Pool of resources
+**** Implement Fabric capabilities
+*** Capacity units (CUs)
+**** Consumed by actions
+**** Billed by organization
+*** Monitor capacity usage
+**** Plan and manage costs
+**** Data read and write activities
+** Microsoft Fabric Capacity Metrics app
+*** App for monitoring capacity
+*** Filter for warehouse activity
+**** Show only warehouse activity
+*** Observe capacity utilization trends
+**** Determine consuming processes
+**** Identify throttling occurrences
+*** Optimize capacity license
+**** Match license to needs
+**** Improve cost efficiency
+@endmindmap

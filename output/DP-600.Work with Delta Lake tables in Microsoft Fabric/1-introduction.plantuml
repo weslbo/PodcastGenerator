@@ -1,0 +1,16 @@
+@startmindmap
+* Delta Lake
+** Table format
+** Storage layer
+*** Batch data
+*** Streaming data
+** Lakehouse architecture
+*** SQL-based data manipulation
+*** Transactions
+*** Schema enforcement
+** Analytical data store
+*** Relational database capabilities
+*** Data file storage
+** Delta Lake metastore architecture
+** Delta table operations
+@endmindmap

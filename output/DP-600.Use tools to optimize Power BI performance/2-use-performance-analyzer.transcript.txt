@@ -1,0 +1,31 @@
+[Brian]: So Emma, I've been hearing a lot about the Performance analyzer in Power BI Desktop. Can you tell me more about it and how it can help optimize reports?
+
+[Emma]: Absolutely, Brian. The Performance analyzer is a built-in tool in Power BI Desktop that helps you understand the performance of your report elements like visuals and DAX queries. It allows you to measure and optimize at the data model and report visuals levels.
+
+[Brian]: That sounds really useful. How does the Performance analyzer work exactly?
+
+[Emma]: The Performance analyzer captures and records logs that measure the performance of each report element when users interact with them. It shows you which aspects of their performance are most resource-intensive. You can make changes, run the analyzer again, and see the impact of those changes.
+
+[Brian]: So, what subsystems does the Performance analyzer capture operations from?
+
+[Emma]: The Performance analyzer captures operations from three major subsystems involved in executing a Power BI report. These are the Report Canvas, the Data Shape Engine (DSE), and the Data Model Engine (AS). The Report Canvas provides the user interface, the DSE evaluates Semantic Queries, and the AS stores the data model and provides services to reports.
+
+[Brian]: Got it. How do I actually use the Performance analyzer in Power BI Desktop?
+
+[Emma]: To use the Performance analyzer, you need to enable it on the View tab of the ribbon and select "Start recording". Then, you perform actions in your report, such as navigating between pages, selecting slicer items, or interacting with visuals. The Performance analyzer will display and log these actions in real time.
+
+[Brian]: And what kind of information does the Performance analyzer provide?
+
+[Emma]: The Performance analyzer provides information about the time it takes for each visual to query the data model and render results. It breaks down the duration into categories like DAX query, evaluated parameters, visual display, and other background processing. This helps you identify which visuals or queries are causing performance issues.
+
+[Brian]: Can I refresh visuals or analyze individual visuals using the Performance analyzer?
+
+[Emma]: Yes, you can. You have the option to refresh all visuals on the current page or refresh individual visuals. When recording with the Performance analyzer, you can select "Analyze this visual" in the top-right corner of each visual to refresh that specific visual and capture its performance information.
+
+[Brian]: That's really helpful. Is there anything else I can do to evaluate the performance data further?
+
+[Emma]: Absolutely. You can use DAX Studio to investigate your queries in more detail by copying the query from the Performance analyzer. In DAX Studio, you can analyze the query, activate diagnostic tools like Query Plan and Server Timings, and identify performance issues. You can also save Performance analyzer results as a .json file and load it into DAX Studio for more detailed analysis.
+
+[Brian]: That's great to know. Thanks for explaining how to use the Performance analyzer, Emma.
+
+[Emma]: You're welcome, Brian. The Performance analyzer is a powerful tool for optimizing Power BI reports. It helps you identify and address performance issues, ultimately improving the user experience.

@@ -1,0 +1,13 @@
+[Brian]: Welcome to DP600, the podcast where we dive deep into the world of analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. Please welcome Emma!
+
+[Emma]: Hi Brian, thanks for having me on the show.
+
+[Brian]: It's great to have you here, Emma. Before we get started, could you please introduce yourself to our listeners?
+
+[Emma]: Of course, Brian. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric.
+
+[Brian]: That's fantastic, Emma. Today, we're going to be discussing the topic of implementing analytics solutions using Microsoft Fabric. It's a fascinating subject and I'm really excited to learn more about it. So, let's dive right in!
+
+[Emma]: Absolutely, Brian. I'm here to share my knowledge and help you understand how to seamlessly ingest data into your Fabric lakehouse using the ETL process and Fabric notebooks.
+
+[Brian]: That sounds great, Emma. I'm sure our listeners are eager to learn more about this. So, without further ado, let's get started!

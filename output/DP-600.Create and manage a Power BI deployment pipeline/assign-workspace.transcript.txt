@@ -1,0 +1,31 @@
+[Brian]: So Emma, after creating a pipeline, we need to assign a workspace to it, right? Can you walk me through the steps?
+
+[Emma]: Absolutely, Brian. Assigning a workspace to a pipeline stage is an important step. Let me explain how it's done. 
+
+[Brian]: Great! So, first, we need to open the pipeline, correct?
+
+[Emma]: Yes, that's correct. You'll need to open the pipeline you want to assign the workspace to.
+
+[Brian]: Got it. And then, we expand the dropdown titled "Choose a workspace to assign to this stage", right?
+
+[Emma]: Exactly. In the stage where you want to assign the workspace, expand that dropdown.
+
+[Brian]: Okay, and I assume we usually start with the Development stage?
+
+[Emma]: Yes, that's the most common starting point. Expand the dropdown in the Development stage.
+
+[Brian]: Understood. And from the dropdown menu, we select the workspace we want to assign, correct?
+
+[Emma]: That's right. Choose the workspace you want to assign to the current stage from the dropdown menu.
+
+[Brian]: And just to clarify, the dropdown only shows premium capacity workspaces that are not assigned to any other pipeline, where the user is the admin, and where the user is a member of their adjacent stages, right?
+
+[Emma]: Yes, you've got it. The dropdown only displays those eligible workspaces.
+
+[Brian]: Perfect. And finally, we select "Assign a workspace", correct?
+
+[Emma]: Exactly. Once you've selected the workspace, click on "Assign a workspace" to complete the process.
+
+[Brian]: That makes sense. Thanks for explaining, Emma. It seems like a straightforward process to assign a workspace to a pipeline stage.
+
+[Emma]: You're welcome, Brian. It is indeed a straightforward process. Assigning a workspace allows you to manage and deploy your content effectively.

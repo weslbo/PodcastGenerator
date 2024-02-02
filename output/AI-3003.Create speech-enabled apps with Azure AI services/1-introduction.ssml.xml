@@ -1,0 +1,20 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Hey everyone, welcome to the AI3003 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be diving into the world of natural language processing solutions with Azure AI Services. But before we get started, let me introduce our guest for today. Please welcome Emma from Contoso!
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the podcast. I'm Emma, and I'm really excited to be here today to talk about natural language processing solutions with Azure AI Services.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for joining us, Emma! I'm really looking forward to learning more about this topic. Natural language processing is such a fascinating field, and I'm sure our listeners are eager to know more about how Azure AI Services can help in this area. So, let's dive right in!
+</voice>
+<voice name="en-US-BrianNeural">
+Today, we'll be focusing on Azure AI Speech, which provides a range of APIs for speech-enabled applications. These APIs include speech to text, text to speech, speech translation, speaker recognition, and intent recognition. We'll be specifically looking at speech recognition and speech synthesis, which are essential for any speech-enabled application.
+</voice>
+<voice name="en-US-BrianNeural">
+Throughout this module, we'll cover how to provision an Azure resource for the Azure AI Speech service, how to use the Speech to text API for speech recognition, how to use the Text to speech API for speech synthesis, and how to configure audio format and voices. We'll also touch on Speech Synthesis Markup Language (SSML).
+</voice>
+<voice name="en-US-BrianNeural">
+So, if you're ready to explore the world of natural language processing with Azure AI Services, let's get started!
+</voice>
+</speak>

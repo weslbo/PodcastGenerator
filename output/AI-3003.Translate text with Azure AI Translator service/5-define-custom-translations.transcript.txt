@@ -1,0 +1,45 @@
+[Brian]: So Emma, I've been reading about custom translations with Azure AI Translator. It seems like a great solution for businesses or industries with specific vocabularies. Can you walk me through the process of creating a custom model?
+
+[Emma]: Absolutely, Brian. To create a custom model, you first need to create a workspace linked to your Azure AI Translator resource. Once you have the workspace, you can create a project within it.
+
+[Brian]: Got it. And what's the next step after creating the project?
+
+[Emma]: After creating the project, you'll need to upload training data files. These files will be used to train your custom model. Once the training data is uploaded, you can proceed to train the model.
+
+[Brian]: How do I test the model after it's trained?
+
+[Emma]: Good question. You can test your model by making translation calls to the API. This will allow you to see how well your custom model performs.
+
+[Brian]: And once I'm satisfied with the results, how do I publish the model?
+
+[Emma]: Once you're satisfied with the performance of your model, you can publish it. This will make it available for translation calls using the category Id assigned to your custom model.
+
+[Brian]: That sounds straightforward. How do I actually make translation calls to the API?
+
+[Emma]: To make a translation call, you need to send a POST request to the API with the required parameters. These parameters include the version of the API, the target language, and your category Id.
+
+[Brian]: And what about the headers and request body?
+
+[Emma]: The request headers should include your client key and the content type of the payload. The request body should contain an array with a JSON object specifying the text you want to translate.
+
+[Brian]: Can you give me an example of how to make a translation call using curl?
+
+[Emma]: Sure. You can use curl to send a POST request like this: `curl -X POST -H "Ocp-Apim-Subscription-Key: YOUR_SUBSCRIPTION_KEY" -H "Content-Type: application/json" --data '[{"Text": "Hello, how are you?"}]' "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=fr&category=YOUR_CATEGORY_ID"`
+
+[Brian]: That's helpful, Emma. And what can I expect in the response from the API?
+
+[Emma]: The response will include a response code indicating the success of the request. It will also contain the translated text in the response body.
+
+[Brian]: And what if the request is not successful?
+
+[Emma]: If the request is not successful, the API may return different status codes depending on the error type. You can refer to the documentation for a full list of status codes and their explanations.
+
+[Brian]: Thanks for explaining the process, Emma. This seems like a powerful tool for businesses with specific translation needs.
+
+[Emma]: You're welcome, Brian. It definitely is a powerful tool. Custom translations can greatly improve the accuracy and relevance of translations for specialized industries.
+
+[Brian]: Well, I think that wraps up our discussion on custom translations with Azure AI Translator. Thank you, Emma, for sharing your expertise on this topic.
+
+[Emma]: Thank you, Brian, for having me. It was a pleasure discussing custom translations with you.
+
+[Brian]: And thank you to our listeners for tuning in. We hope you found this episode informative. Keep on learning and exploring the possibilities of Azure AI Services.

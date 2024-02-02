@@ -1,0 +1,35 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about model relationships in Power BI and I came across the terms "regular relationships" and "limited relationships". Can you explain the difference between the two?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Regular relationships are relationships where the query engine can determine the "one" side of the relationship. This means that the "one" side column contains unique values. Regular relationships are typically one-to-many relationships within the same source group. On the other hand, limited relationships are relationships where there is no guaranteed "one" side. This can happen in two cases: when the relationship is a many-to-many relationship, or when it's a cross source group relationship in a composite model.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So regular relationships are more straightforward, but what about limited relationships? How do they work?
+</voice>
+<voice name="en-US-EmmaNeural">
+Limited relationships don't have a guaranteed "one" side, so they have some limitations. In import models, data structures are not created for limited relationships. This means that table joins are resolved at query time. Additionally, table expansion, which is the creation of a virtual table by including the native columns of the base table and expanding into related tables, does not occur for limited relationships. Instead, table joins are achieved using semantics, and no blank virtual rows are added to compensate for referential integrity violations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So, are there any other restrictions or considerations when working with limited relationships?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are a couple of additional restrictions. First, you cannot use the DAX function to retrieve the "one" side column values in limited relationships. Second, enforcing row-level security (RLS) has topology restrictions when it comes to limited relationships.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So, when it comes to performance, are there any differences between regular and limited relationships?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are some performance differences. In terms of filter propagation performance, one-to-many intra source group relationships are the fastest. Many-to-many model relationships achieved with an intermediary table and involving at least one bi-directional relationship are the second fastest. Many-to-many cardinality relationships are slower, and cross source group relationships are the slowest.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for explaining that, Emma. It's really helpful to understand the differences between regular and limited relationships in Power BI.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+<voice name="en-US-BrianNeural">
+Will do, Emma. Thanks again for sharing your expertise. And to our listeners, thank you for tuning in. We hope you found this episode on implementing analytics solutions using Microsoft Fabric informative. Keep on learning and exploring the world of analytics.
+</voice>
+</speak>

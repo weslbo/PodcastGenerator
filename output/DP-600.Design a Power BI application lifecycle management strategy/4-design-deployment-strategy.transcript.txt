@@ -1,0 +1,33 @@
+[Brian]: So Emma, now that we've discussed how to secure changes in Power BI, let's move on to deployment strategies. What options should organizations consider when it comes to deploying their reports and datasets?
+
+[Emma]: When it comes to deployment in Power BI, organizations have a few options to consider. One option is to treat the published report as a "gold copy" or the "production" copy, especially in smaller organizations. However, in larger enterprises, it's common to implement Application Lifecycle Management (ALM) and have separate environments for development, test, and production.
+
+[Brian]: Ah, I see. So in ALM, how would the deployment process work for these separate environments?
+
+[Emma]: In ALM, you would start by publishing the initial .pbix file to the development workspace. Then, you would allow testing in the test environment. Finally, once the report is approved, you would publish it to the production environment.
+
+[Brian]: That makes sense. But managing multiple workspaces can be quite challenging. Are there any tools or features in Power BI that can help with this?
+
+[Emma]: Absolutely. Power BI service offers a feature called deployment pipelines, which create separate workspaces for development, test, and production. The great thing about deployment pipelines is that they allow you to easily compare the different workspaces and identify any discrepancies. This helps ensure that all environments are in sync.
+
+[Brian]: That sounds really useful. Are there any requirements or limitations for using deployment pipelines?
+
+[Emma]: Yes, deployment pipelines require a Premium or Premium Per User workspace. So organizations would need to have one of these workspace types in order to take advantage of this feature.
+
+[Brian]: Got it. Now, what about combining source control with deployment pipelines? Can organizations use both together?
+
+[Emma]: Absolutely. Organizations can choose to use only deployment pipelines for everything, including the .pbix files. Alternatively, they can use OneDrive/SharePoint or Git for source control of the .pbix files, and then publish the final copy to the development pipeline. Another option is to use Git for .bim files, OneDrive/SharePoint for .pbix files, publish the final copy to the development pipeline, and then use deployment pipelines.
+
+[Brian]: That's good to know. Now, let's talk about workspace planning. In large organizations, there are often multiple reports created from shared datasets. How can organizations handle this effectively?
+
+[Emma]: Instead of having duplicate datasets across several workspaces, organizations can consider creating a single workspace for a dataset and then separate workspaces for the subsequent reports and dashboards. This way, they can grant access to a larger audience to create reports from the dataset while keeping their specific reports in their appropriate workspaces.
+
+[Brian]: That's a smart approach. Lastly, I've heard about Continuous Integration/Continuous Delivery (CI/CD). How does this concept apply to Power BI deployment?
+
+[Emma]: CI/CD is a more recent concept focused on automating the deployment process from development to production. While deployment pipelines in Power BI can help with deployment, they don't fully encapsulate a true CI/CD solution. However, organizations can use Azure DevOps for Git and leverage the Power BI Connector and XMLA endpoint to automate deployment from their repository to the deployment pipeline workspace.
+
+[Brian]: Thank you, Emma. This has been really informative. I appreciate you sharing your expertise on deployment strategies in Power BI.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you or any of our listeners want to learn more, there are resources available on the Power BI website that provide detailed information on deployment pipelines and CI/CD automation.
+
+[Brian]: That's great to know. Thank you again, Emma. And thank you to all our listeners for tuning in. Keep on learning and implementing analytics solutions using Microsoft Fabric.

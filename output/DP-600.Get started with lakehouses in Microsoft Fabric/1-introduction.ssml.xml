@@ -1,0 +1,37 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the DP600 podcast, where we dive deep into the world of data analytics and explore the latest technologies and solutions. I'm your host, Brian, and I'm excited to have you join us today.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm thrilled to be here and share my knowledge about Microsoft Fabric and how it can revolutionize data analytics.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Great to have you, Emma. Now, let's jump right into the topic of today's podcast - implementing analytics solutions using Microsoft Fabric.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Microsoft Fabric is a powerful platform that combines the best of a data lake and a data warehouse, providing a unified and scalable solution for storing and analyzing data. It's designed to help companies like Contoso improve their decision-making capabilities by leveraging data from various sources.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That sounds fascinating, Emma. I can see how having a unified platform for both structured and unstructured data can be a game-changer. I'm eager to learn more about how Microsoft Fabric works and the benefits it offers.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Microsoft Fabric is built on top of the OneLake scalable storage layer and utilizes Apache Spark and SQL compute engines for big data processing. It provides a flexible and scalable storage solution for files and tables, allowing users to query and analyze data using SQL. This makes it easier to manage and analyze data from different sources, including structured and unstructured data.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's impressive, Emma. I can see how Microsoft Fabric can help companies like Contoso unlock the value of their data and make more informed decisions. I'm excited to dive deeper into the details and understand how it all works.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+I'm glad to hear that, Brian. Throughout this podcast, we'll explore the key features and capabilities of Microsoft Fabric and discuss real-world examples of how it can be implemented to solve data analytics challenges. I'm confident that by the end of this podcast, you'll have a clear understanding of how Microsoft Fabric can revolutionize your data analytics journey.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That sounds fantastic, Emma. I can't wait to get started. So, let's dive right in and explore the world of implementing analytics solutions using Microsoft Fabric.
+</voice>
+</speak>

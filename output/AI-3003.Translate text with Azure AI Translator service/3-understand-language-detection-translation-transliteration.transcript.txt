@@ -1,0 +1,27 @@
+[Brian]: So Emma, I've been reading about the capabilities of Azure AI Translator. It seems like it can do some really interesting things like language detection, translation, and transliteration. Can you tell me more about these capabilities?
+
+[Emma]: Absolutely, Brian. With Azure AI Translator, you can use the Detect function to determine the language in which a given text is written. For example, you can submit the text to the endpoint using curl and get a response indicating the detected language.
+
+[Brian]: That's cool! Can you give me an example of how we can use the Detect function?
+
+[Emma]: Sure, let's say we have a text written in Japanese. We can make a call using curl to the endpoint and pass the text as a parameter. The response will tell us that the text is written in Japanese.
+
+[Brian]: Got it! So once we know the language, can we translate the text to another language?
+
+[Emma]: Absolutely! To translate text from one language to another, we can use the Translate function. We specify a source language using the "from" parameter and one or more target languages using the "to" parameter.
+
+[Brian]: That sounds straightforward. Can you give me an example of how we can use the Translate function?
+
+[Emma]: Of course! Let's say we have the same Japanese text and we want to translate it to English and French. We can make a call specifying the "from" parameter as "ja" for Japanese and the "to" parameters as "en" for English and "fr" for French. The result will be the translated text in both languages.
+
+[Brian]: That's really useful! But what if we don't want to translate the text, but instead transliterate it to a different script?
+
+[Emma]: Great question! If we have Japanese text written in Hiragana script and we want to transliterate it to Latin script, we can use the Transliterate function. We specify the "fromScript" parameter as "Jpan" for Japanese and the "toScript" parameter as "Latn" for Latin script.
+
+[Brian]: Ah, I see. So the Transliterate function can help us render the text in a different script without actually translating it. That's interesting!
+
+[Emma]: Exactly, Brian! It's a useful feature when you want to keep the original meaning of the text but display it in a different script.
+
+[Brian]: That's an excellent insight, Emma. It's fascinating to see how Azure AI Translator can detect languages, translate text, and even transliterate it. Thank you for sharing these capabilities with us!
+
+[Emma]: You're welcome, Brian. It was my pleasure to discuss these capabilities with you. If you have any more questions, feel free to ask!

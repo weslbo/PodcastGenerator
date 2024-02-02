@@ -1,0 +1,12 @@
+@startmindmap
+* Train, test, publish, and review a conversational language understanding model
+** Train a model
+*** Learn intents and entities
+** Test the model
+*** Interactive testing
+*** Testing dataset with known labels
+** Deploy a trained model
+*** Public endpoint for client apps
+** Review predictions
+*** Iterate on utterances
+@endmindmap

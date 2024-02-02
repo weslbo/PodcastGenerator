@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the DP600 podcast, where we discuss all things related to implementing analytics solutions using Microsoft Fabric. I'm your host, Brian, and I'm excited to dive into today's topic. But before we get started, I want to introduce our guest for today. Please welcome Emma, who works for Contoso. Emma, would you like to introduce yourself?
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the podcast. My name is Emma and I'm an expert in implementing analytics solutions using Microsoft Fabric. I've been working in this field for several years and I'm excited to share my knowledge with our listeners today.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma. It's great to have you here. Today, we're going to be talking about implementing analytics solutions using Microsoft Fabric, specifically focusing on model security. Now, model security is an important aspect of any analytics solution, as it allows us to restrict access to certain data and ensure that only authorized users can view and interact with the data. Emma, could you please give us an overview of model security and its importance?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Model security is crucial in ensuring that sensitive data is protected and only accessible to the right people. With model security, we can restrict access to subsets of data, specific model tables, and even individual columns. This is particularly important when dealing with confidential information or when different users have different levels of access. By implementing row-level security (RLS) and object-level security (OLS), we can enforce these access restrictions and ensure that our analytics solution is secure.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes a lot of sense, Emma. It's important to have control over who can see what data, especially when dealing with sensitive information. I'm looking forward to diving deeper into row-level security (RLS) and object-level security (OLS) and learning how we can implement these in our analytics solutions using Microsoft Fabric. But before we do that, let's take a quick break and we'll be right back with more on implementing model security. Stay tuned!
+</voice>
+</speak>

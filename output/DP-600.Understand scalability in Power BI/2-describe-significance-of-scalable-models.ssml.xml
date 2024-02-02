@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, let's dive into the topic of scalability. Can you explain what we mean by "enterprise-scale" or "large-scale" data?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. When we talk about enterprise-scale or large-scale data, we're referring to tables with a large number of records or rows. In the context of Power BI, we're talking about analyzing massive datasets, ranging from trillions of rows to petabytes of data. It's important to note that Power BI, powered by the VertiPaq engine, can handle such large datasets.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive, Emma. Now, why is scalability important when it comes to building data models?
+</voice>
+<voice name="en-US-EmmaNeural">
+Scalability is crucial because it ensures that your data models can handle the growth in data volume over time. As your data grows and changes, your models need to be flexible enough to accommodate these changes. Additionally, scalability helps maintain acceptable report performance as the data volume increases. By designing for scalability, you can reduce complexity and make your models easier to manage.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, how should we approach designing for scalability in Power BI?
+</voice>
+<voice name="en-US-EmmaNeural">
+The best approach is to always follow data modeling best practices. This includes properly structuring your data model, creating relationships between tables, and optimizing your queries. Additionally, if you're working with enterprise deployments, Power BI Premium is specifically designed for scalability. It offers greater storage capacity and allows for larger individual datasets. You can also enable the large dataset storage feature to overcome the Power BI desktop file size limitations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know, Emma. Can you provide some guidance on choosing the right Power BI Premium capacity for scalability?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. Choosing the right capacity depends on your specific needs and requirements. You'll need to work with your Power BI administrator to determine which Power BI Premium licensing SKU is available to you. It's important to ensure that your Premium capacity has sufficient memory for processing. As a general rule, you'll need to double the amount of RAM to process your data model refresh. For example, if you have a 40-GB dataset, you'll need at least 80-GB of memory available. It's also recommended to monitor your Power BI Premium capacities to optimize performance.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for the insights, Emma. It's clear that scalability is crucial for handling large-scale data in Power BI.
+</voice>
+</speak>

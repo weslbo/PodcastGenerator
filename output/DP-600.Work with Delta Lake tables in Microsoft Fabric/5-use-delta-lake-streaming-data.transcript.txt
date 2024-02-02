@@ -1,0 +1,25 @@
+[Brian]: So Emma, we've been talking a lot about using delta tables for batch processing, but what about streaming data? Can we use delta tables with streaming data as well?
+
+[Emma]: Absolutely, Brian! Delta tables can be used as both a source and a sink for Spark Structured Streaming. For example, you can capture a stream of real-time data from an IoT device and write it directly to a delta table as a sink. This allows you to query the table and see the latest streamed data. Alternatively, you can read a delta table as a streaming source, constantly reporting new data as it's added to the table.
+
+[Brian]: That's interesting! Can you give me an example of using a delta table as a streaming source?
+
+[Emma]: Sure! Let's say we have a delta table that stores details of internet sales orders. We can create a stream that reads data from the table folder as new data is appended. It's important to note that when using a delta table as a streaming source, only append operations are allowed. Any data modifications will cause an error unless you specify the `ignoreChanges` option.
+
+[Brian]: I see. So once we read the data from the delta table into a streaming dataframe, what can we do with it?
+
+[Emma]: With the streaming dataframe, we can use the Spark Structured Streaming API to process the data. In the example I mentioned earlier, the dataframe is simply displayed. However, you can also use Spark Structured Streaming to aggregate the data over temporal windows, such as counting the number of orders placed every minute. You can then send the aggregated results to a downstream process for near-real-time visualization.
+
+[Brian]: That's really powerful! Now, what about using a delta table as a streaming sink?
+
+[Emma]: Great question! In this scenario, we can read a stream of data from JSON files in a folder. Each file contains the status for an IoT device. Whenever a new file is added to the folder, new data is added to the stream. The input stream is then written in delta format to a folder location for a delta table. To track the state of the stream processing, we use the `checkpointLocation` option to write a checkpoint file.
+
+[Brian]: That makes sense. And once the streaming process has started, can we query the delta table to see the latest data?
+
+[Emma]: Absolutely! You can create a catalog table for the Delta Lake table folder and query it to see the latest data. This allows you to monitor the streaming output in near real-time.
+
+[Brian]: This is really helpful, Emma. I can see how delta tables can be a powerful tool for processing streaming data. Thank you for sharing these examples!
+
+[Emma]: You're welcome, Brian! I'm glad I could help. Delta tables indeed provide a reliable and efficient way to handle streaming data. If you have any more questions, feel free to ask.
+
+[Brian]: Thank you, Emma. I'll definitely keep that in mind. And thank you to our listeners for tuning in. We hope you found this episode on implementing analytics solutions using Microsoft Fabric informative. Keep on learning and exploring new ways to leverage data analytics in your projects. Until next time!

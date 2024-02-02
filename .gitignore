@@ -1,5 +1,5 @@
-output/
-temp/
+*.mp3
+out/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

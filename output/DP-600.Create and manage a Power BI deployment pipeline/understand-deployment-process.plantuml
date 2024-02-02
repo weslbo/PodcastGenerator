@@ -1,0 +1,22 @@
+@startmindmap
+* Understand the deployment process
+** Deployment Pipeline
+*** Continuous integration/continuous deployment (CI/CD)
+*** Content development lifecycle
+**** Development
+***** Engage other creators
+***** Use minimal datasets
+**** Test
+***** Share content with testers
+***** Load and run tests
+**** Production
+***** Share content with business users
+** Workflow
+*** Content in each stage
+**** Data source size
+**** Reports
+*** Other creators and developers
+*** Pipeline
+**** Three independent workspaces
+**** Deploy source to target
+@endmindmap

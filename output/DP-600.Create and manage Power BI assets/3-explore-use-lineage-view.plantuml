@@ -1,0 +1,28 @@
+@startmindmap
+* Explore Power BI assets using lineage view
+** Explore with lineage view
+*** List view
+*** Lineage view
+** Screenshot of the list view and lineage view in Power BI service.
+** Lineage view
+*** Reports and dashboards dependent on datasets
+*** SQL Server data source
+**** Two SQL Server data source items
+*** Datasets
+**** region1-report
+***** Single region1-report associated
+**** core-dataset
+***** Specialized-report
+***** Region2-report
+*** Screenshot from Power BI service, exploring a workspace in lineage view
+**** Human Resources Sample dataset
+**** Activate dataset
+*** Human Resources Sample dashboard
+**** Human Resources Sample report
+***** Region 1 Dashboard
+** Screenshot from Power BI service, providing additional detail about the separate datasets
+** Summary of lineage view
+*** Identify dependencies across a workspace
+*** Easy administration for many items
+** Tip: Lineage view only applies to Power BI service
+@endmindmap

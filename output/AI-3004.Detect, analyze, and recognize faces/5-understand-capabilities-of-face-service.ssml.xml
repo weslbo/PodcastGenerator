@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, can you tell me more about the capabilities of the Face service in Azure AI?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. The Face service provides a wide range of facial detection, analysis, and recognition capabilities. It can detect faces in an image and provide an ID for each face along with the bounding box coordinates.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. What kind of facial attributes can the Face service analyze?
+</voice>
+<voice name="en-US-AndrewNeural">
+The Face service can analyze various facial attributes such as head pose, glasses, blur, exposure, noise, occlusion, accessories, and quality for recognition. For example, it can determine the orientation of the head in 3D space, whether the person is wearing glasses or not, and the level of blur or exposure in the image.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive. Can the Face service also locate key landmarks on a face?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, it can. The Face service can provide the coordinates for key landmarks such as eye corners, pupils, and the tip of the nose. This can be useful for further analysis or for applications that require precise facial feature detection.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. Can the Face service compare faces across multiple images?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely. The Face service allows you to compare faces across multiple images to determine similarity or verify if a face in one image belongs to the same person as a face in another image. This can be useful for applications like finding individuals with similar facial features or verifying identities.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. Can the Face service also perform facial recognition?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, it can. You can train a model with a collection of faces belonging to specific individuals and then use that model to identify those people in new images. This can be useful for applications like automated attendance systems or personalized experiences.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful. Is there anything else the Face service can do?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, there is. The Face service also provides facial liveness detection, which can be used to determine if the input video is a real stream or a fake. This helps prevent spoofing of the recognition system by malicious individuals.
+</voice>
+<voice name="en-US-BrianNeural">
+That's amazing. So, if I want to use the identification, recognition, and verification features of the Face service, do I need to apply for a Limited Access policy?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, that's correct. To use those features, you'll need to apply for the Limited Access policy and get approval before they are available to you.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Thanks for explaining the capabilities of the Face service, Andrew.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

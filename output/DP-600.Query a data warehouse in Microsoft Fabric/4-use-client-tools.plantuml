@@ -1,0 +1,12 @@
+@startmindmap
+* Use client tools to query a warehouse
+** Connect to your data warehouse
+*** SQL Server Management Studio
+**** Follow these steps to connect to data warehouse in Fabric from SSMS
+**** After establishing a connection, SSMS shows the connected warehouse, along with its corresponding tables and views, all ready for querying
+** Authentication options
+*** Microsoft Entra ID user principals
+*** Microsoft Entra ID service principals
+** Other tools
+*** Any third-party tool can use the SQL connection string via ODBC or OLE DB drivers to connect to a Microsoft Fabric Warehouse or SQL analytics endpoint, using Microsoft Entra ID authentication
+@endmindmap

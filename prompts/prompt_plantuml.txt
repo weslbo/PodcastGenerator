@@ -1,0 +1,22 @@
+Create a plantuml mindmap, based on the most important concepts found in below text. 
+- Limit this to a maximum of 3 levels deep. 
+- Limit each sentence to a maximum of 5 words.
+- If there are no children below a node, do not add it.
+- Here's an example of the output I want you to generate:
+
+@startmindmap
+* Topic
+** Subtopic 1
+*** Item 1
+*** Item 2
+*** Item 3
+** Subtopic 2
+** Subtopic 3
+*** Item 1
+*** Item 2
+@endmindmap
+
+- Only return the mindmap, do not provide an explanation or other accompanying text.
+
+---------
+{content}

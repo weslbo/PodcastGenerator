@@ -1,0 +1,19 @@
+[Brian]: So Emma, now that we have a good understanding of calculation groups, let's dive into their properties. Can you tell us more about the precedence property of a calculation group?
+
+[Emma]: Absolutely, Brian. The precedence property is crucial when working with multiple calculation groups in a data model. It determines the order of evaluation for the calculation groups. By setting the precedence, we ensure that the calculation groups are executed in the proper order. Higher numbers indicate greater precedence, meaning they will be applied before calculation groups with lower precedence.
+
+[Brian]: That makes sense, Emma. So, just to clarify, all calculation items within a single calculation group share the same precedence, right?
+
+[Emma]: Exactly, Brian. Within a calculation group, all calculation items have the same precedence. It's important to note that the precedence property is set in Tabular Editor, a tool that allows you to manage and modify tabular models.
+
+[Brian]: Thanks for clarifying that, Emma. Now, let's move on to the properties of calculation items. Can you explain the concept of ordering in calculation items?
+
+[Emma]: Of course, Brian. The ordering of calculation items determines their sort order in a report. You can change the order in which calculation items appear by specifying the Ordinal property. However, it's important to note that specifying the calculation item order with the Ordinal property does not affect the precedence or the order in which calculation items are evaluated. If the ordinal value is not specified, the default behavior is to order calculation items alphabetically by name.
+
+[Brian]: I see, Emma. So the Ordinal property allows us to customize the order of calculation items in a report without affecting their precedence. That's helpful. Now, let's talk about dynamic format strings. How can calculation groups be used to define conditional format strings?
+
+[Emma]: Calculation groups can be used to define dynamic format strings for measures. This is particularly useful when you want to apply different formatting to totals compared to other values. For example, you can use dynamic format strings to apply currency formatting based on the country/region in a sales report. By adding a format string column to the currency dimension table and creating a currency conversion calculation group and item, you can achieve this.
+
+[Brian]: That's a great example, Emma. Using dynamic format strings for currency conversion can definitely enhance the user experience in a sales report. Thank you for explaining these properties of calculation groups. It's been really insightful.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

@@ -1,0 +1,26 @@
+@startmindmap
+* Apache Spark
+** Distributed data processing framework
+*** Large-scale data analytics
+*** Divide and conquer approach
+*** SparkContext manages distribution
+** Code can be written in multiple languages
+*** Java
+*** Scala
+*** Spark R
+*** Spark SQL
+*** PySpark
+** PySpark and Spark SQL commonly used
+* Spark settings
+** Spark cluster settings
+*** Node Family
+*** Runtime version
+*** Spark Properties
+** Default settings are usually optimal
+* Libraries
+** Spark open source ecosystem
+*** Wide selection of code libraries
+*** Python libraries for PySpark
+** Default libraries included in Fabric
+** Additional libraries can be installed
+@endmindmap

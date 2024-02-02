@@ -1,0 +1,21 @@
+@startmindmap
+* Label and train a custom model
+** Labeling your training images
+*** Azure Machine Learning studio
+*** Data Labeling Project
+*** Complete and accurate labels
+*** Assign labels and label instances
+*** Vision Studio dataset
+**** New Azure Machine Learning Data Labeling project
+**** Connect to existing project
+** Training your model
+*** Model type selection
+*** Specify training dataset
+*** Training budget
+*** Model performance evaluation
+**** Evaluation dataset
+**** Default evaluation run
+*** Trigger new evaluation runs
+**** Different set of images
+**** Own tests in Vision Studio
+@endmindmap

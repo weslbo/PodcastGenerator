@@ -1,0 +1,42 @@
+@startmindmap
+* Understand model relationships
+** Model relationship
+*** Propagate filters
+*** Relationship paths
+**** Deterministic
+**** Disabled
+**** Filter context modified
+** Data integrity
+*** Model relationships
+**** Data integrity issues
+** Example
+*** Four tables
+**** Category
+**** Product
+**** Year
+**** Sales
+*** One-to-many relationships
+*** Query example
+**** Total sales quantity
+**** Filters applied on Category and Year tables
+**** Filter propagation
+**** Quantity value returned
+* Apply star schema design principles
+** Star schema design
+*** Dimension and fact tables
+*** Enforce rules
+** Adventure Works sales analysis data model
+*** Model diagram
+*** Fact table: Sales
+*** Dimension tables: Date, State, Region, Product
+** Model relationships
+*** Filters propagation
+* Use disconnected tables
+** Disconnected table
+*** Not related to another table
+*** Accepts "user input"
+** Example: Currency exchange rate
+*** Filter by single rate value
+*** Convert sales values
+** Power BI Desktop what-if parameter
+@endmindmap

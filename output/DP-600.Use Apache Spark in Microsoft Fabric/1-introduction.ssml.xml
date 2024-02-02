@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to another episode of DP600, the podcast where we dive deep into the world of data analytics. I'm your host, Brian, and I'm excited to learn more about implementing analytics solutions using Microsoft Fabric. Today, we have a special guest with us. Please welcome Emma!
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the show.
+</voice>
+<voice name="en-US-BrianNeural">
+It's great to have you here, Emma. Before we get started, could you please introduce yourself to our listeners?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric, and I'm excited to share my knowledge with you and our listeners today.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic, Emma. Today, we're going to be talking about implementing analytics solutions using Microsoft Fabric. This is a topic that I'm really interested in, as I believe it can greatly benefit organizations in their data analytics journey. So, without further ado, let's dive right in.
+</voice>
+</speak>

@@ -1,0 +1,27 @@
+[Brian]: So Emma, I've been reading about using Spark SQL to work with data. Can you explain how we can create database objects in the Spark catalog?
+
+[Emma]: Absolutely, Brian. One of the ways to make data in a dataframe available for querying in the Spark catalog is by creating a temporary view. This can be done by using the `createOrReplaceTempView` method. Temporary views are automatically deleted at the end of the current session.
+
+[Brian]: That's interesting. Can we also create tables in the Spark catalog?
+
+[Emma]: Yes, we can. Tables are metadata structures that store their underlying data in the storage location associated with the catalog. In Microsoft Fabric, data for managed tables is stored in the Tables storage location in the data lake. You can create an empty table using the `createTable` method or save a dataframe as a table using the `saveAsTable` method.
+
+[Brian]: I see. So, if we delete a managed table, does it also delete its underlying data?
+
+[Emma]: Yes, that's correct. Deleting a managed table also deletes its underlying data. It's important to keep that in mind when working with tables.
+
+[Brian]: Got it. And what about external tables? How are they different from managed tables?
+
+[Emma]: External tables are similar to managed tables in terms of metadata, but they get their underlying data from an external storage location, typically a folder in the Files storage area of a lakehouse. Deleting an external table doesn't delete the underlying data.
+
+[Brian]: That's good to know. So, once we have our tables set up, how can we query the data using the Spark SQL API?
+
+[Emma]: We can use the Spark SQL API in code written in any language to query data in the catalog. For example, we can use a SQL query to return data from a table as a dataframe. The code would look something like this: `spark.sql("SELECT * FROM products")`.
+
+[Brian]: That's helpful. Can we also run SQL code directly in a notebook to query objects in the catalog?
+
+[Emma]: Absolutely. In a notebook, you can use the `%sql` magic to run SQL code that queries objects in the catalog. For example, you can run a SQL query like this: `%sql SELECT Category, COUNT(*) AS ProductCount FROM products GROUP BY Category`.
+
+[Brian]: Great! That gives me a good understanding of how to work with data using Spark SQL. Thanks, Emma!
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

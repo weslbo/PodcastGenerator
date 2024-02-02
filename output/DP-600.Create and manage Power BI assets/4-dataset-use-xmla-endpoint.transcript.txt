@@ -1,0 +1,27 @@
+[Brian]: So Emma, I've heard about this XMLA endpoint in Power BI, but I'm not quite sure what it is or how it works. Can you explain it to me in simple terms?
+
+[Emma]: Absolutely, Brian! The XMLA endpoint is basically a way for external applications to connect to Power BI workspaces and datasets using an API with a URL. It allows you to access dataset details like model data, metadata, events, and schema.
+
+[Brian]: Ah, I see. So it's like a connection point for other tools to interact with Power BI datasets. But I'm curious, what can you do with the XMLA endpoint?
+
+[Emma]: Great question! There are several use cases for the XMLA endpoint. One common use is refreshing individual components of a data model. You can also systematically export data from the data model or automate the use of the Best Practice Analyzer.
+
+[Brian]: That sounds really useful! But is the XMLA endpoint only for read-only access, or can you also perform write operations?
+
+[Emma]: By default, the XMLA endpoint is read-only for datasets. However, you can enable read-write connectivity to perform more operations like management, governance, advanced semantic modeling, debugging, and monitoring. But it's important to note that read-write connectivity is only available for datasets in Premium or Premium Per User workspaces.
+
+[Brian]: Got it. So if I want to enable read-write connectivity, how can I do that?
+
+[Emma]: To enable read-write connectivity for all workspaces and datasets in a Premium capacity, you can go to the Admin portal, select Capacity settings, then Power BI Premium, and choose the specific capacity. From there, you can expand the Workloads section and select Read Write for the XMLA Endpoint setting.
+
+[Brian]: And what about for Premium Per User workspaces?
+
+[Emma]: For Premium Per User workspaces, you can go to the Admin portal, select Premium Per User, and then expand the Dataset workload settings. From there, you can select Read Write for the XMLA Endpoint setting.
+
+[Brian]: Thanks for explaining that, Emma. It's starting to make more sense now. Is there anything else I should know about the XMLA endpoint?
+
+[Emma]: For more detailed information about the functionality and limitations of the XMLA endpoint, you can refer to the Dataset connectivity with the XMLA endpoint article. It provides a comprehensive overview of what you can do with the XMLA endpoint.
+
+[Brian]: That's great to know. Thanks for sharing that resource, Emma. I think I have a much better understanding of the XMLA endpoint now.
+
+[Emma]: You're welcome, Brian! I'm glad I could help. If you have any more questions, feel free to ask.

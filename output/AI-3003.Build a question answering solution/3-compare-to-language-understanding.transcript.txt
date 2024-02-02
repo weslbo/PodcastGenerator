@@ -1,0 +1,15 @@
+[Brian]: So Emma, I've been reading about question answering and language understanding in Azure AI Services. Can you explain the difference between the two?
+
+[Emma]: Sure, Brian. Question answering and language understanding are both language models, but they have different use cases. Question answering is used when a user submits a question and expects a specific answer. On the other hand, language understanding is used when a user submits an utterance and expects an appropriate response or action.
+
+[Brian]: Ah, I see. So question answering is more focused on providing a static answer to a known question, while language understanding is about interpreting the user's intent and identifying entities?
+
+[Emma]: Exactly, Brian. When using question answering, the service matches the question to an answer in the knowledge base using natural language understanding. But with language understanding, the service interprets the utterance, matches it to an intent, and identifies entities.
+
+[Brian]: That makes sense. So in question answering, the client application typically presents the answer to the user, while in language understanding, the client application is responsible for performing the appropriate action based on the detected intent?
+
+[Emma]: Yes, you got it. Question answering is more about providing a direct answer, while language understanding helps the client application determine the next steps based on the user's intent.
+
+[Brian]: I see how these two services can work together to build comprehensive natural language solutions. Thanks for explaining, Emma.
+
+[Emma]: You're welcome, Brian. It's always great to discuss these topics with you.

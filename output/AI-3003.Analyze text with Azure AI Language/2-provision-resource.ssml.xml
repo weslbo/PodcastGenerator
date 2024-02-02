@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we know about the Azure AI Language resource, how can we use it to perform language detection?
+</voice>
+<voice name="en-US-EmmaNeural">
+Language detection is a useful feature provided by Azure AI Language. You can use it to determine the language in which a given text is written. For example, let's say you have a customer support chatbot that receives messages in multiple languages. By using language detection, you can automatically route the messages to the appropriate language-specific support team.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really helpful! How does the language detection feature work?
+</voice>
+<voice name="en-US-EmmaNeural">
+The language detection feature works by analyzing the text and comparing it to a pre-trained model that has been trained on a wide range of languages. The model uses statistical techniques to determine the most likely language of the text based on patterns and characteristics unique to each language.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fascinating! Can you give me an example of how we can use language detection in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure! Let's say you have a social media monitoring application that collects tweets from users around the world. By using language detection, you can automatically categorize the tweets based on their language. This can help you analyze the sentiment of tweets in different languages, identify trends, and understand the global reach of your brand.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful! What other functionalities does Azure AI Language provide?
+</voice>
+<voice name="en-US-EmmaNeural">
+In addition to language detection, Azure AI Language also provides key phrase extraction, sentiment analysis, named entity recognition, and entity linking. These functionalities can help you extract important information from text, understand the sentiment behind it, and identify specific entities mentioned in the text.
+</voice>
+<voice name="en-US-BrianNeural">
+Wow, that's a lot of capabilities! Can you briefly explain what key phrase extraction, sentiment analysis, named entity recognition, and entity linking are?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course! Key phrase extraction involves identifying the most important words and phrases in a given text. Sentiment analysis quantifies the positivity or negativity of the text. Named entity recognition detects references to specific entities like people, locations, organizations, etc. And entity linking provides reference links to Wikipedia articles for specific entities mentioned in the text.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really impressive! I can see how these functionalities can be valuable in various applications. Thank you for explaining, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian.
+</voice>
+</speak>

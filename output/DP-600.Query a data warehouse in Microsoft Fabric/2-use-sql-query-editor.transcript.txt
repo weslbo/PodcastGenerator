@@ -1,0 +1,23 @@
+[Brian]: So Emma, I've been hearing a lot about the SQL query editor in Microsoft Fabric. Can you tell me more about it and how it can help with managing data effectively?
+
+[Emma]: Absolutely, Brian. The SQL query editor in Microsoft Fabric is a powerful tool that allows you to create and run scripts to query your data warehouse. It supports Transact-SQL (T-SQL) and provides features like IntelliSense and debugging to aid in the development process.
+
+[Brian]: That sounds really useful. How do I launch the SQL query editor?
+
+[Emma]: To launch the SQL query editor, you need to select your warehouse asset from My workspace. This will automatically connect you to your data warehouse without requiring any connection information. You can create a SQL query editor from the Home menu, the Queries node, or by opening a new query tab.
+
+[Brian]: Got it. So once I have the SQL query editor open, how do I run queries and view the results?
+
+[Emma]: To run a query, simply type it into the query editor and click on the Run button at the top. The results will be displayed in the Results section. Please note that the preview is limited to 10,000 rows if exceeded.
+
+[Brian]: That's handy. Can I export the query results?
+
+[Emma]: Yes, you can export the query results as an Excel file. Just select the Download Excel file option. Make sure to select the text of one statement in your query before exporting.
+
+[Brian]: Great! And what about saving the query as a view or a table?
+
+[Emma]: The query editor allows you to save your highlighted query as either a view or a table. Saving as a view creates a view in the warehouse using the SELECT statement, while saving as a table creates a new table with the query results. You'll need to provide the schema and name before confirming the creation.
+
+[Brian]: That's really helpful, Emma. Thanks for explaining how to use the SQL query editor in Microsoft Fabric.
+
+[Emma]: You're welcome, Brian. If you have any more questions, feel free to ask.

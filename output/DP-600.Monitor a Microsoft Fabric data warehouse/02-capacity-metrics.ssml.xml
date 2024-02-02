@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been hearing a lot about the Microsoft Fabric Capacity Metrics app. Can you tell me more about it and how it can help monitor capacity utilization?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The Microsoft Fabric Capacity Metrics app is a tool that administrators can install in a Fabric environment to monitor capacity utilization. It allows you to track the consumption of capacity units (CUs) and analyze trends in capacity usage.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds useful. How can I specifically monitor capacity utilization related to data warehousing?
+</voice>
+<voice name="en-US-EmmaNeural">
+In the Fabric Capacity Metrics app, you can filter the interface to show only warehouse activity. This allows you to focus on the data warehousing processes and observe the capacity utilization trends specifically for that area.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So by using this app, I can identify what processes are consuming CUs in my Fabric environment?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. The app provides insights into the processes that are consuming CUs, allowing you to understand which actions are driving the capacity usage. This information can help you optimize your capacity license and manage costs effectively.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. Can the app also indicate if there is any throttling happening due to insufficient capacity?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, it can. The Fabric Capacity Metrics app can detect if any throttling is occurring, which indicates that your processes require more capacity than what is available within the constraints of your purchased license. This information is crucial for identifying potential bottlenecks and optimizing your capacity allocation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. Is there any additional resource I can refer to for more information about the Microsoft Fabric Capacity Metrics app?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. If you want to dive deeper into the app and learn more about billing and utilization reporting in Synapse Data Warehouse, I recommend checking out the documentation in the Microsoft Fabric documentation. It provides detailed information on how to leverage the app for monitoring and optimizing your capacity usage.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks, Emma. I'll definitely check out the documentation for more insights. It seems like the Microsoft Fabric Capacity Metrics app is a valuable tool for managing capacity utilization in a Fabric environment.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. The app is indeed a powerful tool for monitoring and optimizing capacity usage. Let me know if you have any more questions.
+</voice>
+</speak>

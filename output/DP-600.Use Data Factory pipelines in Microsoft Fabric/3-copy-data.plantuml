@@ -1,0 +1,16 @@
+@startmindmap
+* Copy Data activity
+** Use in data pipeline
+*** Ingest data from external source
+*** Replace deleted data
+*** Transform data and load into table
+** Copy Data tool
+*** Graphical tool for configuration
+*** Supports wide range of source connections
+** Copy Data activity settings
+*** Edit settings in activity pane
+** When to use Copy Data activity
+*** Copy data without transformations
+*** Import raw data for later transformations
+*** Consider Data Flow activity for transformations
+@endmindmap

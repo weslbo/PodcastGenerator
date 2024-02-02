@@ -1,0 +1,33 @@
+[Brian]: So Andrew, now that we have our images uploaded and dataset created, what's the next step in building our Azure AI Vision solution?
+
+[Andrew]: The next step is to label our training images. This is done in Azure Machine Learning studio using the Data Labeling Project. It's important to have complete and accurate labels for our training images to improve the performance of our trained model.
+
+[Brian]: That makes sense. So how do we label the images in Azure Machine Learning studio?
+
+[Andrew]: In your dataset within Vision Studio, you can create a new Azure Machine Learning Data Labeling project or connect to an existing project. Once you have your project set up, you can add categories for your images or objects, such as apple, orange, or banana. Then, you can start your project and go to the labeling tab to label 3-5 images per category.
+
+[Brian]: Got it. Are there any tools in Azure Machine Learning that can assist with labeling?
+
+[Andrew]: Yes, there are tools like ML-assisted labeling that can help with labeling. It takes some labels that you provide for a subset of the images and tries to label the remaining images for you. However, it's important to review the labels to ensure their accuracy, as inaccurate labels can decrease the performance of the trained model.
+
+[Brian]: That's good to know. Once we have labeled all our training images, what's the next step?
+
+[Andrew]: The next step is to add the COCO file, which contains the labeled information, to your dataset directly from your Azure Machine Learning workspace.
+
+[Brian]: Alright, our training images are labeled and the COCO file is added to the dataset. What's the next step after that?
+
+[Andrew]: The next step is to train your model. You'll need to select the model type, specify the dataset you want to use as training data, and indicate the training budget. The training budget is the maximum time allowed for training, but the actual time used is often less than the specified budget.
+
+[Brian]: Once the model is trained, what can we do next?
+
+[Andrew]: After training, you can view the performance of the evaluation run by selecting the trained model. If you didn't provide an evaluation dataset during training, it will use the default evaluation run. This run takes a small set of labeled images from the training set, uses the trained model for predictions, and compares the predictions to the provided labels.
+
+[Brian]: That's helpful. Can we run additional evaluation runs or perform our own tests in Vision Studio?
+
+[Andrew]: Absolutely! From the trained model page, you can trigger new evaluation runs on a different set of images or conduct your own tests in Vision Studio by selecting the appropriate tab on the top of the page.
+
+[Brian]: Great! Thanks for walking me through the process, Andrew. It's been really informative.
+
+[Andrew]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+
+[Brian]: Will do, Andrew. Thanks again. And thank you to our listeners for tuning in. Keep on learning and exploring Azure AI services.

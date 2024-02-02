@@ -1,0 +1,27 @@
+@startmindmap
+* Define intents, utterances, and entities
+** Utterances
+*** GetTime
+**** "What time is it?"
+**** "What is the time?"
+**** "Tell me the time"
+*** GetWeather
+**** "What is the weather forecast?"
+**** "Do I need an umbrella?"
+**** "Will it snow?"
+*** TurnOnDevice
+**** "Turn the light on."
+**** "Switch on the light."
+**** "Turn on the fan"
+*** None
+**** "Hello"
+**** "Goodbye"
+** Entities
+*** GetTime
+**** Location
+*** GetWeather
+**** Location
+**** Time
+*** TurnOnDevice
+**** Device
+@endmindmap

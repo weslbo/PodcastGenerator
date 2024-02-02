@@ -1,0 +1,21 @@
+@startmindmap
+* Create a knowledge base
+** Use REST API or SDK
+*** Define, train, and publish
+** Use Language Studio web interface
+*** Define and manage knowledge base
+** Sign in to Azure portal
+*** Search for Azure AI services
+**** Select Create under Language Service resource
+***** Create resource in Azure subscription
+****** Enable question answering feature
+****** Create or select Azure AI Search resource
+** In Language Studio
+*** Select Azure AI Language resource
+**** Create Custom question answering project
+*** Add data sources
+**** URLs for web pages
+**** Files with structured text
+**** Predefined chit-chat datasets
+*** Edit question and answer pairs
+@endmindmap

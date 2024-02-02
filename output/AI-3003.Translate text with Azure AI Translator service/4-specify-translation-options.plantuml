@@ -1,0 +1,10 @@
+@startmindmap
+* Translate
+** Word alignment
+*** includeAlignment
+** Sentence length
+*** includeSentenceLength
+** Profanity filtering
+*** profanityAction
+*** profanityMarker
+@endmindmap

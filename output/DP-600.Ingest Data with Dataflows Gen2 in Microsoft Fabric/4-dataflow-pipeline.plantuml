@@ -1,0 +1,20 @@
+@startmindmap
+* Integrate Dataflows Gen2 and Pipelines in Microsoft Fabric
+** Dataflows Gen2
+*** Data transformations
+*** Microsoft Fabric
+** Pipelines
+*** Data Factory
+**** Data Engineering workloads
+*** Activities
+**** Copy data
+**** Incorporate Dataflow
+**** Add Notebook
+**** Get metadata
+**** Execute a script or stored procedure
+** Data ingestion and transformation
+*** Lakehouse
+*** Orchestrate extra activities
+**** Execute scripts
+**** Stored procedures
+@endmindmap

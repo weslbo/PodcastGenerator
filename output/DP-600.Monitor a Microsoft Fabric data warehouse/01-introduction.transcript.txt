@@ -1,0 +1,9 @@
+[Brian]: Welcome to the DP600 podcast, where we dive deep into the world of data analytics. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we get into that, let me introduce our guest for today. Joining us is Emma, an expert in implementing analytics solutions using Microsoft Fabric. Welcome, Emma!
+
+[Emma]: Thank you, Brian. I'm excited to be here and share my knowledge on this topic.
+
+[Brian]: Great to have you here, Emma. Today, we're going to talk about implementing analytics solutions using Microsoft Fabric. This is a topic that many organizations are interested in, as they strive to gain insights from their data. So, Emma, could you please give our listeners a brief introduction about yourself?
+
+[Emma]: Of course, Brian. I work for Contoso and have been working with Microsoft Fabric for several years now. My expertise lies in implementing analytics solutions using this powerful tool. I've had the opportunity to work on various projects and help organizations leverage the capabilities of Microsoft Fabric to drive data-driven decision making.
+
+[Brian]: That's impressive, Emma. I'm sure our listeners are eager to learn more about implementing analytics solutions using Microsoft Fabric. So, let's dive right into it.

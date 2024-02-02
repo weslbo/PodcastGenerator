@@ -1,0 +1,25 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3003 podcast, where we explore the world of artificial intelligence and its applications. I'm your host, Brian, and today we have a very exciting topic to discuss. Let me introduce our guest for today. We have Emma, who is an expert in natural language processing and works at Contoso. Emma, welcome to the podcast!
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm excited to be here and share my knowledge about natural language processing with Azure AI Services.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Fantastic! Today, we're going to talk about developing natural language processing solutions with Azure AI Services. This is a fascinating topic that has a wide range of applications. From language translation to sentiment analysis, Azure AI Services offers powerful tools to process and understand human language.
+</voice>
+
+<voice name="en-US-BrianNeural">
+But before we get into the details, Emma, could you please tell our listeners a bit about yourself and your experience in this field?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Of course, Brian. I've been working in the field of natural language processing for over five years now. I have a deep understanding of the various techniques and technologies used to analyze and process human language. At Contoso, I've had the opportunity to work on several projects that leverage Azure AI Services for natural language processing tasks.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's impressive, Emma. Your expertise will certainly be valuable for our listeners. Now, let's dive into the world of natural language processing with Azure AI Services.
+</voice>
+</speak>

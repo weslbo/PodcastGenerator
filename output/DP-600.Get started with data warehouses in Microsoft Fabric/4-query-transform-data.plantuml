@@ -1,0 +1,16 @@
+@startmindmap
+* Query and transform data
+** Query data using the SQL query editor
+*** SQL query editor
+**** Query experience
+**** New SQL query button
+**** T-SQL queries
+**** Example of creating a view
+** Query data using the Visual query editor
+*** Visual query editor
+**** Experience similar to Power Query
+**** New visual query button
+**** Drag table onto canvas
+**** Transform menu
+**** Example of visual query
+@endmindmap

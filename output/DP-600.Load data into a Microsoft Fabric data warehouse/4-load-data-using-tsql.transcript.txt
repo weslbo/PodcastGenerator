@@ -1,0 +1,23 @@
+[Brian]: So Emma, I've been reading about loading data into Microsoft Fabric using T-SQL. It seems like a powerful tool for SQL developers. Can you tell me more about it?
+
+[Emma]: Absolutely, Brian. The Warehouse in Microsoft Fabric is powered by the same SQL engine that SQL developers are familiar with. This means they can use T-SQL to perform complex queries and data manipulations, such as filtering, sorting, aggregating, and joining data from different tables. The SQL engine also offers a wide range of functions and operators for sophisticated data analysis and transformations at the database level.
+
+[Brian]: That's great to hear, Emma. How can we import data into the Warehouse using T-SQL?
+
+[Emma]: The main method for importing data into the Warehouse is through the COPY statement. This statement allows for efficient data ingestion from an external Azure storage account. It offers flexibility in terms of specifying the format of the source file, storing rejected rows separately for data cleaning and quality control, and skipping header rows, among other configurable options.
+
+[Brian]: That sounds convenient. What about error handling during the data loading process?
+
+[Emma]: Good question, Brian. The COPY statement allows you to use a different storage account for the ERRORFILE location. This enables better error handling and debugging, as it makes it easier to isolate and investigate any issues that occur during the data loading process. It's important to note that the ERRORFILE option only applies to CSV files.
+
+[Brian]: I see. Can the COPY statement handle loading multiple files efficiently?
+
+[Emma]: Yes, it can. The COPY statement supports specifying wildcards and multiple files in the storage location path, which allows for bulk data loading. This is particularly useful when dealing with large datasets distributed across multiple files. However, it's important to ensure that all the files have the same structure, meaning they have the same columns in the same order, and that this structure matches the structure of the target table.
+
+[Brian]: That's good to know. Can we also load data from other warehouses and lakehouses into the Warehouse?
+
+[Emma]: Absolutely, Brian. You can load data from various data assets in a workspace, such as other warehouses and lakehouses. To reference the data asset, you need to use three-part naming to combine data from tables on these workspace assets. You can then use CREATE TABLE AS SELECT (CTAS) or INSERT INTO statements to load the data into the Warehouse. This feature is particularly useful when data is distributed across many assets in a workspace.
+
+[Brian]: That's really helpful, Emma. It seems like T-SQL provides a seamless way to load and manage data in Microsoft Fabric. Thanks for sharing all this information.
+
+[Emma]: You're welcome, Brian. T-SQL indeed offers efficient data loading and management capabilities in Microsoft Fabric. If you have any more questions, feel free to ask.

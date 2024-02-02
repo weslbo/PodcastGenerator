@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, can you explain how the question answering capability in Azure AI Language works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. The question answering capability in Azure AI Language allows you to create a knowledge base of question and answer pairs. This knowledge base can be queried using natural language input. You can create the knowledge base from existing sources such as FAQ documentation, structured text files, or even use built-in chit chat question and answer pairs.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful! Can you give me an example of how this could be used in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! Let's say you have a customer support bot for a software product. You can create a knowledge base using the frequently asked questions from your website or user guides. Then, when a user asks a question to the bot, it can query the knowledge base and provide the relevant answer. This saves time and provides accurate information to the users.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great! How does the bot query the knowledge base? Is there a specific API or endpoint?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there is. Once you have created the knowledge base, you can publish it to a REST endpoint. The bot can then make HTTP requests to this endpoint, passing the user's question as input. The endpoint will return the corresponding answer from the knowledge base.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. Can you tell me more about the types of sources that can be used to create the knowledge base?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly! You can use various sources to create the knowledge base. For example, you can extract frequently asked questions from your website or other FAQ documentation. You can also use structured text files like brochures or user guides. Additionally, Azure AI Language provides built-in chit chat question and answer pairs that cover common conversational exchanges.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. So, the knowledge base can be created from different sources and then queried using natural language input. Is there anything else I should know about the question answering capability in Azure AI Language?
+</voice>
+<voice name="en-US-EmmaNeural">
+One important thing to note is that the question answering capability in Azure AI Language is an updated version of the QnA Maker service. If you have existing knowledge bases in QnA Maker, you can migrate them to Azure AI Language. There is a migration guide available to help you with the process.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know. Thanks for explaining how the question answering capability works in Azure AI Language, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

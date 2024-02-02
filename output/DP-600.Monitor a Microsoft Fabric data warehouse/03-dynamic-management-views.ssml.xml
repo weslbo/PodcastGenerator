@@ -1,0 +1,33 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about monitoring current activity in Microsoft Fabric data warehouses using dynamic management views (DMVs). Can you explain how we can use these DMVs to retrieve information about the current state of the data warehouse?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The DMVs in Microsoft Fabric data warehouses provide valuable insights into the current activity. We have three main DMVs: sys.dm_exec_connections, sys.dm_exec_sessions, and sys.dm_exec_requests. These DMVs give us information about data warehouse connections, authenticated sessions, and active requests, respectively.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting, Emma. Can you give me an example of how we can query these DMVs to get detailed information about the current activities in the data warehouse?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Let's take an example query that retrieves details about the active requests in the current database, ordered by the duration for which they have been executing. This can help us identify long-running queries that could benefit from optimization. Here's an example result set from the query:
+</voice>
+<voice name="en-US-BrianNeural">
+| session_id | login_name         | client_net_address | command | start_time                  | total_elapsed_time |
+|------------|--------------------|--------------------|---------|-----------------------------|--------------------|
+| 60         | fred@contoso.com   | 10.23.139.162     | SELECT  | 2023-12-07T14:56:41.3530000 | 57266              |
+| 126        | nandita@contoso.com| 10.23.137.98      | SELECT  | 2023-12-07T14:57:22.7800000 | 15840              |
+| 137        | zoe@contoso.com    | 10.23.119.171     | SELECT  | 2023-12-07T14:57:38.6070000 | 4                  |
+</voice>
+<voice name="en-US-EmmaNeural">
+That's really helpful, Emma. I can see how querying these DMVs can provide valuable insights into the current state of the data warehouse. Thanks for explaining how we can use them.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. Monitoring the current activity using DMVs is a powerful tool for optimizing performance and identifying any issues in the data warehouse. If you need any further assistance, feel free to ask.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. I'll definitely keep that in mind. Thanks again for sharing your expertise on implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+No problem, Brian. It was my pleasure to be here and help. If you have any more questions in the future, don't hesitate to reach out. Have a great day!
+</voice>
+</speak>

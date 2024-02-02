@@ -1,0 +1,15 @@
+@startmindmap
+* Understand language detection, translation, and transliteration
+** Language detection
+*** Detect function
+*** REST API
+*** Text language detection
+** Translation
+*** Translate function
+*** Source language
+*** Target language
+** Transliteration
+*** Transliterate function
+*** Hiragana script
+*** Latin script
+@endmindmap

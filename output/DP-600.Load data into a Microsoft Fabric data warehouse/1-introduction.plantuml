@@ -1,0 +1,12 @@
+@startmindmap
+* Microsoft Fabric Data Warehouse
+** Data storage and management
+*** Storing large volumes of data
+*** Organizing structured and semi-structured data
+** Synapse Analytics integration
+*** Advanced query processing capabilities
+*** Full transactional T-SQL support
+** Data lake integration
+*** Data stored in Parquet format
+*** Utilizes Microsoft OneLake
+@endmindmap

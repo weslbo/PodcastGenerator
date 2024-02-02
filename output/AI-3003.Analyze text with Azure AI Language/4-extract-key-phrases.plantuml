@@ -1,0 +1,10 @@
+@startmindmap
+* Key phrase extraction
+** Process of evaluating text
+*** Identify main points
+** Works best for larger documents
+*** Maximum size is 5,120 characters
+** REST interface for analysis
+*** Submit one or more documents
+** Response contains list of key phrases
+@endmindmap

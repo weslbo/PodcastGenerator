@@ -1,0 +1,20 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, before we can use these speech services, we need to provision the Azure resource for speech. Is that correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. Before you can use Azure AI Speech, you need to create an Azure AI Speech resource in your Azure subscription. You can use either a dedicated Azure AI Speech resource or a multi-service Azure AI Services resource.
+</voice>
+<voice name="en-US-BrianNeural">
+And what kind of information am I required to provide when creating the Azure AI Speech resource?
+</voice>
+<voice name="en-US-EmmaNeural">
+You'll need to provide information such as the subscription, resource group and region. Once the service has been provisioned, you can get the keys and the endpoint to use the service from the Azure Portal.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Thank you for explaining this, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

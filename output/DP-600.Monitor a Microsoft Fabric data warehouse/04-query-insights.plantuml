@@ -1,0 +1,6 @@
+@startmindmap
+* Monitor queries
+** queryinsights.exec_requests_history
+** queryinsights.long_running_queries
+** queryinsights.frequently_run_queries
+@endmindmap

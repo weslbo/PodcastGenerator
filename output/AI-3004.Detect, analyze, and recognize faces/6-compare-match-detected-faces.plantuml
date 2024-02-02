@@ -1,0 +1,16 @@
+@startmindmap
+* Compare and match detected faces
+** Face ID assignment
+*** ID is a GUID
+*** No indication of identity
+** Limited Access policy
+*** Approval required
+*** Facial recognition unavailable for new customers
+** Face comparison and verification
+*** Compare new faces to cached identity
+*** Determine if faces are similar
+*** Verify same person in two images
+** Anonymous face comparison
+*** Confirm same person without identity
+*** Useful in secured spaces
+@endmindmap

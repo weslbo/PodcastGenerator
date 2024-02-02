@@ -1,0 +1,20 @@
+@startmindmap
+* Explore data load strategies
+** Understand data ingestion and data load operations
+*** Data ingestion/extract
+*** Data loading
+** Stage your data
+** Review type of data loads
+*** Full (initial) load
+*** Incremental load
+** Load a dimension table
+*** Slowly changing dimensions (SCD)
+**** Type 0 SCD
+**** Type 1 SCD
+**** Type 2 SCD
+**** Type 3 SCD
+**** Type 4 SCD
+**** Type 5 SCD
+**** Type 6 SCD
+** Load a fact table
+@endmindmap

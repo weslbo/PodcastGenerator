@@ -1,0 +1,7 @@
+[Brian]: Welcome to the DP600 podcast, where we dive deep into the world of analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. But before we get started, I want to thank all of our listeners for tuning in. We appreciate your support!
+
+[Brian]: Now, let's get to our guest. Joining us today is Emma, who works for Contoso and is an expert in implementing analytics solutions using Microsoft Fabric. Emma, welcome to the show!
+
+[Emma]: Thank you, Brian. I'm excited to be here and share my knowledge on this topic.
+
+[Brian]: Great to have you, Emma. Now, today's topic is all about implementing analytics solutions using Microsoft Fabric. It's a fascinating subject, and I'm sure our listeners are eager to learn more. So, without further ado, let's dive right in!

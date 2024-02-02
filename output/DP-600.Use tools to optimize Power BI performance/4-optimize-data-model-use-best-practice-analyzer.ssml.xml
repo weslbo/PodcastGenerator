@@ -1,0 +1,56 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've been talking about implementing analytics solutions using Microsoft Fabric. I'm curious, how can we ensure that we're implementing data modeling best practices as we build our data models in Power BI?
+</voice>
+<voice name="en-US-EmmaNeural">
+That's a great question, Brian! One tool that can help us with that is the Best Practice Analyzer (BPA) in Tabular Editor. It's a tool that runs a set of rules to identify potential modeling missteps or changes that can improve our model design and performance.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful! Can you tell me more about Tabular Editor and how it can be used to run the BPA?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! Tabular Editor is an alternative tool for authoring tabular models for Analysis Services and Power BI. It allows users to easily manipulate tabular models and can be used to quickly edit data models, automate repetitive tasks using scripting, incorporate DevOps with tabular models, and run the BPA rules.
+</voice>
+<voice name="en-US-BrianNeural">
+So, the BPA is a set of rules that we can run in Tabular Editor to identify modeling best practices. Can we customize these rules?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, we can! The BPA includes a set of pre-defined rules, but we can also define our own rules to encourage certain conventions and practices when developing tabular models. We can download the pre-defined BPA rules from the GitHub repository and manage them within Tabular Editor.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to know! How do we actually run the BPA in Tabular Editor?
+</voice>
+<voice name="en-US-EmmaNeural">
+To run the BPA, we first need to install Tabular Editor. Then, we download the Best Practice Rules from GitHub and save the file. In Power BI Desktop, we select Tabular Editor on the External Tools tab of the ribbon. Tabular Editor will automatically connect to the data model. From there, we can select the Best Practice Analyzer on the Tools tab, and the BPA window will open, displaying any violations of the Best Practice Rules.
+</voice>
+<voice name="en-US-BrianNeural">
+That seems straightforward enough. What do we do when we find violations of the Best Practice Rules?
+</voice>
+<voice name="en-US-EmmaNeural">
+When we find violations, we can review the objects in violation of the rules and fix them using Tabular Editor. For example, if a column violates the "Don't summarize numeric columns" rule, we can go to the object in Tabular Editor, change the object properties as necessary, and save our changes back to the Model.bim file.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful! Can we customize the BPA for our organization?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! The BPA was designed to enable customization for each organization. If the pre-defined Best Practice Rules don't suit our needs, we can create our own rules based on our data modeling best practices. We can also edit existing rules, disable and ignore rules, and set severity levels for each rule.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to hear! One last question, can we incorporate the use of BPA into our Continuous Integration/Continuous Deployment (CI/CD) process?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, we can! If our organization has an established CI/CD process using Git, we can integrate the BPA into our Azure Pipelines. If objects violate the Best Practice Rules during the build, we can establish a process to either fail the build or proceed with a warning based on the severity of the violation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic! Thank you so much, Emma, for sharing all this valuable information about implementing data modeling best practices using the Best Practice Analyzer in Tabular Editor.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian! It was my pleasure to share this information with you.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. We hope you found this episode helpful in understanding how to implement data modeling best practices using Microsoft Fabric. Keep on learning and implementing those best practices in your analytics solutions!
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! Thank you, Brian, and thank you to all our listeners. Happy analyzing!
+</voice>
+</speak>

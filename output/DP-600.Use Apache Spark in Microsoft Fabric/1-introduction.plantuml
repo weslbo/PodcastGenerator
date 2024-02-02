@@ -1,0 +1,16 @@
+@startmindmap
+* Apache Spark
+** Open source parallel processing framework
+*** Large-scale data processing
+*** Analytics
+** Popular in "big data" processing
+** Available in multiple platform implementations
+*** Azure HDInsight
+*** Azure Databricks
+*** Azure Synapse Analytics
+*** Microsoft Fabric
+** Ingest, process, and analyze data in a lakehouse
+*** Core techniques and code
+*** Common to all Spark implementations
+*** Integrated tools and environment
+@endmindmap

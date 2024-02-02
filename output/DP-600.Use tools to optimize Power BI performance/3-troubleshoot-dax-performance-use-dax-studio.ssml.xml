@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we understand how the VertiPaq engine works and the role of DAX Studio, let's talk about optimizing DAX queries. How can DAX Studio help with that?
+</voice>
+<voice name="en-US-EmmaNeural">
+DAX Studio is a great tool for optimizing DAX queries, Brian. It allows you to review the contents of your data model and write and optimize complex DAX formulas and queries.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. Can you give me an example of how DAX Studio can be used to optimize a query?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Let's say you have a report with a matrix visual that is slow to render. You can use the Performance analyzer in Power BI desktop to confirm the slow render times. Then, you can copy the query to DAX Studio to get more information on what might be causing the problem.
+</voice>
+<voice name="en-US-BrianNeural">
+And what can you do with that information in DAX Studio?
+</voice>
+<voice name="en-US-EmmaNeural">
+In DAX Studio, you can clear the cache, turn on server timings, and run the query. This will give you detailed statistics on the server timings of your query, including the proportion of time taken by the formula engine and the storage engine. You can then adjust your queries accordingly to improve performance.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. So, after analyzing the server timings, what steps can you take to optimize the query?
+</voice>
+<voice name="en-US-EmmaNeural">
+Once you have identified the areas that are causing performance issues, you can experiment with optimizing the measures in your query. This may involve replacing complicated statements with variables and time intelligence functions. You can comment out measures to test different optimizations and see the impact on query execution time.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great approach. And how do you know if your optimizations are working?
+</voice>
+<voice name="en-US-EmmaNeural">
+After making the optimizations, you can clear the cache and run the query again in DAX Studio. By comparing the server timings before and after the optimizations, you can see the impact on query execution time. Ideally, you should see a reduction in execution time, indicating that your optimizations have improved performance.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Is there anything else we can do to optimize the data model using DAX Studio?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. DAX Studio also provides a feature called VertiPaq Analyzer, which allows you to view model metrics and identify memory consumption and cardinality issues in your data model. This can help you find and fix problems that may be impacting performance.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. Can you give me an example of how VertiPaq Analyzer can be used?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure. Let's say you notice that a particular table is consuming a large amount of memory in your data model. By using VertiPaq Analyzer, you can drill down into that table and identify the columns that are consuming the most memory. This can help you identify columns with high cardinality or columns that are not being used, allowing you to make changes in Power BI to optimize the data model.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. It seems like DAX Studio is a powerful tool for optimizing DAX queries and improving the performance of Power BI reports. Thank you for sharing all this information with us.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

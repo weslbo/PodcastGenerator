@@ -1,0 +1,13 @@
+@startmindmap
+* Performance Optimization
+** Source
+** Data Model
+*** Optimize Queries
+**** Performance Analyzer
+*** Troubleshoot DAX Performance
+**** DAX Studio
+*** Optimize Data Model
+**** Tabular Editor
+** Visuals
+** Environment
+@endmindmap

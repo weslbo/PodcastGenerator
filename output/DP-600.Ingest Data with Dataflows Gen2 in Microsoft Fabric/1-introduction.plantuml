@@ -1,0 +1,19 @@
+@startmindmap
+* Microsoft Fabric
+** Data Engineering
+*** Dataflows Gen2
+**** Ingest and transform data
+**** Land cleansed data
+**** Incorporate into data pipelines
+**** Use as data source in Power BI
+** Data Ingestion
+*** Prepare and transform data
+*** Ensure consistency
+*** Stage data in preferred destination
+*** Enable reuse and easy updates
+** Benefits of Dataflows Gen2
+*** Time-saving
+*** Error reduction
+*** Consolidate disparate data sources
+*** Suitable for data analysis and reporting
+@endmindmap

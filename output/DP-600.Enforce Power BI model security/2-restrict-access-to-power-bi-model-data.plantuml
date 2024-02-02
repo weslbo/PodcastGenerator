@@ -1,0 +1,36 @@
+@startmindmap
+* Restrict access to Power BI model data
+** Create roles
+*** Role name
+*** Rules
+** Manage roles
+*** Power BI Desktop
+*** SQL Server Data Tools
+*** SQL Server Management Studio
+*** Tabular Editor
+** Watch animated image
+* Apply star schema design principles
+** Star schema design
+*** Dimension tables
+*** Fact table
+** Model relationships
+** Adventure Works sales analysis data model
+* Define rules
+** Static rules
+*** DAX expressions
+*** Rule example
+** Dynamic rules
+*** DAX functions
+*** Rule example
+* Validate roles
+** Test roles
+** View as function
+* Set up role mappings
+** Microsoft Entra security objects
+** User accounts
+** Security groups
+* Use single sign-on (SSO) for DirectQuery sources
+** DirectQuery tables
+** Data source supports SSO
+** Azure SQL Database example
+@endmindmap

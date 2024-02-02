@@ -1,0 +1,20 @@
+@startmindmap
+* Performance analyzer
+** Understand performance using Performance analyzer
+*** Report Canvas
+*** Data Shape Engine (DSE)
+*** Data Model Engine (AS)
+** Use Performance analyzer
+*** Enable Performance analyzer
+*** Start recording
+*** Actions in the report
+*** Performance analyzer results
+*** Refresh visuals
+*** Analyze this visual
+*** Clear DAX query cache
+** Evaluate performance data further
+*** Use DAX Studio
+*** Copy query from Performance analyzer
+*** Analyze query in DAX Studio
+*** Save Performance analyzer results
+@endmindmap

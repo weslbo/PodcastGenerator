@@ -1,0 +1,28 @@
+@startmindmap
+* Restrict access to Power BI model objects
+** Object-level security (OLS)
+*** Restrict access to tables and columns
+*** Secure metadata
+** Perspectives
+** Example at Adventure Works
+*** DimEmployee table
+**** Restrict access to salary column
+** OLS feature
+*** Inherited from AAS and SSAS
+*** Available in Power BI Premium
+** Set up OLS
+*** Create roles
+*** Add OLS rules
+**** Use XMLA endpoint
+**** Use scripting or client tools
+*** Set restrictions for tables and columns
+*** Publish model to Power BI service
+** Considerations
+*** Error message for restricted objects
+*** Separate models or reports
+** Restrictions
+*** Can't mix RLS and OLS
+*** Can't set table-level security if it breaks relationship chain
+*** Model relationships with secured columns work
+*** Measures that reference secured objects are restricted
+@endmindmap

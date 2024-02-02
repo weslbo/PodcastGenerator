@@ -1,0 +1,49 @@
+[Brian]: So Emma, now that we know how to connect to external sources using Fabric notebooks, how do we load the data into a file or table?
+
+[Emma]: Great question, Brian. Loading the data into a file or table is the next step after connecting to the external source. In Fabric notebooks, we can use the `write` method to save the data to a file or table. Let me show you an example. 
+
+[Emma]: Suppose we have a DataFrame called `df` that contains the data we want to save. We can use the following code to save it as a parquet file:
+
+```python
+df.write.format("parquet").save("/path/to/save/location")
+```
+
+[Emma]: And if we want to save it as a table in Azure Synapse Analytics, we can use the following code:
+
+```python
+df.write.format("synapsesql").option("url", "jdbc:sqlserver://<server>:<port>;database=<database>").option("dbtable", "<table_name>").option("user", "<username>").option("password", "<password>").save()
+```
+
+[Emma]: These are just a couple of examples, but you can also save the data in other formats like CSV, JSON, or Avro. The `write` method provides flexibility in choosing the format that best suits your needs.
+
+[Brian]: That's really helpful, Emma. So, once we've loaded the data into a file or table, can we perform any transformations on it?
+
+[Emma]: Absolutely, Brian. Fabric notebooks provide a wide range of transformation capabilities. You can use Spark SQL, DataFrame operations, or even custom functions to transform the data. Let me give you an example.
+
+[Emma]: Suppose we have a DataFrame called `df` that contains customer data. We can use the following code to filter out customers who have made more than 10 purchases:
+
+```python
+filtered_df = df.filter(df.purchases > 10)
+```
+
+[Emma]: This code applies a filter condition to the DataFrame and creates a new DataFrame called `filtered_df` that only contains the customers who meet the criteria.
+
+[Brian]: That's really powerful, Emma. Being able to perform transformations directly in the notebook makes it so much easier. Can we also join multiple datasets together?
+
+[Emma]: Absolutely, Brian. Joining multiple datasets is a common operation in data analytics. In Fabric notebooks, you can use the `join` method to perform joins between DataFrames. Let me show you an example.
+
+[Emma]: Suppose we have two DataFrames, `df1` and `df2`, that contain customer data and order data respectively. We can use the following code to join them based on a common column:
+
+```python
+joined_df = df1.join(df2, df1.customer_id == df2.customer_id, "inner")
+```
+
+[Emma]: This code performs an inner join between `df1` and `df2` based on the `customer_id` column and creates a new DataFrame called `joined_df` that contains the combined data.
+
+[Brian]: That's fantastic, Emma. Being able to join datasets directly in the notebook saves a lot of time and effort. Thank you for explaining all these concepts so clearly.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. Fabric notebooks provide a powerful and efficient way to implement analytics solutions using Microsoft Fabric. If you have any more questions, feel free to ask.
+
+[Brian]: That's an excellent insight, Emma. I'll definitely keep that in mind. Thank you for sharing your expertise with us today.
+
+[Emma]: My pleasure, Brian. It was great talking to you. Have a great day!

@@ -1,0 +1,80 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, once we have content in a pipeline stage, how do we deploy it to the next stage?
+</voice>
+<voice name="en-US-EmmaNeural">
+To deploy content to the next stage in the deployment pipeline, you simply select the deploy button at the bottom of the stage.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. And how can we track when content was last deployed to a stage?
+</voice>
+<voice name="en-US-EmmaNeural">
+When reviewing the test and production stage cards, you can see the last deployment time. This indicates the last time content was deployed to the stage.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, that's useful. It helps to establish when a stage was last updated. Is there any other benefit to knowing the deployment time?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, it can also be helpful if you want to track the time between test and production deployments.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, when two sequential stages have content, how is the content compared between them?
+</voice>
+<voice name="en-US-EmmaNeural">
+The content is compared based on the content item's metadata. This comparison doesn't include comparing data or refresh time between stages.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. And how can we quickly see the differences between two sequential stages?
+</voice>
+<voice name="en-US-EmmaNeural">
+A comparison icon indicator appears between the stages, allowing for a quick visual insight into the differences. The icon has two states: one indicating that the content items have different metadata or a difference in the number of items, and the other indicating that the content in both stages is identical.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. And if there are differences between stages, is there a way to view the changes or differences between items?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, when two sequential stages aren't the same, a link appears underneath the comparison icon. Clicking the link opens the content item list in both stages in Compare view, which shows the changes or differences between items.
+</voice>
+<voice name="en-US-BrianNeural">
+Great. Now, let's talk about customization of stages. Can different stages have different configurations?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. Different stages can have different configurations, such as different databases or query parameters. For example, the development stage might query sample data from the database, while the test and production stages query the entire database.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. How can we configure deployment rules to allow changes to content when deploying between stages?
+</voice>
+<voice name="en-US-EmmaNeural">
+To configure deployment rules, you can define rules for specific items in a production stage. Once defined, content deployed from test to production will inherit the defined values and always apply them as long as the rule is unchanged and valid.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. That provides flexibility in managing content deployment. Now, let's talk about permissions. How do pipeline permissions and workspace permissions work together?
+</voice>
+<voice name="en-US-EmmaNeural">
+Pipeline permissions and workspace permissions are granted and managed separately. However, to deploy content, you need both pipeline access and workspace member permissions.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So, if someone has pipeline access but not workspace permissions, what can they do?
+</voice>
+<voice name="en-US-EmmaNeural">
+They can view the pipeline and share it with others, but they won't be able to view the content of the workspace in the pipeline or perform deployments.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And when deploying Power BI items, does the ownership of the deployed item change?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, the ownership of the deployed item may change. For example, when deploying a dataset, the user who made the deployment becomes the owner. However, the ownership remains unchanged when deploying to a stage with the same Power BI item.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. Managing permissions at both the pipeline and workspace level allows for different people to work on them with different permissions. It provides control over who can do what.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. It helps streamline and manage the deployment process, especially for larger applications with multiple contributors.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for sharing all this information about implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It was my pleasure to be here and share my knowledge.
+</voice>
+</speak>

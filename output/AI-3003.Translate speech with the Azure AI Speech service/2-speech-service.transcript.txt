@@ -1,0 +1,33 @@
+[Brian]: So Emma, once we have provisioned an Azure resource for speech translation, what information do we need to use it from a client application?
+
+[Emma]: After creating the Azure resource, we'll need the location where the resource is deployed, such as "eastus", and one of the keys assigned to the resource.
+
+[Brian]: Can you explain how we can find these values in the Azure portal?
+
+[Emma]: Sure, you can find these values on the "Keys and Endpoint" page for your resource in the Azure portal.
+
+[Brian]: That's helpful. Once we have the location and key, how can we use them in our client application?
+
+[Emma]: In your client application, you can use the location and key to connect to the Azure AI Speech resource and access the speech translation services.
+
+[Brian]: Are there any specific SDKs that we can use to integrate the speech translation services into our application?
+
+[Emma]: Yes, there are supported SDKs available that you can use to integrate the speech translation services. Some of the supported SDKs include Python, C#, Java, JavaScript, and REST API.
+
+[Brian]: That's great to know. Can you give me an example of how we can use the Python SDK to implement speech translation?
+
+[Emma]: Certainly! With the Python SDK, you can import the necessary modules, create a translation configuration, and then use the translation service to translate speech in real-time. You can also handle events like recognizing speech and receiving translations.
+
+[Brian]: That sounds really powerful. Can we also customize the speech translation service according to our specific requirements?
+
+[Emma]: Absolutely! The Azure AI Speech service provides customization options such as creating custom language models, adapting to specific acoustic conditions, and even training the service with your own data to improve accuracy.
+
+[Brian]: That's impressive. So we can really tailor the speech translation service to fit our needs. 
+
+[Emma]: Yes, exactly. The flexibility and customization options allow developers to create highly accurate and personalized speech translation solutions.
+
+[Brian]: That's an excellent insight, Emma. Thank you for sharing all this valuable information about Azure AI Speech service and how we can use it to develop natural language processing solutions.
+
+[Emma]: You're welcome, Brian. It was my pleasure to be here and discuss this topic with you.
+
+[Brian]: That's all the time we have for today. Thank you all for listening to AI3003, Develop natural language processing solutions with Azure AI Services. Stay tuned for more exciting episodes.

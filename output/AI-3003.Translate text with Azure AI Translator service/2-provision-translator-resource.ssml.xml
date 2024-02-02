@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we know about the Azure AI Translator resource, how can we use it for language detection?
+</voice>
+<voice name="en-US-EmmaNeural">
+Language detection with Azure AI Translator is quite straightforward. You can send a text string to the API, and it will identify the language for you.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient! Can you give me an example of how we can use language detection in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure! Let's say you have a customer support chatbot that supports multiple languages. When a user sends a message, you can use the Azure AI Translator to detect the language of the message. Based on the detected language, you can then provide a response in the same language.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful! What about one-to-many translation? How does that work with Azure AI Translator?
+</voice>
+<voice name="en-US-EmmaNeural">
+With one-to-many translation, you can translate a text string from one language to multiple target languages. You simply provide the source language and the target languages, and the API will return the translations for you.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive! Can you give me an example of how we can use one-to-many translation in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course! Let's say you have an e-commerce website that operates globally. When a customer selects a product description in their preferred language, you can use the Azure AI Translator to translate the description into multiple languages. This way, you can cater to customers from different regions and provide them with a seamless shopping experience.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful! Now, what about script transliteration? How can we use Azure AI Translator for that?
+</voice>
+<voice name="en-US-EmmaNeural">
+Script transliteration is useful when you want to convert text from one script to another. For example, if you have text written in the Latin script and you want to convert it to the Cyrillic script, you can use the Azure AI Translator to perform the transliteration.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fascinating! Can you give me an example of how we can use script transliteration in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! Let's say you have a news website that publishes articles in multiple languages. You can use the Azure AI Translator to transliterate the article titles into different scripts, such as Latin, Cyrillic, or Devanagari, depending on the target audience. This way, you can ensure that the article titles are displayed correctly in different scripts.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma! It's amazing to see how Azure AI Translator can be used in various real-world scenarios. Thank you for sharing your insights.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

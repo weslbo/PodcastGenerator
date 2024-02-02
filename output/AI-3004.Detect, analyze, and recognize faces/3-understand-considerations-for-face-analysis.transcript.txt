@@ -1,0 +1,15 @@
+[Brian]: Andrew, when building a solution that uses facial data, what are some important considerations we need to keep in mind?
+
+[Andrew]: There are several considerations when working with facial data. One of the key considerations is data privacy and security. Facial data is personally identifiable, so it's important to implement adequate protection for the data used for model training and inferencing.
+
+[Brian]: That makes sense. We definitely need to ensure that the facial data is treated as sensitive and private. What other considerations should we keep in mind?
+
+[Andrew]: Another important consideration is transparency. Users should be informed about how their facial data will be used and who will have access to it. It's important to be transparent about the purpose and usage of the facial data to build trust with the users.
+
+[Brian]: Absolutely, transparency is crucial in building trust with users. Are there any other considerations we should be aware of?
+
+[Andrew]: Yes, fairness and inclusiveness is another important consideration. We need to ensure that our face-based system cannot be used in a manner that is prejudicial to individuals based on their appearance or unfairly target individuals. It's important to design and train the model in a way that avoids bias and promotes fairness.
+
+[Brian]: That's really important. We want to make sure our solution is fair and inclusive for everyone. Thank you for sharing these considerations, Andrew.
+
+[Andrew]: You're welcome, Brian. It's important to keep these considerations in mind when working with facial data to ensure responsible and ethical use of AI.

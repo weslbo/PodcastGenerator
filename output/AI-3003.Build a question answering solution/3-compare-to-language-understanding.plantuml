@@ -1,0 +1,17 @@
+@startmindmap
+* Compare question answering to Azure AI Language understanding
+** Question answering
+*** Usage pattern
+*** Query processing
+*** Response
+*** Client logic
+** Language understanding
+*** Usage pattern
+*** Query processing
+*** Response
+*** Client logic
+** Complementary services
+*** Natural language solutions
+**** Language understanding models
+**** Question answering knowledge bases
+@endmindmap

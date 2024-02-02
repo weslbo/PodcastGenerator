@@ -1,0 +1,18 @@
+@startmindmap
+* Generate a smart-cropped thumbnail
+** Thumbnails
+*** Dimensions
+*** Aspect ratio
+*** Region of interest
+**** Image analysis
+***** Main subject
+** Use cases
+*** Tourism site
+*** Applications
+*** Websites
+** Thumbnail options
+*** Width and height
+**** Up to 1024 pixels
+*** Minimum size
+**** 50x50 pixels
+@endmindmap

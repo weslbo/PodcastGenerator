@@ -1,0 +1,27 @@
+[Brian]: So Emma, now that we have our medallion architecture in place, how can we query and report on data in our Fabric lakehouse?
+
+[Emma]: Great question, Brian! We have a few options for querying and reporting on data in the lakehouse. One option is to use SQL analytics endpoints. With SQL, teams can explore and query data in the gold layer using the T-SQL language. They can also save functions, generate views, and apply SQL security. Additionally, the SQL analytics endpoint allows you to connect to the lakehouse from third-party tools and applications.
+
+[Brian]: That's really helpful, Emma. So, the SQL analytics endpoint operates in read-only mode, right? How can we modify data in the lakehouse?
+
+[Emma]: Exactly, Brian. The SQL analytics endpoint is read-only, so to modify data in the lakehouse, we can use dataflows, notebooks, or pipelines. These tools allow us to make changes to the data while maintaining the integrity of the lakehouse.
+
+[Brian]: I see. That makes sense. Now, you mentioned that we can also create a Power BI semantic model in Direct Lake mode. Can you explain how that works?
+
+[Emma]: Absolutely, Brian. When we create a lakehouse, an associated default semantic model is provisioned. This semantic model contains metrics on top of the lakehouse data. When a Power BI report displays a data element, it fetches it from the semantic model, which in turn accesses the lakehouse for data retrieval. The default semantic model preloads frequently requested data into the cache for improved performance and freshness of the lakehouse data. This approach is called Direct Lake mode.
+
+[Brian]: That's really interesting, Emma. It seems like Direct Lake mode combines the performance of a semantic model with the freshness of lakehouse data. Can you give me an example of how this can benefit us?
+
+[Emma]: Of course, Brian. Let's say we have a sales team that needs real-time data for their reports. By using Direct Lake mode, the semantic model can fetch the latest sales data from the lakehouse, ensuring that the reports are always up to date. This way, the sales team can make informed decisions based on the most recent information.
+
+[Brian]: That's a great example, Emma. It's clear that tailoring the medallion layers for different needs is important. Can you explain how we can customize these layers?
+
+[Emma]: Absolutely, Brian. Customizing the medallion layers allows us to optimize data processing and access for specific use cases. We can create multiple Gold layers tailored for different audiences or domains, such as finance, sales, or data science. Each Gold layer can have its own structure and organization, aligning with the analytical requirements of each user group. This customization improves performance, ease of use, and data relevance for diverse stakeholders.
+
+[Brian]: That's really helpful, Emma. It's great to know that we can tailor our medallion layers to meet the specific needs of different user groups. And I assume we can also generate cleansed and properly formatted data using the medallion architecture?
+
+[Emma]: Absolutely, Brian. The medallion architecture allows us to generate cleansed and properly formatted data, which is especially useful for applications, third-party tools, or systems that require specific data formats. By leveraging the medallion architecture, we can ensure that the data we provide meets the requirements of these external tools or systems.
+
+[Brian]: That's fantastic, Emma. Thank you for explaining how we can query and report on data in our Fabric lakehouse and how we can tailor the medallion layers for different needs. This information will definitely help our teams make the most out of our analytics solutions.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

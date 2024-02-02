@@ -1,0 +1,16 @@
+@startmindmap
+* Natural language processing
+** NLP
+*** Interpret text or speech
+*** Classify text
+**** Sentiment
+**** Language
+**** Custom categories
+** Azure AI Language service
+*** Classify text into custom groups
+** Module
+*** Learn how to use Azure AI Language service
+*** Build a custom text classification project
+*** Tag data, train, and deploy a model
+*** Submit classification tasks from your own app
+@endmindmap

@@ -1,0 +1,47 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we've ingested the raw data into the Fabric lakehouse, what should we consider next in terms of transforming the data and how users interact with it?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian. Once the data is loaded, it's important to perform some basic cleaning tasks to ensure data quality and consistency. This includes removing duplicates, handling errors, converting null values, and getting rid of empty entries.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. We want to make sure the data is clean and reliable. But what about the different types of users who will be accessing this data? How should we cater to their needs?
+</voice>
+<voice name="en-US-EmmaNeural">
+Excellent point, Brian. Different users have different requirements when it comes to data transformation. For example, data scientists typically prefer fewer changes to the data so they can explore wide tables. They would likely want access to the raw ingested data.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So data scientists would benefit from having access to the raw data for their exploratory analysis. But what about Power BI data analysts? How does their approach differ?
+</voice>
+<voice name="en-US-EmmaNeural">
+Power BI data analysts, on the other hand, may require more transformation and modeling before they can effectively use the data. While Power BI does have some data transformation capabilities, starting with well-prepared data allows analysts to develop reports and gain insights more efficiently.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So it's important to consider the specific needs of different users when it comes to data transformation. Are there any tools or features in Fabric that can help with this process?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Fabric's Data Wrangler is a powerful tool that allows data scientists to explore the data and generate transformation code for their specific needs. It provides an interactive environment for data exploration and transformation.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. And what about Power BI? Are there any specific features or capabilities that can assist data analysts with their transformation and modeling tasks?
+</voice>
+<voice name="en-US-EmmaNeural">
+While Power BI does have some data transformation capabilities, it's always beneficial to start with well-prepared data. This allows analysts to focus more on developing reports and gaining insights rather than spending time on extensive data cleaning and transformation.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So it's important to have clean and well-prepared data for Power BI analysts to work with. And for those who want to learn more about using Apache Spark in Fabric for data transformation, where can they find more information?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian. The "Use Apache Spark in Microsoft Fabric" module provides detailed training on how to use Fabric notebooks to display, aggregate, and transform data with Spark. It's a great resource for anyone looking to dive deeper into data transformation using Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+Fantastic! Thank you, Emma, for sharing your insights on transforming data for different users in Fabric. It's been a pleasure having you on the podcast.
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. It was my pleasure to be here and discuss this important topic. And thank you to all our listeners for tuning in. We hope you found this episode helpful in understanding how to implement analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+Absolutely! And remember, there's always more to learn, so keep exploring and expanding your knowledge. Until next time, take care and keep on learning!
+</voice>
+</speak>

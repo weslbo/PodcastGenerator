@@ -1,0 +1,10 @@
+@startmindmap
+* Provision an Azure resource for speech
+** Create Azure AI Speech resource
+*** Dedicated Azure AI Speech resource
+*** Multi-service Azure AI Services resource
+** Information needed to use the resource
+*** Location
+*** Keys
+** View values on Keys and Endpoint page
+@endmindmap

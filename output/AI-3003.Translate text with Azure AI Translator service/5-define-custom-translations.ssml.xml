@@ -1,0 +1,65 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about custom translations with Azure AI Translator. It seems like a great solution for businesses or industries with specific vocabularies. Can you walk me through the process of creating a custom model?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. To create a custom model, you first need to create a workspace linked to your Azure AI Translator resource. Once you have the workspace, you can create a project within it.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And what's the next step after creating the project?
+</voice>
+<voice name="en-US-EmmaNeural">
+After creating the project, you'll need to upload training data files. These files will be used to train your custom model. Once the training data is uploaded, you can proceed to train the model.
+</voice>
+<voice name="en-US-BrianNeural">
+How do I test the model after it's trained?
+</voice>
+<voice name="en-US-EmmaNeural">
+Good question. You can test your model by making translation calls to the API. This will allow you to see how well your custom model performs.
+</voice>
+<voice name="en-US-BrianNeural">
+And once I'm satisfied with the results, how do I publish the model?
+</voice>
+<voice name="en-US-EmmaNeural">
+Once you're satisfied with the performance of your model, you can publish it. This will make it available for translation calls using the category Id assigned to your custom model.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds straightforward. How do I actually make translation calls to the API?
+</voice>
+<voice name="en-US-EmmaNeural">
+To make a translation call, you need to send a POST request to the API with the required parameters. These parameters include the version of the API, the target language, and your category Id.
+</voice>
+<voice name="en-US-BrianNeural">
+And what about the headers and request body?
+</voice>
+<voice name="en-US-EmmaNeural">
+The request headers should include your client key and the content type of the payload. The request body should contain an array with a JSON object specifying the text you want to translate.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful, Emma. And what can I expect in the response from the API?
+</voice>
+<voice name="en-US-EmmaNeural">
+The response will include a response code indicating the success of the request. It will also contain the translated text in the response body.
+</voice>
+<voice name="en-US-BrianNeural">
+And what if the request is not successful?
+</voice>
+<voice name="en-US-EmmaNeural">
+If the request is not successful, the API may return different status codes depending on the error type. You can refer to the documentation for a full list of status codes and their explanations.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for explaining the process, Emma. This seems like a powerful tool for businesses with specific translation needs.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It definitely is a powerful tool. Custom translations can greatly improve the accuracy and relevance of translations for specialized industries.
+</voice>
+<voice name="en-US-BrianNeural">
+Well, I think that wraps up our discussion on custom translations with Azure AI Translator. Thank you, Emma, for sharing your expertise on this topic.
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian, for having me. It was a pleasure discussing custom translations with you.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. We hope you found this episode informative. Keep on learning and exploring the possibilities of Azure AI Services.
+</voice>
+</speak>

@@ -1,0 +1,10 @@
+@startmindmap
+* Azure Video Indexer
+** Video Analysis
+*** Extract information from videos
+*** Support indexing for searchability
+** Azure Video Indexer capabilities
+*** Analyze videos
+*** Extract custom insights
+** Azure Video Indexer widgets and APIs
+@endmindmap

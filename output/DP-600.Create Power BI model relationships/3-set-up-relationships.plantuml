@@ -1,0 +1,22 @@
+@startmindmap
+* Model Relationship
+** Limitations
+*** Can't relate column to same table
+*** Can't create model hierarchy
+** Cardinality
+*** One-to-many (1:\*)
+*** Many-to-one (\*:1)
+*** One-to-one (1:1)
+*** Many-to-many (*:*)
+** Cross Filter Direction
+*** One-to-many: Single, Both
+*** One-to-one: Both
+*** Many-to-many: Single (Table1 to Table2), Single (Table2 to Table1), Both
+** Active vs Inactive Relationships
+*** Only one active filter propagation
+*** Inactive relationships for specific calculations
+** Assume Referential Integrity
+*** Available for DirectQuery tables
+*** Improves query performance
+*** Eliminates unmatched rows
+@endmindmap

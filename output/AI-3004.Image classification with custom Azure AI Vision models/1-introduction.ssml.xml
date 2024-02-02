@@ -1,0 +1,14 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3004 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be diving into the world of Azure AI Vision services and how to build a custom vision solution. But before we get started, let me introduce our guest for today. Please welcome Andrew from Contoso!
+</voice>
+<voice name="en-US-AndrewNeural">
+Hi Brian, thanks for having me on the podcast. I'm Andrew, and I work for Contoso. I'm really excited to be here and share my knowledge about Azure AI Vision services.
+</voice>
+<voice name="en-US-BrianNeural">
+It's great to have you here, Andrew. I'm sure our listeners are eager to learn more about this topic. So, let's jump right in. Today, we'll be talking about how to build an Azure AI Vision solution using Azure AI services. This is a fascinating area that allows us to train AI models to classify images or detect objects in images. It's a powerful tool that has a wide range of applications in various industries. So, Andrew, could you give us a brief overview of Azure AI Vision services and how they work?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure, Brian. Azure AI Vision services provide a platform for building custom vision models for image classification and object detection. With these services, you can train your own AI models to analyze and categorize images or identify specific objects within images. It's a great way to add intelligence to your applications and automate tasks that require visual understanding.
+</voice>
+</speak>

@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, when it comes to implementing analytics solutions using Microsoft Fabric, what would you recommend as a source control strategy?
+</voice>
+<voice name="en-US-EmmaNeural">
+Source control is crucial for managing development in an enterprise. For Power BI, there are a few options to consider: OneDrive for Business, SharePoint, or Git.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So, how do we decide which option to choose?
+</voice>
+<voice name="en-US-EmmaNeural">
+It depends on your organization and the primary Power BI users. If your users are more comfortable with traditional folder structures, then OneDrive or SharePoint would be the easiest to adopt. However, if you have developers using Tabular Editor or Visual Studio, Git might be a better fit for managing .bim files.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. But what if we have a mix of .pbix and .bim files?
+</voice>
+<voice name="en-US-EmmaNeural">
+In that case, you can use Git for the .bim files and OneDrive or SharePoint for the .pbix files. It may require a bit more complexity, but it allows for better version control and collaboration.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So, what about version tracking with OneDrive?
+</voice>
+<voice name="en-US-EmmaNeural">
+OneDrive allows for file version tracking, which is helpful for restoring previous versions if needed. However, if multiple people update the same file simultaneously, conflicts may arise and manual merging would be required.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. And what about using Git for source control?
+</voice>
+<voice name="en-US-EmmaNeural">
+Git is a great option for managing datasets with .bim files. It offers features like push, pull, merge, and branching, making it easier for multiple developers to work on the same dataset. However, it's not ideal for tracking changes within .pbix files due to their binary nature.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know. Are there any best practices we should keep in mind?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. It's important to avoid using the Power BI service workspace for .pbix file source control, as it doesn't allow for version tracking. Instead, use OneDrive or SharePoint for maintaining a single source of truth. Additionally, choose the best solution for each project based on the file types involved.
+</voice>
+<voice name="en-US-BrianNeural">
+Great advice. And what about using Git? Any considerations there?
+</voice>
+<voice name="en-US-EmmaNeural">
+If you decide to use Git, determine whether changes can be merged automatically to the main branch or if they require review and approval beforehand. It's also helpful to familiarize yourself with Git branching strategies for better repository design.
+</voice>
+<voice name="en-US-BrianNeural">
+Excellent insights, Emma. It's clear that having a well-defined source control strategy is crucial for managing Power BI assets effectively. Thank you for sharing your expertise.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It was my pleasure to help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

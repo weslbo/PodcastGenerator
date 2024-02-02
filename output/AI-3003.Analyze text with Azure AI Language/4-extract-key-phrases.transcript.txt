@@ -1,0 +1,23 @@
+[Brian]: So Emma, can you explain to our listeners how key phrase extraction works in natural language processing?
+
+[Emma]: Sure, Brian. Key phrase extraction is a technique used to analyze the text of a document and identify the main points or key phrases within it. It helps to summarize the content and understand the context of the document. 
+
+[Brian]: That sounds really useful. Can you give us an example of how key phrase extraction can be applied in a real-world scenario?
+
+[Emma]: Absolutely! Let's say you have a large collection of customer reviews for a product. By using key phrase extraction, you can quickly identify the most frequently mentioned topics or issues in those reviews. This can help you understand what customers like or dislike about the product and make informed decisions for improvements.
+
+[Brian]: That's a great example, Emma. How does Azure AI Services help with key phrase extraction?
+
+[Emma]: Azure AI Services provides a Key Phrase Extraction API that you can use to extract key phrases from your text documents. You can simply send your documents to the API, and it will return a list of key phrases detected in each document. It's a convenient and efficient way to analyze large amounts of text data.
+
+[Brian]: That sounds really easy to use. Can you tell us more about the limitations of key phrase extraction?
+
+[Emma]: Of course, Brian. Key phrase extraction works best for larger documents, but there is a maximum size limit of 5,120 characters per document. It's important to keep this in mind when analyzing your text data. Additionally, the accuracy of the key phrase extraction may vary depending on the complexity and quality of the text.
+
+[Brian]: Thanks for clarifying that, Emma. Is there anything else our listeners should know about key phrase extraction?
+
+[Emma]: One important thing to note is that key phrase extraction is just one of the many capabilities offered by Azure AI Services. It can be combined with other services like language detection or sentiment analysis to gain deeper insights from your text data. So, it's worth exploring the full range of Azure AI Services for your natural language processing needs.
+
+[Brian]: That's an excellent insight, Emma. Thank you for sharing your expertise on key phrase extraction with us today.
+
+[Emma]: You're welcome, Brian. It was my pleasure to be here and discuss this topic. If you or our listeners have any more questions, feel free to reach out.

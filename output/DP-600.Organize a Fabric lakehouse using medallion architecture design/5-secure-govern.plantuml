@@ -1,0 +1,23 @@
+@startmindmap
+* Considerations for managing your lakehouse
+** Secure your lakehouse
+*** Workspace permissions
+*** Item level permissions
+*** Strategic storage of layers
+**** Security and Access Considerations
+**** Gold Layer Access Control
+**** Silver Layer Utilization
+**** Bronze Layer Access Control
+** Considerations for CI/CD
+*** Data quality checks
+*** Version control
+*** Automated deployments
+*** Monitoring
+*** Security measures
+*** Scalability
+*** Disaster recovery
+*** Collaboration
+*** Compliance
+*** Continuous improvement
+*** Git integration in Fabric
+@endmindmap

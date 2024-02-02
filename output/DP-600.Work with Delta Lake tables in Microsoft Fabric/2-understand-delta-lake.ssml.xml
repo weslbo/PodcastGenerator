@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been hearing a lot about Delta Lake lately. Can you explain to me what it is and how it works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Delta Lake is an open-source storage layer that adds relational database semantics to Spark-based data lake processing. It's essentially a way to store data in a structured and transactional manner within a data lake.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds interesting. How does Delta Lake achieve this relational database-like functionality?
+</voice>
+<voice name="en-US-EmmaNeural">
+Delta tables in Microsoft Fabric lakehouses are schema abstractions over data files stored in Delta format. Each table has a folder containing Parquet data files and a _delta_Log folder that logs transaction details in JSON format.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So what are the benefits of using Delta tables?
+</voice>
+<voice name="en-US-EmmaNeural">
+There are several benefits. First, Delta tables support querying and data modification, so you can perform CRUD operations just like in a relational database. You can select, insert, update, and delete rows of data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. What about transaction support?
+</voice>
+<voice name="en-US-EmmaNeural">
+Delta Lake provides support for ACID transactions. It implements a transaction log and enforces serializable isolation for concurrent operations. This means you can have atomicity, consistency, isolation, and durability for your data modifications.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive. Can Delta Lake track data versions?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, it can. Because all transactions are logged in the transaction log, you can track multiple versions of each table row. You can even use the time travel feature to retrieve a previous version of a row in a query.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful. Can Delta Lake handle both batch and streaming data?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. Delta Lake tables can be used as both sinks and sources for streaming data. Spark has native support for streaming data through the Structured Streaming API, and Delta Lake leverages that capability.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic. And what about interoperability?
+</voice>
+<voice name="en-US-EmmaNeural">
+Delta tables store data in Parquet format, which is commonly used in data lake ingestion pipelines. This allows for standard formats and interoperability. Additionally, you can use the SQL analytics endpoint for the Microsoft Fabric lakehouse to query Delta tables in SQL.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to know. Delta Lake seems like a powerful tool for implementing analytics solutions. Thanks for explaining it, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It's always a pleasure to share knowledge.
+</voice>
+</speak>

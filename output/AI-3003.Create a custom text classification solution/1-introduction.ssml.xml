@@ -1,0 +1,22 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3003 podcast, where we explore the world of artificial intelligence and its applications. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we dive in, I want to take a moment to thank our sponsor, Contoso. Without their support, this podcast wouldn't be possible.
+Now, let me introduce our guest for today. We have Emma, who is an expert in the field of natural language processing. Emma works for Contoso and has extensive knowledge and experience in developing NLP solutions using Azure AI Services. Welcome, Emma!
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm excited to be here and share my insights on developing natural language processing solutions with Azure AI Services.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Great to have you here, Emma. Now, let's get straight to the topic of today's podcast. We'll be discussing how to develop natural language processing solutions using Azure AI Services. NLP is a fascinating field that involves interpreting and understanding human language in a way that machines can process. Azure provides various tools and services that can help developers build powerful NLP solutions. So, Emma, could you give us a brief overview of what we'll be covering in this episode?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. In this episode, we'll be focusing on how to use the Azure AI Language service to classify text into custom groups. We'll explore different types of classification projects, learn how to build a custom text classification project, and discuss the process of tagging data, training, and deploying a model. Additionally, we'll touch upon how to submit classification tasks from your own application. It's going to be an exciting and informative discussion.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That sounds fantastic, Emma. I can't wait to dive deeper into these topics and learn more about developing NLP solutions with Azure AI Services. So, let's get started!
+</voice>
+</speak>

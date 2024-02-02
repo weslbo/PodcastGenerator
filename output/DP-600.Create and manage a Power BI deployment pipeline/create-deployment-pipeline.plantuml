@@ -1,0 +1,9 @@
+@startmindmap
+* Create a deployment pipeline
+** From the Deployment pipelines tab
+*** Go to Deployment pipelines
+*** Select Create pipeline
+** From a workspace
+*** Select Create a pipeline
+*** Enter name and description
+@endmindmap

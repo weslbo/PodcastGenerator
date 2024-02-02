@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the AI3004 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We're going to dive into the world of Azure AI Vision and learn how to build an Azure AI Vision solution using Azure AI services. But before we get started, let me introduce our guest for today. Please welcome Andrew from Contoso!
+</voice>
+<voice name="en-US-AndrewNeural">
+Hi Brian, thanks for having me on the podcast. I'm Andrew, and I work for Contoso. I'm really excited to talk about Azure AI Vision and share my knowledge with our listeners.
+</voice>
+<voice name="en-US-BrianNeural">
+Great to have you here, Andrew! Now, let's jump right into the topic of today's podcast. We're going to explore how to use Azure AI Vision to extract information from images. This is a fascinating field of AI where software can interpret visual input from images or video feeds. So, let's dive deeper into the different capabilities and features of Azure AI Vision in the upcoming session. 
+</voice>
+</speak>

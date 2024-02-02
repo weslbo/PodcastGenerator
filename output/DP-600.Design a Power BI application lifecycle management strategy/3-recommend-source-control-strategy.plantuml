@@ -1,0 +1,13 @@
+@startmindmap
+* Recommend a source control strategy
+** Consider the options
+*** OneDrive for Business
+*** SharePoint
+*** Git
+** Implement file version tracking with OneDrive
+** Use Git for source control
+** Best practices
+*** Use OneDrive or SharePoint for .pbix files
+*** Use Git for .bim files
+*** Use Power BI service for dataflows and datamarts
+@endmindmap

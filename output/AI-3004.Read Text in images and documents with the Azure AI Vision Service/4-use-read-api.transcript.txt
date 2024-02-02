@@ -1,0 +1,51 @@
+[Brian]: So Andrew, to use the Read OCR feature, we need to call the ImageAnalysis function, right? Can you explain how we can do that?
+
+[Andrew]: Yes, that's correct, Brian. To use the Read OCR feature, we can call the ImageAnalysis function either through the REST API or by using the equivalent SDK method. We need to pass the image URL or binary data as input to the function. We can also specify a gender neutral caption or the language of the text, although the default language is English.
+
+[Brian]: That sounds straightforward. Can you give me an example of how we can make an OCR request using the ImageAnalysis function in C#?
+
+[Andrew]: Sure, Brian. In C#, we can make an OCR request by specifying the analysis features as "Read". Here's an example:
+
+```csharp
+var client = new ComputerVisionClient(new ApiKeyServiceClientCredentials(apiKey))
+{
+    Endpoint = endpoint
+};
+
+var imageUrl = "https://example.com/image.jpg";
+var result = await client.ImageAnalysis.ReadAsync(imageUrl, new List<VisualFeatureTypes> { VisualFeatureTypes.Read });
+```
+
+[Brian]: Thanks for the example, Andrew. And what about Python? How can we make an OCR request using the ImageAnalysis function in Python?
+
+[Andrew]: In Python, we can also make an OCR request by specifying the analysis features as "Read". Here's an example:
+
+```python
+from azure.cognitiveservices.vision.computervision import ComputerVisionClient
+from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
+
+client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(api_key))
+
+image_url = "https://example.com/image.jpg"
+result = client.read(image_url, raw=True)
+```
+
+[Brian]: Great, Andrew! It seems like we have the necessary code to make OCR requests using the ImageAnalysis function in both C# and Python. Can you explain how the results of the Read OCR function are returned?
+
+[Andrew]: Certainly, Brian. The results of the Read OCR function are returned synchronously, either as JSON or as a language-specific object with a similar structure. The results are provided as a complete result and are broken down by page, words, and lines. The text values are included at both the line and word levels, which makes it easier to read entire lines of text if you don't need to extract text at the individual word level.
+
+[Brian]: That's helpful, Andrew. Having the results broken down by page, words, and lines makes it easier to work with the extracted text. Thank you for explaining that. 
+
+[Andrew]: You're welcome, Brian. I'm glad I could help.
+
+[Brian]: Well, Andrew, I think we've covered the basics of using the Read OCR feature with the ImageAnalysis function. Is there anything else you'd like to add before we wrap up?
+
+[Andrew]: Just one thing, Brian. It's important to note that the Read OCR feature is a powerful tool for extracting text from images, and it can be used in various scenarios such as document processing, form recognition, and more. It's definitely worth exploring further.
+
+[Brian]: Absolutely, Andrew. The Read OCR feature opens up a lot of possibilities for automating text extraction tasks. Thank you for sharing your expertise with us today.
+
+[Andrew]: My pleasure, Brian. It was great discussing this topic with you.
+
+[Brian]: And thank you to our listeners for tuning in. We hope you found this episode informative and that it inspires you to explore the Read OCR feature in Azure AI services. Keep on learning, and until next time!
+
+[Andrew]: Thank you, everyone. Take care and happy learning!

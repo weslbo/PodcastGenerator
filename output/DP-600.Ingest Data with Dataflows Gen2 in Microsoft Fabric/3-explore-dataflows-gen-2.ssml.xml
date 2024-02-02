@@ -1,0 +1,56 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been exploring Dataflows Gen2 in Microsoft Fabric, and I'm really impressed with the capabilities. Can you tell me more about the Power Query Online interface?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! The Power Query Online interface is where you can visualize and perform transformations on your data in Dataflows Gen2. It has a Power Query ribbon that offers a wide range of data source connectors and transformation options.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to hear! Can you give me some examples of the data transformations that can be done in Power Query Online?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course! With Power Query Online, you can filter and sort rows, pivot and unpivot data, merge and append queries, split and conditionally split data, replace values, remove duplicates, add, rename, reorder, or delete columns, calculate rankings and percentages, and even get the top or bottom N values.
+</voice>
+<voice name="en-US-BrianNeural">
+Wow, that's quite a comprehensive set of transformations! How does the interface allow users to manage their data sources?
+</voice>
+<voice name="en-US-EmmaNeural">
+In the Queries pane, users can see the different data sources, which are now referred to as queries. They have the option to rename, duplicate, reference, and enable staging for these queries.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient. What about the Diagram View? How does it help users understand the data sources and transformations?
+</voice>
+<voice name="en-US-EmmaNeural">
+The Diagram View provides a visual representation of how the data sources are connected and the transformations that have been applied. It helps users get a clear picture of the data flow and the sequence of transformations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. And what about the Data Preview pane? How does it assist users in understanding the impact of their transformations?
+</voice>
+<voice name="en-US-EmmaNeural">
+The Data Preview pane shows a subset of the data, allowing users to see the effects of their transformations. They can interact with the preview by dragging and dropping columns to change their order or right-clicking on columns to apply filters or make changes.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great way to preview the data before finalizing the transformations. What other options are available in the Query Settings pane?
+</voice>
+<voice name="en-US-EmmaNeural">
+The Query Settings pane primarily includes the Applied Steps, which represent the transformations applied to the data. Each transformation is tied to a step, and some steps are automatically applied when connecting to the data source. Depending on the complexity of the transformations, there can be multiple applied steps for each query.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. And can users view the M code for their transformations?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, they can! In the Query Settings pane, there is an option for the Advanced Editor, where users can view the M code behind their transformations. It provides more flexibility for advanced users who prefer to work with code.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great to know. And finally, can data analysts connect to the dataflow through Power BI Desktop?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! If it's made available, data analysts can connect to the dataflow through Power BI Desktop. They can access the dataflow as a data source and leverage its capabilities in their Power BI reports and visualizations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic! Thank you so much, Emma, for sharing all this valuable information about Dataflows Gen2 and the Power Query Online interface. I'm really excited to explore it further.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian! I'm glad I could help. Have fun exploring Dataflows Gen2 and let me know if you have any more questions.
+</voice>
+</speak>

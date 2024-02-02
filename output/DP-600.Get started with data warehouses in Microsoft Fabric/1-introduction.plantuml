@@ -1,0 +1,32 @@
+@startmindmap
+* Relational data warehouses
+** Standard design for a relational data warehouse
+** Denormalized, multidimensional schema
+** Centralizes and organizes data
+** Unified view for analysis and reporting
+** Full SQL semantics
+** Insert, update, and delete data
+** Built on the Lakehouse
+*** Stored in Delta format
+*** Queryable using SQL
+** Designed for the whole data team
+** Fabric's data warehouse experience
+*** Enables collaboration between data engineers, analysts, and data scientists
+*** Optimized for specific needs
+* Fabric's data warehouse
+** Modern version of traditional data warehouse
+** Centralizes and organizes data
+** Single, unified view for analysis and reporting
+** Full SQL semantics
+** Insert, update, and delete data
+** Built on the Lakehouse
+*** Stored in Delta format
+*** Queryable using SQL
+** Designed for the whole data team
+* Module content
+** Data warehouses in Fabric
+** Creating a data warehouse
+** Loading data
+** Querying data
+** Visualizing data
+@endmindmap

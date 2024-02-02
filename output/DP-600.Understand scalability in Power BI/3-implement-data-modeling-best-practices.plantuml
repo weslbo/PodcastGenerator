@@ -1,0 +1,30 @@
+@startmindmap
+* Implement Power BI data modeling best practices
+** Choose the correct Power BI model framework
+*** Import mode
+*** DirectQuery mode
+*** Composite model
+** Implement data modeling best practices
+*** Best practices for import mode
+**** Start with import mode
+**** Only bring in data you need
+**** Avoid wide tables
+**** Pre-aggregate data before loading
+**** Reduce the usage of calculated columns
+**** Avoid high cardinality columns
+**** Use appropriate data types
+**** Limit the use of bi-directional filters
+**** Disable auto date/time
+**** Disable attribute hierarchies
+**** Query database views
+**** Consider partitioning and incremental refresh
+**** Ensure query folding is achieved
+*** Best practices specific to DirectQuery mode
+**** Set relationships to enforce integrity
+**** Limit the use of bi-directional filters
+**** Limit the complexity of DAX calculations
+**** Avoid the use of calculated columns
+**** Avoid relationships on calculated columns
+**** Avoid relationships on Unique Identifier columns
+**** Use dual storage mode
+@endmindmap

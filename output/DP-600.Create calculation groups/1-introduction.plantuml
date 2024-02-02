@@ -1,0 +1,16 @@
+@startmindmap
+* Designing Power BI reports
+** Challenge: meeting user needs
+*** Multiple calculations
+*** Evaluate in multiple time periods
+** Example: sales trends for the year
+*** Measures: orders, sales, profit
+*** Time slices: month to date, quarter to date, year to date, previous year
+** Solution: Calculation groups
+*** Reduce model complexity
+*** Achieve task efficiently
+* Learning objectives
+** Explore calculation groups
+** Maintain calculation groups
+** Use calculation groups in reports
+@endmindmap

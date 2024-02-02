@@ -1,0 +1,16 @@
+@startmindmap
+* Implement multi-turn conversation
+** Enable multi-turn responses
+*** Import questions and answers
+*** Define follow-up prompts and responses
+** Example of a multi-turn conversation
+*** Initial question: "How can I cancel a reservation?"
+**** Follow-up prompt: "Is it a hotel or a flight?"
+**** Answer: "Cancellation policies depend on the type of reservation"
+***** Follow-up prompt: "Canceling flights"
+***** Follow-up prompt: "Canceling hotels"
+** Define follow-up prompts
+*** Link to existing answer
+*** Define new answer
+*** Restrict linked answer
+@endmindmap

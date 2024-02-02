@@ -1,0 +1,15 @@
+@startmindmap
+* Apply good modeling practices
+** Define fewer datasets
+*** Well-designed roles
+** Create fewer roles
+*** Use dynamic rules
+** Filter dimension tables
+*** Faster query performance
+** Validate model design
+*** Relationships and properties
+** Use function instead of function
+** Validate RLS and OLS
+** Ensure consistent data source connection
+*** Same credentials in Power BI Desktop and Power BI service
+@endmindmap

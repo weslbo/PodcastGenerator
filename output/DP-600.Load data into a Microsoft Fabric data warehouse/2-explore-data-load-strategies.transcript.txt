@@ -1,0 +1,1 @@
+[Brian]: Emma, when it comes to loading data in Microsoft Fabric, what are the different strategies that we can use?

@@ -1,0 +1,18 @@
+@startmindmap
+* Check your knowledge
+** Question 1
+*** Snapshot balance reporting
+*** Filter context modifications involving a date table
+*** Complex calculations involving time
+*** Calculations involving hours, minutes, or seconds
+** Question 2
+*** Add time intelligence measures to the date table.
+*** Mark as a Date table.
+*** Add a fiscal hierarchy.
+*** Add a date column.
+** Question 3
+*** FIRST
+*** FIRSTNONBLANK
+*** LAST
+*** LASTNONBLANK
+@endmindmap

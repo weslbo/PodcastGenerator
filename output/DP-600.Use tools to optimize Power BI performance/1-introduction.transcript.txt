@@ -1,0 +1,9 @@
+[Brian]: Welcome to another episode of DP600, the podcast where we dive deep into the world of analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we get into that, let me introduce our guest for today. Joining us is Emma, who is an expert in analytics solutions at Contoso. Welcome, Emma!
+
+[Emma]: Thank you, Brian. I'm excited to be here and share my knowledge on implementing analytics solutions using Microsoft Fabric.
+
+[Brian]: Great to have you here, Emma. So, today's topic is all about optimizing performance in data models. I know that many of our listeners have faced the challenge of slow Power BI reports, and they're eager to learn how to identify and solve the problem. Can you give us a brief overview of what we'll be discussing today?
+
+[Emma]: Absolutely, Brian. In this episode, we'll be focusing on optimizing performance in data models. We'll explore tools like Performance Analyzer, DAX Studio, and Tabular Editor that can help us troubleshoot and improve the efficiency of our data models. By making changes to the data model, we can enhance the overall user experience and ensure that our reports run smoothly.
+
+[Brian]: That sounds fantastic, Emma. I'm sure our listeners will find this information incredibly valuable. So, let's dive right in and start exploring these tools and techniques for optimizing data models.

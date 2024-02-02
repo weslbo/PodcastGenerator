@@ -1,0 +1,40 @@
+@startmindmap
+* Understand Dataflows Gen2 in Microsoft Fabric
+** What is a dataflow?
+*** Dataflows
+**** Cloud-based ETL tool
+**** Extract, Transform, Load
+**** Power Query Online
+**** Data analysts
+** How to use Dataflows Gen2
+*** Data engineers
+**** Extract, transform, load data
+*** Data Pipeline
+**** Copy data
+**** Extract, transform, load data
+*** Lakehouse
+**** Curated semantic model
+*** Data destination (optional)
+**** Preserves transformation steps
+*** Data Pipeline and Dataflow Gen2
+**** Extract, Load, Transform process
+**** Lakehouse
+**** Curated semantic model
+*** Horizontal partitioning
+**** Specialized semantic models
+*** Reusable ETL logic
+**** Wide variety of transformations
+**** Manual or scheduled execution
+** Benefits and limitations
+*** Benefits
+**** Extend data with consistent data
+**** Self-service access to data
+**** Optimize performance with dataflows
+**** Simplify data source complexity
+**** Ensure consistency and quality of data
+**** Simplify data integration with low-code interface
+*** Limitations
+**** Not a replacement for data warehouse
+**** No row-level security support
+**** Fabric capacity workspace required
+@endmindmap

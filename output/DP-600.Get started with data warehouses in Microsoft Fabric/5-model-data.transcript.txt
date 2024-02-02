@@ -1,0 +1,35 @@
+[Brian]: So Emma, now that we have our semantic model set up in Fabric, what's the next step in implementing analytics solutions using Microsoft Fabric?
+
+[Emma]: The next step is to build relationships between the tables in the semantic model. This allows us to connect the data and create meaningful insights. In the Model view of Fabric, you can easily create relationships by using the click-and-drag interface.
+
+[Brian]: That sounds straightforward. Can you give me an example of how relationships are used in the semantic model?
+
+[Emma]: Sure! Let's say we have a fact table that contains sales data and three dimension tables for products, customers, and regions. We can create relationships between the fact table and each dimension table based on common keys, such as product ID, customer ID, and region ID. This allows us to analyze sales data by different dimensions, such as product, customer, and region.
+
+[Brian]: I see. So the relationships help us analyze the data from different perspectives. What's the next step after building relationships?
+
+[Emma]: The next step is to create measures. Measures are the metrics that we want to analyze in our data warehouse. In Fabric, you can create measures in the Model view by using the New measure button. Measures are calculated fields that are based on the data in the tables and are created using the Data Analysis Expressions (DAX) formula language.
+
+[Brian]: That's interesting. Can you give me an example of a measure that we can create?
+
+[Emma]: Sure! Let's say we want to analyze month-over-month sales. We can create a measure that calculates the difference in sales between the current month and the previous month. This measure can then be used to track the sales performance over time.
+
+[Brian]: That's a useful measure. Is there anything else we need to do to prepare our data for reporting?
+
+[Emma]: Yes, one more thing we can do is hide fields that are not necessary for reporting. This helps to simplify the view for report builders. In the Model view of Fabric, you can right-click on a table or column and select Hide to remove it from the view. However, the hidden fields will still be available for use in the semantic model.
+
+[Brian]: That's a handy feature. It allows us to declutter the view without losing any important data. Now, let's talk about datasets. What exactly are datasets in the context of Fabric?
+
+[Emma]: Datasets in Fabric are semantic models with metrics that are used to create reports. They are automatically kept in sync with the data warehouse, so there's no need to worry about maintaining them. Analysts can connect to these datasets and use them to create reports. If you're familiar with Power BI, working with datasets created by the data warehouse experience will be straightforward.
+
+[Brian]: That's convenient. So the datasets are automatically updated as the data warehouse changes. What about the default semantic model in Fabric? Can you tell me more about that?
+
+[Emma]: Certainly. The default semantic model is automatically created for you in Fabric. It inherits business logic from the parent lakehouse or warehouse and serves as the foundation for downstream analytics. It is managed, optimized, and kept in sync for you. New tables in the Lakehouse are automatically added to the default semantic model, but you can also manually select tables or views from the warehouse to include in the model for more flexibility.
+
+[Brian]: That's great to know. Having a default semantic model saves time and effort in setting up the analytics experience. Now, let's move on to visualizing the data. How can we do that in Fabric?
+
+[Emma]: Fabric allows you to visualize the results of a single query or your entire data warehouse without leaving the data warehouse experience. You can use the New report button to create a new Power BI report from the contents of your data warehouse. This opens the Power BI service experience where you can build and save your report for business use.
+
+[Brian]: That's fantastic! Being able to visualize the data within Fabric makes the analysis process more seamless. Thank you, Emma, for sharing these insights on implementing analytics solutions using Microsoft Fabric.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

@@ -1,0 +1,11 @@
+[Brian]: Welcome to the DP600 podcast, where we discuss all things related to implementing analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. Please welcome Emma!
+
+[Emma]: Hi Brian, thanks for having me on the show.
+
+[Brian]: It's great to have you here, Emma. Before we dive into the topic, could you please introduce yourself to our listeners?
+
+[Emma]: Of course, Brian. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric, and I'm excited to share my knowledge with everyone today.
+
+[Brian]: That's fantastic, Emma. Today, we're going to talk about Microsoft Fabric Data Warehouse and how it can be used for data analytics and AI. It's a powerful platform that allows users to store, organize, and manage large volumes of structured and semi-structured data. Are you ready to get started, Emma?
+
+[Emma]: Absolutely, Brian. Let's dive into the world of Microsoft Fabric Data Warehouse and explore its capabilities for implementing analytics solutions.

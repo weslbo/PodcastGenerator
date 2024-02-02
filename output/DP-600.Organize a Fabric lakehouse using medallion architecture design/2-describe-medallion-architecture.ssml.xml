@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about the medallion architecture in Microsoft Fabric and I find it really interesting. Can you explain to me how it works and what its benefits are?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. The medallion architecture is a data design pattern used to organize data in a lakehouse. It consists of three layers: bronze, silver, and gold. The bronze layer is where all the raw data is stored without any changes. In the silver layer, the data is validated and refined, while the gold layer is where the data is further enriched to align with specific business and analytics needs.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So the bronze layer is where the data lands in its original format, and then it goes through validation and refinement in the silver layer. Finally, in the gold layer, it's enriched for specific use cases. Is that correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. The medallion architecture ensures that data is reliable and consistent as it moves through the different layers. It also makes it easier and faster to analyze the data. The architecture complements existing data organization methods and allows businesses to customize their data solutions while remaining adaptable in the ever-changing data landscape.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So it's not a replacement for existing data models, but rather a framework for data cleaning and improving data quality. That's really helpful.
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, you're absolutely right, Brian. The medallion architecture is flexible and can be customized to meet the specific requirements of an organization. It can have additional layers like a "raw" layer for landing data in a specific format or a "platinum" layer for further refined and enriched data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know. Now, let's talk about moving data across the medallion layers in Fabric. What are the options available and how do we decide which method to use?
+</voice>
+<voice name="en-US-EmmaNeural">
+When it comes to moving data across layers, Fabric provides multiple options to choose from. The choice depends on factors like the amount of data, complexity of transformations, frequency of data movement, and your team's comfort with different tools.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So what are the tools available for data transformation in Fabric?
+</voice>
+<voice name="en-US-EmmaNeural">
+Fabric offers Dataflows (Gen2) and notebooks for data transformation. Dataflows are great for smaller semantic models and simple transformations. On the other hand, notebooks are better suited for larger semantic models and more complex transformations. Notebooks also allow you to save your transformed data as a managed Delta table in the lakehouse, ready for reporting.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. And what about data orchestration? How can we coordinate and manage data-related processes in Fabric?
+</voice>
+<voice name="en-US-EmmaNeural">
+Data orchestration in Fabric is primarily done through pipelines. Pipelines are a series of steps that move data from one layer to another in the medallion architecture. They can be automated to run on a schedule or triggered by an event. Pipelines are the primary tool for data orchestration in Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So we have data transformation tools like Dataflows and notebooks, and data orchestration is done through pipelines. That gives us flexibility in choosing the right tools for the job within Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. The combination of data transformation and data orchestration tools in Fabric allows you to efficiently move and transform data across the medallion layers, refining and preparing it for downstream data activities.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for explaining the medallion architecture and how data can be moved across layers in Fabric. I really appreciate your expertise on this topic.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

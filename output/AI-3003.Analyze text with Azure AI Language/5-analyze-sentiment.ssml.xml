@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, can you explain how sentiment analysis works in Azure AI Language?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Sentiment analysis in Azure AI Language is used to evaluate the positivity or negativity of a text document. It can be helpful in various scenarios like evaluating reviews or prioritizing customer service responses. The response from the service includes overall document sentiment and individual sentence sentiment for each document submitted.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. How does the service determine the sentiment of a document?
+</voice>
+<voice name="en-US-EmmaNeural">
+The sentiment is determined based on confidence scores for positive, negative, and neutral classification values. These scores range from 0 to 1. The overall document sentiment is determined by analyzing the sentences in the document.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, how is the overall sentiment of a document determined?
+</voice>
+<voice name="en-US-EmmaNeural">
+The overall sentiment is determined based on the sentences in the document. If all sentences are neutral, the overall sentiment is neutral. If the sentence classifications include only positive and neutral, the overall sentiment is positive. If the sentence classifications include only negative and neutral, the overall sentiment is negative. And if the sentence classifications include both positive and negative, the overall sentiment is considered mixed.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Can you give me an example of how this would work in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, let's say you have a movie review. The sentiment analysis service would analyze each sentence in the review and assign a sentiment score. If most of the sentences are positive, the overall sentiment of the review would be positive. If there is a mix of positive and negative sentences, the overall sentiment would be considered mixed.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So, the service provides both overall document sentiment and individual sentence sentiment?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct. The service provides both the overall sentiment of the document and the sentiment of each individual sentence. This can be useful for analyzing the sentiment of specific parts of the document.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. It seems like sentiment analysis in Azure AI Language can be really helpful in understanding the sentiment of text documents. Thanks for explaining, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

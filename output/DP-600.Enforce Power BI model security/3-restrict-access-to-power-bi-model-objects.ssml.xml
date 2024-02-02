@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about object-level security (OLS) in Power BI and I'm curious to know more about it. Can you explain how it works and why it's important?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Object-level security (OLS) in Power BI allows you to restrict user access to specific tables and columns in your data model. This is particularly useful when you have sensitive data that should only be accessible to certain users. OLS not only restricts access to the data itself, but also secures the metadata associated with the restricted objects.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. Can you give me an example of how OLS can be applied in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, let's say we have an organization called Adventure Works. They have a data warehouse dimension table called DimEmployee, which includes columns for employee name, phone, email address, and salary. Now, while general report consumers can see the employee name and contact details, they should not be able to see the salary values. Only senior Human Resources staff should have access to the salary values. In this case, the data modeler would use OLS to grant access to the salary column only to specific Human Resources staff.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So how do you set up OLS in Power BI?
+</voice>
+<voice name="en-US-EmmaNeural">
+To set up OLS, you start by creating roles in Power BI Desktop, similar to how you set up Row-Level Security (RLS). However, adding OLS rules to the roles is not supported in Power BI Desktop. Instead, you need to use an XML for Analysis (XMLA) endpoint, which is available with Power BI Premium. This endpoint provides access to the Analysis Services engine in the Power BI service. You can use XMLA endpoint-enabled APIs or client tools like SSMS or Tabular Editor to add OLS rules to your model.
+</voice>
+<voice name="en-US-BrianNeural">
+That's good to know. Once the OLS rules are added, how do you publish the model to the Power BI service?
+</voice>
+<voice name="en-US-EmmaNeural">
+Publishing the model with OLS rules is the same process as with RLS. You simply publish the model from Power BI Desktop to the Power BI service. Then, you can use the same process to map user accounts and security groups to the roles, just like you would with RLS.
+</voice>
+<voice name="en-US-BrianNeural">
+Are there any considerations or limitations to keep in mind when implementing OLS?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are a few things to consider. When a user doesn't have permission to access a restricted table or column, they will receive an error message stating that the object doesn't exist. This can be confusing for users and may result in a negative experience. So, it's important to carefully consider whether OLS is the right solution for your project. In some cases, creating separate models or reports for different user requirements might be a better approach.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a good point. Are there any other restrictions or limitations to be aware of when implementing OLS?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are a couple of restrictions to keep in mind. First, you cannot mix RLS and OLS in the same role. If you need to apply both RLS and OLS in the same model, you'll need to create separate roles for each. Additionally, you cannot set table-level security if it breaks a relationship chain. For example, if there are relationships between tables A and B, and B and C, you cannot secure table B. However, you can set up a separate relationship between tables A and C to work around this limitation. Lastly, while you cannot secure measures directly, a measure that references secured objects will be automatically restricted.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you, Emma. That's a great overview of object-level security in Power BI. I appreciate you sharing your expertise on this topic.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

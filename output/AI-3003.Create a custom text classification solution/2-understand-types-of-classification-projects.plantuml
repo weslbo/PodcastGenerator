@@ -1,0 +1,8 @@
+@startmindmap
+* Understand types of classification projects
+** Single label classification
+** Multiple label classification
+*** Labeling data
+*** Evaluating and improving your model
+*** API payload
+@endmindmap

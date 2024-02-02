@@ -1,0 +1,19 @@
+@startmindmap
+* Create a custom project
+** Components of a custom Vision project
+*** dataset
+**** COCO file
+*** train custom model
+**** type of model
+**** dataset
+**** training budget
+*** view performance
+*** use model for predictions
+** COCO files
+*** images
+*** annotations
+*** categories
+** Creating your dataset
+*** REST API
+*** Vision Studio
+@endmindmap

@@ -1,0 +1,21 @@
+@startmindmap
+* Azure AI Speech service
+** Speech to text APIs
+** Speech synthesis APIs
+*** Text to speech API
+*** Batch synthesis API
+** Language-specific SDK
+* Using Azure AI Speech SDK
+** SpeechConfig object
+*** Location
+*** Key
+** AudioConfig object
+*** Output device
+** SpeechSynthesizer object
+** SpeakTextAsync method
+** SpeechSynthesisResult object
+*** AudioData
+*** Properties
+*** Reason
+*** ResultId
+@endmindmap

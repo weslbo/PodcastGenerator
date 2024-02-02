@@ -1,0 +1,1 @@
+[Brian]: So Emma, once we have defined a knowledge base and trained its natural language model, how can we test it before publishing it for use in an application or bot?

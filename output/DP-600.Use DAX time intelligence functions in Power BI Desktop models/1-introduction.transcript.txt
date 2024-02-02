@@ -1,0 +1,9 @@
+[Brian]: Welcome to the DP600 podcast, where we discuss implementing analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. Please welcome Emma from Contoso. Emma, why don't you introduce yourself to our listeners?
+
+[Emma]: Hi Brian, thanks for having me on the podcast. My name is Emma and I work for Contoso. I specialize in implementing analytics solutions using Microsoft Fabric.
+
+[Brian]: Thanks for joining us, Emma. Today, we're going to dive into the topic of time intelligence in analytics solutions. Time intelligence is all about calculations over dates and time. It's a crucial aspect of data analysis expressions (DAX) calculations. Emma, could you tell us more about time intelligence and how it relates to analytics solutions?
+
+[Emma]: Absolutely, Brian. Time intelligence in analytics solutions involves modifying the filter context for date filters. It allows us to perform calculations over dates, months, quarters, or years. For example, we can calculate year-to-date revenue or compare revenue for the same period last year. Time intelligence measures help answer important time-related questions in analytics.
+
+[Brian]: That's fascinating, Emma. I can see how time intelligence measures can provide valuable insights into business performance over time. I'm really excited to learn more about how to create these measures.

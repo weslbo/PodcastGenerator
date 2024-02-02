@@ -1,0 +1,14 @@
+@startmindmap
+* Load and transform data with Dataflow Gen2
+** Create a dataflow
+*** Import data
+**** Load different file types
+** Transform data with Copilot
+** Add a data destination
+*** Azure SQL Database
+*** Lakehouse
+*** Azure Data Explorer (Kusto)
+*** Azure Synapse Analytics (SQL DW)
+*** Warehouse
+** Publish a dataflow
+@endmindmap

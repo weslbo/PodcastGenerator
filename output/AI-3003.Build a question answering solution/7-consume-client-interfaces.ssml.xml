@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, to consume the published knowledge base, we can use the REST interface, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct, Brian. The REST interface allows us to send a question to the knowledge base and receive a response with the closest question match, the associated answer, confidence score, and other metadata.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great! Could you give me an example of how we can use the REST interface to send a question?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. To send a question, we need to provide a minimal request body that includes the question itself. We can also specify additional parameters like the maximum number of answers to be returned, the score threshold for answers, and strict filters to limit the answers based on metadata.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So we can customize the response based on our requirements. Can you explain how the response is structured?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. The response includes the closest question match that was found in the knowledge base. It also provides the associated answer, the confidence score, and other metadata about the question and answer pair.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. It seems like using the REST interface gives us a lot of flexibility in working with the knowledge base. Is there anything else we need to know about it?
+</voice>
+<voice name="en-US-EmmaNeural">
+One important thing to note is that the REST interface allows us to integrate the knowledge base into our own applications or systems. This means we can leverage the knowledge base to provide accurate and relevant answers to user queries.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic! Being able to integrate the knowledge base into our applications will definitely enhance the user experience. Thank you for explaining how we can use the REST interface, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. 
+</voice>
+</speak>

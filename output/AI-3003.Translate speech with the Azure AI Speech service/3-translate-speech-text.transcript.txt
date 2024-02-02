@@ -1,0 +1,35 @@
+[Brian]: So Emma, can you walk us through the process of translating speech to text using Azure AI Speech SDK?
+
+[Emma]: Sure, Brian. To translate speech to text using Azure AI Speech SDK, you need to follow a few steps. First, you create a SpeechTranslationConfig object that contains the necessary information to connect to your Azure AI Speech resource, such as the location and key. 
+
+[Brian]: Got it. And what other information does the SpeechTranslationConfig object contain?
+
+[Emma]: The SpeechTranslationConfig object is also used to specify the speech recognition language, which is the language in which the input speech is spoken, and the target languages into which it should be translated.
+
+[Brian]: Can you give me an example of how the SpeechTranslationConfig object is used?
+
+[Emma]: Of course. Let's say you want to translate speech from English to French. You would set the speech recognition language to English and add French as one of the target languages in the SpeechTranslationConfig object.
+
+[Brian]: That makes sense. What's the next step?
+
+[Emma]: The next step is to define the input source for the audio to be transcribed. You can use an AudioConfig object to specify the input source. By default, it uses the default system microphone, but you can also provide an audio file.
+
+[Brian]: Okay, so we have the SpeechTranslationConfig object and the AudioConfig object. What's next?
+
+[Emma]: With the SpeechTranslationConfig and AudioConfig objects, you can create a TranslationRecognizer object. This object acts as a proxy client for the Azure AI Speech translation API.
+
+[Brian]: And what can we do with the TranslationRecognizer object?
+
+[Emma]: You can use the methods of the TranslationRecognizer object to call the underlying API functions. For example, you can use the RecognizeOnceAsync() method to asynchronously translate a single spoken utterance.
+
+[Brian]: And what do we get as a result?
+
+[Emma]: The result of the RecognizeOnceAsync() method is a SpeechRecognitionResult object. It includes properties such as duration, offset in ticks, properties, reason, result ID, text, and translations.
+
+[Brian]: That's great. So if the operation is successful, we can access the transcription in the original language through the Text property, right?
+
+[Emma]: Exactly. And you can also access the Translations property, which contains a dictionary of the translations using the two-character ISO language code as a key.
+
+[Brian]: That's really helpful, Emma. Thanks for explaining the process of translating speech to text using Azure AI Speech SDK.
+
+[Emma]: You're welcome, Brian. I'm glad I could help.

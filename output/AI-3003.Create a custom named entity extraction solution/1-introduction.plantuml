@@ -1,0 +1,18 @@
+@startmindmap
+* Custom named entity recognition
+** Azure AI Language service
+*** Natural language processing
+*** Custom entity extraction
+** Entities
+*** Person
+*** Place
+*** Thing
+*** Event
+*** Skill
+*** Value
+** Module objectives
+*** Understand custom named entities
+*** Build a custom entity extraction project
+*** Label data, train, and deploy a model
+*** Submit extraction tasks from an app
+@endmindmap

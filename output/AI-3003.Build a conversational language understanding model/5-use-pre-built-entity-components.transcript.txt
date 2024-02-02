@@ -1,0 +1,21 @@
+[Brian]: So Emma, I've been exploring the Azure AI Language service and I came across the concept of pre-built entity components. Can you tell me more about how they work?
+
+[Emma]: Absolutely, Brian. Pre-built entity components are a great feature of the Azure AI Language service. They allow you to easily detect common entities like numbers, emails, URLs, or choices without having to train your model with examples of those entities.
+
+[Brian]: That sounds really convenient. How do I add a pre-built component to my project?
+
+[Emma]: It's quite simple, Brian. You can start by creating an entity in your project. Once you have the entity, you can select "Add new prebuilt" to that entity and choose the specific type of entity you want to detect. You can add up to five prebuilt components per entity.
+
+[Brian]: That's handy. So, by using pre-built components, I can save a lot of time in developing my conversational language understanding solution, right?
+
+[Emma]: Absolutely, Brian. By leveraging pre-built components, you can significantly reduce the time it takes to develop your solution. The Azure AI Language service will automatically detect the specified type of entity, so you don't have to manually train your model with examples of that entity.
+
+[Brian]: That's fantastic! Can you give me an example of how pre-built entity components can be useful in a real-world scenario?
+
+[Emma]: Sure, Brian. Let's say you're building a chatbot for a customer support system. You can use the pre-built email entity component to automatically detect email addresses mentioned by the users. This can help you quickly identify and extract the email addresses without having to manually define all possible email patterns.
+
+[Brian]: Ah, I see. That would definitely make the chatbot more efficient and accurate. Thanks for the example, Emma.
+
+[Emma]: You're welcome, Brian. Pre-built entity components are a powerful tool in developing natural language processing solutions with Azure AI Services.
+
+[Brian]: That's an excellent insight, Emma.

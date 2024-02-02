@@ -1,0 +1,27 @@
+@startmindmap
+* Optimize a data model by using Best Practice Analyzer
+** Describe Tabular Editor
+*** quickly edit data models
+*** automate repetitive tasks using scripting
+*** incorporate DevOps with tabular models
+*** run BPA rules
+** Describe the Best Practice Analyzer (BPA)
+*** BPA rules .json file
+*** Performance
+*** DAX Expressions
+*** Error Prevention
+*** Formatting
+*** Maintenance
+** Run BPA in Tabular Editor
+*** Install Tabular Editor
+*** Download the Best Practice Rules
+*** Save the file
+*** Select Tabular Editor in Power BI Desktop
+*** Select Best Practice Analyzer
+*** Review the objects
+*** Fix the objects using Tabular Editor
+*** Save the changes
+** Customize BPA for your organization
+*** Manage Best Practice Rules
+** Incorporate the use of BPA into your CI/CD process
+@endmindmap

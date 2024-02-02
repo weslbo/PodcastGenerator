@@ -1,0 +1,23 @@
+@startmindmap
+* Implement a medallion architecture in Fabric
+** Set up the foundation
+*** Create your Fabric lakehouse
+** Design your architecture
+*** Create architecture layout
+*** Define layers
+*** Determine data flow
+** Ingest data into bronze
+*** Use pipelines, dataflows, notebooks
+** Transform data and load to silver
+*** Use dataflows or notebooks
+** Generate a gold layer
+*** Model data for reporting
+*** Multiple gold layers for different audiences
+*** Use Data Warehouse as gold layer
+*** Transform data using dataflows or notebooks
+*** Load into gold Delta table
+*** Connect to Delta table using SQL analytics endpoint
+*** Use SQL or Power BI for modeling
+** Enable downstream consumption
+*** Use permissions or SQL analytics endpoint
+@endmindmap

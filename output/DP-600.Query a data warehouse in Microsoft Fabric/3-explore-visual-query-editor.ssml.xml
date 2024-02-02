@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been hearing a lot about the visual query editor in Microsoft Fabric data warehouse. Can you tell me more about it?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! The visual query editor is a tool in Microsoft Fabric that provides a graphical interface for building SQL queries. It's designed to simplify the process of writing and managing queries, especially for those who may not be comfortable with SQL syntax.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really helpful! How does the visual query editor work?
+</voice>
+<voice name="en-US-EmmaNeural">
+Well, Brian, the editor allows you to drag and drop tables and visually design your queries. This makes it easier to understand the structure of your query and the relationships between tables. As you design your query using the visual interface, the corresponding SQL query is automatically generated. This way, you can focus on the logic of your query rather than the syntax.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great! It seems like the visual query editor can make querying data much more intuitive. Can you give me an example of how it can be used?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! Let's say you have a data warehouse with multiple tables, such as a sales table and a customer table. With the visual query editor, you can simply drag and drop these tables onto the interface and visually connect them based on their relationships. You can then select the fields you want to include in your query and specify any filters or conditions. The editor will automatically generate the SQL query for you, which you can then execute to retrieve the desired results.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really cool! It seems like the visual query editor can be a game-changer for those who are not comfortable with SQL. Can you tell me more about the features of the editor?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! In addition to the graphical interface and automatic query generation, the visual query editor also allows you to save your queries in the "My queries" folder. This way, all workspace users can save and reuse their queries. Additionally, you can also save your queries as tables or views, which can be useful for reusing queries or creating more complex queries based on the results of previous queries.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic! It seems like the visual query editor provides a user-friendly and intuitive way to work with data. Thanks for explaining it, Emma!
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian! I'm glad I could help. If you have any more questions, feel free to ask!
+</voice>
+</speak>

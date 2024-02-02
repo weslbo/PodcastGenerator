@@ -1,0 +1,20 @@
+@startmindmap
+* Explore Azure AI Vision options for reading text
+** Image Analysis
+*** Optical character recognition (OCR)
+**** General, unstructured documents
+**** Images with smaller amount of text
+**** Immediate results (synchronous)
+**** Functionality for analyzing images
+***** Object detection
+***** Describing or categorizing an image
+***** Generating smart-cropped thumbnails
+**** Examples: street signs, handwritten notes, store signs
+** Document Intelligence
+*** Small to large volumes of text
+*** Uses context and structure of the document
+*** Asynchronous operation ID
+*** Examples: receipts, articles, invoices
+** Access via REST API or client library
+** Focus on OCR feature in Image Analysis
+@endmindmap

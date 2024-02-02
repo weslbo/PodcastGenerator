@@ -1,0 +1,12 @@
+@startmindmap
+* Understand custom model types
+** Image classification
+*** Multi-class classification
+*** Multi-label classification
+** Object detection
+*** Class label
+*** Location of object
+** Product recognition
+*** Class label
+*** Location of product
+@endmindmap

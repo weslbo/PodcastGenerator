@@ -1,0 +1,9 @@
+[Brian]: Welcome to the DP600 podcast! I'm your host, Brian, and today we have a very exciting topic to discuss. We'll be diving into the world of implementing analytics solutions using Microsoft Fabric. But before we get started, let me introduce our guest for today. Please welcome Emma!
+
+[Emma]: Hi Brian, thanks for having me on the podcast. I'm Emma, and I work for Contoso. I'm really excited to be here and share my knowledge about implementing analytics solutions using Microsoft Fabric.
+
+[Brian]: Thank you, Emma, for joining us today. Now, let's jump right into the topic. Today, we'll be exploring the world of implementing analytics solutions using Microsoft Fabric. We'll learn about data warehouses in Fabric, how to create a data warehouse, load data into it, query the data, and even visualize it. So, Emma, could you please give us an overview of what a data warehouse is in the context of Microsoft Fabric?
+
+[Emma]: A data warehouse in Microsoft Fabric is a modern version of the traditional data warehouse. It serves as a centralized and organized repository for data from different departments, systems, and databases. The data warehouse provides a unified view of the data, making it easier for analysis and reporting purposes. What sets Fabric's data warehouse apart is that it's built on the Lakehouse architecture, stored in Delta format, and can be queried using SQL. It's designed to be used by the entire data team, not just data engineers.
+
+[Brian]: That's fascinating, Emma! Having a centralized and unified view of data can definitely streamline the analytics process. I'm sure our listeners are eager to learn more about creating and working with data warehouses in Microsoft Fabric. So, let's dive right into it!

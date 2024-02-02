@@ -1,0 +1,11 @@
+[Brian]: Welcome to the AI3003 podcast, where we explore the world of artificial intelligence and its applications. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we dive in, I want to take a moment to thank our sponsor, Contoso. Without their support, this podcast wouldn't be possible. 
+
+Now, let me introduce our guest for today. We have Emma, who is an expert in the field of natural language processing. Emma works for Contoso and has extensive knowledge and experience in developing NLP solutions using Azure AI services. Welcome, Emma!
+
+[Emma]: Thank you, Brian. I'm excited to be here and share my insights on developing natural language processing solutions with Azure AI services.
+
+[Brian]: Today, we're going to focus on a specific aspect of NLP called custom named entity recognition. Emma, could you briefly explain what custom named entity recognition is and how it can be useful?
+
+[Emma]: Custom named entity recognition, or custom entity extraction, is a feature offered by Azure AI Language service. It allows developers to extract predefined entities from unstructured text documents, even if the documents are not in a known format. This can be incredibly useful in various scenarios, such as extracting entities from legal agreements or online ads.
+
+[Brian]: That sounds fascinating, Emma. I can see how custom named entity recognition can be a powerful tool for extracting valuable information from unstructured text. I'm sure our listeners are eager to learn more about it. So, let's dive right in and explore the world of custom named entity recognition with Azure AI services.

@@ -1,0 +1,56 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been learning about setting up relationships in Power BI and I wanted to ask you about the cardinality types. Can you explain the different options and when to use them?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. There are four cardinality types in Power BI: one-to-many, many-to-one, one-to-one, and many-to-many. The one-to-many and many-to-one options are the most common. They are used when one column in a table contains unique values and the other column can contain duplicate values. For example, if we have a "Product" table with unique product IDs and a "Sales" table with multiple sales records for each product, we would use a one-to-many cardinality.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So, if we reverse the relationship and relate the "Sales" table to the "Product" table, would the cardinality be many-to-one?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. When you reverse the relationship, the cardinality would be many-to-one. It's important to choose the cardinality that matches the order in which you related the columns.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Now, what about one-to-one cardinality? When would we use that?
+</voice>
+<voice name="en-US-EmmaNeural">
+One-to-one cardinality means that both columns contain unique values. This type of relationship is not very common because it often indicates a suboptimal model design with redundant data. It's usually better to consolidate the two tables into one using Power Query. However, if you do need to use one-to-one cardinality, you can set it up in Power BI.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. And what about many-to-many cardinality? When would we use that?
+</voice>
+<voice name="en-US-EmmaNeural">
+Many-to-many cardinality is infrequently used but can be useful in certain scenarios. It's typically used when designing complex model requirements or when relating higher grain facts. For example, if you have sales target facts stored at the product category level and the product dimension table stored at the product level, you can use many-to-many cardinality to relate them.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. So, we have the cardinality types covered. Now, let's talk about the cross filter direction. Can you explain how that works?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. The cross filter direction determines the direction in which filters will propagate. For one-to-many relationships, the cross filter direction is always from the "one" side, and optionally from the "many" side if it's set to bi-directional. For one-to-one relationships, the cross filter direction is always from both tables. And for many-to-many relationships, the cross filter direction can be from either one of the tables or from both tables.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful. So, if we have a bi-directional relationship, does that mean filters will propagate in both directions?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, exactly. When the cross filter direction is set to "Both" for a relationship, filters will propagate in both directions. This is commonly referred to as a bi-directional relationship. It's important to note that bi-directional relationships can impact performance and may result in ambiguous filter propagation paths.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, it's best to use bi-directional filtering only when necessary. Now, what about active vs inactive relationships? Can you explain that?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. In Power BI, there can only be one active filter propagation path between two tables. However, you can introduce additional relationship paths by setting them as inactive. Inactive relationships can only be made active during the evaluation of a model calculation using the USERELATIONSHIP function. Generally, it's recommended to define active relationships whenever possible to widen the scope of how report authors can use the model.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. It's good to know that we have the flexibility to define active and inactive relationships. Now, let's talk about the "Assume referential integrity" property. What does that do?
+</voice>
+<voice name="en-US-EmmaNeural">
+The "Assume referential integrity" property is available for one-to-many and one-to-one relationships between two DirectQuery storage mode tables that belong to the same source group. When enabled, it improves query performance by using an inner join instead of an outer join when querying the data source. It's important to enable this property when a single-column database foreign key constraint exists between the two tables or when you're certain data integrity exists.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, enabling the "Assume referential integrity" property can help improve query performance. That's good to know. Thank you, Emma, for explaining all these concepts about setting up relationships in Power BI.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

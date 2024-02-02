@@ -1,0 +1,20 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the DP600 podcast, where we discuss all things related to implementing analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. Please welcome Emma!
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the show.
+</voice>
+<voice name="en-US-BrianNeural">
+It's great to have you here, Emma. Before we dive into the topic, could you please introduce yourself to our listeners?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric, and I'm excited to share my knowledge with everyone today.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic, Emma. Today, we're going to talk about Microsoft Fabric Data Warehouse and how it can be used for data analytics and AI. It's a powerful platform that allows users to store, organize, and manage large volumes of structured and semi-structured data. Are you ready to get started, Emma?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Let's dive into the world of Microsoft Fabric Data Warehouse and explore its capabilities for implementing analytics solutions.
+</voice>
+</speak>

@@ -1,0 +1,37 @@
+[Brian]: Emma, I've been reading about large datasets in Power BI and I'm curious to know more about it. Can you explain how the large dataset storage format works?
+
+[Emma]: Of course, Brian. The large dataset storage format in Power BI allows for storing data in a highly compressed, in-memory cache for optimized query performance. It's particularly useful for enterprise deployments of analytics solutions using Power BI. With this format enabled, dataset sizes are limited only by the capacity size or a maximum size set by the administrator.
+
+[Brian]: So, if I understand correctly, the large dataset storage format removes the 10-GB limit on dataset sizes?
+
+[Emma]: Exactly, Brian. When the large dataset storage format is enabled, the dataset size limit is no longer restricted to 10 GB after compression. Instead, it can grow beyond that limit based on the capacity size or administrator settings. This is especially beneficial for organizations dealing with large amounts of data.
+
+[Brian]: That sounds great. Which Power BI SKUs support the large dataset feature?
+
+[Emma]: The large dataset feature can be enabled for all Premium P SKUs, Embedded A SKUs, and with Premium Per User (PPU). It brings the Power BI dataset cache sizes to parity with Azure Analysis Services model sizes. So, organizations using any of these SKUs can take advantage of the large dataset storage format.
+
+[Brian]: Can you give me an example of how the large dataset format can be useful in real-world scenarios?
+
+[Emma]: Sure, Brian. Let's say you work for a retail company that collects sales data from multiple stores across the country. With the large dataset storage format, you can consolidate all the sales data into a single Power BI dataset, even if it exceeds the previous 10-GB limit. This allows you to analyze and visualize the entire sales data in one place, providing valuable insights for decision-making.
+
+[Brian]: That's a great example, Emma. How can I enable the large dataset storage format for a single dataset?
+
+[Emma]: To enable the large dataset storage format for a single dataset, you need to go to the dataset settings in the Power BI service. There, you'll find a toggle slider for the large dataset storage format. Simply switch it on and select "Apply" to enable the feature for that specific dataset.
+
+[Brian]: And what about enabling it for all datasets created in a workspace?
+
+[Emma]: Enabling the large dataset storage format for all datasets in a workspace is also possible. In the workspace settings, you can select "Premium" and then choose "Large dataset storage format" as the default storage format. This way, any new dataset created in that workspace will automatically have the large dataset storage format enabled.
+
+[Brian]: That's helpful, Emma. Can the large dataset storage format be enabled using PowerShell as well?
+
+[Emma]: Yes, Brian. The large dataset storage format for a workspace can also be enabled using PowerShell. This provides flexibility for administrators who prefer to automate the process or manage it programmatically.
+
+[Brian]: Good to know. Is there anything else I should be aware of when using the large dataset storage format?
+
+[Emma]: One important thing to note is that datasets enabled for large models cannot be downloaded as a Power BI Desktop (.pbix) file from the Power BI service. So, keep that in mind if you need to export or share the dataset in that format.
+
+[Brian]: Thank you for the heads up, Emma. I appreciate all the information you've shared about the large dataset storage format in Power BI.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+
+[Brian]: Will do, Emma. Thanks again for being on the show and sharing your expertise. And to our listeners, thank you for tuning in. Keep exploring and learning about implementing analytics solutions using Microsoft Fabric.

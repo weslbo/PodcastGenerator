@@ -1,0 +1,53 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we know how to create a dataflow in Dataflow Gen2, let's talk about importing data. What are the options available for loading data into a dataflow?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian! When it comes to importing data into a dataflow, there are several options available. You can load different file types with just a few steps. For example, you can load a text or CSV file from your local computer.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds convenient. Once the data is imported, what can we do with it? Can we start transforming it right away?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian! Once the data is imported, you can start authoring your dataflow. This means you can clean your data, reshape it, remove unnecessary columns, and even create new ones. All the steps you perform are saved, so you can easily track and reproduce your transformations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. Now, I've heard about Copilot. Can you explain how it can assist with dataflow transformations?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian! Copilot is a valuable tool for assisting with dataflow transformations. Let's say you have a column called "Gender" that contains values like "Male" and "Female", and you want to transform it. With Copilot, you can provide specific instructions like "Transform the Gender column. If Male, set it to 0. If Female, set it to 1. Then convert it to an integer." Copilot will automatically add a new step to your dataflow, and you can always revert or build on it for further transformations.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really cool! Now, let's talk about adding a data destination. Why would we want to separate our ETL logic and destination storage?
+</voice>
+<voice name="en-US-EmmaNeural">
+Separating the ETL logic and destination storage can lead to cleaner and more maintainable code, Brian. It also makes it easier to modify either the ETL process or the storage configuration without affecting the other. This separation allows for more flexibility and makes it easier to analyze the data using various tools.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So, what are the options available for data destinations?
+</voice>
+<voice name="en-US-EmmaNeural">
+When it comes to data destinations, you have several options to choose from. You can choose to store your transformed data in an Azure SQL Database, a Lakehouse, Azure Data Explorer (Kusto), Azure Synapse Analytics (SQL DW), or a Warehouse. Each option has its own benefits and use cases.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Now, when we select a warehouse as a destination, what update methods can we choose from?
+</voice>
+<voice name="en-US-EmmaNeural">
+When selecting a warehouse as a destination, you have two update methods to choose from. The first one is "Append", which allows you to add new rows to an existing table. The second one is "Replace", which replaces the entire content of a table with a new set of data. The choice depends on your specific requirements and the nature of your data.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for explaining that, Emma. Now, after we've made all the necessary transformations and added a data destination, what's the final step?
+</voice>
+<voice name="en-US-EmmaNeural">
+The final step is to publish your dataflow, Brian. Publishing makes your transformations and data loading operations live, allowing the dataflow to be executed either manually or on a schedule. This process encapsulates your ETL operations into a single and reusable unit, streamlining your data management workflow. So, always remember to publish your dataflow after making any relevant modifications.
+</voice>
+<voice name="en-US-BrianNeural">
+Excellent! Thank you so much, Emma, for sharing your expertise on implementing analytics solutions using Microsoft Fabric. It's been a pleasure having you on the podcast.
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian! It was my pleasure to be here and share my knowledge. And thank you to all the listeners for tuning in. Keep on learning and exploring the world of analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+That's right! Thank you, Emma, and thank you to all our listeners. Stay curious and keep discovering new ways to implement analytics solutions. Until next time!
+</voice>
+</speak>

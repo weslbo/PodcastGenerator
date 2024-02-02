@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, to create a custom Azure AI Vision model, we first need an Azure AI Services resource, right?
+</voice>
+<voice name="en-US-AndrewNeural">
+That's correct, Brian. Once we have the Azure AI Services resource deployed to our subscription, we can create a custom project.
+</voice>
+<voice name="en-US-BrianNeural">
+And what are the components of a custom Vision project?
+</voice>
+<voice name="en-US-AndrewNeural">
+The first component is the dataset. It's a collection of images that we use to train the model. The dataset is stored in an Azure blob storage container. We also need the COCO file, which defines the label information about those images.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So the COCO file contains the label information for the images. Can you explain more about what's in a COCO file?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure, Brian. A COCO file is a JSON file with a specific format. It contains information about the images, such as their location, name, width, height, and ID. It also includes annotations, which define the classifications or objects in the images. Each annotation specifies the category, area, and bounding box if it's an object detection dataset. Lastly, the COCO file has categories that define the ID for each named label class.
+</voice>
+<voice name="en-US-BrianNeural">
+That's helpful, Andrew. So how do we create the dataset for training?
+</voice>
+<voice name="en-US-AndrewNeural">
+Once we have the images in our blob storage container, we can create the dataset using either the REST API or Vision Studio. If we choose to use Vision Studio, we can navigate to the custom model tile, select our resource, and create the dataset there. We can also open or create an Azure Machine Learning Data Labeling Project or upload an existing COCO file.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So using Vision Studio allows us to connect to our labeling project in Azure Machine Learning instead of specifying the COCO file in the REST request. That makes it more convenient. Thanks, Andrew.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

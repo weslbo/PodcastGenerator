@@ -1,0 +1,16 @@
+@startmindmap
+* Provision an Azure AI Language resource
+** Azure AI Language
+*** Language detection
+*** Key phrase extraction
+*** Sentiment analysis
+*** Named entity recognition
+*** Entity linking
+** Azure resources for text analysis
+*** Provision a resource
+*** Use endpoint and keys
+*** Call Azure AI Language APIs
+**** JSON requests
+**** Programming language-specific SDKs
+**** C# or Python SDK
+@endmindmap

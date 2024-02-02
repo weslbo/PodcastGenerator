@@ -1,0 +1,13 @@
+@startmindmap
+* Use patterns to differentiate similar utterances
+** TurnOnDevice
+*** "Turn on the {DeviceName}"
+*** "Switch on the {DeviceName}"
+*** "Turn the {DeviceName} on"
+** GetDeviceStatus
+*** "Is the {DeviceName} on[?]"
+** TurnOffDevice
+*** "Turn the {DeviceName} off"
+*** "Switch off the {DeviceName}"
+*** "Turn off the {DeviceName}"
+@endmindmap

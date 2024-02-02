@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, after creating a pipeline, we need to assign a workspace to it, right? Can you walk me through the steps?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Assigning a workspace to a pipeline stage is an important step. Let me explain how it's done.
+</voice>
+<voice name="en-US-BrianNeural">
+Great! So, first, we need to open the pipeline, correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct. You'll need to open the pipeline you want to assign the workspace to.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And then, we expand the dropdown titled "Choose a workspace to assign to this stage", right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. In the stage where you want to assign the workspace, expand that dropdown.
+</voice>
+<voice name="en-US-BrianNeural">
+Okay, and I assume we usually start with the Development stage?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's the most common starting point. Expand the dropdown in the Development stage.
+</voice>
+<voice name="en-US-BrianNeural">
+Understood. And from the dropdown menu, we select the workspace we want to assign, correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+That's right. Choose the workspace you want to assign to the current stage from the dropdown menu.
+</voice>
+<voice name="en-US-BrianNeural">
+And just to clarify, the dropdown only shows premium capacity workspaces that are not assigned to any other pipeline, where the user is the admin, and where the user is a member of their adjacent stages, right?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, you've got it. The dropdown only displays those eligible workspaces.
+</voice>
+<voice name="en-US-BrianNeural">
+Perfect. And finally, we select "Assign a workspace", correct?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. Once you've selected the workspace, click on "Assign a workspace" to complete the process.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. Thanks for explaining, Emma. It seems like a straightforward process to assign a workspace to a pipeline stage.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It is indeed a straightforward process. Assigning a workspace allows you to manage and deploy your content effectively.
+</voice>
+</speak>

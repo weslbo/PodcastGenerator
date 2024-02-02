@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about configuring audio format and voices in Azure AI Speech service. Can you tell me more about it?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. When synthesizing speech, you can customize the audio format that is returned by the Azure AI Speech service. You have the option to choose the audio file type, sample rate, and bit depth based on your specific needs.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. Can you give me an example of how to specify the output format?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. To specify the output format, you can use the Set Speech Synthesis Output Format method of the SpeechConfig object. For example, you can set it to Riff 16 kilohertz 16 Bit Mono Pcm to get a 16kHz, 16-bit mono PCM audio file.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. And what about the voices? How can I personalize my speech-enabled applications?
+</voice>
+<voice name="en-US-EmmaNeural">
+The Azure AI Speech service provides multiple voices that you can use. There are standard voices, which are synthetic voices created from audio samples, and neural voices, which are more natural sounding voices created using deep neural networks.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. How do I specify a voice for speech synthesis?
+</voice>
+<voice name="en-US-EmmaNeural">
+To specify a voice, you can set the SpeechSynthesisVoiceName property of the SpeechConfig object to the voice you want to use. For example, you can set it to "en-US-AriaNeural" to use the neural voice named Aria for English (United States).
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. So I can choose the output format and voice that best suit my application's needs.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. By customizing the audio format and selecting the appropriate voice, you can create a more personalized and natural speech experience for your users.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for explaining how to configure audio format and voices in Azure AI Speech service.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

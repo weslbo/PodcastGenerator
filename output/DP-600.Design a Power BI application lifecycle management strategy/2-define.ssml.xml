@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, now that we understand what Application Lifecycle Management is, how can we implement it in our organization?
+</voice>
+<voice name="en-US-EmmaNeural">
+Great question, Brian. To implement ALM in your organization, you'll need to start by determining where you'll store your code and how you'll manage different versions. This is typically done using a source control system.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So we need to have a system in place to track and manage our code changes. Can you give me an example of how this would work in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Let's say you have a team of developers working on a Power BI report. They make changes to the report and store the code in a source control system, such as Git. Each time a developer makes a change, it is tracked and stored as a new version in the source control system. This allows you to easily roll back to a previous version if needed and keep track of all the changes made to the report.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So the source control system helps us keep track of all the changes and versions of our code. What's the next step in implementing ALM?
+</voice>
+<voice name="en-US-EmmaNeural">
+The next step is to determine your deployment strategy. This involves deciding how you'll move your code changes from development to production environments. There are different deployment strategies you can choose from, depending on your organization's needs and requirements.
+</voice>
+<voice name="en-US-BrianNeural">
+Can you give me an example of a deployment strategy?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. One common deployment strategy is the "staging and delivery" approach. In this strategy, code changes are first deployed to a staging environment where they are thoroughly tested. Once the changes are deemed ready for production, they are then delivered to the production environment for end users to access.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So the staging environment acts as a testing ground before the changes are deployed to the production environment. That's a smart way to ensure the changes are stable.
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. It helps minimize the risk of introducing bugs or issues to the production environment. By following a well-defined deployment strategy, you can ensure a smooth and controlled process for moving your code changes from development to production.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. It seems like implementing ALM can bring a lot of benefits to our organization.
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. By implementing ALM, you can achieve consistency, integrity, and improved customer experience with your Power BI reports. It's definitely worth considering for any organization that wants to streamline their development and maintenance processes.
+</voice>
+<voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. Thank you for sharing your expertise on implementing ALM in Power BI. I'm sure our listeners will find this information valuable.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It was my pleasure to be here and share my knowledge. If anyone has any further questions, feel free to reach out.
+</voice>
+</speak>

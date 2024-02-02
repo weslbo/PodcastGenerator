@@ -1,0 +1,39 @@
+[Brian]: So Emma, we've been talking about time intelligence calculations in DAX. I'm curious, what are some other time intelligence functions that we can use in our analytics solutions using Microsoft Fabric?
+
+[Emma]: Great question, Brian! There are a couple of other time intelligence functions that we can explore. One of them is the FIRSTDATE function, which returns the first date in the current filter context for a specified column of dates. And then we have the LASTDATE function, which returns the last date in the current filter context for a specified column of dates.
+
+[Brian]: Ah, I see. So these functions can be useful when we want to retrieve the first or last date in a specific context. Can you give me an example of how we can use these functions in a real-world scenario?
+
+[Emma]: Absolutely! Let's say we have a sales table and we want to calculate the number of new customers for a specific time period. We can use the FIRSTDATE and LASTDATE functions to determine the start and end dates of the time period. Then, we can count the number of distinct customers who made their first purchase within that time period. This will give us the number of new customers.
+
+[Brian]: That makes sense. So we can use these functions to track the growth of our customer base over time. Can you walk me through the steps of implementing this calculation?
+
+[Emma]: Sure! First, we need to add a measure to the Sales table that counts the number of distinct customers life-to-date (LTD). This measure will give us the total number of customers from the beginning of time until the last date in the filter context. We can format this measure as a whole number with the thousands separator.
+
+[Brian]: Got it. And then we add this measure to a matrix visual to see the distinct customers LTD until the end of each month, right?
+
+[Emma]: Exactly! The matrix visual will show us the cumulative number of customers over time. But we can take it a step further. We can modify the measure by adding a second variable to store the count of distinct customers before the time period in filter context. Then, we subtract this value from the LTD customers to get the number of new customers in the time period.
+
+[Brian]: Ah, I see. So we're subtracting the number of customers before the time period from the total number of customers to get the new customers. That's a clever way to calculate it. Can you show me an example of how this would look in a matrix visual?
+
+[Emma]: Absolutely! In the matrix visual, we can group the data by year and month on the rows, and then add the Revenue, Revenue YTD, Revenue YoY %, and New Customers measures. The New Customers values will be highlighted, showing the number of new customers for each month.
+
+[Brian]: That's really helpful, Emma. It's great to see how we can use these time intelligence functions to track new customer acquisitions. Is there anything else we should know about time intelligence calculations?
+
+[Emma]: Yes, there's one more scenario I'd like to discuss. Sometimes, we have fact data stored as snapshots in time, like inventory stock levels or account balances. In these cases, we can use DAX time intelligence functions to summarize the snapshot values. It's important to note that we can summarize values across any dimension except date.
+
+[Brian]: Ah, I see. So we can summarize snapshot values across product categories, for example, but not across dates. Can you give me an example of how we can use time intelligence functions in this scenario?
+
+[Emma]: Of course! Let's say we have an Inventory table that stores snapshots of unit balances for each date and product. We can create a measure that sums the UnitsBalance value for a single date, which will be the last date of each time period. This measure will give us the stock on hand for each product based on the last recorded units balance for each month.
+
+[Brian]: That's really useful. So we can see the stock on hand for each product based on the last recorded units balance. Can you show me how this would look in a matrix visual?
+
+[Emma]: Absolutely! In the matrix visual, we can group the data by product on the rows and month on the columns. Then, we add the Stock on Hand measure, which will show the stock on hand for each product based on the last recorded units balance for each month.
+
+[Brian]: That's a great way to summarize snapshot values. I can see how this would be really helpful for inventory management. Is there anything else we should consider when working with snapshot calculations?
+
+[Emma]: Yes, there's one more thing. When filtering by the last date in filter context, we may encounter some issues. For example, a recorded date might not exist because it hasn't happened yet, or stock balances might not be recorded on weekends. To address this, we can use the LASTNONBLANK function to determine the last date that has a non-BLANK result and then filter by that date.
+
+[Brian]: Ah, I see. So the LASTNONBLANK function helps us handle situations where the last date in filter context might not have a recorded value. That's really helpful. Thank you, Emma, for sharing all these insights on implementing analytics solutions using Microsoft Fabric.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

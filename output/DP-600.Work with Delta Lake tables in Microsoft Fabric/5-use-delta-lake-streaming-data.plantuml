@@ -1,0 +1,13 @@
+@startmindmap
+* Use delta tables with streaming data
+** Spark Structured Streaming
+*** Streaming source
+**** Delta table
+*** Streaming sink
+**** Delta table
+** Streaming with delta tables
+*** Using delta table as streaming source
+**** PySpark example
+*** Using delta table as streaming sink
+**** PySpark example
+@endmindmap

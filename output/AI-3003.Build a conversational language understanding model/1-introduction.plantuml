@@ -1,0 +1,13 @@
+@startmindmap
+* Natural Language Processing
+** Natural Language Understanding
+*** Semantic Meaning
+*** Language Model
+*** Intent
+** Azure AI Language
+*** Provision Resource
+*** Define Intents, Entities, Utterances
+*** Use Patterns
+*** Use Pre-built Entity Components
+*** Train, Test, Publish, Review
+@endmindmap

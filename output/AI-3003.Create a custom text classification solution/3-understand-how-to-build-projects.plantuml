@@ -1,0 +1,30 @@
+@startmindmap
+* Understand how to build text classification projects
+** Custom text classification projects
+*** Language Studio
+*** REST API
+** Azure AI Language project life cycle
+*** Define labels
+*** Tag data
+*** Train model
+*** View model
+*** Improve model
+*** Deploy model
+*** Classify text
+** How to split datasets for training
+*** Training dataset
+*** Testing dataset
+*** Automatic split
+*** Manual split
+** Deployment options
+*** Test two models
+*** Compare dataset split
+*** Deploy multiple versions
+** Using the REST API
+*** Pattern of using the API
+**** Submit initial request
+**** Get training status
+*** Consuming a deployed model
+**** Submit text for classification
+**** Get classification results
+@endmindmap

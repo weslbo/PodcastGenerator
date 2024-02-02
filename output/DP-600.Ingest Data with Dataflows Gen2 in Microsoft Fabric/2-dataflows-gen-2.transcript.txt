@@ -1,0 +1,27 @@
+[Brian]: So Emma, I've been hearing a lot about Dataflows Gen2 in Microsoft Fabric. Can you explain to me what exactly a dataflow is?
+
+[Emma]: Sure, Brian. Dataflows are cloud-based ETL tools that allow you to extract, transform, and load data from various sources. They provide a way to standardize and transform data for downstream analytics.
+
+[Brian]: That sounds interesting. How can I use Dataflows Gen2 in my analytics solution?
+
+[Emma]: Well, Brian, Dataflows Gen2 can be used in a couple of ways. You can choose to use a Data Pipeline to extract, transform, and load the data using your preferred coding language. Alternatively, you can create a Dataflow Gen2 to extract and transform the data and then load it into a Lakehouse or other destinations. The curated semantic model can then be easily consumed by the business.
+
+[Brian]: Ah, I see. So, adding a data destination to the dataflow is optional?
+
+[Emma]: Yes, that's correct. Adding a data destination is optional, and the dataflow preserves all the transformation steps. If you need to perform other tasks or load data to a different destination after transformation, you can create a Data Pipeline and add the Dataflow Gen2 activity to your orchestration.
+
+[Brian]: Got it. Is there any other way to use Dataflows Gen2?
+
+[Emma]: Absolutely, Brian. Another option is to use a Data Pipeline and Dataflow Gen2 for an ELT process. In this case, you would use a Pipeline to extract and load the data into your preferred destination, such as a Lakehouse. Then, you would create a Dataflow Gen2 to connect to the Lakehouse data and perform cleansing and transformation. This allows data analysts to develop reports using the curated semantic model provided by the Dataflow.
+
+[Brian]: That's interesting. Can dataflows be partitioned?
+
+[Emma]: Yes, they can. Once you create a global dataflow, data analysts can use dataflows to create specialized semantic models for specific needs. This allows for horizontal partitioning and flexibility in creating different models based on specific requirements.
+
+[Brian]: That's great. It sounds like dataflows offer a lot of benefits. Are there any limitations I should be aware of?
+
+[Emma]: Yes, there are a few limitations to consider. First, dataflows are not a replacement for a data warehouse. They are meant to complement existing data storage solutions. Additionally, row-level security is not supported in dataflows. Finally, using Dataflows Gen2 requires a Fabric capacity workspace.
+
+[Brian]: I see. Thanks for clarifying that, Emma. It's good to know the benefits and limitations of using Dataflows Gen2 in Microsoft Fabric.
+
+[Emma]: You're welcome, Brian. It's always important to understand the capabilities and limitations of any tool or solution you're using.

@@ -1,0 +1,23 @@
+@startmindmap
+* Power BI
+** Integration with other products
+*** OneDrive
+*** Azure DevOps
+** Analytics development lifecycle
+** Enterprise Data Analyst
+*** Supporting Power BI reports
+*** Collaboration with team members and other departments
+*** Rebuilding reports
+*** Cluttered Power BI workspaces
+*** Administrative overhead
+** Value of using source control
+*** File management
+*** Change tracking
+** Deployment strategy
+*** Organizing publishing process
+** Best solutions
+*** OneDrive
+*** SharePoint
+*** Git
+*** Azure DevOps
+@endmindmap

@@ -1,0 +1,9 @@
+@startmindmap
+* Test and publish a knowledge base
+** Testing a knowledge base
+*** Test interactively in Language Studio
+*** Inspect results and confidence scores
+** Deploying a knowledge base
+*** Deploy to REST endpoint
+*** Deploy directly from Language Studio
+@endmindmap

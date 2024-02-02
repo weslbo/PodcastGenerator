@@ -1,0 +1,21 @@
+@startmindmap
+* Load data using T-SQL
+** SQL developers or citizen developers
+*** Warehouse in Microsoft Fabric
+**** Same SQL engine
+**** Complex queries and data manipulations
+** COPY statement
+*** Importing data into the Warehouse
+*** Flexible options for data ingestion
+**** Specify source file format
+**** Store rejected rows separately
+** Handle error
+*** Use different storage account for ERRORFILE
+*** Better error handling and debugging
+** Load multiple files
+*** Specify wildcards and multiple files
+*** Efficient bulk data loading
+** Load table from other warehouses and lakehouses
+*** Combine data from various data assets
+*** Use CTAS and INSERT INTO
+@endmindmap

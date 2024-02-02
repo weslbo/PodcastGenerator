@@ -1,0 +1,17 @@
+@startmindmap
+* Azure AI Speech
+** Speech to text
+*** Speech recognition
+** Text to speech
+*** Speech synthesis
+** Speech Translation
+** Speaker Recognition
+** Intent Recognition
+** Provision Azure resource
+** Use Speech to text API
+** Use Text to speech API
+** Configure audio format and voices
+** Use SSML
+** Hands-on exercise
+*** Microsoft Azure subscription
+@endmindmap

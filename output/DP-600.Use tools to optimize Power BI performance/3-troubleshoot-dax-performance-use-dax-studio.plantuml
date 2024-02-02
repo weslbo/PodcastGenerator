@@ -1,0 +1,15 @@
+@startmindmap
+* Troubleshoot DAX performance by using DAX Studio
+** Understand the VertiPaq engine
+*** Compression algorithms
+*** Multi-threaded query processor
+*** Dictionaries and indexes
+** Describe DAX Studio
+*** Review data model
+*** Write and optimize DAX formulas
+** Optimize the data model
+*** Optimize DAX queries
+**** Formula engine
+**** Storage engine
+*** View model metrics using VertiPaq Analyzer
+@endmindmap

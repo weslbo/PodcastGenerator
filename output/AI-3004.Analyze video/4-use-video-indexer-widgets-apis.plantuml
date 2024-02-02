@@ -1,0 +1,11 @@
+@startmindmap
+* Use Video Analyzer widgets and APIs
+** Azure Video Indexer widgets
+*** Embed in custom HTML interfaces
+** Azure Video Indexer API
+*** Obtain information about account
+*** Consume REST API
+*** Automate video indexing tasks
+** Deploy with ARM template
+*** Create Azure AI Video Indexer resource
+@endmindmap

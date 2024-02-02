@@ -1,0 +1,46 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis"
+    xmlns:mstts="http://www.w3.org/2001/mstts"
+    xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="en-US-BrianNeural">
+So Emma, I've been reading about the capabilities of Azure AI Translator. It seems like it can do some really interesting things like language detection, translation, and transliteration. Can you tell me more about these capabilities?
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Absolutely, Brian. With Azure AI Translator, you can use the Detect function to determine the language in which a given text is written. For example, you can submit the text to the endpoint using curl and get a response indicating the detected language.
+    </voice>
+    <voice name="en-US-BrianNeural">
+That's cool! Can you give me an example of how we can use the Detect function?
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Sure, let's say we have a text written in Japanese. We can make a call using curl to the endpoint and pass the text as a parameter. The response will tell us that the text is written in Japanese.
+    </voice>
+    <voice name="en-US-BrianNeural">
+Got it! So once we know the language, can we translate the text to another language?
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Absolutely! To translate text from one language to another, we can use the Translate function. We specify a source language using the "from" parameter and one or more target languages using the "to" parameter.
+    </voice>
+    <voice name="en-US-BrianNeural">
+That sounds straightforward. Can you give me an example of how we can use the Translate function?
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Of course! Let's say we have the same Japanese text and we want to translate it to English and French. We can make a call specifying the "from" parameter as "ja" for Japanese and the "to" parameters as "en" for English and "fr" for French. The result will be the translated text in both languages.
+    </voice>
+    <voice name="en-US-BrianNeural">
+That's really useful! But what if we don't want to translate the text, but instead transliterate it to a different script?
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Great question! If we have Japanese text written in Hiragana script and we want to transliterate it to Latin script, we can use the Transliterate function. We specify the "fromScript" parameter as "Jpan" for Japanese and the "toScript" parameter as "Latn" for Latin script.
+    </voice>
+    <voice name="en-US-BrianNeural">
+Ah, I see. So the Transliterate function can help us render the text in a different script without actually translating it. That's interesting!
+    </voice>
+    <voice name="en-US-EmmaNeural">
+Exactly, Brian! It's a useful feature when you want to keep the original meaning of the text but display it in a different script.
+    </voice>
+    <voice name="en-US-BrianNeural">
+That's an excellent insight, Emma. It's fascinating to see how Azure AI Translator can detect languages, translate text, and even transliterate it. Thank you for sharing these capabilities with us!
+    </voice>
+    <voice name="en-US-EmmaNeural">
+You're welcome, Brian. It is my pleasure to discuss these capabilities with you. 
+    </voice>
+</speak>

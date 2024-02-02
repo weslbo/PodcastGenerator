@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to DP600, the podcast where we discuss all things related to implementing analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very exciting topic to dive into. But before we get started, I want to remind our listeners that if you have any questions or topics you'd like us to cover in future episodes, feel free to reach out to us. We love hearing from you!
+</voice>
+
+<voice name="en-US-BrianNeural">
+Today, we have a special guest joining us. Please welcome Emma, who works for Contoso. Emma is an expert in implementing analytics solutions using Microsoft Fabric. Welcome, Emma!
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm excited to be here and share my knowledge and experience with our listeners.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Great to have you here, Emma. Now, let's jump right into today's topic. We'll be discussing the value of using source control for file management and change tracking in Power BI, as well as exploring different deployment strategies. This is a crucial aspect of managing analytics development in organizations, and I'm sure our listeners will find it incredibly valuable.
+</voice>
+
+<voice name="en-US-BrianNeural">
+So, Emma, could you please give our listeners a brief introduction about yourself and your experience in this field?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Of course, Brian. I've been working in the field of analytics and data management for over 10 years now. I've had the opportunity to work with various organizations, including Contoso, where I've gained extensive experience in implementing analytics solutions using Microsoft Fabric. I've seen firsthand the benefits of using source control and effective deployment strategies, and I'm excited to share my insights with our listeners today.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's fantastic, Emma. Your experience and expertise will definitely add a lot of value to our discussion. So, let's dive right into the topic of source control and deployment strategies for Power BI.
+</voice>
+</speak>

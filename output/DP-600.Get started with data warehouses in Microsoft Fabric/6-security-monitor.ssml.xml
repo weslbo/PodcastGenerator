@@ -1,0 +1,69 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've talked about the importance of security and monitoring in managing a data warehouse. Can you tell me more about the security features provided by Fabric to protect the data?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Fabric provides several security features to help secure your data warehouse. These include role-based access control (RBAC) to control access to the warehouse and its data, SSL encryption to secure communication between the warehouse and client applications, Azure Storage Service Encryption to protect data in transit and at rest, and Azure Monitor and Azure Log Analytics to monitor warehouse activity and audit data access.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's great to know. How does RBAC work in Fabric?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+RBAC in Fabric allows you to control access to your data warehouse by assigning roles to users. These roles determine the level of access a user has. For example, you can assign a user the role of "Reader" to allow them to connect using the SQL connection string and read data from any table or view within the warehouse.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Can you grant access to individual warehouses within a workspace?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Yes, you can grant item permissions to individual warehouses within a workspace. This allows you to share a single data warehouse for downstream consumption. You can grant permissions such as "Read" to allow users to connect using the SQL connection string, "ReadData" to allow them to read data from any table or view within the warehouse, and "ReadAll" to allow them to read the raw parquet files in OneLake that can be consumed by Spark.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's helpful. Now let's talk about monitoring. How can we monitor activities in a data warehouse using Fabric?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Monitoring activities in a data warehouse is crucial for optimal performance, resource utilization, and security. Fabric provides dynamic management views (DMVs) that allow you to monitor connection, session, and request status to get live SQL query lifecycle insights. You can use DMVs like sys.dm_exec_connections, sys.dm_exec_sessions, and sys.dm_exec_requests to get information about active queries, sessions, and requests.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Can you give me an example of how we can use DMVs to identify long-running queries?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Sure, Brian. You can use the sys.dm_exec_requests DMV to identify long-running queries that may impact the overall performance of the database. You can start by running a query to identify the queries that have been running the longest, in descending order. Then, you can investigate further to understand which user ran the session with the long-running query. Finally, as a workspace admin, you can use a command to terminate the session with the long-running query if necessary.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That's really helpful, Emma. Thank you for explaining all of this.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Before we wrap up, is there anything else you'd like to add about securing and monitoring data warehouses using Fabric?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Just a reminder to regularly monitor your data warehouse to ensure optimal performance, efficient resource utilization, and security. It's important to identify any issues or anomalies and take appropriate action. And always stay updated with the latest security features and best practices.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Thank you, Emma, for sharing your expertise on this topic. I'm sure our listeners will find this information valuable.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. It was my pleasure to be here and share my knowledge.
+</voice>
+
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in. We hope you found this episode informative. Remember to keep learning and exploring new ways to implement analytics solutions using Microsoft Fabric. Until next time!
+</voice>
+</speak>

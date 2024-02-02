@@ -1,0 +1,12 @@
+@startmindmap
+* Delta Lake
+** Delta tables
+*** Parquet data files
+*** _delta_Log folder
+** Benefits of Delta tables
+*** Relational tables
+*** ACID transactions
+*** Data versioning and time travel
+*** Batch and streaming data
+*** Standard formats and interoperability
+@endmindmap

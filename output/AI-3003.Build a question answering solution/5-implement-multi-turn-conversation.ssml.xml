@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, in our last episode, we talked about creating a knowledge base using Azure AI Services. Today, I want to dive deeper into multi-turn conversations. Can you explain how we can implement multi-turn conversations using Azure AI Services?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. With Azure AI Services, you can enable multi-turn responses by defining follow-up prompts and responses for existing question and answer pairs. This allows you to ask follow-up questions to gather more information before providing a definitive answer.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds really useful. Can you give me an example of how this would work in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, let's say you have a knowledge base for a travel booking service. A user might ask, "How can I cancel a reservation?" Now, since a reservation can refer to a hotel or a flight, you would need a follow-up prompt to clarify the type of reservation the user wants to cancel.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So the follow-up prompt would help narrow down the context of the question. How would the answer be structured in this case?
+</voice>
+<voice name="en-US-EmmaNeural">
+The answer could include text like "Cancellation policies depend on the type of reservation" and provide follow-up prompts with links to answers about canceling flights and canceling hotels. This way, the user can choose the specific type of reservation they want to cancel.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful. So, when defining a follow-up prompt, can we link it to an existing answer or create a new answer?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly, Brian. You have the flexibility to do both. You can link the follow-up prompt to an existing answer in the knowledge base or create a new answer specifically for the follow-up. This allows you to provide tailored responses based on the user's input.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. It seems like multi-turn conversations can greatly enhance the user experience. Is there anything else we need to consider when implementing multi-turn conversations?
+</voice>
+<voice name="en-US-EmmaNeural">
+One important thing to note is that you can restrict the linked answer to only be displayed in the context of the multi-turn conversation initiated by the original question. This ensures that the linked answer is relevant and doesn't appear out of context in other scenarios.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. That's a good way to maintain the flow of the conversation. Thank you, Emma, for explaining how we can implement multi-turn conversations using Azure AI Services.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. 
+</voice>
+</speak>

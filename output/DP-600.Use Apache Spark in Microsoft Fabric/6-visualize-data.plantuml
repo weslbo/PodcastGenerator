@@ -1,0 +1,13 @@
+@startmindmap
+* Visualize data in a Spark notebook
+** Using built-in notebook charts
+*** Change results view to chart
+*** Customize chart properties
+** Using graphics packages in code
+*** Python graphics packages
+**** Matplotlib
+**** Seaborn
+*** Render graphics in notebook
+**** Combine code and visualizations
+**** Use markdown cells for commentary
+@endmindmap

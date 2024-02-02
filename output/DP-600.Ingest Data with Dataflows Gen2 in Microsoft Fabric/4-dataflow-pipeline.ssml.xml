@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, we've been talking about dataflows and pipelines in Microsoft Fabric. Can you give me an example of how these two components can be integrated?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Let's say we have a scenario where we need to ingest and transform data from multiple sources and then perform some additional operations on that transformed data. We can use dataflows to handle the ingestion and transformation part, and then incorporate the dataflow into a pipeline to orchestrate the extra activities.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds interesting. Can you explain how the pipeline works in this scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure. In the pipeline, we can define a sequence of activities that need to be executed in a specific order. For example, we can start with a dataflow activity to ingest and transform the data. Once the dataflow is completed, we can then add activities like executing scripts or stored procedures on the transformed data.
+</voice>
+<voice name="en-US-BrianNeural">
+So the pipeline acts as a way to orchestrate these activities after the dataflow is done?
+</voice>
+<voice name="en-US-EmmaNeural">
+Exactly. The pipeline provides a visual way to define the order of activities and their dependencies. This allows us to easily incorporate the dataflow into the pipeline and perform additional operations on the transformed data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful. Can you give me an example of a common activity that can be included in a pipeline?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course. One common activity is the "Copy data" activity, which allows you to copy data from one location to another. Let's say we have transformed the data in the dataflow and now we want to copy it to a data lake. We can simply add a "Copy data" activity to the pipeline and configure it to copy the transformed data to the desired location.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So the pipeline gives us the flexibility to incorporate different activities based on our requirements?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. The pipeline offers a wide variety of activities to choose from, such as incorporating dataflows, adding notebooks, getting metadata, and executing scripts or stored procedures. This flexibility allows us to perform a range of operations on the transformed data.
+</voice>
+<voice name="en-US-BrianNeural">
+I can see how dataflows and pipelines work together to create a powerful data transformation and orchestration solution. Thank you for explaining it, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It was my pleasure to share this information with you.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in to this episode of DP600. We hope you found this discussion on implementing analytics solutions using Microsoft Fabric informative and helpful. Keep on learning and exploring the possibilities of data transformation with dataflows and pipelines. Until next time!
+</voice>
+<voice name="en-US-EmmaNeural">
+Thank you, Brian, for hosting this episode and for your insightful questions. And thank you to our listeners for joining us. Remember, there's always more to learn, so keep exploring and leveraging the power of Microsoft Fabric.
+</voice>
+</speak>

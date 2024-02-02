@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, once we've completed a pipeline in Microsoft Fabric, what are the options for running and monitoring it?
+</voice>
+<voice name="en-US-EmmaNeural">
+After completing a pipeline, you have a few options for running and monitoring it. First, you can use the "Validate" option to check if the pipeline configuration is valid. Once validated, you can either run the pipeline interactively or specify a schedule for it.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great! It gives us flexibility in how we want to run the pipeline. Now, let's say we've run the pipeline, how can we view the run history?
+</voice>
+<voice name="en-US-EmmaNeural">
+To view the run history of a pipeline, you can do it from either the pipeline canvas or the workspace page. From the pipeline canvas, you can see the details of each run. And from the workspace page, you can select the "Run start" value to view the details of an individual run.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So we can easily track the execution of each run. Can we also see the execution time for each activity within a run?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely! When you view the pipeline run details from the workspace page, you have the option to view the individual execution time for each activity as a Gantt chart. This allows you to analyze the performance of each activity within the pipeline.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really helpful! Being able to analyze the execution time for each activity gives us insights into any potential bottlenecks. Thank you, Emma, for explaining the options for running and monitoring pipelines in Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian! It was my pleasure to share this information with you.
+</voice>
+<voice name="en-US-BrianNeural">
+And thank you to our listeners for tuning in to this episode of DP600. We hope you found this discussion on implementing analytics solutions using Microsoft Fabric informative. Keep on learning and exploring the world of data analytics!
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, thank you to our listeners as well. Remember, there's always more to learn, so keep exploring and leveraging the power of analytics.
+</voice>
+</speak>

@@ -1,0 +1,62 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, I've been hearing a lot about Azure Video Indexer lately. Can you tell me more about its capabilities?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. Azure Video Indexer is a powerful service that allows you to extract valuable information from videos. It offers several capabilities such as facial recognition, optical character recognition, speech transcription, topic identification, sentiment analysis, labels, content moderation, and scene segmentation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive! Can you explain how facial recognition works in Video Indexer?
+</voice>
+<voice name="en-US-AndrewNeural">
+Facial recognition in Video Indexer detects the presence of individual people in the video. It can identify and track faces, even across multiple frames. However, it's important to note that facial recognition requires Limited Access approval.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. How about optical character recognition? How does that work?
+</voice>
+<voice name="en-US-AndrewNeural">
+Optical character recognition, or OCR, in Video Indexer allows you to extract text from the video. It can read and transcribe text that appears in the video frames, making it easier to search and analyze the content.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful! Now, what about speech transcription? How does Video Indexer create a text transcript of spoken dialog?
+</voice>
+<voice name="en-US-AndrewNeural">
+Video Indexer uses advanced speech recognition technology to transcribe the spoken dialog in the video. It converts the audio into text, providing you with a complete transcript of what was said. This can be helpful for content indexing and searching.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great! How does Video Indexer identify the key topics discussed in a video?
+</voice>
+<voice name="en-US-AndrewNeural">
+Video Indexer uses natural language processing algorithms to identify the key topics discussed in the video. It analyzes the content and extracts the most relevant topics, allowing you to quickly understand the main themes covered.
+</voice>
+<voice name="en-US-BrianNeural">
+Interesting! Now, what about sentiment analysis? How does Video Indexer analyze the positivity or negativity of segments within a video?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sentiment analysis in Video Indexer uses machine learning algorithms to analyze the tone and emotions expressed in different segments of the video. It can determine whether a segment is positive, negative, or neutral, providing valuable insights into the overall sentiment of the content.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful! How does Video Indexer assign labels to key objects or themes in the video?
+</voice>
+<voice name="en-US-AndrewNeural">
+Video Indexer leverages computer vision algorithms to identify and label key objects or themes throughout the video. It can automatically detect and tag objects, making it easier to search and categorize the content.
+</voice>
+<voice name="en-US-BrianNeural">
+That's impressive! Now, what about content moderation? How does Video Indexer detect adult or violent themes in a video?
+</voice>
+<voice name="en-US-AndrewNeural">
+Video Indexer uses advanced algorithms to analyze the video content and detect any adult or violent themes. It can flag segments that contain explicit or inappropriate content, helping you ensure that your videos comply with content guidelines.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really important for maintaining a safe and appropriate video library. Lastly, how does Video Indexer perform scene segmentation?
+</voice>
+<voice name="en-US-AndrewNeural">
+Scene segmentation in Video Indexer breaks down the video into its constituent scenes. It identifies the different scenes within the video, allowing you to navigate and analyze the content more effectively.
+</voice>
+<voice name="en-US-BrianNeural">
+Wow, Video Indexer seems like a comprehensive solution for video analysis. Thanks for explaining all these capabilities, Andrew.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. Video Indexer is indeed a powerful tool for extracting valuable insights from videos. 
+</voice>
+</speak>

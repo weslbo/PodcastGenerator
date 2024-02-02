@@ -1,0 +1,30 @@
+@startmindmap
+* Understand data warehouse fundamentals
+** Data ingestion
+** Data storage
+** Data processing
+** Data analysis and delivery
+** Microsoft Fabric
+*** Data engineers and analysts
+*** Ingest, store, transform, visualize
+* Understand Fabric's data warehouse experience
+** Relational data warehouse
+** T-SQL capabilities
+** Fully managed, scalable, highly available
+** SQL and Spark
+** Collaboration between data engineers and analysts
+* Design a data warehouse
+** Tables in a data warehouse
+*** Fact tables
+*** Dimension tables
+**** Attribute columns
+**** Surrogate key
+**** Alternate key
+*** Special types of dimension tables
+**** Time dimensions
+**** Slowly changing dimensions
+** Data warehouse schema designs
+*** Normalized vs. de-normalized
+*** Star schema
+*** Snowflake schema
+@endmindmap

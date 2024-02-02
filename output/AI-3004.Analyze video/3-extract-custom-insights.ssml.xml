@@ -1,0 +1,38 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, I've been hearing a lot about Azure AI services and how they can be used to build AI vision solutions. Can you tell me more about how we can extract custom insights using Azure Video Indexer?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. Azure Video Indexer provides predefined models that can recognize well-known celebrities, perform OCR, and transcribe spoken phrases into text. But you can also extend its capabilities by creating custom models.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. Can you give me an example of how we can use custom models to recognize people in videos?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure, Brian. Let's say you have a large collection of videos and you want to be able to recognize specific people in those videos. You can add images of the faces of those people and train a custom model using Azure Video Indexer. Once trained, the model will be able to recognize those people in all of your videos.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful. So, just to clarify, this feature is only available after getting Limited Access approval, right?
+</voice>
+<voice name="en-US-AndrewNeural">
+Yes, that's correct, Brian. The ability to recognize people in videos using custom models is only available after getting Limited Access approval and adhering to the Responsible AI standard.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Now, what about training custom models to detect and transcribe specific language or terminology?
+</voice>
+<voice name="en-US-AndrewNeural">
+Great question, Brian. If your organization uses specific terminology that may not be in common usage, you can train a custom model using Azure Video Indexer to detect and transcribe that language. This allows you to accurately capture and analyze content that is specific to your business.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really useful, especially for industries with specialized jargon. Now, can we also train custom models to recognize specific brand names?
+</voice>
+<voice name="en-US-AndrewNeural">
+Absolutely, Brian. You can train a custom model using Azure Video Indexer to recognize specific names as brands. This can be useful for identifying products, projects, or companies that are relevant to your business. It allows you to gain insights into the presence and impact of these brands in your videos.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic. Being able to extract custom insights from videos using Azure Video Indexer seems like a game-changer. Thanks for explaining it, Andrew.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. It's my pleasure to share this information with you. 
+</voice>
+</speak>

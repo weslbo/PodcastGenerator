@@ -1,0 +1,53 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to the DP600 podcast, where we dive deep into the world of analytics solutions using Microsoft Fabric. I'm your host, Brian, and today we have a very special guest with us. Please welcome Emma!
+</voice>
+<voice name="en-US-EmmaNeural">
+Hi Brian, thanks for having me on the podcast.
+</voice>
+<voice name="en-US-BrianNeural">
+It's great to have you here, Emma. Before we get started, could you please introduce yourself to our listeners?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. My name is Emma and I work for Contoso. I have extensive experience in implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fantastic, Emma. Today, we're going to be discussing the topic of implementing analytics solutions using Microsoft Fabric. It's a complex topic, but one that I'm sure our listeners will find valuable. So, let's dive right in!
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. I'm excited to share my knowledge and insights on this topic.
+</voice>
+<voice name="en-US-BrianNeural">
+Great! So, let's start by talking about model relationships. How do they work and why are they important in a tabular model?
+</voice>
+<voice name="en-US-EmmaNeural">
+Model relationships are essential in a tabular model as they form the basis of the model's structure. They are responsible for propagating filters to other model tables, which ensures a seamless querying experience. When set up correctly, relationships silently work in the background to provide a natural and intuitive way to navigate and analyze data.
+</voice>
+<voice name="en-US-BrianNeural">
+That's fascinating, Emma. I can see how important it is to have a solid understanding of model relationships. Can you give us an example of how relationships can be set up in a real-world scenario?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Let's say we have a sales database with two tables: "Customers" and "Orders". The "Customers" table has a unique identifier for each customer, and the "Orders" table has a foreign key that references the customer's identifier. By setting up a relationship between these two tables based on the customer identifier, we can easily analyze and filter the orders data based on customer information.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So, the relationship allows us to connect the customer information with their corresponding orders. That makes a lot of sense. Now, you mentioned that there are also DAX relationship functions. How do these functions work and what can they do?
+</voice>
+<voice name="en-US-EmmaNeural">
+DAX relationship functions allow us to work with model relationships in our calculations. They enable us to navigate relationships, modify relationship behavior, and even create virtual relationships. For example, we can use the RELATED function to retrieve data from a related table based on the current context of our calculation.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really powerful, Emma. Being able to leverage DAX relationship functions opens up a lot of possibilities for analysis and calculations. Lastly, can you explain what relationship evaluation is and why it's important?
+</voice>
+<voice name="en-US-EmmaNeural">
+Relationship evaluation refers to how the relationships between tables are evaluated during query execution. It determines how filters are propagated and applied across tables. Understanding relationship evaluation is crucial for optimizing query performance and ensuring accurate results in our analytics solutions.
+</voice>
+<voice name="en-US-BrianNeural">
+Thank you for that explanation, Emma. It's clear that relationship evaluation plays a vital role in the effectiveness of our analytics solutions. Well, that wraps up our discussion for today. I want to thank Emma for joining us and sharing her expertise on implementing analytics solutions using Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+It was my pleasure, Brian. I hope our conversation has been helpful for our listeners.
+</voice>
+<voice name="en-US-BrianNeural">
+I'm sure it has, Emma. And thank you to all our listeners for tuning in to this episode of DP600. Stay tuned for more exciting topics and discussions in the world of analytics solutions using Microsoft Fabric.
+</voice>
+</speak>

@@ -1,0 +1,21 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Andrew, how do you analyze an image using Azure AI services?
+</voice>
+<voice name="en-US-AndrewNeural">
+Brian, to analyze an image, you can use the Analyze Image REST method or the equivalent method in the SDK. You'll need to specify the visual features you want to include in the analysis (and if you select categories, whether or not to include details of celebrities or landmarks). This method returns a JSON document containing the requested information.
+</voice>
+<voice name="en-US-BrianNeural">
+Can I use this also to detect celebrities in my images?
+</voice>
+<voice name="en-US-AndrewNeural">
+Sure Brian, but you will need to get approval first, through a Limited Access Policy. You can read more about the addition of this policy to our Responsible AI standard.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really impressive, Andrew. Azure AI Vision seems to have a wide range of capabilities that can be applied in various industries and scenarios. Thank you for sharing these insights.
+</voice>
+<voice name="en-US-AndrewNeural">
+You're welcome, Brian. 
+</voice>
+
+</speak>

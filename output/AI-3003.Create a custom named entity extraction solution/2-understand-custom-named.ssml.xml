@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, can you explain the difference between custom named entity recognition and built-in named entity recognition in Azure AI Language?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Built-in named entity recognition in Azure AI Language allows you to recognize common entities like person, location, organization, or URL with minimal configuration. You just need to call the endpoint for the built-in named entity recognition service and provide the document(s) you want to extract entities from. On the other hand, custom named entity recognition is for extracting entities that are not part of the built-in service or when you only want to extract specific entities. You can create a custom named entity recognition model and train it to recognize the entities you define.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense, Emma. So, what is the life cycle of an Azure AI Language project for custom named entity recognition?
+</voice>
+<voice name="en-US-EmmaNeural">
+The life cycle of a custom named entity recognition project involves several steps. First, you define the entities you want to identify. Then, you tag your existing data to specify which text corresponds to which entity. After that, you train your model using the labeled data. Once the model is trained, you can view its results and see which entities worked well and which need improvement. If necessary, you can make improvements to the model by adding more training data. Once the model performs as desired, you can deploy it and use it to extract entities from documents.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a clear explanation, Emma. When selecting and refining data for training the model, what considerations should we keep in mind?
+</voice>
+<voice name="en-US-EmmaNeural">
+When selecting data for training, it's important to use a diverse dataset that represents different sources and formats. This helps the model learn from various examples and avoid learning incorrect relationships. The dataset should also be as close to real-world data as possible to ensure accuracy. As for refining entities, they should be defined as distinctly as possible to avoid ambiguity. Ambiguous entities can confuse the model, so it's best to provide more examples or break them down into more specific entities.
+</voice>
+<voice name="en-US-BrianNeural">
+I see, Emma. Finally, are there any limits or restrictions we should be aware of when working with Azure AI Language for custom named entity recognition?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are some limits to keep in mind. For training, you need at least 10 files and no more than 100,000. You can have up to 10 deployment names per project. The authoring API has limits of 10 POST and 100 GET per minute, while the analyze API is limited to 20 GET or POST. Each project can have only 1 storage account, 500 projects per resource, and 50 trained models per project. And finally, each entity can be up to 500 characters long, and you can have up to 200 entity types.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it, Emma. Thanks for sharing all this valuable information about custom named entity recognition with Azure AI Language. It's been really helpful!
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I can help.
+</voice>
+</speak>

@@ -1,0 +1,9 @@
+[Brian]: Welcome to DP600, the podcast where we dive deep into the world of data analytics. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we get into that, let me introduce our guest for today. Joining us is Emma, who is an expert in implementing analytics solutions using Microsoft Fabric. Welcome, Emma!
+
+[Emma]: Thank you, Brian. I'm excited to be here and share my knowledge on this topic.
+
+[Brian]: Great to have you here, Emma. So, today we're going to talk about implementing analytics solutions using Microsoft Fabric. It's a fascinating topic that I'm sure our listeners will find valuable. So, Emma, could you please give us a brief introduction about yourself and your experience in this field?
+
+[Emma]: Of course, Brian. I work for Contoso and have been working with Microsoft Fabric for several years now. My expertise lies in implementing analytics solutions using Fabric, specifically focusing on leveraging the power of Delta Lake for data storage and manipulation. I've worked on various projects where we have successfully implemented analytics solutions using Fabric, and I'm excited to share my insights with our listeners today.
+
+[Brian]: That's impressive, Emma. I'm sure our listeners are eager to learn more about implementing analytics solutions using Microsoft Fabric. So, let's dive right into it.

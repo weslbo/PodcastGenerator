@@ -1,0 +1,21 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+Welcome to another episode of DP600, the podcast where we dive deep into the world of data and analytics. I'm your host, Brian, and today we have a very exciting topic to discuss. But before we get into that, I want to thank all our listeners for their continued support and feedback. It's because of you that we're able to bring you these informative episodes.
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Thank you, Brian. I'm excited to be here and share my knowledge on this topic.
+</voice>
+
+<voice name="en-US-BrianNeural">
+Great to have you, Emma. Now, let's dive right into the topic of today's episode - implementing analytics solutions using Microsoft Fabric. This is a topic that many organizations are interested in, as they strive to make data-driven decisions and gain insights from their data. Emma, could you please introduce yourself and give our listeners a brief overview of what we'll be discussing today?
+</voice>
+
+<voice name="en-US-EmmaNeural">
+Of course, Brian. As you mentioned, I work for Contoso and specialize in implementing analytics solutions using Microsoft Fabric. Today, we'll be focusing on how to create and connect to core and specialized datasets, explore dataset relationships, and connect and manage datasets through the XMLA endpoint. These are important aspects of building efficient and flexible analytics solutions using Microsoft Fabric.
+</voice>
+
+<voice name="en-US-BrianNeural">
+That sounds fascinating, Emma. I'm sure our listeners are eager to learn more about these topics. So, let's get started and explore the world of implementing analytics solutions using Microsoft Fabric.
+</voice>
+</speak>

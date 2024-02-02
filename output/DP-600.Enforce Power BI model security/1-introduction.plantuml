@@ -1,0 +1,11 @@
+@startmindmap
+* Model Security
+** Row-level security (RLS)
+*** Define roles and rules
+*** Filter data model
+** Object-level security (OLS)
+*** Restrict access to tables
+*** Restrict access to columns
+** Development Practices
+*** Enforce model security
+@endmindmap

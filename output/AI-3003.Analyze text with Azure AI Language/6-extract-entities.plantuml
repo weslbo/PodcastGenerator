@@ -1,0 +1,12 @@
+@startmindmap
+* Named Entity Recognition
+** Person
+** Location
+** DateTime
+** Organization
+** Address
+** Email
+** URL
+** Documentation
+** Build a conversational language understanding model
+@endmindmap

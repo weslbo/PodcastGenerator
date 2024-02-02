@@ -1,0 +1,41 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about entity linking in natural language processing. Can you explain how it works and why it's important?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Entity linking is a technique used to disambiguate entities with the same name by referencing an article in a knowledge base. This is important because it helps us understand the context and meaning of the entity in a given text.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So, how does entity linking work in Azure AI Services?
+</voice>
+<voice name="en-US-EmmaNeural">
+In Azure AI Services, entity linking is done using the Text Analytics service. You can submit one or more documents for analysis, and the service will identify the entities in the text and provide links to associated articles from Wikipedia.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. Can you give me an example of how entity linking works in practice?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, let's say we have a sentence like "I saw Venus shining in the sky." The Text Analytics service will identify "Venus" as an entity and link it to the Wikipedia article about the planet Venus.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. And what if we have a sentence like "Venus, the goddess of beauty"?
+</voice>
+<voice name="en-US-EmmaNeural">
+In that case, the service will link "Venus" to the Wikipedia article about the goddess Venus from mythology. By analyzing the context of the entity in the text, the service can determine the appropriate article to link to.
+</voice>
+<voice name="en-US-BrianNeural">
+That's really cool. So, entity linking helps us disambiguate entities and understand their context better. Are there any other benefits to using entity linking?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely. Entity linking can also help with information retrieval and knowledge discovery. By linking entities to articles in a knowledge base, we can easily access additional information and insights related to those entities.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. It seems like entity linking can be a powerful tool in natural language processing. Thanks for explaining it, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+<voice name="en-US-BrianNeural">
+Will do, Emma. Thanks again for sharing your expertise. And to our listeners, thank you for tuning in. Keep exploring and learning about natural language processing with Azure AI Services.
+</voice>
+</speak>

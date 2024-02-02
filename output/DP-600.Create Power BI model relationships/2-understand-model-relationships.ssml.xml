@@ -1,0 +1,50 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been reading about model relationships in Power BI and I wanted to understand how filters are propagated between tables. Can you explain that to me?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Model relationships in Power BI allow filters applied on one table to propagate to another table. This happens as long as there is a relationship path to follow. Filters can be propagated to multiple tables if necessary.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. So, are the relationship paths random or deterministic?
+</voice>
+<voice name="en-US-EmmaNeural">
+Relationship paths are deterministic, Brian. This means that filters are always propagated in the same way and without any random variation.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. And what about data integrity? Do model relationships enforce data integrity?
+</voice>
+<voice name="en-US-EmmaNeural">
+No, model relationships in Power BI do not enforce data integrity. However, in Unit 4, we explain how model relationships behave when there are data integrity issues with your data.
+</voice>
+<voice name="en-US-BrianNeural">
+Thanks for clarifying that, Emma. Now, I'd like to understand how filters are propagated with an example. Can you walk me through it?
+</voice>
+<voice name="en-US-EmmaNeural">
+Of course, Brian. Let's say we have a model with four tables: Category, Product, Year, and Sales. The Category table relates to the Product table, and the Product table relates to the Sales table. The Year table also relates to the Sales table. If a query requests the total sales quantity for sales orders made for a single category, let's say "Cat-A," and for a single year, let's say "CY2018," the filters applied on the Category and Year tables will propagate to the Product and Sales tables. This will isolate the products assigned to the category "Cat-A" and the sales rows for these products in the year "CY2018." The quantity value returned by the query will be the result of these filters.
+</voice>
+<voice name="en-US-BrianNeural">
+That's a great example, Emma. It really helps me understand how filters propagate in model relationships. Now, I've also come across the term "star schema" design principles. Can you explain what that means?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. Star schema design principles involve creating a model comprising dimension and fact tables. The idea is to set up Power BI to enforce rules that filter dimension tables, allowing model relationships to efficiently propagate those filters to fact tables. This design helps in organizing and analyzing data effectively.
+</voice>
+<voice name="en-US-BrianNeural">
+That makes sense. And do you have an example of a star schema design?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, Brian. Let's consider the Adventure Works sales analysis data model. It consists of a single fact table named Sales and four dimension tables that support the analysis of sales measures by date, state, region, and product. The model diagram shows the relationships connecting all tables, allowing filters to propagate to the Sales table.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. So, in a star schema design, the relationships between tables help in propagating filters efficiently. Now, I've also heard about disconnected tables. Can you explain what they are?
+</voice>
+<voice name="en-US-EmmaNeural">
+Certainly, Brian. Disconnected tables are tables in a model that are not related to any other model table. They are intended to accept "user input" and are not meant to propagate filters to other tables. For example, a disconnected table can be loaded with a range of currency exchange rate values. As long as a filter is applied to filter by a single rate value, a measure expression can use that value to convert sales values.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting, Emma. So, disconnected tables are useful for accepting user input and performing calculations based on that input. I'll keep that in mind. Thanks for explaining all of this to me, Emma.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.
+</voice>
+</speak>

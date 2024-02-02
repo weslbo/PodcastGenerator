@@ -1,0 +1,35 @@
+[Brian]: So Emma, we've talked about creating and testing a knowledge base. Now, how can we improve the performance of our question answering system?
+
+[Emma]: Great question, Brian! One way to improve the performance is by using active learning. Active learning allows us to consider alternate questions for each question and answer pair, which can be really helpful when users ask similar questions in different ways. 
+
+[Brian]: That sounds interesting, Emma. How do we use active learning?
+
+[Emma]: To use active learning, we first need to create question and answer pairs in Language Studio for our project. We can also import a file with question and answer pairs if we have them in bulk.
+
+[Brian]: That's convenient. And then what?
+
+[Emma]: Once we have our question and answer pairs, active learning will start offering alternate questions for each question. We can access these suggestions from the "Review suggestions" pane.
+
+[Brian]: Ah, I see. So we review the suggestions and then accept or reject them?
+
+[Emma]: Exactly, Brian. We can review the alternate phrases suggested for each question and then select the checkmark to accept or the delete symbol to reject. We can also bulk accept or reject suggestions using the "Accept all suggestions" or "Reject all suggestions" option.
+
+[Brian]: That's a handy feature. Can we also manually add alternate questions?
+
+[Emma]: Absolutely! In the "Edit knowledge base" pane, we can select "Add alternate question" for a question and answer pair to manually add alternate questions.
+
+[Brian]: That gives us even more control. Now, what about synonyms? How can they help improve the question answering system?
+
+[Emma]: Synonyms are really useful when users might use different words to mean the same thing. For example, if a travel agency customer refers to a "reservation" or a "booking", we can define these as synonyms. This way, the question answering service can find the appropriate answer regardless of the term used.
+
+[Brian]: I see the value in that. How do we define synonyms?
+
+[Emma]: We can use the REST API to submit synonyms in a JSON format. This allows us to specify the different words that have the same meaning.
+
+[Brian]: That's great, Emma. Thanks for explaining how we can improve the performance of our question answering system with active learning and synonyms.
+
+[Emma]: You're welcome, Brian. It's always a pleasure to share knowledge. And to our listeners, keep exploring and learning about Azure AI Services!
+
+[Brian]: Absolutely! Thank you, Emma, for being our guest today. And thank you to our listeners for tuning in. Keep on learning and see you next time on AI3003!
+
+[Emma]: Thank you, Brian. It was my pleasure. And thank you to all our listeners. Remember, the world of AI is full of possibilities. Keep exploring and have a great day!

@@ -1,0 +1,10 @@
+@startmindmap
+* Use pipeline templates
+** Define pipelines from activities
+*** Create custom data ingestion
+*** Create custom transformation processes
+** Microsoft Fabric includes predefined templates
+*** Choose a task to start
+**** Select pipeline templates
+** Edit pipeline in pipeline canvas
+@endmindmap

@@ -1,0 +1,23 @@
+@startmindmap
+* Assign a workspace
+** Add content to pipeline
+*** Reports
+*** Paginated reports
+*** Dashboards
+*** Datasets
+*** Dataflows
+** Assign workspace to stage
+*** Development stage
+*** Test stage
+*** Production stage
+** Limitation of one workspace per stage
+* Create a Premium workspace
+** Premium license modes
+** Diamond icon denotes Premium workspace
+* Steps to assign a workspace to a stage
+** Open the pipeline
+** Expand the dropdown
+** Choose a workspace
+** Select the workspace
+** Assign a workspace
+@endmindmap

@@ -1,0 +1,44 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-BrianNeural">
+So Emma, I've been hearing a lot about Dataflows Gen2 in Microsoft Fabric. Can you explain to me what exactly a dataflow is?
+</voice>
+<voice name="en-US-EmmaNeural">
+Sure, Brian. Dataflows are cloud-based ETL tools that allow you to extract, transform, and load data from various sources. They provide a way to standardize and transform data for downstream analytics.
+</voice>
+<voice name="en-US-BrianNeural">
+That sounds interesting. How can I use Dataflows Gen2 in my analytics solution?
+</voice>
+<voice name="en-US-EmmaNeural">
+Well, Brian, Dataflows Gen2 can be used in a couple of ways. You can choose to use a Data Pipeline to extract, transform, and load the data using your preferred coding language. Alternatively, you can create a Dataflow Gen2 to extract and transform the data and then load it into a Lakehouse or other destinations. The curated semantic model can then be easily consumed by the business.
+</voice>
+<voice name="en-US-BrianNeural">
+Ah, I see. So, adding a data destination to the dataflow is optional?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, that's correct. Adding a data destination is optional, and the dataflow preserves all the transformation steps. If you need to perform other tasks or load data to a different destination after transformation, you can create a Data Pipeline and add the Dataflow Gen2 activity to your orchestration.
+</voice>
+<voice name="en-US-BrianNeural">
+Got it. Is there any other way to use Dataflows Gen2?
+</voice>
+<voice name="en-US-EmmaNeural">
+Absolutely, Brian. Another option is to use a Data Pipeline and Dataflow Gen2 for an ELT process. In this case, you would use a Pipeline to extract and load the data into your preferred destination, such as a Lakehouse. Then, you would create a Dataflow Gen2 to connect to the Lakehouse data and perform cleansing and transformation. This allows data analysts to develop reports using the curated semantic model provided by the Dataflow.
+</voice>
+<voice name="en-US-BrianNeural">
+That's interesting. Can dataflows be partitioned?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, they can. Once you create a global dataflow, data analysts can use dataflows to create specialized semantic models for specific needs. This allows for horizontal partitioning and flexibility in creating different models based on specific requirements.
+</voice>
+<voice name="en-US-BrianNeural">
+That's great. It sounds like dataflows offer a lot of benefits. Are there any limitations I should be aware of?
+</voice>
+<voice name="en-US-EmmaNeural">
+Yes, there are a few limitations to consider. First, dataflows are not a replacement for a data warehouse. They are meant to complement existing data storage solutions. Additionally, row-level security is not supported in dataflows. Finally, using Dataflows Gen2 requires a Fabric capacity workspace.
+</voice>
+<voice name="en-US-BrianNeural">
+I see. Thanks for clarifying that, Emma. It's good to know the benefits and limitations of using Dataflows Gen2 in Microsoft Fabric.
+</voice>
+<voice name="en-US-EmmaNeural">
+You're welcome, Brian. It's always important to understand the capabilities and limitations of any tool or solution you're using.
+</voice>
+</speak>

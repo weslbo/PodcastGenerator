@@ -1,0 +1,23 @@
+[Brian]: So Emma, now that we know how to create a deployment pipeline, can you explain the two different methods for creating one?
+
+[Emma]: Absolutely, Brian. There are two methods for creating a deployment pipeline. The first method is from the Deployment pipelines tab in the left navigation panel. You can go to the tab, select "Create pipeline," and follow the steps from there.
+
+[Brian]: And what about the second method?
+
+[Emma]: The second method is creating a pipeline from a workspace. If you're in a workspace, you can select "Create a pipeline" and enter the necessary details in the Create a deployment pipeline dialog box.
+
+[Brian]: That sounds straightforward. Can you walk me through the steps for creating a pipeline from the Deployment pipelines tab?
+
+[Emma]: Of course. First, go to the navigation panel on the left side and select "Deployment pipelines." Then, click on "Create pipeline." A dialog box will appear where you can enter the pipeline name. You can also add a description if you want. Once you're done, click "Create."
+
+[Brian]: And what happens after the pipeline is created?
+
+[Emma]: After the pipeline is created, you will be prompted to assign a workspace to a pipeline stage. But we'll cover that in more detail in the next unit.
+
+[Brian]: Got it. Now, what about creating a pipeline from a workspace?
+
+[Emma]: To create a pipeline from a workspace, simply go to the workspace and select "Create a pipeline." In the Create a deployment pipeline dialog box, enter the name and description for the pipeline, and click "Create."
+
+[Brian]: Thanks, Emma. That's really helpful. I think I have a good understanding of how to create a deployment pipeline now.
+
+[Emma]: You're welcome, Brian. I'm glad I could help. If you have any more questions, feel free to ask.

@@ -1,0 +1,19 @@
+@startmindmap
+* Connect to data with Spark
+** Fabric notebooks
+*** Automation
+*** Smooth and systematic approach
+*** Comprehensive, automated solution
+** Explore Fabric notebooks
+*** Easily created in many parts of the Fabric service
+*** Stored in the workspace they're created from
+*** Multiple code or Markdown cells
+*** Excellent for initial testing
+*** Use PySpark by default
+** Connect to external sources
+*** Intuitive shortcuts for certain platforms
+*** Basic example of connecting to Azure blob storage with Spark
+** Configure alternate authentication
+*** Different authentication types
+*** Example connecting to Azure SQL Database with a Service Principal
+@endmindmap

@@ -1,0 +1,12 @@
+@startmindmap
+* Explore and transform data in a lakehouse
+** Apache Spark
+*** Notebooks
+*** Spark job definitions
+** SQL analytic endpoint
+** Dataflows (Gen2)
+** Data pipelines
+* Analyze and visualize data in a lakehouse
+** Semantic model
+** Power BI report
+@endmindmap

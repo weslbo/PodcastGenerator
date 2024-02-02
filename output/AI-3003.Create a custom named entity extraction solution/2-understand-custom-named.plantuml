@@ -1,0 +1,32 @@
+@startmindmap
+* Understand custom named entity recognition
+** Custom NER
+*** Azure API service
+*** Identifies and extracts user defined entities
+*** Improves search results
+** Azure AI Language
+*** Part of Azure AI services
+** Custom vs built-in NER
+*** Built-in NER
+**** Minimal configuration
+**** Extract entities
+**** Call endpoint for NER service
+*** Custom NER
+**** Entities not part of built-in service
+**** Extract specific entities
+** Azure AI Language project life cycle
+*** Define entities
+*** Tag data
+*** Train model
+*** View model
+*** Improve model
+*** Deploy model
+*** Extract entities
+** Considerations for data selection and refining entities
+*** Diversity of dataset
+*** Distribution of document types
+*** Accuracy of data
+*** Clearly defined entity types
+** How to extract entities
+** Project limits
+@endmindmap

@@ -1,0 +1,13 @@
+@startmindmap
+* Deploy content
+** Deployment process
+*** Clone content from one stage to another
+*** Keep connections between copied items
+*** Apply deployment rules to updated content
+** Deploy all content to a stage
+*** Select stage to deploy from
+*** Copy all workspace content
+** Selective deployment
+*** Deploy specific items
+*** Use select related button
+@endmindmap

@@ -1,0 +1,11 @@
+@startmindmap
+* Additional time intelligence calculations
+** Calculate new occurrences
+*** Count new customers
+*** Add Customers LTD measure
+*** Modify measure to New Customers
+** Snapshot calculations
+*** Summarize snapshot values
+*** Add Stock on Hand measure
+*** Adjust measure formula
+@endmindmap

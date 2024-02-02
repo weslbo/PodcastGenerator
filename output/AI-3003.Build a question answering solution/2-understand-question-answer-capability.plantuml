@@ -1,0 +1,19 @@
+@startmindmap
+* Understand question answering
+** Azure AI Language
+*** Question answering capability
+**** Define knowledge base
+**** Query with natural language
+*** Knowledge base
+**** Published to REST endpoint
+**** Consumed by client applications
+***** Bots
+*** Sources for knowledge base
+**** Web sites with FAQ
+**** Files with structured text
+**** Built-in chit chat pairs
+** QnA Service (older version)
+*** Standalone service
+*** Migration to Azure AI Language
+**** Migration guide
+@endmindmap

@@ -1,0 +1,18 @@
+@startmindmap
+* Identify options for face detection analysis and identification
+** Azure AI Vision service
+*** Detect people in an image
+*** Return bounding box location
+** Face service
+*** Face detection (with bounding box)
+*** Facial feature analysis
+**** Head pose
+**** Presence of spectacles
+**** Blur
+**** Facial landmarks
+**** Occlusion
+*** Face comparison and verification
+*** Facial recognition
+**** Requires Limited Access policy
+**** Limited Access application required
+@endmindmap
