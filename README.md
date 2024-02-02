@@ -1,6 +1,6 @@
 # PodcastGenerator
 
-This repository with a [python notebook](Generator.ipynb) support the creation of a podcast .mp3 audio file.
+This repository with a [python notebook](PodcastGenerator.ipynb) support the creation of a podcast .mp3 audio file.
 
 When you listen to the generated podcast, you will notice an engaging conversation between the host and a guest, as they talk about the content of your choice. You determine what they talk about, as you can provide a list of web pages to take content from.
 
